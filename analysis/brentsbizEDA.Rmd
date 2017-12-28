@@ -1,0 +1,599 @@
+---
+title: "Getting all up in Brent's biz - Getting to know you"
+output: 
+  html_notebook: 
+    code_folding: hide
+    toc: yes
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+library(DBI)
+con <- dbConnect(odbc::odbc(), .connection_string = "Driver={ODBC Driver 13 for SQL Server};server={brento.database.windows.net};
+database={brentodb};
+uid={datasci};
+pwd={nZY0*51lG^};")
+
+# cred creation
+
+#in master
+#CREATE LOGIN datasci WITH password='nZY0*51lG^';
+# in db
+#CREATE USER datasci FROM LOGIN datasci;
+#EXEC sp_addrolemember 'db_datareader', 'datasci';
+#alter user datasci with default_schema=anon
+```
+
+```{r message=FALSE, results='hide'}
+library(tidyverse)
+library(dbplyr)
+```
+
+# Navigating the DB
+## Available tables
+```{r}
+odbc::dbListTables(con, schema_name="anon")
+```
+
+## Schema definitions
+```{r}
+(con %>% 
+  tbl(in_schema("information_schema","columns")) %>% 
+  select_all(str_to_lower) %>% 
+  select(table_name, column_name, is_nullable, data_type) %>% 
+  arrange(table_name, ordinal_position) %>% 
+  collect() ->
+   schema)
+```
+
+## Relationships
+```{r}
+schema %>% 
+  select(table_name, column_name) %>% 
+  group_by(column_name) %>% 
+  mutate(matches=n())%>% 
+  ungroup() %>% 
+  filter(matches>1)  ->
+  schema_matches
+
+schema_matches %>% 
+  spread(column_name, matches)
+```
+
+```{r}
+library(igraph)
+library(ggraph)
+
+schema_matches %>% 
+  inner_join(schema_matches,by="column_name") %>% 
+  filter(table_name.x<table_name.y) %>%
+  select(from=table_name.x, to=table_name.y) %>% 
+  graph_from_data_frame() %>%
+  ggraph(layout="linear", circular=TRUE) +
+  geom_edge_arc(colour="grey") +
+  geom_node_text(aes(label = name), repel = TRUE) +
+  theme_void()
+```
+
+# People
+
+## Mailchimp
+
+```{r}
+con %>% 
+  tbl("mailchimp_members") ->
+  mailchimp_members
+
+mailchimp_members
+```
+
+### Domains
+We probably have a lot of personal email accounts. Based on [mailchimp's 2015 analysis](https://blog.mailchimp.com/major-email-provider-trends-in-2015-gmail-takes-a-really-big-lead/), we might expect the most popular to be:
+
+- gmail
+- hotmail
+- yahoo
+
+
+```{r}
+mailchimp_members %>% 
+  group_by(email_domain_id) %>% 
+  summarise(n=n()) %>% 
+  collect() ->
+  domains
+
+domains %>%  
+  top_n(10, n) %>% 
+  arrange(desc(n))
+```
+
+
+```{r}
+library(ggplot2)
+domains %>% 
+  filter(n<250) %>% 
+  ggplot(aes(x=log(n))) +
+  geom_density()
+```
+
+I'm going to provisionally set some boundaries between public email domains, large companies, and small companies based on number of signups.
+
+```{r}
+read_csv("../data/EmailProviders.csv") %>% 
+  mutate(org_type="public") ->
+  isps
+domains %>% 
+  left_join(isps) %>% 
+  mutate(org_type= case_when(
+    !is.na(org_type) ~ "public"
+    ,n>20 ~ "large"
+    ,TRUE ~ "small"
+  )) ->
+  domains
+
+domains
+```
+
+### Signup source
+This indicates where people signed up or were loaded from.
+```{r}
+mailchimp_members %>% 
+  count(signup_source) %>% 
+  collect() %>% 
+  mutate(signup_sources=str_count(signup_source,", ")+1,
+         all_signups=str_split(signup_source,", "),
+         n=1) %>% 
+  unnest(all_signups) %>% 
+  mutate(all_signups=coalesce(all_signups,"Unknown source")) %>% 
+  spread(all_signups, n,fill = 0) ->
+  signup_sources
+
+signup_sources
+```
+
+### I want to get
+This indicates what mailing list campaigns folks would like to receive.
+
+```{r}
+mailchimp_members %>% 
+  count(i_want_to_get) %>% 
+  collect() %>% 
+  mutate(i_want_to_gets=str_count(i_want_to_get,", ")+1,
+         want_to_gets=str_split(i_want_to_get,", "),
+         n=1) %>% 
+  unnest(want_to_gets) %>% 
+  mutate(want_to_gets=coalesce(want_to_gets,"Unknown")) %>% 
+  spread(want_to_gets, n,fill = 0) ->
+  want_to_gets
+
+want_to_gets
+```
+
+### Member rating
+This is a mailchimp defined feature based on how engaged subscribers are. It isn't foolproof as it relies on people allowing the tracking pixels but it's usually pretty good.
+
+```{r}
+mailchimp_members %>% 
+  count(member_rating) %>% 
+  mutate(prop=as.numeric(n)/sum(n)) %>% 
+  arrange(member_rating)
+```
+
+Two thirds of the members have relatively low engagement rates based on their member ratings.
+
+### Location
+
+```{r message=FALSE}
+library(ggmap)
+mailchimp_members %>%
+  collect() %>% 
+  mutate(longitude=as.numeric(str_replace(longitude,"'","")),
+         latitude=as.numeric(str_replace(latitude,"'",""))) %>% 
+  {ggmap(get_stamenmap(bbox = c(left = -180, bottom = -80, right = 179.9999, top = 85), zoom = 3)) +
+      geom_point(data=., aes(x=longitude, y=latitude), colour="red", size=.5) +
+      theme_nothing()
+  }
+```
+
+```{r}
+mailchimp_members %>% 
+  count(country_code) %>% 
+  arrange(desc(n))
+```
+
+If using country code as a feature, we'll need to add an explicit missing and lump together the smaller labels.
+
+## Wordpress users
+```{r}
+con %>% 
+  tbl("users") ->
+  wp_users
+
+wp_users
+```
+
+### Mailchimp overlap
+
+```{r}
+mailchimp_members %>% 
+  full_join(wp_users, by="email_user_id",suffix=c(".m",".w")) %>% 
+  collect() %>% 
+  mutate(wp_match_type= case_when(
+    !is.na(email_domain_id.m)& !is.na(email_domain_id.w) ~ "Both"
+    , !is.na(email_domain_id.m) ~ "Mailchimp"
+    , !is.na(email_domain_id.w) ~ "Wordpress"
+  )) %>%
+  select(email_user_id, wp_match_type) ->
+  user_types
+
+user_types %>% 
+  count(wp_match_type)
+```
+
+There are substantially more mailchimp subscribers than users who directly interact with the site in a signed up fashion. <5k are pure wordpress users. It will be interesting to see where profitability is. Assuming folks have to register on wordpress to purchase, then the Wordpress only bunch or the ones registered on both are likely to be the ones with purchases. The Wordpress only ones with purchases might be managers or people with authority to make purchases versus the engaged people who are the influencers/decision makers.
+
+## Wordpress User Insight
+
+```{r}
+con %>% 
+  tbl("usin_user_data") ->
+  wp_users_insight
+
+wp_users_insight
+```
+
+### Locations
+```{r}
+wp_users_insight %>% 
+  count(country) %>% 
+  arrange(desc(n))
+```
+
+Location data of wordpress users broadly matches the distribution of users in the mailing list.
+
+### Engagement
+```{r}
+wp_users_insight %>% 
+  count(sessions) %>% 
+  collect() %>% 
+  ggplot(aes(x=log(sessions), y=n), data=.)+
+  geom_col()
+```
+
+The vast majority of registered users have single session behaviours.
+
+```{r}
+wp_users_insight %>% 
+  count(sessions) %>% 
+  collect() %>% 
+  mutate(prop=as.numeric(n)/sum(n) ) %>% 
+  arrange(desc(n),desc(sessions)) %>% 
+  mutate(cum_prop=cumsum(as.numeric(n)/sum(n)))
+```
+
+85% of registered users have 10 sessions or less.
+
+### Devices
+```{r}
+wp_users_insight %>% 
+  count(browser, platform) %>% 
+  collect() %>% 
+  ungroup() %>% 
+  mutate(n=scales::percent(as.numeric(n)/sum(n))) %>% 
+  spread(platform, n, fill = "0%")
+```
+
+## Client contacts
+```{r}
+con %>% 
+  tbl("client_contact") ->
+  client_contact
+
+client_contact
+```
+
+```{r}
+client_contact %>% 
+  distinct() %>% 
+  left_join(mailchimp_members, by="email_domain_id", suffix=c(".c",".m")) %>% 
+  group_by(client_id,email_domain_id) %>% 
+  summarise(n=n_distinct(email_user_id)) %>% 
+  arrange(desc(n))
+```
+
+It looks like there are a number of clients who transacted through public email domains. There are also clients without any mailchimp subscribers. When building feature, we will need to account for these facts.
+
+```{r}
+client_contact %>% 
+  distinct() %>% 
+  left_join(mailchimp_members, by="email_domain_id", suffix=c(".c",".m")) %>% 
+  group_by(client_id,email_domain_id) %>% 
+  summarise(n=n_distinct(email_user_id)) %>% 
+  filter(n<1)
+```
+
+## Training purchasers
+There isn't a high level purchasers table. The data is stored at the sale level instead in `XXX`.
+
+** data not currently available **
+
+## Students
+In approximately 1/16th of training transactions - an address for a student has been provided.
+```{r}
+(con %>% 
+  tbl("woocommerce_order_items_meta") ->
+  students)
+```
+
+### Mailchimp overlap
+```{r}
+students %>% 
+  left_join(mailchimp_members, by="email_user_id", suffix=c(".s",".m")) %>% 
+  group_by(email_user_id) %>%
+  summarise(n=n(), mailchimp=n_distinct(email_domain_id.m)) %>% 
+  group_by(mailchimp) %>% 
+  summarise(n=sum(n))
+```
+
+Approx. 20% of students don't subscribe.
+
+
+# Training sales
+
+## Posts
+Training purchases partly end up in the `posts` table. The `posts` schema definition doesn't play nice with the odbc driver. As a result, a subset of columns needs to be imported instead of live connected. We should also restrict to a specific post_type to save extraneous data.
+```{r}
+con %>% 
+  dbGetQuery("select 
+            id as post_id,
+            post_date,
+            post_date_gmt,
+            post_name,
+            post_status
+            comment_count
+            from anon.posts 
+            where post_type='shop_order'") ->
+  posts
+
+posts
+```
+
+## Sales
+
+The sales data is very basic without being able to see the extra meta table we're waiting for.
+
+```{r}
+con %>% 
+  tbl("woocommerce_order_items") ->
+  training_sales
+
+training_sales
+```
+
+```{r}
+training_sales %>% 
+  count(order_id) %>% 
+  collect() %>% 
+  ggplot(data=., aes(x=n)) +
+  geom_density()
+```
+
+Most people order a single training item in one transaction.
+
+```{r}
+training_sales %>% 
+  count(order_id) %>% 
+  filter(n>1) %>% 
+  arrange(desc(n))
+```
+
+```{r}
+training_sales %>% 
+  count(order_item_name) %>% 
+  arrange(desc(n))
+```
+
+*Need to fix this regex to get first two words*
+```{r}
+training_sales %>% 
+  collect() %>% 
+  mutate(highlevel_training= str_extract(
+    str_to_lower(order_item_name),
+    boundary("word"))) %>% 
+  count(highlevel_training) %>% 
+  arrange(desc(n))
+```
+
+*Need to work out if the free training passes are sommething to be included as a desired outcome when building models*
+
+## Sales over time
+
+**Sales only starts in 2017?**
+
+```{r}
+posts %>% 
+  collect() %>% 
+  mutate(period=zoo::as.yearmon(post_date_gmt)) %>% 
+  count(period) ->
+  monthly_training_sales
+
+monthly_training_sales %>% 
+  ggplot(data=., aes(x=period, y=n)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+# Consultancy sales
+
+```{r}
+con %>% 
+  tbl("client_sales") ->
+  client_sales
+
+client_sales
+```
+
+## Exclusions
+
+```{r}
+client_sales %>% 
+  filter(transaction_type=="Invoice" & amount > 0 & !is.na(product_service)) ->
+  client_sales_clean
+```
+
+
+```{r}
+client_sales %>% 
+  filter(transaction_type!="Invoice" | amount < 0 | is.na(product_service)) 
+```
+
+## Products
+```{r}
+client_sales_clean %>% 
+  count(product_service)
+```
+
+```{r}
+client_sales_clean %>% 
+  collect() %>% 
+  mutate(product_type=case_when(
+    str_detect(product_service,"Consulting") ~ "Consulting"
+    ,str_detect(product_service,"Training") ~ "Training"
+    ,TRUE ~ "Other"
+  )) %>% 
+  count(product_type)
+```
+
+*Should training be lumped into the training sales or are they special?* 
+
+*Do the different consulting packages need to be split out?*
+
+## Recurring clients
+```{r}
+client_sales_clean %>% 
+  count(client_id) %>% 
+  arrange(desc(n))
+```
+
+There are clients with ongoing work and we'll want to decide how to handle these.
+```{r}
+client_sales_clean %>% 
+  filter(client_id==408)
+```
+
+## Sales over time
+
+```{r}
+client_sales_clean %>% 
+  group_by(sale_date) %>% 
+  summarise(n=n(), quantity=sum(quantity), sales=sum(amount)) ->
+  daily_sales
+
+daily_sales %>% 
+  collect() %>% 
+  mutate(period=zoo::as.yearmon(sale_date)) %>% 
+  group_by(period) %>% 
+  summarise(n=sum(n), quantity=sum(quantity), sales=sum(sales)) ->
+  monthly_sales
+
+monthly_sales %>% 
+  ggplot(data=., aes(x=period, y=n)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+```{r}
+monthly_sales %>% 
+  ggplot(data=., aes(x=period, y=sales)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+
+```{r}
+client_sales_clean %>%
+  collect() %>% 
+  mutate(product_type=case_when(
+    str_detect(product_service,"Consulting") ~ "Consulting"
+    ,str_detect(product_service,"Training") ~ "Training"
+    ,TRUE ~ "Other"
+  )) %>% 
+  mutate(period=zoo::as.yearmon(sale_date)) %>% 
+  group_by(period, product_type) %>% 
+  summarise(n=n(), quantity=sum(quantity), sales=sum(amount)) ->
+  product_sales
+
+product_sales %>% 
+  ggplot(data=., aes(x=period, y=n,
+        group=product_type, colour=product_type)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+# Newsletter engagement
+
+*Need campaign reports*
+*Need sent reports*
+
+http://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/#
+
+## Opens
+*Need campaign IDs*
+
+```{r}
+con %>% 
+  tbl("mailchimp_opens") ->
+  mailchimp_opens
+
+mailchimp_opens
+```
+
+### Opens over time
+
+```{r}
+mailchimp_opens %>% 
+  collect() %>% 
+  mutate(period=zoo::as.yearmon(click_timestamp)) %>% 
+  count(period) ->
+  monthly_mailchimp_opens
+
+monthly_mailchimp_opens %>% 
+  ggplot(data=., aes(x=period, y=n)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+## Clicks
+*Need campaign IDs*
+
+```{r}
+con %>% 
+  tbl("mailchimp_clicks") %>% 
+  collect() ->
+  mailchimp_clicks
+
+mailchimp_clicks
+```
+
+### Clicks over time
+
+```{r}
+mailchimp_clicks %>% 
+  mutate(period=zoo::as.yearmon(click_timestamp)) %>% 
+  count(period) ->
+  monthly_mailchimp_clicks
+
+monthly_mailchimp_clicks %>% 
+  ggplot(data=., aes(x=period, y=n)) +
+  geom_line() + 
+  geom_smooth()
+```
+
+### Click destinations
+```{r}
+mailchimp_clicks %>% 
+  mutate(domain=urltools::domain(click_url)) %>% 
+  count(domain) %>% 
+  arrange(desc(n))
+```
+
