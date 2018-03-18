@@ -1,0 +1,9 @@
+Aggregate Functions 
+ Go to main content 
+ 
+ 
+ 76/555   
+ 
+ Aggregate Functions  
+ Aggregate functions return a single result row based on groups of rows, rather than on single rows. Aggregate functions can appear in select lists and in  ORDER   BY  and  HAVING  clauses. They are commonly used with the  GROUP   BY  clause in a  SELECT  statement, where Oracle Database divides the rows of a queried table or view into groups. In a query containing a  GROUP   BY  clause, the elements of the select list can be aggregate functions,  GROUP   BY  expressions, constants, or expressions involving one of these. Oracle applies the aggregate functions to each group of rows and returns a single result row for each group. 
+ If you omit the  GROUP   BY  clause, then Oracle applies aggregate functions in the select list to all the rows in the queried table or view. You use aggregate functions in the  HAVING  clause to eliminate groups from the output based on the results of the aggregate functions, ra

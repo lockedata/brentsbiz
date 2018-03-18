@@ -1,0 +1,40 @@
+Some facts about the Database Recovery Advisor and Restores | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ Some facts about the Database Recovery Advisor and Restores 
+
+		 
+			Posted on  December 12, 2012  by  Amit Banerjee 		 
+	 
+		 A new feature in SQL Server 2012 Management Studio is the  Database Recovery Advisor . So why am I writing a post on a SQL Server 2012 enhancement which has been blogged already. Database Recovery Advisor There are some unique nuances that you need to be aware of while using this new utility. The  Database Recovery Advisor  facilitates constructing restore plans that implement optimal correct restore sequences.  
+ Read on if you are interested in learn

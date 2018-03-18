@@ -1,0 +1,156 @@
+PostgreSQL: Documentation: 9.4: Aggregate Functions 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL 9.4 
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.3 
+		
+	
+
+	/
+	
+		
+		 9.4 
+		
+	
+
+	/
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ |  Unsupported versions:
+
+	
+	
+	 7.1 
+	
+
+	/
+	
+	 7.2 
+	
+
+	/
+	
+	 7.3 
+	
+
+	/
+	
+	 7.4 
+	
+
+	/
+	
+	 8.0 
+	
+
+	/
+	
+	 8.1 
+	
+
+	/
+	
+	 8.2 
+	
+
+	/
+	
+	 8.3 
+	
+
+	/
+	
+	 8.4 
+	
+
+	/
+	
+	 9.0 
+	
+
+	/
+	
+	 9.1 
+	
+
+	/
+	
+	 9.2 
+	
+
+
+ 
+ 
+
+ 
+ 
+   PostgreSQL 9.4.17 Documentation 
+     Prev 
+       Up 
+       Chapter 9.
+      Functions and Operators 
+       Next 
+     
+ 
+   9.20. Aggregate Functions 
+   Aggregate functions  compute a single
+  result from a set of input values. The built-in normal aggregate
+  functions are listed in  Table
+  9-49  and  Table
+  9-50 . The built-in ordered-set aggregate functions are listed
+  in  Table
+  9-51  and 

@@ -1,0 +1,46 @@
+git.postgresql.org Git 
+ 
+ projects  /  
+ 
+ 
+Welcome to PostgreSQL's  git 
+repository!  It serves mirrors of selected projects as Git pull and
+web access, and it offers project hosting with push access as well as
+user branch hosting. You can find more user branches at the
+ postgres organization account 
+on Github.
+ 
+ 
+This repository also contains the
+ public repository 
+for PostgreSQL itself. It is updated within minutes of each commit from
+the master repository.
+ 
+ 
+You can find out the  URL  for each project at the project's summary page.
+ 
+ 
+You can find some help on how to use this site  here .
+You can create and manage your repositories  here .
+ 
+ 
+Please contact the  web team  to
+report any problems with this site.
+ 
+ 
+ 
+ re 
+ 
+ List all projects 
+ Project 
+ Description 
+ Owner 
+ Last Change 
+ 
+ 2ndquadrant_bdr.git 
+ Obsolete repo for Bi-direction...  
+ Abhijit Menon-Sen 
+ 22 months ago 
+ summary  |  shortlog  |  log  |  tree 
+ advocacy.git 
+ This repository contains pictu...  

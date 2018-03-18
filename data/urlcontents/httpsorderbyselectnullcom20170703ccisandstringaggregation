@@ -1,0 +1,34 @@
+CCIs and String Aggregation – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 CCIs and String Aggregation 
+		 
+						 Posted on  July 3, 2017 July 3, 2017  by  Joe Obbish 					 
+
+	 
+		 String aggregation is a not uncommon problem in SQL Server. By string aggregation I mean grouping related rows together and concatenating a string column for that group in a certain order into a single column. How will do CCIs do with this type of query? 
+ The Data Set 
+ A simple table with three columns is sufficient for testing. ITEM_ID is the id for the rows that should be aggregated together. LINE_ID stores the concatenation order within the group. COMMENT is the string column to be concatenated. The table will have 104857600 rows total with 16 rows per ITEM_ID. 
+ 
+CREATE TABLE dbo.CCI_FOR_STRING_AGG (
+	ITEM_ID BIGINT NOT NULL,
+	LINE_ID BIGINT NOT NULL,
+	COMMENT VARCHAR(10) NULL,
+	INDEX C

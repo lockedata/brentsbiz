@@ -1,0 +1,33 @@
+Adaptive query processing in Microsoft SQL databases | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Adaptive query processing in SQL databases 
+
+					 
+								 11/13/2017 
+							 12 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This article introduces these adaptive query processing features that you can use to improve query performance in SQL Server and Azure SQL Database: 
+ Batch mode memory grant feedback. 
+ Batch mode adaptive join. 
+ Interleaved execution.  
+ At a general level, SQL Server executes a query as follows: 
+ The query optimization process generates a set of feasible execution plans for a specific query. During this time, the cost of plan options is estimated and the plan with the lowest estimated cost is used. 
+ The query executi

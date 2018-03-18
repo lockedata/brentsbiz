@@ -1,0 +1,50 @@
+Exploring Hash Functions in SQL Server - Fighting Bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Exploring Hash Functions in SQL Server 
+ 
+   2011-11-06 
+   Grade of the Steel   SQL Server Archive   	
+   17 Comments   Data Warehouse ,  Hashing ,  Keys ,  Performance ,  Scale ,  SQL Server 
+ Hash distributing rows is a wonderful trick that I often apply. It forms one of the foundations for most scale-out architectures. It is therefore natural to ask which hash functions are most efficient, so we may chose intelligently between them. 
+ In this blog post, I will benchmark the build in function in SQL Server. I will focus on answering two quest

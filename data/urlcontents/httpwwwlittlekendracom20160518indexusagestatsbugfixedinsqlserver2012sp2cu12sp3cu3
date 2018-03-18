@@ -1,0 +1,28 @@
+Index Usage Stats Bug Fixed in SQL Server 2012 SP2 CU12 / SP3 CU3 - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Index Usage Stats Bug Fixed in SQL Server 2012 SP2 CU12 / SP3 CU3 
+
+				 
+					 May 18, 2016 Kendra Little Indexes 4  Comments 				 
+			 
+		 
+
+			 
+ Microsoft has just released a new round of cumulative updates for SQL Server 2012, and the release notes indicate that a fix to the sys.dm_db_index_usage_stats dynamic management view has been included in these updates. This is good news for index tuners using SQL Server 2012. 
+ As of SP2 + CU12 and SP3 + CU3, SQL Server 2012 will persist index usage information even when ALTER INDEX REBUILD is run. 
+ What About SQL Server 2014? 
+ A comment on the Connect Item on sys.dm_db_index_usage_stats says  the fix is planned to be released in the upcoming release of SQL Server 2014 SP2 . 
+ What About Missing Index DMVs info? 
+ These DMVs still get reset/cleared on index rebuilds.  Vote to fix this bug here . 
+ Su

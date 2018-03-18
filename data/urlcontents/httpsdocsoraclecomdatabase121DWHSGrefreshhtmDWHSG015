@@ -1,0 +1,28 @@
+Refreshing Materialized Views 
+ Go to main content 
+ 
+ 
+   13/32   
+ 7  Refreshing Materialized Views 
+ 
+ This chapter discusses how to refresh materialized views, which is a key element in maintaining good performance and consistent data when working with materialized views in a data warehousing environment. 
+ This chapter includes the following sections: 
+ 
+ About Refreshing Materialized Views 
+ 
+ 
+ Using Materialized Views with Partitioned Tables 
+ 
+ 
+ Using Partitioning to Improve Data Warehouse Refresh 
+ 
+ 
+ Optimizing DML Operations During Refresh 
+ 
+ 
+ 
+ 
+ About Refreshing Materialized Views 
+ 
+ The database maintains data in materialized views by refreshing them after changes to the base tables. 
+ Performing a refresh operation requires temporary space to rebuild the indexes and can require additional space for performing the refresh operation itself. Some sites might prefer not to refresh all of their materialized views at the same time: as soon as some underlying detail data 

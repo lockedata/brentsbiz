@@ -1,0 +1,30 @@
+Reorganize and Rebuild Indexes | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Reorganize and Rebuild Indexes 
+
+					 
+								 11/24/2017 
+							 10 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  For content related to previous versions of SQL Server, see  Reorganize and Rebuild Indexes . 
+ 
+   This topic describes how to reorganize or rebuild a fragmented index in  SQL Server by using  SQL Server Management Studio or  Transact-SQL. The  SQL Server Database Engine automatically modifies indexes whenever insert, update, or delete operations are made to the underlying data. Over time these modifications can cause the information in the index to become scattered in the database (fragmented). Fragmentation exists when indexes have page

@@ -1,0 +1,63 @@
+Availability group replica murdered in cold blood by WSFC 
+ 
+ 
+ 
+ 
+ 
+   ERRORLOG records max out at... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ / 
+ comedy 
+ / 
+ mds 
+ / 
+ musings 
+ / 
+ photos 
+ / 
+ powershell 
+ / 
+ sql 
+ / 
+ ssis 
+ / 
+ ssrs 
+ 
+ 
+ 
+ 
+ 
+ Validating the new receive-side scaling...   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Availability group replica murdered in cold blood by WSFC 
+ 
+ 
+15 MAR 2017
+•
+ 
+4 mins read
+ 
+about
+sql
+ 
+ 
+ This problem was first flagged by a daily operational validation test I wrote using  everything in my recent webinar  to health check all of my AG components. My test wrapped some of the logic of the Test-Sql* functions built into the SqlServer module: 
+
+ Test-SqlAvailabilityGroup 
+ Test-SqlAvailabilityReplica 
+ Test-SqlDatabaseReplicaState 
+ These actually trigger  corresponding classes of policy based management policies  which are installed with SQL Server 2012+. They cover off quite a few different things and so are worth running rather than writing your own from scratch. 
+ I could see in t

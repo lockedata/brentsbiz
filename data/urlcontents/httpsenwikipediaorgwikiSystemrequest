@@ -1,0 +1,33 @@
+System request - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ System request 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 
+ 
+ 
+ 
+A 104-key  PC   US   English   keyboard layout  with System request circled 
+ 
+ 
+ System request  (often abbreviated  SysRq  or  Sys Req ) is a key on  personal computer  keyboards that has no standard use. [1]  Introduced by  IBM  with the  PC/AT , it was intended to be available as a special key to directly invoke low-level  operating system  functions with no possibility of conflicting with any existing software. A special  BIOS  routine – software interrupt 0x15, subfunction 0x85 [2]  – was added to signal the  OS  when SysRq was pushed or released. Unlike most keys, when it is pressed nothing is stored in the  keyboard buffer . 
+ 
+ 
+ 
+ Contents 
+ 
+ 1   History 
+ 2   Modern uses 
+ 3   Similar keys 
+ 4   References 
+ 5   See also 
+ 
+ 
+ History [ edit ] 
+ The specific low level function that 

@@ -1,0 +1,41 @@
+Columnstore Indexes – part 112 (“Linked Servers”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore Indexes – part 112 (“Linked Servers”)    			 
+  			 
+    			 Continuation from the previous 111 parts, the whole series can be found at  http://www.nikoport.com/columnstore/ . 
+ This blogpost is focusing on the Server Object functionality of the SQL Server – the Linked Servers. Almost everybody knows that the Linked Servers are evil (yeah, I know of some exceptions), almost everybody loves to bash them … and still people use them. 
+First of all because it allows them to stay within their commodity area of knowledge – TSQL, and secondly because it lim

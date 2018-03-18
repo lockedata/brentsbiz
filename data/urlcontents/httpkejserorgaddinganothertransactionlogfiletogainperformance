@@ -1,0 +1,54 @@
+Adding Another Transaction Log to Gain Performance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Adding another file to improve Transaction Log Performance 
+ 
+   2014-07-06 
+   SQL Server Archive   	
+   5 Comments   Performance ,  SQL Server 
+ 
+ Mike West recently posted a rather active thread  on LinkedIn  about database with more than one transaction log file. Eventually, I realised that the full answer to the question: “When does it make sense to add another log file to improve transaction log performance?” is complex enough that it needs a blog available for future reference. This is my attempt at creating that blog. 
+ 
+ 
+ The Scenario 
+ First of all, l

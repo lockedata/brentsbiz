@@ -1,0 +1,30 @@
+Haunted By Data 
+ 
+ Idle Words  &gt;  Talks  &gt; Haunted By Data
+
+ This is the text version of a talk I gave on October 1, 2015, at the  Strata+Hadoop World  conference in New York City.   The  video version is here  (20 mins).
+
+ 
+
+     
+     Haunted By Data 
+      
+ 
+
+     
+     In preparing this talk I decided to check out the data landscape, since I hadn't seen it for a while. 
+     The terminology around Big Data is surprisingly bucolic. Data flows through streams into the data lake, or else it's captured in logs. A data silo stands down by the old data warehouse, where granddaddy used to sling bits.
+    
+     And high above it all floats the Cloud. Then this stuff presumably flows into the digital ocean.
+      
+ 
+     
+    
+     I would like to challenge this picture, and ask you to imagine data not as a pristine resource, but as a waste product, a bunch of radioactive, toxic sludge that we don’t know how to handle.
+
+
+     
+ 
+     
+   
+ In particular, I'd like to draw a parallel 

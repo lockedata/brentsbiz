@@ -1,0 +1,41 @@
+SQL Server 2008 Trace Flags | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ SQL Server 2008 Trace Flags 
+
+		 
+			Posted on  July 1, 2012  by  Amit Banerjee 		 
+	 
+		 SQL Server exposes multiple trace flags which are required to set specific server characteristics or to switch off a particular behavior. Some trace flags are required to enable the fix post the installation of the update. 
+ This is currently a work-in-progress. The trace flags mentioned in the table below have the associated public article links mentioned which provide more information about the trace flag. 
+ If you want a trace flag to be mentioned in the list below, then feel free to leave a comment. Note that only p

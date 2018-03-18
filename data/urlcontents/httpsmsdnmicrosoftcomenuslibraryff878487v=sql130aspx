@@ -1,0 +1,28 @@
+Prereqs, Restrictions, Recommendations - Always On Availability Groups | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Prereqs, Restrictions, Recommendations - Always On Availability Groups 
+
+					 
+								 05/02/2017 
+							 19 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes considerations for deploying  Always On availability groups, including prerequisites, restrictions, and recommendations for host computers, Windows Server failover clusters (WSFC), server instances, and availability groups. For each of these components security considerations and required permissions, if any, are indicated.   
+ Important  Before you deploy  Always On availability groups, we strongly recommend that you read every section of this topic.   

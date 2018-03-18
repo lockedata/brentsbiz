@@ -1,0 +1,48 @@
+Have you tried sp_ctrl3? | sqlsunday.com 
+ 
+
+	 
+			 
+				 
+					 sqlsunday.com 
+					 T-SQL programming, useful tips and tutorials for the MS SQL Server developer. 
+				 
+			 
+		 
+	 Menu 
+		 Skip to content 
+
+		 About sqlsunday.com 
+ Structured Concepts 
+ Development 
+	 Performance 
+	 Training 
+	 Master data tool 
+	 File parser API 
+	 Datawarehouse-as-a-service 🇸🇪 
+ 
+ Slack app 
+ Presentations 
+ Downloads 
+ Checklists 
+ Installing SQL Server 2014 
+	 Installing SQL Server 2016 
+	 Installing SQL Server 2017 
+	 Links and utilities 
+ 
+ 		 
+			 Search 
+		 
+		 
+			 
+				 
+					 Search for: 
+					 
+				 		 
+	 
+
+	 
+		 Have you tried sp_ctrl3? 				 
+			 2016-11-28 2016-11-27  /  Daniel Hutmacher 					 
+	 
+		 I frequently need to look up object definitions when I’m developing or query tuning. You could use Object Explorer in SSMS, but that takes a lot of time and clicking. Then there’s the Alt+F1 shortcut, which will trigger the  sp_help  stored procedure. That however, comes with a lot of annoy

@@ -1,0 +1,32 @@
+Update to TRUNCATE TABLE in SQL 2016 (partition support) | DBA From The Cold 
+ 
+		 
+			 
+				 DBA From The Cold 
+				 Ramblings on working as a SQL Server DBA 
+			 
+			 Menu 
+				 Skip to content 
+
+				 Home About 
+ Engagements 
+ Presentations 
+ 
+			 
+	 
+
+	 
+		 
+
+		
+		
+			 Update to TRUNCATE TABLE in SQL 2016 (partition support) 		 
+			 March 29, 2016    ~  dbafromthecold  		 
+	 
+		 Continuing my obsession with partitioning I thought I’d write this quick post about a cool change in SQL Server 2016. 
+ This change allows you to truncate an individual partition, instead of having to switch that partition out to another table and then truncate it. Full details can be found here: –  https://msdn.microsoft.com/en-us/library/ms177570.aspx 
+ Here’s a demo, initial setup to create a database, partition function &amp; scheme and then a table: – 
+ 
+CREATE DATABASE [PartitioningDemo]
+ ON PRIMARY
+(NAME = N'PartitionDemo', FILENAME = N'C:\SQLServer\SQLData\PartitionDemo.mdf', SIZE = 51200KB, MAXS

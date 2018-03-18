@@ -1,0 +1,56 @@
+:CONNECT in SSMS | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 :CONNECT in SSMS 
+       				 7 
+		         March 13, 2014  by Kenneth Fisher 
+
+		 
+			 Those people who are familiar with SQLCMD will recognize this command.  It is used to connect to an instance from within a SQLCMD script.  What they may not realize is that this command (and other SQLCMD commands) can be used in a query window by turning on SQLCMD mode.  There is a great overview of using SQLCMD commands in SSMS  here . 
+ I am going to highlight an interesting aspect of the CONNECT command in SSMS. 
+ First a basic example.  Note: all of the 

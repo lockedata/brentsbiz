@@ -1,0 +1,26 @@
+Using Extended Events to Visualize Availability Group Replication Internals - Centino Systems Blog 
+ 
+	 Centino Systems Blog 
+			 We make a system out of your systems. 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ Publications 
+ Talks 
+ Training 
+ About 
+ 
+		 
+			 
+	 
+		 
+
+			
+				
+	 Using Extended Events to Visualize Availability Group Replication Internals 
+										 
+					 2 Replies 				 
+					 
+			 SQL 2014 Service Pack 2 was recently released by Microsoft and there is a ton of great new features and enhancements in this release.This isn’t just a collection of bug fixes…there’s some serious value in this Service Pack. Check out the full list  here . One of the key things added in this Service Pack is an enhancement of the Extended Events for AlwaysOn Availability Group replication. 
+ Why are the new Availability Group Extended Event interesting? 
+ If you’ve used Availability Groups in production systems with high transaction volumes you know that replication latency can impact

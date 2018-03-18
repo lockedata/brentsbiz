@@ -1,0 +1,25 @@
+DDL Events | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DDL Events 
+
+					 
+								 11/01/2016 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    The following tables list the DDL events that can be used to fire a DDL trigger or event notification. Note that each event corresponds to a  Transact-SQL statement or stored procedure, with the statement syntax modified to include an underscore character (_) between keywords.   
+ Important  System stored procedures that perform DDL-like operations also fire DDL triggers and event notifications. Test your DDL triggers and event notifications to determine their responses to system stored procedures that are run. For example, the CREATE TYPE statement and  sp_addtype  stored procedure will both fire a DDL trigger or ev

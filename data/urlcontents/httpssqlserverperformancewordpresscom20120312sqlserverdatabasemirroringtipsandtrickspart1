@@ -1,0 +1,43 @@
+SQL Server Database Mirroring Tips and Tricks, Part 1 | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  SQL Server Database Mirroring (Not Dead Yet) 
+					 Microsoft Releases SQL Server 2008 SP2 Cumulative Update 9  → 
+				 
+
+				 
+											 SQL Server Database Mirroring Tips and Tricks, Part 1 					
+					 
+						 Posted on   March 12, 2012 						 by   Glenn Berry   					 
+
+					 
+						 Even though  SQL Server Database Mirroring  is  deprecated in SQL Server 2012 , it is still a very useful HA/DR technique that should work perfectly well for at least two-three major versions of SQL Server after the newly released SQL Server 2012. Microsoft’s deprecation language actually says that “the following SQL Server Database Eng

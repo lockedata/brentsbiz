@@ -1,0 +1,39 @@
+Add-Equals operator - Andy M Mallon - AM² 
+ 
+ 
+ 
+		 
+ 
+ 
+ 
+ 
+ Andy M Mallon - AM² 
+ Being impatient and lazy are great qualities in a DBA 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+		 Home 
+ Event Calendar 
+ About Me 
+ Contact Andy 
+ Shortcuts, Tips, Hacks 
+ Legal Stuff 
+ 		 
+ 
+	 Add-Equals operator 
+ May 24, 2016 
+ Andy 
+ Shortcuts ,  T-SQL 
+ 9 
+ 
+	 Shortcuts &amp; tips from an Impatient DBA 
+ This series of short posts will demonstrate some lesser-known features, keyboard shortcuts, and other tips that make my day as a DBA more productive. None of these are groundbreaking super-secret features–they are the little things that I do as part of my daily work that make me more efficient. 
+   
+ 
+ This Walkman is old school, just like the code I’ve been writing Concatenating strings 
+ You’ve written code that builds out a string. The most common reason I do it is when I’m writing dynamic SQL for my automation code. In fact, you’re probably already thinking of the code you wrote where you did something like this: 
+ 

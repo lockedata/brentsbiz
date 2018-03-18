@@ -1,0 +1,46 @@
+MS-DOS ping command help 
+ Skip to Main Content 
+ 
+ 
+ 
+ 
+ Search 
+ 
+ Help 
+ Tips 
+ Dictionary 
+ History 
+ Forums 
+ Contact 
+ 
+   
+ 
+ 
+ Home 
+ 
+ Help 
+ 
+ MS-DOS 
+ 
+ 
+ 
+ Microsoft DOS ping command 
+ Updated:  09/15/2017  by  Computer Hope 
+   About ping 
+ Availability 
+ Ping syntax 
+ Ping examples 
+ Related questions 
+ 
+ About ping 
+ Helps in determining  TCP/IP   networks   IP  address as well as determine issues with the network and assists in resolving them. See the  ping  definition for a full description. 
+ Availability 
+ The ping command is an  external command  that is available in the below Microsoft operating systems as ping.exe. 
+ Windows 95 Windows 98 Windows ME Windows NT Windows 2000 Windows XP Windows Vista Windows 7 Windows 8 Windows 10 
+ Ping syntax 
+ 
+ Windows Vista, 7, and 8 syntax 
+ Windows XP and lower syntax 
+ 
+ Windows Vista, 7, and 8 syntax 
+ Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS] [-r count] [-s count] [[-j host-list] | [-k host-list]] [-

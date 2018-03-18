@@ -1,0 +1,35 @@
+Jepsen: Elasticsearch 1.5.0 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       Jepsen: Elasticsearch 1.5.0 
+
+       
+         2015/04/27 Databases Distributed Systems Jepsen Elasticsearch 
+     
+
+     
+       Previously, on  Jepsen , we demonstrated  stale and dirty reads in MongoDB . In this post, we return to Elasticsearch, which loses data when the network fails, nodes pause, or processes crash. 
+
+ Nine months ago, in June 2014, we saw  Elasticsearch lose both updates and inserted documents during transitive, nontransitive, and even single-node network partitions . Since then, folks continue to refer to the post, often asking whether the problems it discussed are still issues in Elasticsearch. The response from Elastic employees is often something like  this : 
+
+ 
+
+ In this  Jepsen  post, I’d like to follow up on Elastic’s reaction to the the first post, how they’ve a

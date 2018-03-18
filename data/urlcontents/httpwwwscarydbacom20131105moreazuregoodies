@@ -1,0 +1,29 @@
+More Azure Goodies - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 More Azure Goodies 		 Home  /  Azure  /  More Azure Goodies 	 
+ 
+	 
+		 
+		 
+			 05 Nov 2013  by  Grant Fritchey  4 Comments 		 
+		 Microsoft keeps sneaking little things under the door for Windows Azure SQL Database. This time it’s a couple of new views, a system view and a Dynamic Management View (DMV); sys.resource_stats and sys.dm_operation_stats. 
+ But, I also learned another fun fact, not all this stuff rolls out at the same speed. For example, if I run sys.resource_stats on a database on a server located in the North Central US data center, the output looks like this: 
+ 
+ But, if I run the same query against the same view with a database in a data center in East Asia (I experiment with where I put things), it looks like this 

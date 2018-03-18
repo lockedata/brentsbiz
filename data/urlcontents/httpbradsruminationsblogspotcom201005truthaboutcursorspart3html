@@ -1,0 +1,50 @@
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server(): The Truth About Cursors: Part 3 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server()
+ 
+ 
+ 
+ 
+ Thoughts, Musings, Ruminations, and Brainstorms on SQL and Perhaps Other Topics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Tuesday, May 25, 2010 
+
+           
+        
+ 
+ 
+ 
+ 
+The Truth About Cursors: Part 3
+ 
+ 
+ 
+ 
+ 
+In  Part 2 of this series , I dangled a carrot in front of you, taunting you with the fact that the Reads and CPU figures were markedly different between SQL2008 and SQL2005 in processing our million-row test table one row at a time: /* Description                     CPU      Reads ---------------------------------------------- SQL2008:   STATIC Cursor             23906ms  6,061,368   Emulating STATIC Cursor   23849ms  3,031,241  (Why is this half the reads???) SQL2005:     STATIC Cursor             22378ms  6,107,958   Emulating STATIC Cursor   25402ms  

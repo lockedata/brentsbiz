@@ -1,0 +1,28 @@
+Implementing MERGE Functionality in a Natively Compiled Stored Procedure | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Implementing MERGE Functionality in a Natively Compiled Stored Procedure 
+
+					 
+								 11/17/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  The Transact-SQL code sample in this section demonstrates how you can simulate the T-SQL MERGE statement in a natively compiled module. The sample uses a table variable with an identity column, iterates over the rows in the table variable, and for each row performs the update if the condition matches, and an insert if the condition does not match. 
+ Here is the T-SQL MERGE statement that you wish was supported inside a native proc, and that the code sample simulates.   
+ MERGE INTO dbo.Table1 t  
+    U

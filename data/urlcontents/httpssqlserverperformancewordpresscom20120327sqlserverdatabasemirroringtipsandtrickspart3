@@ -1,0 +1,43 @@
+SQL Server Database Mirroring Tips and Tricks, Part 3 | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Microsoft DreamSpark Program 
+					 SQL Server 2008 Diagnostic Information Queries (April 2012)  → 
+				 
+
+				 
+											 SQL Server Database Mirroring Tips and Tricks, Part 3 					
+					 
+						 Posted on   March 27, 2012 						 by   Glenn Berry   					 
+
+					 
+						 One of the challenges you face with SQL Server database mirroring is making sure that all of the databases that are dependent on each other will failover together, so they are running on the same side of the database mirroring partnership at all times.  There is no built-in support for this with database mirroring, but SQL Server 2012 lets you use Alw

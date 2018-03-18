@@ -1,0 +1,42 @@
+sys.dm_exec_query_statistics_xml (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_exec_query_statistics_xml (Transact-SQL) 
+
+					 
+								 11/16/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse 
+ Returns query execution plan for in-flight requests. Use this DMV to retrieve showplan XML with transient statistics.  
+ Syntax 
+ sys.dm_exec_query_statistics_xml(session_id)  
+ Arguments 
+ session_id  Is the session id executing the batch to be looked up.  session_id  is  smallint .  session_id  can be obtained from the following dynamic management objects:   
+ sys.dm_exec_requests    
+ 
+ sys.dm_exec_sessions    
+ 
+ sys.dm_exec_connections    
+ 
+ Table Returned 
+ Column Name 
+ Data Type 
+ Description 
+ session_id 

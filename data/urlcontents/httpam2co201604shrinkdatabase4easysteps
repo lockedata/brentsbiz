@@ -1,0 +1,39 @@
+How to shrink a database in 4 easy steps - Andy M Mallon - AM² 
+ 
+ 
+ 
+		 
+ 
+ 
+ 
+ 
+ Andy M Mallon - AM² 
+ Being impatient and lazy are great qualities in a DBA 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+		 Home 
+ Event Calendar 
+ About Me 
+ Contact Andy 
+ Shortcuts, Tips, Hacks 
+ Legal Stuff 
+ 		 
+ 
+	 How to shrink a database in 4 easy steps 
+ April 28, 2016 
+ Andy 
+ Performance ,  T-SQL 
+ 8 
+ 
+	 I pity the fool who needs to shrink his database! It’s a really common question: “How do I shrink my database?” 
+Luckily, there’s also a really common answer: “Don’t.” 
+ …but what if you really have to? 
+ Perhaps you just implemented  data compression , and have 60% free space in your database. 
+Perhaps you just deleted a bunch of old data, and have significant free space in your database. 
+There are a handful of scenarios where you have free space in the database, you’ll never use it, and you need to shrink. Just don’t make a habit of it. 
+ I’m not even going to talk about log files…that’s a totally different topic. W

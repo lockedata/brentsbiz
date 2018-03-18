@@ -1,0 +1,33 @@
+Recovering Tables and Table Partitions from RMAN Backups 
+ Go to main content 
+ 
+ 
+   34/48   
+ 
+ 22  Recovering Tables and Table Partitions from RMAN Backups 
+ 
+ This chapter describes how to recover tables and table partitions to a specified point in time. This chapter contains the following topics: 
+ 
+ Overview of Recovering Tables and Table Partitions from RMAN Backups 
+ 
+ 
+ Preparing to Recover Tables and Table Partitions 
+ 
+ 
+ Recovering Tables and Table Partitions 
+ 
+ 
+ Recovering Tables and Table Partitions in PDBs 
+ 
+ 
+ Examples: Recovering Tables and Table Partitions From RMAN Backups 
+ 
+ 
+ 
+ 
+ Overview of Recovering Tables and Table Partitions from RMAN Backups 
+ 
+ This section describes the purpose and basic concepts of recovering tables and table partitions from RMAN backups. 
+ 
+ Note: 
+ There are other methods of recovering tables to a specified point in time such as Oracle Flashback and TSPITR. For more information about the scenarios in which these methods are useful an

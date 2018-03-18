@@ -1,0 +1,41 @@
+Restore an Azure SQL database from a backup | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Recover an Azure SQL database using automated database backups 
+
+					 
+								 02/13/2018 
+							 7 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 SQL Database provides these options for database recovery using  automated database backups  and  backups in long-term retention . You can restore from a database backup to: 
+ A new database on the same logical server recovered to a specified point in time within the retention period.  
+ A database on the same logical server recovered to the deletion time for a deleted database. 
+ A new database on any logical server in any region recovered to the point of the most recent daily backups in geo-replicated blob storage (RA-GR

@@ -1,0 +1,27 @@
+Online non-NULL with values column add in SQL Server 2012 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Online non-NULL with values column add in SQL Server 2012 
+         July 13th, 2011  
+         
+
+ 
+ Prior to SQL Server 2012 when you add a new non-NULLable column with default values to an existing table a size-of data operation occurs: every row in the table is updated to add the default value of the new column. For small tables this is insignificant, but for large tables this can be so problematic as to completely prohibit the operation. But starting with SQL Server 2012 the operation is, in most cases, instantaneous: only the table metadata is changed, no rows are being updated. 
+ Lets look at a simple example, we’ll create a table with some rows and then add a non-NULL column with default values. First create and populate the table: 
+ 
+ 
+create table test (
+	id int not null identity(1,1) primary key,
+	someValue int not null

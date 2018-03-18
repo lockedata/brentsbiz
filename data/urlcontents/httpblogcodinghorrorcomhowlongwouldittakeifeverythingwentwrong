@@ -1,0 +1,42 @@
+How Long Would It Take if Everything Went Wrong? 
+ 
+ 
+ Coding Horror 
+ programming and human factors 
+ 
+ 
+ 
+ 
+ 
+ 14 Jun 2006 
+ How Long Would It Take if Everything Went Wrong? 
+ 
+I'm currently reading Steve McConnell's new book,  Software Estimation: Demystifying the Black Art . The section on individual expert judgment provided one simple reason why my estimates are often so horribly wrong:
+ 
+ 
+If you ask a developer to estimate a set of features, the developer will often come back with an estimate that looks like this:
+ 
+ Feature Estimated Days 
+ Alpha 1.5
+ Bravo 1.5
+ Charlie 2.0
+ Delta 0.5
+ Echo 0.5
+ Foxtrot 0.25
+ Golf 2.0
+ Hotel 1.0
+ India 0.75
+ Juliet 1.25
+ Total 11.25 
+ 
+If you then ask the same developer to reestimate each feature's best case and worst case, the developer will often return with estimates similar to these:
+ 
+ Feature Best Case (days) Worst Case (days) 
+ Alpha 1.25 2.0
+ Bravo 1.5 2.5
+ Charlie 2.0 3.0
+ Delta 0.75 2.0
+ Echo 0.5 1.25
+ Foxtrot 0.25 0.5
+ Golf 1.5 2.5
+ 

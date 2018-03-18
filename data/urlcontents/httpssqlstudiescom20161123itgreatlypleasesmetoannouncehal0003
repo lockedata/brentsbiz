@@ -1,0 +1,57 @@
+It greatly pleases me to announce, HAL0003! | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 It greatly pleases me to announce, HAL0003! 
+       				 25 
+		         November 23, 2016  by Kenneth Fisher 
+
+		 
+			 I while back as part of a T-SQL Tuesday post I created  HAL0001 , then later  HAL0002  with a long-term goal of building up a database version of HAL9000.  Well, at the rate I’m going I may have to pass this on to my kids (or even grandkids).  But in the mean time here is HAL0003. 
+ HAL0001  randomly stopped you from making DDL changes. 
+ HAL0002  stopped you from using NOLOCK in code. 
+ HAL0003 will 

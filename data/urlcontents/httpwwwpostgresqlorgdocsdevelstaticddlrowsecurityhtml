@@ -1,0 +1,88 @@
+PostgreSQL: Documentation: devel: 5.7. Row Security Policies 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL devel  (2018-03-09 08:17:03)
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ 
+ 
+
+ 
+ 
+   5.7. Row Security
+      Policies 
+     Prev   
+       Up 
+       Chapter 5. Data
+      Definition 
+       Home 
+         Next 
+     
+ 
+   
+     
+       
+         5.7. Row
+        Security Policies 
+       
+     
+   
+   In addition to the SQL-standard  privilege system 
+  available through  GRANT , tables can
+  have  row security policies  that
+  restrict, on a per-user basis, which rows can be returned by
+  normal queries or inserted, updated, or deleted by data
+  modification commands. This feature is also known as  Row-Level Security . By default, tables do not
+  have any policies, so that if a user has access pr

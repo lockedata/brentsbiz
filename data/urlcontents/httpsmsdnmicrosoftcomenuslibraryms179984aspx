@@ -1,0 +1,34 @@
+sys.dm_os_wait_stats (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_os_wait_stats (Transact-SQL) 
+
+					 
+								 01/04/2018 
+							 77 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Returns information about all the waits encountered by threads that executed. You can use this aggregated view to diagnose performance issues with  SQL Server and also with specific queries and batches.  sys.dm_exec_session_wait_stats (Transact-SQL)  provides similar information by session.   
+ Note To call this from   Azure SQL Data Warehouse or  Parallel Data Warehouse , use the name  sys.dm_pdw_nodes_os_wait_stats .   
+ 
+ Column name 
+ Data type 
+ Description 
+ wait_type 
+ nvarchar(60) 
+ Name of the wait type. For more information, see 

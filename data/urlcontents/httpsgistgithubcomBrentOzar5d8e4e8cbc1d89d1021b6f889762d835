@@ -1,0 +1,129 @@
+Stored procedure that continuously restarts SQL Server looking for undocumented trace flags · GitHub 
+    
+
+   
+     Skip to content 
+     
+
+    
+    
+    
+
+
+
+         
+   
+     
+       
+         
+           
+         
+             
+
+ 
+   
+     
+
+ 
+
+         
+
+         All gists 
+           GitHub 
+         
+
+         
+             Sign up for a GitHub account 
+           Sign in 
+         
+     
+   
+ 
+
+
+
+   
+
+   
+
+     
+ 
+
+
+
+   
+         
+     
+      
+
+
+   
+     
+       Create a gist now 
+       
+        Instantly share code, notes, and snippets.
+       
+     
+   
+
+
+ 
+   
+    
+  
+ 
+
+   
+         
+     
+    Star
+ 
+   
+    2
+ 
+     
+
+       
+           
+     
+    Fork
+ 
+   
+    1
+ 
+       
+   
+     BrentOzar / Finding undocumented trace flags.sql 
+
+     
+      Last active  Jan 11, 2018 
+   
+ 
+
+ 
+   
+
+     
+   
+     
+       
+   
+    Embed
+   
+ 
+ 
+   
+ 
+
+     
+
+     
+       
+         
+           What would you like to do? 
+         
+
+         
+             
+               
+               

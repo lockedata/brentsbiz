@@ -1,0 +1,64 @@
+Take Care When Scripting Batches | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ September 9, 2014 
+ 
+	  Take Care When Scripting Batches 
+	 Filed under:  Miscelleaneous SQL , SQL Scripts , Technical Articles  —  Michael J. Swart @ 1:22 pm  
+
+	 
+		 100 Percent Online Deployments 
+How to deploy schema changes without scheduled downtime
+ Introduction 
+ Blue-Green Deployment 
+ Blue-Green Deployment (Details) 
+ Keep Changes OLTP-Friendly 
+ Stage and Switch 
+ Careful Batching 
+ 
+ Takeaway:  When performing long-running modifications, I’m sure many of you enjoy using batches to increase concurrency. But I want to talk about a pitfall to be aware of. If you’re not careful, the method you use to implement batching can actually worsen concurrency. 
+ 
+ Why Use Batches? 

@@ -1,0 +1,30 @@
+Upgrade a SQL Server Failover Cluster Instance (Setup) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Upgrade a SQL Server Failover Cluster Instance (Setup) 
+
+					 
+								 01/22/2016 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    You can upgrade a  SQL Server failover cluster to a  SQL Server 2017 failover cluster by using the  SQL Server setup UI or from a command prompt.   
+  For local installations, you must run  SQL Server Setup as an administrator. If you install  SQL Server from a remote share, you must use a domain account that has read permissions on the remote share.   
+  Before upgrading, see  Upgrade a SQL Server Failover Cluster Instance .   
+  To Upgrade a  SQL Server Failover Cluster 
+ To upgrade a  SQL Server failover cluster 
+ From the  SQL Serv

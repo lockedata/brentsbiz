@@ -1,0 +1,33 @@
+SQL Server 2016 Release Notes | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SQL Server 2016 Release Notes 
+
+					 
+								 02/27/2018 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse 
+   This article describes limitations and issues with SQL Server 2016 releases. For information on what's new, see  What's New in SQL Server 2016 . 
+   Download SQL Server 2016  from the  Evaluation Center 
+  Have an Azure account?  Then go  Here  to spin up a Virtual Machine with SQL Server 2016 SP1 already installed. 
+  To get the latest version of SQL Server Management Studio, see  Download SQL Server Management Studio (SSMS) . 
+ 
+ SQL Server 2016 Service Pack 1 (SP1) available 
+  SQL Server 2016 SP1 upgrades all editions and service levels of SQL S

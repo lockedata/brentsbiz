@@ -1,0 +1,35 @@
+SQL Server Tracking Suspect Pages | All About SQL 
+ 
+	 All About SQL 
+				 Discussing all things around the Microsoft Data Platform 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+												 Azure Section 
+ SQL Server Section 
+ Personal Section 
+ SQL Server Central Articles 
+ TechNet articles 
+ SQL Server Video Library 
+ Presentations 
+ 			 
+
+		 
+			 
+
+				
+					 Post navigation 
+						 ←  Previous 
+						 Next  → 
+					 SQL Server Tracking Suspect Pages 
+
+				 
+						 Posted on  September 19, 2017    by    blobeater 		 
+			 
+		 Did you know that SQL Server tracks suspect pages and puts the details into the msdb database in a table called suspect_pages? Well it does, but the question I want answering is what happens if the page within the suspect pages table is fixed? Does it automatically get removed/updated or do we as the administrators have to do anything manually? 
+ 
+ Let’s find out. 
+ Here is a very basic setup. Using the following query, I will find t

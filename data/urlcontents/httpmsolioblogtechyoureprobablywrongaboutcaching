@@ -1,0 +1,56 @@
+You're probably wrong about caching 
+
+   
+     
+
+       
+         home 
+     
+    
+     
+         blog 
+     
+    
+     
+         best of the web 
+     
+    
+ 
+           
+             
+               
+                 msol 
+               
+             
+             a blog made of words 
+           
+           
+         home 
+     
+    
+     
+         blog 
+     
+    
+     
+         best of the web 
+     
+    
+ 
+       
+
+           
+     You're probably wrong about caching 
+
+             
+                
+                 Mike Solomon 
+                 
+             
+         
+   There are only two hard things in Computer Science: cache invalidation and naming things –Phil Karlton 
+ 
+
+ Caching is a great tool. Lots of useful data fits easily in memory–so cache it! Improve your latencies, ease the load on your database, reduce your hardware costs! Can you spell free lunch? 
+
+ Many of the costs of caching aren’t paid up-front. This makes caching seem very attractive–and to be clear, the

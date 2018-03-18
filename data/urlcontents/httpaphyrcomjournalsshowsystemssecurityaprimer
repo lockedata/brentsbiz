@@ -1,0 +1,39 @@
+Systems Security: A Primer 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       Systems Security: A Primer 
+
+       
+         2011/10/03 Software Security Riak 
+     
+
+     
+       The riak-users list receives regular questions about how to secure a Riak
+cluster. This is an overview of the security problem, and some general techniques to approach it.  
+
+ Theory 
+
+ You can skip this, but it may be a helpful primer. 
+
+ Consider an application composed of agents (Alice, Bob) and a datastore (Store). All events in the system can be parameterized by time, position (whether the event took place in Alice, Bob, or Store), and the change in state. Of course, these events do not occur arbitrarily; they are connected by causal links (wires, protocols, code, etc.) 
+
+ If Alice downloads a piece of information from the Store, the two events E
+(Store sends information to Alice) and F (Al

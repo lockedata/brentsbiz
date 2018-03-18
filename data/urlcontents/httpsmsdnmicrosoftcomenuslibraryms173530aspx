@@ -1,0 +1,32 @@
+sp_tableoption (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_tableoption (Transact-SQL) 
+
+					 
+								 09/11/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Sets option values for user-defined tables. sp_tableoption can be used to control the in-row behavior of tables with  varchar(max) ,  nvarchar(max) ,  varbinary(max) ,  xml ,  text ,  ntext ,  image , or large user-defined type columns.   
+ Important  The text in row feature will be removed in a future version of  SQL Server. To store large value data, we recommend that you use of the  varchar(max) ,  nvarchar(max)  and  varbinary(max)  data types.   
+ 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_tableoption [ @TableNamePattern = ] 'table'   
+     , [ @Opti

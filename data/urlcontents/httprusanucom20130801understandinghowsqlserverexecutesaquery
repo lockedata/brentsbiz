@@ -1,0 +1,24 @@
+Understanding how SQL Server executes a query 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Understanding how SQL Server executes a query 
+         August 1st, 2013  
+         
+
+ 
+ If you are a developer writing applications that use SQL Server and you are wondering what exactly happens when you ‘run’ a query from your application, I hope this article will help you write better database code and will help you get started when you have to investigate performance problems. 
+ 
+ Requests 
+ SQL Server is a client-server platform. The only way to interact with the back-end database is by sending requests that contain commands for the database. The protocol used to communicate between your application and the database is called TDS (Tabular Data Sream) and is described on MSDN in the Technical Document  [MS-TDS]: Tabular Data Stream Protocol . The application can use one of the several client-side implementations of the protocol: the CLR ma

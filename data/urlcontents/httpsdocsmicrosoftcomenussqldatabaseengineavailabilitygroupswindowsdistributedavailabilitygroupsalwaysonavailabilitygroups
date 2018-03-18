@@ -1,0 +1,29 @@
+Distributed availability groups (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Distributed availability groups 
+
+					 
+								 01/12/2018 
+							 16 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Distributed availability groups are a new feature introduced in SQL Server 2016, as a variation of the existing Always On availability groups feature. This article clarifies some aspects of distributed availability groups and complements the existing  SQL Server documentation . 
+ Note "DAG" is not the official abbreviation for  distributed availability group , because the abbreviation is already used for the Exchange Database Availability Group feature. This Exchange feature has no relation to SQL Server availability groups 

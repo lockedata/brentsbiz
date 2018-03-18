@@ -1,0 +1,8 @@
+Using Table-Valued Parameters in SQL Server and .NET 
+ Using Table-Valued Parameters  
+in SQL Server and .NET 
+ An SQL text by  Erland Sommarskog , SQL Server MVP.  Latest
+revision : 2017-06-04. Copyright  applies to this text. See here for  font conventions  used in this article. 
+ Introduction 
+ This is an article that is intended to get you started with passing table-valued parameters (TVPs) to SQL Server from .NET. I begin with presenting how you use table-valued parameters in SQL Server itself whereupon I give a quick overview of the mechanisms to pass TVPs from ADO .NET to SQL Server.  
+ The main meat of this article are two real-world examples where I use TVPs. The first example is the classical problem of passing a comma-separated list of values to SQL Server, this time through a table-valued parameter. You will be amazed of how simple it is. In the second example I show two ways to load a  file with master-detail data into tables in SQL Server. In addition to the exampl

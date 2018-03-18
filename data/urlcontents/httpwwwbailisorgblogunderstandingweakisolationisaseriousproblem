@@ -1,0 +1,15 @@
+Understanding Weak Isolation Is a Serious Problem | Peter Bailis 
+   
+     Peter Bailis  ::  Highly Available, Seldom Consistent 
+ Data management, distributed systems, and beyond 
+   
+   
+     
+
+ Understanding Weak Isolation Is a Serious Problem 
+
+ 16 Sep 2014 
+
+ Modern transactional databases  overwhelmingly don’t operate  under textbook “ACID” isolation, or serializability. Instead, these databases—like Oracle 11g and SAP HANA—offer weaker guarantees, like Read Committed isolation or, if you’re lucky,  Snapshot Isolation . There’s a good reason for this phenomenon: weak isolation is faster—often much faster—and incurs fewer aborts than serializability. Unfortunately, the exact behavior of these different isolation levels is difficult to understand and is highly technical. One of 2008 Turing Award winner Barbara Liskov’s Ph.D. students  wrote an entire dissertation on the topic , and, even then, the definitions we have still aren’t perfect and can vary between databases. 
+
+ The core 

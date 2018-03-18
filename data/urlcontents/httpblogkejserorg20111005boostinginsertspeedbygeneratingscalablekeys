@@ -1,0 +1,50 @@
+Boosting INSERT Speed by Generating Scalable Keys - Fighting Bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Boosting INSERT Speed by Generating Scalable Keys 
+ 
+   2011-10-05 
+   Grade of the Steel   SQL Server Archive   	
+   23 Comments   I/O ,  Keys ,  OLTP ,  Performance ,  Scale ,  SQL Server 
+ Throughout history, similar ideas tend to surface at about the same time. Last week, at  SQLBits 9 , I did some “on stage” tuning of the  Paul Randal INSERT challenge . 
+ It turns out that at almost the same time, a lab run was being done that demonstrated, on a real world workload, a technique similar to the one I ended up using. You can find it

@@ -1,0 +1,47 @@
+In-Memory Engine DURABILITY = SCHEMA_ONLY And Transaction Rollback |  
+ 
+		 
+			 
+								 
+					 
+						 
+				 
+				 
+					 
+					 
+				 
+							 
+		 
+
+		 
+				 Skip to content 
+				 
+					 
+				 
+
+				 About 
+ Courses 
+ Contact 
+ 			 
+		 
+
+	 
+		 
+
+			 
+				 In-Memory Engine DURABILITY = SCHEMA_ONLY And Transaction Rollback 	 
+		    by  datatake 
+			   Posted on   July 17, 2017 
+			  
+	 
+		 Uncategorized 
+	 
+
+	 
+		 
+
+	
+	 
+		 I was fortunate enough to be selected to speak at SQL Saturday Dublin, the talk I gave was on leveraging the in-memory engine, the basic flow of the presentation is thus: 
+ I ask the audience how many people are actually using the in-memory engine, typically I only get a handful of hands raised in response. 
+ I outline why I think this is the case, the answer is multi faceted and covers the facts that the in-memory engine only just became a version 2 feature with SQL Server 2016, up until SQL Server 2016 SP1 it was an enterprise edition feature and therefore it ha

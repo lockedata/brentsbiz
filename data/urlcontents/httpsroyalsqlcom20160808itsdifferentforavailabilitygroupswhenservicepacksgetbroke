@@ -1,0 +1,22 @@
+It’s different for Availability Groups when service packs get broke… | Andrea Allred presents RoyalSQL 
+ 
+	 
+		 
+					 
+				 Andrea Allred presents RoyalSQL 
+						 Bringing happy endings to all your data stories. 
+					 
+					
+ 
+	 
+
+	
+		 
+						
+							 August 8, 2016    by    andreaallred 					 
+		
+						 
+							It’s different for Availability Groups when service packs get broke…					 
+			 
+		 Last week I did a few things wrong.  The good news is I learned from it and now can prevent myself from repeating it. 
+ So I have this AG, it is kind of important, hence the AG part but after 5pm I have two hours that it can be down, or so I thought.  We recently added new functionality that requires it to be up all the time.  I have been applying SQL 2014 SP2 to all of my 2014 servers all of which have been in AGs and it has been super easy, less than 10 minutes of work and only a reboot of downtime. (I am a little old fashioned and always reboot after a service pack.) My mind said, “Sweet, y

@@ -1,0 +1,35 @@
+Using SQL Server Diagnostics (Preview) | All About SQL 
+ 
+	 All About SQL 
+				 Discussing all things around the Microsoft Data Platform 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+												 Azure Section 
+ SQL Server Section 
+ Personal Section 
+ SQL Server Central Articles 
+ TechNet articles 
+ SQL Server Video Library 
+ Presentations 
+ 			 
+
+		 
+			 
+
+				
+					 Post navigation 
+						 ←  Previous 
+						 Next  → 
+					 Using SQL Server Diagnostics (Preview) 
+
+				 
+						 Posted on  June 27, 2017    by    blobeater 		 
+			 
+		 I was VERY excited when I read the following tweet (below) from Bob Ward regarding SQL Server Diagnostics capability. What is it you are asking? It is an extension to SQL Server Management Studio (SSMS) where it gives you the ability to Upload / Analyse dump files created by SQL Server. 
+ 
+ 
+ This is HUGE news, I could not resist writing up on it ( sorry the Cloud series will be delayed for a few more days) because last month I 

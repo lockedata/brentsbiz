@@ -1,0 +1,37 @@
+STRING_AGG (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 STRING_AGG (Transact-SQL) 
+
+					 
+								 04/19/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Concatenates the values of string expressions and places separator values between them. The separator is not added at the end of string. 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ STRING_AGG ( expression, separator ) [ &lt;order_clause&gt; ]
+
+&lt;order_clause&gt; ::=   
+    WITHIN GROUP ( ORDER BY &lt;order_by_expression_list&gt; [ ASC | DESC ] )   
+ Arguments 
+ separator Is an  expression  of  NVARCHAR  or  VARCHAR  type that is used as separator for concatenated strings. It can be literal or variable.  
+ expression Is an

@@ -1,0 +1,35 @@
+SQL Server Management Studio - Changelog (SSMS) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SQL Server Management Studio - Changelog (SSMS) 
+
+					 
+								 02/15/2018 
+							 42 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This article provides details about updates, improvements, and bug fixes for the current and previous versions of SSMS. Download  previous SSMS versions below . 
+ SSMS 17.5 
+ Generally available | Build number: 14.0.17224.0 
+ What's new 
+ General SSMS 
+ Data Discovery &amp; Classification: 
+ Added a new SQL Data Discovery &amp; Classification feature for discovering, classifying, labeling &amp; reporting sensitive data in your databases.  
+ Auto-discovering and classifying your most sensitive data (busines

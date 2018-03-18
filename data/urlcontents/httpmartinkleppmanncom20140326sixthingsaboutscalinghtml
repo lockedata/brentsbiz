@@ -1,0 +1,40 @@
+Six things I wish we had known about scaling — Martin Kleppmann’s blog 
+     
+         
+     Skip to content 
+ 
+
+ 
+     
+         
+             Martin Kleppmann 
+         
+     
+ 
+
+ 
+     
+         
+             About/Contact 
+             
+     
+ 
+
+ 
+             
+                 Tweet 
+
+                 Six things I wish we had known about scaling 
+
+                
+                 Published by Martin Kleppmann on 26 Mar 2014. 
+                
+
+                 Looking back at the last few years of building  Rapportive  and
+ LinkedIn Intro ,
+I realised that there were a number of lessons that we had to learn the hard way. We built some
+reasonably large data systems, and there are a few things I really wish we had known beforehand. 
+
+ None of these lessons are particularly obscure – they are all well-documented, if you know where to
+look. They are the kind of things that made me think  “I can’t believe I didn’t know that, I’m so
+stupid #facepalm”  in retrospect. But perhaps I’m not

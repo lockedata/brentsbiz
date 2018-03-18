@@ -1,0 +1,22 @@
+Using In-Database Row Archiving 
+     Using In-Database Row Archiving 
+           Topic
+              List   Expand All Topics 
+             Hide All Images   Print 
+             
+         Overview 
+           
+             Purpose 
+                This tutorial shows how to use in-database archiving to store
+                all rows in the database, but hide specific rows from
+                applications. 
+               Time to Complete 
+               Approximately 15 minutes  
+               Introduction 
+               In-database archiving enables you to archive rows within a
+                table by marking them as invisible. These invisible rows are in
+                the database and are optimized using compression, but are not
+                visible to an application. The data in these rows is available
+                for compliance purposes if needed by setting a session
+                parameter. 
+                With in-database archiving you can sto

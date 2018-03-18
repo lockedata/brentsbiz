@@ -1,0 +1,70 @@
+Challenge Accepted – A Shot of SQLEspresso 
+
+   
+ 
+
+
+ 
+
+ 
+
+			 
+
+				 
+ 
+			 
+				 
+			 
+				 
+			 
+				 						 
+			 
+ 			 
+					 
+
+			 
+			   
+			 Skip to content 
+	 Home 
+ Session Downloads 
+ Hampton Roads SQL Server User Group 
+ PASS 
+ SQL Saturday 
+ PASS WIT VC 
+ DCAC 
+ Contact Me 
+ Disclaimer 
+ 
+ 
+			 
+
+	   
+
+ 
+ 
+	 
+		
+		   
+
+		
+		 
+			
+
+				 
+					 Challenge Accepted 
+										 
+						   By   monica   September 14, 2016   September 14, 2016   Problems &amp; Solutions     					 
+
+					 
+						 My life for the last 2 years has been a constant battle of putting out fires with system performance; finally user complaints have moved getting this resolved as my top priority. 
+ Let’s see how I tackled the problem… 
+ Symptoms: 
+ Very High Disk Latency as high as 300,000 milliseconds (ms) is not unusual 
+ Average: 900 – 15,000ms 
+ Memory Pressure 
+ Slow User Experience 
+ Problem: 
+ Bad hardware 
+ Over-provisioned VM Hosts (what happens on one VM effects the other) 
+ Old NetApp SAN 
+ No in

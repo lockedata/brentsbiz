@@ -1,0 +1,20 @@
+Performance is a Feature 
+ 
+ 
+ Coding Horror 
+ programming and human factors 
+ 
+ 
+ 
+ 
+ 
+ 20 Jun 2011 
+ Performance is a Feature 
+ 
+We've always put a heavy emphasis on performance at Stack Overflow and  Stack Exchange . Not just because we're performance wonks (guilty!), but because we think speed is a competitive advantage. There's  plenty of experimental data  proving that  the slower your website loads and displays, the less people will use it. 
+ 
+ 
+[Google found that] the page with 10 results took 0.4 seconds to generate. The page with 30 results took 0.9 seconds. Half a second delay caused a 20% drop in traffic. Half a second delay killed user satisfaction. In A/B tests, [Amazon] tried delaying the page in increments of 100 milliseconds and found that even very small delays would result in substantial and costly drops in revenue.
+ 
+ 
+I believe the converse of this is also true. That is, the faster your website is, the  more  people will use it. This follows logically if you think 

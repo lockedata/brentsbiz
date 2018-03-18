@@ -1,0 +1,32 @@
+sp_rename (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_rename (Transact-SQL) 
+
+					 
+								 01/09/2018 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Changes the name of a user-created object in the current database. This object can be a table, index, column, alias data type, or  Microsoft  .NET Framework common language runtime (CLR) user-defined type.   
+ Caution  Changing any part of an object name can break scripts and stored procedures. We recommend you do not use this statement to rename stored procedures, triggers, user-defined functions, or views; instead, drop the object and re-create it with the new name.   
+ 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_rename [ @objname = ] 'object_name' ,

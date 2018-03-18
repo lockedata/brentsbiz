@@ -1,0 +1,31 @@
+sys.fn_xe_file_target_read_file (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.fn_xe_file_target_read_file (Transact-SQL) 
+
+					 
+								 06/22/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Reads files that are created by the Extended Events asynchronous file target. One event, in XML format, is returned per row.   
+ Warning   SQL Server 2008 and  SQL Server 2008 R2 accept trace results generated in XEL and XEM format.  SQL Server 2012 Extended Events only support trace results in XEL format. We recommend that you use SQL Server Management Studio to read trace results in XEL format.     
+ 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sys.fn_xe_file_target_read_file ( path, mdpath, initial_file_name, initial_offset

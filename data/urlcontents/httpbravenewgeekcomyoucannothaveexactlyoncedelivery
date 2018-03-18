@@ -1,0 +1,46 @@
+You Cannot Have Exactly-Once Delivery – Brave New Geek 
+ 
+	 Skip to content 
+
+	 
+
+		 
+					 
+
+	 
+	 
+
+		
+		 
+							 Brave New Geek 
+			
+							 Introspections of a software engineer 
+					 
+
+		
+	 
+ 
+
+ 
+
+					 
+				 
+					 
+		 Menu	 
+
+	 Home 
+ About Me 
+ Real Kinetic 
+ RSS 
+ 
+	 
+			 
+		
+	 
+		 
+
+ 
+	 
+		 Posted on   March 25, 2015 April 4, 2017  by  Tyler Treat You Cannot Have Exactly-Once Delivery 	 
+		 I’m often surprised that people continually have fundamental misconceptions about how distributed systems behave. I myself shared many of these misconceptions, so I try not to demean or dismiss but rather educate and enlighten, hopefully while sounding less preachy than that just did. I continue to learn only by following in the footsteps of others. In retrospect, it shouldn’t be surprising that folks buy into these fallacies as I once did, but it can be frustrating when trying to communicate certain design decisions and constraints. 
+ Within the context of a distributed system,  you cann

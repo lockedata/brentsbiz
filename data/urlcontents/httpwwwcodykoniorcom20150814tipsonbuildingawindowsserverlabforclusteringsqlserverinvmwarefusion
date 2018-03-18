@@ -1,0 +1,60 @@
+Tips on building a Windows Server lab for clustering SQL Server in VMWare Fusion 
+ 
+ 
+ 
+ 
+ 
+   Forcing access into SQL Server... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ / 
+ comedy 
+ / 
+ mds 
+ / 
+ musings 
+ / 
+ photos 
+ / 
+ powershell 
+ / 
+ sql 
+ / 
+ ssis 
+ / 
+ ssrs 
+ 
+ 
+ 
+ 
+ 
+ Troubleshooting WSUS errors from an...   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Tips on building a Windows Server lab for clustering SQL Server in VMWare Fusion 
+ 
+ 
+14 AUG 2015
+•
+ 
+5 mins read
+ 
+about
+sql
+ 
+ 
+ If you're using VMWare Fusion 7 for Mac give up on native shared disks 
+ Whatever  the intended purpose  these are not suitable to act as shared storage in a Windows Server Cluster - at least they will cause the cluster to fail validation. Also the VMWare GUI doesn't allow you to add these to linked clones so you'll spend a long time researching  how to tweak the .vmx files by hand  and it's just straight up not worth it. 
+ Simulate shared disks with  Microsoft iSCSI Software Target 3.3  but put it on a third host 
+ If you are sharing a disk from a n

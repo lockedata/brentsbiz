@@ -1,0 +1,55 @@
+Start SQL Server without tempdb | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Start SQL Server without tempdb 
+       				 1 
+		         January 20, 2016  by Kenneth Fisher 
+
+		 
+			 tl;dr;  Re-start the instance in safe mode (-f startup parameter) and move tempdb.  Then re-start without the parameter. 
+ While at the 2015 Summit I walked into the last few minutes of Russ Thomas’s ( b / t ) session on  Stress Inoculation: Maintaining Performance Under Pressure .  As a side note I was under some heavy stress myself at that particular moment (I was waiting for my session to start) which explains why I was wan

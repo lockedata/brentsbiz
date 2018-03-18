@@ -1,0 +1,60 @@
+T-SQL Tuesday #86 - SQL Server Bugs &amp; Enhancement Requests - JAPJ.net 
+	 
+		 
+			 
+				 
+	
+	 
+ JAPJ.net 
+  
+ about 
+   archives 
+ 
+		
+		
+			 Twitter 
+		
+		
+			 GitHub 
+		
+		
+	 
+ 
+		 
+		 
+			 
+				 T-SQL Tuesday #86 - SQL Server Bugs &amp; Enhancement Requests 
+	 
+	 
+
+
+
+
+ January 10, 2017 
+	 tsql2sday 
+	
+		
+
+ comments 
+	
+	 
+
+ edit 
+ 
+ 
+	 
+
+ Last week I came across this tweet that got me thinking about participating in 
+the T-SQL Tuesday #86 SQL Server Bugs &amp; Enhancement Requests event: 
+
+ 
+
+ I have not participated in T-SQL Tuesday before and although I have thought about 
+taking this moment to write about BIML (I am working towards a “past year with BIML”
+reflection post), I have instead decided to write about something else that has 
+been bothering me for a while: 
+
+ #759940 Why can’t I build an SSIS Project with MSBuild “out of the box”? 
+
+ My background is in Software Engineering, so you could say I am an “accidental BI guy” and 
+I am still shocked that some of the good Soft

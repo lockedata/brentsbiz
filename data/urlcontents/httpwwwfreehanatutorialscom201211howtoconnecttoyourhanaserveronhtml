@@ -1,0 +1,83 @@
+How to Connect to your HANA server on AWS - SAP HANA TUTORIALS FREE - S/4 HANA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ ► HANA Admin Tasks ► HANA Database ► HANA FAQ ► HANA Security ► HANA Fundas ► HANA License 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ VIDEOS 
+ 
+ HANA ADMINISTRATION 
+ 
+ HANA DATABASE 
+ 
+ HANA MODELLING 
+ 
+ HANA REPORTING 
+ 
+ HANA SECURITY 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ HANA SQL Query 
+ Interview Tips 
+ Post a Job 
+ Submit Resume for HANA Jobs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+
+           
+        
+ 
+ 
+ 
+ 
+ How to Connect to your HANA server on AWS 
+ 
+ 
+ 
+ 
+ 
+Log on to Amazon EC2 and start your SAP HANA instance. In the “Navigation” frame, navigate to “INSTANCES&gt;Instances”. This should show all your instances  in Amazon EC2. Make sure the HANA instance you want to connect  to is in “running” state. If not, choose the instance, then click on “Instance Actions” menu, and click on “Start” in the pull down menu. 
+Associate your Elastic IP with SA

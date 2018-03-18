@@ -1,0 +1,79 @@
+Leveraging SSD Ephemeral Disks in EC2 - Part 1 - Intro - Hatim's Reactions 
+     
+       
+         
+             
+                 
+                 
+                 
+             
+             Hatim's Reactions 
+         
+
+         
+             
+                     Home 
+                 
+                 
+                     Archives 
+                 
+             
+                     
+                         RSS 
+                         
+                 
+                
+             
+     
+         
+ 
+            
+         
+     
+ 
+         
+           
+   
+     
+        
+
+
+
+
+
+
+
+
+
+
+
+
+   May 24 th , 2014 
+        
+           |  Comments 
+        
+       
+    
+    
+     
+        Leveraging SSD Ephemeral Disks in EC2 - Part 1 - Intro
+        
+     
+    
+   
+          
+  
+
+   Posted by  Hatim Abdalla 
+&amp;nbsp&amp;nbsp
+
+  
+ 
+  
+     AWS   EC2   Performance   Storage   cloud 
+  
+ 
+
+
+         
+ When you launch an instance in Amazon EC2, the instance type that you specify determ

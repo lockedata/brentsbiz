@@ -1,0 +1,26 @@
+sys.dm_db_index_physical_stats (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_db_index_physical_stats (Transact-SQL) 
+
+					 
+								 06/10/2016 
+							 23 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns size and fragmentation information for the data and indexes of the specified table or view in  SQL Server. For an index, one row is returned for each level of the B-tree in each partition. For a heap, one row is returned for the IN_ROW_DATA allocation unit of each partition. For large object (LOB) data, one row is returned for the LOB_DATA allocation unit of each partition. If row-overflow data exists in the table, one row is returned for the ROW_OVERFLOW_DATA allocation unit in each partition. Does not return i

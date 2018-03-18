@@ -1,0 +1,30 @@
+sp_whoisactive SQL Server Monitoring Stored Procedure Documentation 
+         sp_whoisactive Documentation 
+         Home  ...  Downloads 
+         
+        Want more tips and tricks? Sign up for the sp_whoisactive email list.
+         
+
+	 Email Address  
+	 
+		 
+		 
+	      
+     
+ 
+         
+        The sp_whoisactive documentation consists of the following articles. Please note that these articles were migrated from blog posts and are still being edited. Please excuse the occasional contextual oddity.
+        
+         01:  A Brief History of Activity Monitoring 
+         02:  Design Philosophy 
+         03:  The License 
+         04:  Installing sp_whoisactive 
+         05:  Less Data is More Data 
+         06:  Options 
+         07:  Default Columns 
+         08:  Active Request, Sleeping Session 
+         09:  Deciding What (Not) To See 
+         10:  Commands, Batches, and the Mysteries of Text 
+         11:  "Planning" for Success 
+         12:  The Almighty Transaction 
+        

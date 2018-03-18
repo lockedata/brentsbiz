@@ -1,0 +1,56 @@
+Sending Query Results to Others | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ March 28, 2012 
+ 
+	  Sending Query Results to Others 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 I think most of you have all been here before. You want to know the results of a query, but you have to get it from a colleague through email or some other proxy: 
+ 
+ So how do you usually do it? How do you ask someone to send you the results of a query? There’s a million ways to answer that question and I’ve discovered that none of them are perfect. Depending on the situation, different ways are better than others.  So let’s pick a situation and explore the best way to ask for those query results. 
+ The S

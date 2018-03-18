@@ -1,0 +1,26 @@
+SQL Server on Linux - External Memory Pressure - Centino Systems Blog 
+ 
+	 Centino Systems Blog 
+			 We make a system out of your systems. 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ Publications 
+ Talks 
+ Training 
+ About 
+ 
+		 
+			 
+	 
+		 
+
+			
+				
+	 SQL Server on Linux – External Memory Pressure 
+										 
+					 Leave a reply 				 
+					 
+			 In this blog post we’re going to explore how SQL Server on Linux responds to external memory pressure. On Windows based SQL Server systems we’ve become accustomed to the OS signaling to SQL Server that there’s a memory shortage. When signaled, SQL Server will kindly start shrinking it’s memory caches, including the buffer pool, to maintain overall system stability and usability. We’ll that story is a little different in SQL Server on Linux…let’s look and see how SQL Server on Linux responds to external memory pressure 
+ The Scenario 
+ Our SQL Server on Linux system is a CentOS 7.4 VM, running SQL Server 2017 (RTM). There is 12GB of phy

@@ -1,0 +1,50 @@
+Microsoft Ignite Announcements | James Serra's Blog 
+ 
+     
+    	 
+		 
+		 
+		 
+		     
+			 James Serra's Blog 
+		     
+		 
+		 Big Data and Data Warehousing 
+		 Skip to content 
+
+	     
+			 
+	    		 
+ Home Presentations 
+ Consulting 
+ About Me 
+ Contact Me 
+ 
+		 
+		
+	 
+     
+
+
+     
+ 
+
+        	     
+
+
+		 
+		     ←  Distributed Writes 
+		     What’s new in SQL Server 2017 presentation  → 
+		 
+
+		 
+		     	 Microsoft Ignite Announcements 
+ 
+
+			         
+ Posted on   September 28, 2017   by   James Serra 
+         
+
+			 
+			     Many product announcements were made this week at  Microsoft Ignite , and I wanted to give a quick overview of all the data platform related announcements: 
+ SQL Server 2017 on Linux, Windows, and Docker, generally available on October 2nd.   SQL Server 2017 is being released simultaneously for Windows and various flavors of Linux: Red Hat Enterprise Linux 7.3, SUSE Linux Enterprise Server 12, Ubuntu and Docker. The official Docker image is based on Ubuntu 16.04

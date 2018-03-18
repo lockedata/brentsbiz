@@ -1,0 +1,45 @@
+T-SQL Tuesday #86 – Rich Benner's SQL Server Blog 
+ Skip to main content 
+ 
+
+	 
+				 
+					 
+						 
+							 
+								 Toggle navigation 
+								 
+								 
+								 
+							 
+
+														 
+															 																		 Rich Benner's SQL Server Blog 
+																 																													 
+						 
+						 Home 
+ About Me 
+ Contact 
+ 					 
+				 
+			 
+		 
+
+		 
+								 
+
+		 
+						 
+				 
+
+	 
+		 
+		 T-SQL Tuesday #86 
+
+			 
+				   January 10, 2017 April 26, 2017     Rich Benner 
+								
+			 
+		 
+			 I always enjoy reading through Microsoft Connect items and seeing what people smarter than me are looking for out of SQL Server. Inspired by  this post  from Mr Brent Ozar himself, I thought I’d make a note about one of the more interesting ones and the advantages/disadvantages as I see them. 
+ A bit of background: I work for a software vendor that provides document information management systems (among other things). The servers that run this can be anything since Microsoft

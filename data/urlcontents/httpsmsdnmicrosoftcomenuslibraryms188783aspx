@@ -1,0 +1,29 @@
+CREATE INDEX (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE INDEX (Transact-SQL) 
+
+					 
+								 12/21/2017 
+							 41 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Creates a relational index on a table or view. Also called a rowstore index because it is either a clustered or nonclustered B-tree index. You can create a rowstore index before there is data in the table. Use a rowstore index to improve query performance, especially when the queries select from specific columns or require values to be sorted in a particular order.   
+ Note  SQL Data Warehouse and  Parallel Data Warehouse currently do not support Unique constraints. Any examples referencing Unique Constraints are only applic

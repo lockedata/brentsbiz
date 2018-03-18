@@ -1,0 +1,32 @@
+Amazon Redshift and Designing for Resilience - All Things Distributed 
+     
+         
+             
+                 
+                     
+                         All Things Distributed 
+                         Werner Vogels' weblog on building scalable and robust distributed systems. 
+                     
+                 
+             
+             
+                 
+                     
+                         
+		  					 
+		 
+	    	 
+				 Amazon Redshift and Designing for Resilience 
+	    		 
+					 
+	    				By Werner Vogels on 15 February 2013 12:01 AM
+					 
+					|  Permalink 
+					|  Comments ( View ) 
+				 
+		 
+		 
+	    	 
+				 
+
+ As you may remember from our announcement at re: Invent in November 2012, Amazon Redshift is a fast and powerful, fully managed, petabyte-scale data warehouse service that delivers fast query performance at less than one tenth the cost of most traditional data warehouse systems. I’ve been eagerly waiting for Amazon Redshift’s launch since we ann

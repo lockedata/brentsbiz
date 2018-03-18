@@ -1,0 +1,29 @@
+Think twice before using table variables | Matthew McGiffen DBA 
+ 
+	 Skip to content 
+	 
+						 Matthew McGiffen DBA 
+			 
+		 
+
+		 Menu 
+			 Home 
+ About 
+ Contact 
+ 		 
+		
+	 
+		 Think twice before using table variables 
+		 
+						 July 11, 2017 July 21, 2017  ~  Matthew McGiffen 					 
+	 
+		 T-SQL Tuesday 
+ 
+ For T-SQL Tuesday this month Raul Gonzalez has asked us all to blog about lessons learnt the hard way: 
+ http://www.sqldoubleg.com/2017/07/03/tsql2sday-92-lessons-learned-the-hard-way/ 
+ My biggest sins have been executing code against production environments when I thought I was pointing at my local machine: 
+ DELETE FROM  dbo.Blah ; 
+ DROP DATABASE  Blah ;
+ 
+ I’ve learned from those experiences – mostly that I prefer it when I don’t have access to production! 
+ As I’ve been doing a few posts about Statistics and Cardinality estimation recently I thought I’d cover instead the subject of Table Variables. This has maybe already been blogged to death, but it’s still one of the most

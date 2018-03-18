@@ -1,0 +1,56 @@
+sp_DataProfile – Random Thoughts of Jorriss 
+
+ 
+
+	 
+
+    			 Random Thoughts of Jorriss 
+														 Richie Rump on the merging of code and data. 
+							 
+				 
+                 Projects 
+ Presentations 
+ Podcast 
+ Community 
+ About 
+ Contact 
+ 
+             
+
+					 
+	 
+
+	 
+    
+
+ 
+	 
+ 
+
+ 
+ 
+
+	
+	
+		 
+	 
+    	
+				
+							 
+				 
+									
+					 sp_DataProfile 
+								 
+
+				 
+
+					
+					 sp_DataProfile is a tool that helps you investigate data in SQL Server quickly and efficiently. sp_DataProfile will help you view table structure, view the number of unique values and nulls in a table, and view the distribution of values in a column. 
+ Download sp_DataProfile 
+ You can  get sp_DataProfile on the download page ! 
+ Modes 
+ sp_DataProfile has five modes that help you understand your data 
+ Table Overview  (0 – Default) 
+This will give you an overview of the structure of a table. 
+ Column Detail  (1) 
+The column detail will give you the same information as the table overview but incl

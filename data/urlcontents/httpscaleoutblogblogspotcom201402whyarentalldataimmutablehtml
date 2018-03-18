@@ -1,0 +1,49 @@
+The Scale-Out Blog: Why Aren't All Data Immutable? 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The Scale-Out Blog
+ 
+ 
+ 
+ 
+ Creating robust applications using open source databases and commodity hardware 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Monday, February 17, 2014 
+
+           
+        
+ 
+ 
+ 
+ 
+ Why Aren't All Data Immutable? 
+ 
+ 
+ 
+Over the last few years there has been an increasing interest in immutable data management. This is a big change from the traditional update-in-place approach many database systems use today, where new values delete old values, which are then lost. With immutable data you record everything, generally using methods that append data from successive transactions rather than replacing them.  In some DBMS types you can access the older values, while in others the system transparently uses the old values to solve useful problems like implementing eventual consistency. 
+Baron Schwartz  recently pointed out  that it can be hard to g

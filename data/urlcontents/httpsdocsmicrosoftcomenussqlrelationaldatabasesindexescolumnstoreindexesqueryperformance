@@ -1,0 +1,29 @@
+Columnstore indexes - Query performance | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Columnstore indexes - Query performance 
+
+					 
+								 12/01/2017 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Recommendations for achieving the very fast query performance that columnstore indexes are designed to provide.     
+  Columnstore indexes can achieve up to 100x better performance on analytics and data warehousing workloads and up to 10x better data compression than traditional rowstore indexes. These recommendations help your queries achieve the very fast query performance that columnstore indexes are designed to provide. Further explanations about columnstore performance are at the end.     
+ Recommendations for improving query perfo

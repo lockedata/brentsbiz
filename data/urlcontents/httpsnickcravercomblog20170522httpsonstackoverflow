@@ -1,0 +1,39 @@
+ Nick Craver - HTTPS on Stack Overflow: The End of a Long Road 
+     
+         
+           
+          Nick Craver Software Imagineering 
+         
+         Home 
+             Blog 
+             Desktop 
+             
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+             
+         
+     
+       
+         
+           HTTPS on Stack Overflow: The End of a Long Road 
+             May 22, 2017 
+           Today, we deployed HTTPS by default on  Stack Overflow . 
+All traffic is now redirected to  https://  and Google links will change over the next few weeks. 
+The activation of this is quite literally flipping a switch (feature flag), but getting to that point has taken years of work.
+As of now, HTTPS is the default on all Q&amp;A websites. 
+
+ We’ve been ro

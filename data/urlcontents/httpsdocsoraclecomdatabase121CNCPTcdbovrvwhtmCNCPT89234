@@ -1,0 +1,37 @@
+Introduction to the Multitenant Architecture 
+ Go to main content 
+ 
+ 
+   27/34   
+ 
+ 17  Introduction to the Multitenant Architecture 
+ 
+ This chapter contains information specific to the  Oracle Multitenant  option. 
+ It includes the following topics: 
+ 
+ About the Multitenant Architecture 
+ 
+ 
+ Benefits of the Multitenant Architecture 
+ 
+ 
+ Path to Database Consolidation 
+ 
+ 
+ Multitenant Environment Documentation Roadmap 
+ 
+ 
+ 
+ 
+ About the Multitenant Architecture 
+ 
+ The  multitenant architecture  enables an Oracle database to function as a multitenant container database (CDB). 
+ A  CDB  includes zero, one, or many customer-created pluggable databases (PDBs). A  PDB  is a portable collection of schemas, schema objects, and nonschema objects that appears to an Oracle Net client as a  non-CDB . All Oracle databases before Oracle Database 12 c  were non-CDBs. 
+ 
+ Video: 
+ Oracle Database 12c: Introduction to a Multitenant Environment with Tom Kyte 
+ 
+ 
+ 
+ 
+ About Containers in a CDB

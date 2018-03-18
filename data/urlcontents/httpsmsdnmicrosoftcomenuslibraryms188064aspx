@@ -1,0 +1,27 @@
+CREATE RULE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE RULE (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates an object called a rule. When bound to a column or an alias data type, a rule specifies the acceptable values that can be inserted into that column.   
+ Important   This feature will be removed in a future version of Microsoft SQL Server. Avoid using this feature in new development work, and plan to modify applications that currently use this feature. We recommend that you use check constraints instead. Check constraints are created by using the CHECK keyword of CREATE TABLE or ALTER TABLE. For more information, see  Unique Constraints and Check Constraints .   
+ 
+  A column or

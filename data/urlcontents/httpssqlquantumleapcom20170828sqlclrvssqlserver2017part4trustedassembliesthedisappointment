@@ -1,0 +1,27 @@
+SQLCLR vs. SQL Server 2017, Part 4: “Trusted Assemblies” – The Disappointment – Sql Quantum Leap 
+ 
+	 Skip to content 
+		 
+							 										 Sql Quantum Leap 
+								 Stuff about computers and programming, mostly related to Microsoft SQL Server 
+					 
+
+		 
+			 ☰ Menu 
+				 About 
+ Articles 
+ Projects 
+ Contact 
+ 							 
+
+	 
+
+	 
+		 
+			 
+		 SQLCLR vs. SQL Server 2017, Part 4: “Trusted Assemblies” – The Disappointment 
+		 
+			 Posted on  August 28th, 2017 February 21st, 2018  by  Solomon Rutzky 		 
+	 
+		 Recap 
+ Before we look at “Trusted Assemblies”, let’s take a moment to review the context of the situation. First, the “Good”: SQL Server 2017 introduces many awesome features including Linux as a platform, adaptive query processing, interleaved execution for Multi-statement TVFs, and a lot more. Next, the “Bad”: SQL Server 2017 also comes with the first update to SQLCLR in a while, but the “clr strict security” sever-level configuration option is no cause for celebration. Fortunatel

@@ -1,0 +1,55 @@
+ Disabling ROW and PAGE Level Locks in SQL Server  |   
+		 
+	
+			 
+	
+				 
+	
+			 
+									
+			 HOME 
+					 OFFERINGS 
+					 ONLINE TRAININGS 
+					 ACADEMY 
+					 BLOG 
+					 QUICKIE 
+					 
+				 
+			
+			 
+			
+	 
+				
+		 
+	
+		 
+		
+	 
+	
+	 	
+	
+	
+	 
+
+
+	 
+	
+		 
+
+			
+				
+					 Disabling ROW and PAGE Level Locks in SQL Server 
+						
+						 
+					October 31, 2016 · 
+					Klaus Aschenbrenner ·
+											 
+							 5 Comments 						 
+									
+				 
+
+						
+						 
+							 (Be sure to checkout the FREE  SQLpassion Performance Tuning Training Plan  - you get a weekly email packed with all the essential knowledge you need to know about performance tuning on SQL Server.)
+ 
+ Today I want to talk about another very interesting topic in SQL Server: disabling Row and Page Level Locks in SQL Server. Every time that you rebuild an Index in SQL Server, you can use the  ALLOW_ROW_LOCKS  and  ALLOW_PAGE_LOCKS  options to specify that SQL Server shoul

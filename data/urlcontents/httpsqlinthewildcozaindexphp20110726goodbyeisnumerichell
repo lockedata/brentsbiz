@@ -1,0 +1,35 @@
+Goodbye IsNumeric hell | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Goodbye IsNumeric hell 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  T-SQL  &gt;  Goodbye IsNumeric hell     
+     
+   
+     
+       Author:  Gail 
+       26 July 2011 
+       8 Comments 
+     
+     
+       SQL Server ,  T-SQL 
+       
+      
+   
+     
+ A well overdue feature introduced in Denali CTP 3 is that of the Try_Parse and Try_Convert functions. These are great for dealing with the something that’s frustrated SQL developers for years – data type conversions. 
+ Let’s imagine a rather nasty case, a file with some values in it that once imported into SQL (as character data) looks something like this: 
+ 
+ Ewww… that’s a mess. Let’s see if we can identify which of the values can be converted into a numeric data type. The function prior to Denali for that was ISNUMERIC. 
+ SELECT ANumber, ISNUMERIC(ANumber)

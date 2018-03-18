@@ -1,0 +1,31 @@
+sys.dm_db_missing_index_details (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_db_missing_index_details (Transact-SQL) 
+
+					 
+								 03/20/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns detailed information about missing indexes, excluding spatial indexes.   
+  In  Azure SQL Database, dynamic management views cannot expose information that would impact database containment or expose information about other databases the user has access to. To avoid exposing this information, every row that contains data that doesn’t belong to the connected tenant is filtered out.   
+ Column name 
+ Data type 
+ Description 
+ index_handle 
+ int 
+ Identifies a particular missing index. The identifier is unique across the server.  index_handl

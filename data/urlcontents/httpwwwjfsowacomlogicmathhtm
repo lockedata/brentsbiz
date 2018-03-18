@@ -1,0 +1,34 @@
+Mathematical Background 
+ 
+ Mathematical Background 
+ 
+ by John F. Sowa 
+ 
+ 
+This web page is a revised and extended version of Appendix A
+from the book  Conceptual Structures  by John F. Sowa.
+It presents a brief summary of the following topics for students
+and general readers of that book and related books such as
+ Knowledge Representation 
+and books on logic, linguistics, and computer science.
+ 
+ Sets, Bags, and Sequences 
+ Functions 
+ Lambda Calculus 
+ Graphs 
+ Relations 
+ Representing Relations by Graphs 
+ Lattices 
+ Propositional Logic 
+ Predicate Logic 
+ Axioms and Proofs 
+ Formal Grammars 
+ Game Graphs 
+ Model Theory 
+ References 
+ 
+Note:  Special symbols in this file that are outside the Latin-1 character
+set (ISO 8859-1) are represented by a .gif image for each character.
+The alt tag for each image gives the name of the character.  Students
+who are just learning the symbols can move the mouse to any symbol
+to get a brief reminder of its name.

@@ -1,0 +1,20 @@
+Dietrich Featherston 
+     
+       
+         Dietrich Featherston 
+         [  contact  |  art portfolio  |  github  |  twitter  |  vimeo  ] 
+       
+       
+         
+ Functional Specifications for Infrastructure Engineers 
+ 28 Jan 2013 
+ Intro 
+ If you plan on writing some software, this is for you. If you are planning on writing software in a distributed system—doubly so. The following axioms have been helpful in guiding my engineering efforts in the past. I’ll refer to them a few times here. 
+ 
+ Axiom #1: A service isn’t “fully designed” until it is in production and is fast enough for your needs. 
+ 
+ And another. 
+ 
+ Axiom #2: Systems are more likely to break at the interfaces than anywhere else. 
+ 
+ “Interface” has a broad definition here and can refer to anything from your use of third party libraries to dependence on a service running in another address space. The idea here is that isolated codebases are easier to reason about and tend to be better behaved than their aggregate 

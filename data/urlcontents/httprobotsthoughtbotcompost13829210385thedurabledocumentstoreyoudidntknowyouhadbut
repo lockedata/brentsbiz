@@ -1,0 +1,46 @@
+The Durable Document Store You Didn't Know You Had, But Did 
+ Skip to main content 
+ Blog home 
+ All Topics 
+ Design 
+ Web 
+ iOS 
+ Android 
+ Search 
+ 
+ 
+The Durable Document Store You Didn't Know You Had, But Did
+ 
+ 
+ 
+ Harold Giménez 
+ 
+ 
+December 6, 2011
+ updated on 
+October 6, 2015
+ 
+ web 
+ 
+ 
+ postgres 
+ 
+ 
+
+ 
+ As it turns out, PostgreSQL has a number of ways of storing loosely structured
+data — documents — in a column on a table. 
+
+ [hstore](http://www.postgresql.org/docs/current/static/hstore.html)  is a
+data type available as a contrib package that allows you to store key/value
+structures just like a dictionary or hash. 
+ You can store data in  JSON  format on a  text  field, and then use
+ PLV8  to  JSON.parse()  it  right
+in the database . 
+ There is a native  xml  data type, along with a few interesting query
+functions that allow you to extract and operate on data that sits deep in an
+ XML  structure. 
+ XML Storage is the topic of this post. 
+
+ The  XML  data type has been
+Pos

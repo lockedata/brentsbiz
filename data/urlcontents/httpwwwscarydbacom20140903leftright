@@ -1,0 +1,30 @@
+Left or Right? - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Left or Right? 		 Home  /  SQL Server 2005  /  Left or Right? 	 
+ 
+	 
+		 
+		 
+			 03 Sep 2014  by  Grant Fritchey  12 Comments 		 
+		 No, this is not about politics. It’s about your WHERE clause… and your JOIN criteria… and your HAVING clause. It’s about a canard that still makes the rounds occasionally. Please, help me put this statement to sleep for once and all: 
+ A function on the left side of the equals sign can lead to performance problems 
+ Well, you know, it’s sort of true. But then, a function on the right side of the equals sign can also lead to performance problems. In short, it’s not the placement of the function that causes issues, it’s the function that causes issues. Let’s take a look at a really simple example: 
+
+		 

@@ -1,0 +1,19 @@
+Creating a “Flat File” Shared Database with Amazon S3 and Node.js – Richard Seroter's Architecture Musings 
+		 
+							 Richard Seroter's Architecture Musings 
+						 
+												 
+							Blog Featuring Code, Thoughts, and Experiences with Software and Services						 
+											 
+	 
+				 Home About 
+ My Pluralsight Courses 
+ Downloads 
+ Contact Me 
+ 					 
+ Home   ›   AWS   ›   Creating a “Flat File” Shared Database with Amazon S3 and Node.js 
+		Creating a “Flat File” Shared Database with Amazon S3 and Node.js 	 
+	 
+ By  Richard Seroter   on   May 6, 2013 	•  (  3  ) 
+ 
+	 In my latest Pluralsight video training course –  Patterns of Cloud Integration  – I addressed application and data integration scenarios that involve cloud endpoints. In the “shared database” module of the course, I discussed integration options where parties relied on a common (cloud) data repository. One of my solutions was inspired by Amazon CTO  Werner Vogels  who briefly discussed this scenario during his  key

@@ -1,0 +1,168 @@
+PostgreSQL: Documentation: 9.1: CREATE TABLE 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL 9.1 
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.3 
+		
+	
+
+	/
+	
+		
+		 9.4 
+		
+	
+
+	/
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ |  Unsupported versions:
+
+	
+	
+	 7.1 
+	
+
+	/
+	
+	 7.2 
+	
+
+	/
+	
+	 7.3 
+	
+
+	/
+	
+	 7.4 
+	
+
+	/
+	
+	 8.0 
+	
+
+	/
+	
+	 8.1 
+	
+
+	/
+	
+	 8.2 
+	
+
+	/
+	
+	 8.3 
+	
+
+	/
+	
+	 8.4 
+	
+
+	/
+	
+	 9.0 
+	
+
+	/
+	
+	 9.1 
+	
+
+	/
+	
+	 9.2 
+	
+
+
+ 
+ 
+
+ 
+ 
+   PostgreSQL 9.1.24 Documentation 
+     Prev 
+
+       Up 
+
+       
+
+       Next 
+     
+
+ CREATE
+TABLE 
+
+ 
+   
+
+   Name CREATE TABLE -- define a new table
+ 
+
+ 
+   
+
+   Synopsis 
+   
+CREATE [ [ GLOBAL | LOCAL ] { TEMPORARY | TEMP } | UNLOGGED ] TABLE [ IF NOT EXISTS ]  table_name  ( [
+  {  column_name   data_type  [ COLLATE  collation  ] [  column_constraint  [ ... ] ]
+    |  table_constraint 
+    | LIKE  parent

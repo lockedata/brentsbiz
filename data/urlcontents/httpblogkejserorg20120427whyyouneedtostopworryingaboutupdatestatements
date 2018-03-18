@@ -1,0 +1,53 @@
+Why You Need to Stop Worrying about UPDATE Statements - Fighting Bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Why You Need to Stop Worrying about UPDATE Statements 
+ 
+   2012-04-27 
+   Data Modeling   	
+   5 Comments   Data Warehouse ,  FusionIO ,  Keys ,  Patterns ,  Performance ,  Relational ,  SQL Server 
+ There seems to be a myth perpetuated out there in the database community that UPDATE statements are somehow “bad” and should be avoided in data warehouses. 
+ Let us have a look at the facts for a moment and weigh up if this myth has any merit. 
+ 
+ Transaction Logged Data 
+ In traditional, relational, ACID property, rows stored in pag

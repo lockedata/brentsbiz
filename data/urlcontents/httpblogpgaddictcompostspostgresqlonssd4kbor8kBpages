@@ -1,0 +1,53 @@
+PostgreSQL on SSD - 4kB or 8kB pages? | PostgreSQL Addict 
+
+ 
+
+ 
+ 
+ Toggle navigation 
+ 
+ 
+ 
+ 
+ PostgreSQL Addict 
+ 
+
+ 
+ 
+ About me 
+ 
+ 
+  GitHub 
+ 
+ 
+  Google+ 
+ 
+ 
+  Twitter 
+ 
+ 
+  Flickr 
+ 
+ 
+  RSS 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ PostgreSQL on SSD - 4kB or 8kB pages? 
+ 
+  2015/11/16 by  Tomas Vondra 
+ 
+
+ Tweet 
+
+ 
+ 
+ 
+ As you may be aware, PostgreSQL splits data files into 8kB pages by default. It's possible to use different page sizes (up to 32kB), but that requires compiling custom packages so almost no one does that. It's quite rare to come across an installation using different page size at a customer, for example. 
+ Why 8kB data pages and not a different size? Clearly, smaller or larger pages might be more efficient in some cases, and indeed some other databases use different page sizes. For example InnoDB uses 16KB pages by default, and some databases even allow a mix of page sizes. So there seems to be a gain in using different page sizes, otherwise engineers working on those products would

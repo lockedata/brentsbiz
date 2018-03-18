@@ -1,0 +1,50 @@
+Automatically guessing foreign key constraints | sqlsunday.com 
+ 
+
+	 
+			 
+				 
+					 sqlsunday.com 
+					 T-SQL programming, useful tips and tutorials for the MS SQL Server developer. 
+				 
+			 
+		 
+	 Menu 
+		 Skip to content 
+
+		 About sqlsunday.com 
+ Structured Concepts 
+ Development 
+	 Performance 
+	 Training 
+	 Master data tool 
+	 File parser API 
+	 Datawarehouse-as-a-service 🇸🇪 
+ 
+ Slack app 
+ Presentations 
+ Downloads 
+ Checklists 
+ Installing SQL Server 2014 
+	 Installing SQL Server 2016 
+	 Installing SQL Server 2017 
+	 Links and utilities 
+ 
+ 		 
+			 Search 
+		 
+		 
+			 
+				 
+					 Search for: 
+					 
+				 		 
+	 
+
+	 
+		 Automatically guessing foreign key constraints 				 
+			 2017-04-10 2017-04-10  /  Daniel Hutmacher 					 
+	 
+		 With good naming and datatyping conventions, an automated script can help you with the process of creating foreign key constraints across your database, or actually,  suggest  table relations where you’ve forgotten to implement them. 
+ 
+ However, 

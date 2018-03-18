@@ -1,0 +1,57 @@
+Uniquifier is a rather unique word isn’t it? | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Uniquifier is a rather unique word isn’t it? 
+       				 8 
+		         September 18, 2017  by Kenneth Fisher 
+
+		 
+			 tl;dr;  The uniquifier is used to make a non-unique key in a clustered index unique. 
+ Uniquifier  is a rather funny name, and yet it’s very descriptive. If there is a key that  must  be made unique then SQL server will add a uniquifier to, well, make it unique.   
+ Now, why would you want to do that?   
+ Well, to start with, you need to think about how non-clustered indexes (NCIs) and clustered ind

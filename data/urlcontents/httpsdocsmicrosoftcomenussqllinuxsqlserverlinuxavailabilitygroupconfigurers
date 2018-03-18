@@ -1,0 +1,28 @@
+Configure a SQL Server Availability Group for read-scale on Linux | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Configure a SQL Server Availability Group for read-scale on Linux 
+
+					 
+								 02/14/2018 
+							 10 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  You can configure a SQL Server Always On Availability Group (AG) for read-scale workloads on Linux. There are two types of architectures for AGs. A architecture for high availability uses a cluster manager to provide improved business continuity. This architecture also can include read-scale replicas. To create the high-availability architecture, see  Configure SQL Server Always On Availability Group for high availability on Linux . The other architecture sup

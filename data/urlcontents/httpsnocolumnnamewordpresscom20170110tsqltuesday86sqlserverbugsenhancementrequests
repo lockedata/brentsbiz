@@ -1,0 +1,44 @@
+T-SQL Tuesday #86: SQL Server Bugs &amp; Enhancement Requests – No Column Name 
+ 
+	 
+		 Skip to content 
+
+		 
+				 
+					
+											 No Column Name 
+											 My learnings and thoughts on SQL Server and PowerShell 
+									 
+
+									 Menu 
+
+					 
+													 About Me: 
+ Twitter: 
+	 DBA.stackexchange 
+ 
+ Community Scripts 
+ T-SQL Tuesday 
+ SQL Server 
+ PowerShell 
+ 							 Twitter 
+ 							 
+							 
+
+					 
+
+ 
+	 T-SQL Tuesday #86: SQL Server Bugs &amp; Enhancement Requests 	 
+				 The Good, the Bad, and the Bug-ly. 
+			 
+		
+	
+	 
+		 
+
+	
+	 
+		 The Good, the Bad, and the Bug-ly. 
+ This month’s T-SQL Tuesday  is brought to us by Brent Ozar (  work  |  personal  |  tweets  ) and has to do with SQL Server Bugs and Enhancement requests on  Microsoft Connect . 
+ Now the reason that this is the topic of this month’s T-SQL Tuesday is nicely spelled out by the host himself: 
+ Now, more than ever, Microsoft has started to respond to Connect requests and get ’em fixed not just in upcoming 

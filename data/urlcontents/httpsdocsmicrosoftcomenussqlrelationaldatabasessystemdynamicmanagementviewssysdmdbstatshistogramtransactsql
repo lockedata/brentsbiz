@@ -1,0 +1,33 @@
+sys.dm_db_stats_histogram (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_db_stats_histogram (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Returns the statistics histogram for the specified database object (table or indexed view) in the current  SQL Server database. Similar to  DBCC SHOW_STATISTICS WITH HISTOGRAM . 
+ Note This DMF is available starting with  SQL Server 2016 SP1 CU2 
+ 
+ Syntax 
+ sys.dm_db_stats_histogram (object_id, stats_id)  
+ Arguments 
+   object_id  Is the ID of the object in the current database for which properties of one of its statistics is requested.  object_id  is  int .   
+   stats_id  Is the ID of statistics for the specified  object_id . 

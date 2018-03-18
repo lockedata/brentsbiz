@@ -1,0 +1,67 @@
+ThatJeffSmith |  
+
+  
+   
+
+  
+  
+   
+     
+       
+        
+ ThatJeffSmith 
+ 
+  ThatJeffSmith        
+     
+   
+
+   
+     
+       
+         
+           
+ 
+   
+   Navigation 
+ 
+
+ SQL Developer 
+ ORDS 
+ Data Modeling 
+ Videos 
+ About Me 
+ Ask A Question 
+ 
+   SQL Developer 
+ ORDS 
+ Data Modeling 
+ Videos 
+ About Me 
+ Ask A Question 
+ 
+
+         
+       
+     
+   
+
+    
+   Optimizing Your Oracle Database Experience 
+     Mostly SQL Developer Tips &amp; Tricks, Mostly 
+   
+     
+
+      
+
+            
+ 
+       
+   
+    
+ 
+     What Happens if I REST Enable a table with no Primary Key in ORDS? 
+   
+      thatjeffsmith  March 5, 2018  ORDS  0 Comments 
+
+
+   When you AUTO-REST enable table in ORDS, we publish a full API for you: We auto find your Primary Key Column and use that to address particular rows (items) in your table (collection.) But..what happens if you don’t have a primary key? CREATE TABLE no_keys (letter CHAR(1), letters VARCHAR2(25), numbers INTEGER);   INSERT INTO no_keys VALUE

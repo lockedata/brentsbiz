@@ -1,0 +1,30 @@
+Grant Fritchey - Intimidating Databases and Code 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+	 
+		 
+		 05 Mar 2018  by  Grant Fritchey  4 Comments 	 
+	
+
+	 
+		        
+		 Every Single Execution Plan is an Estimated Plan 		 
+             SQL Server 2005 ,  SQL Server 2008 ,  SQL Server 2012 ,  SQL Server 2014 ,  SQL Server 2016 ,  SQL Server 2017 		 
+        
+		 
+			All the execution plans are estimated plans. All of them. There fundamentally isn't any such thing as an "Actual" plan. Where Do You Get Execution Plans? There are a lot of sources for execution plans. You can capture them using extended events (or, if you must, trace). You can capture them through the Management Studio gui. You can also capture them from the SQL Operations Studio gui. You can query the cache through the DMVs and pull them in th

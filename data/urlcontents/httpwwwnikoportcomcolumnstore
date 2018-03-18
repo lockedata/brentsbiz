@@ -1,0 +1,44 @@
+Columnstore – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore    			 
+  			 
+    			 I am deeply fascinated by the Columnstore Indexes, and I have open some Connect Items to suggest their important improvements: 
+–  Implement Batch Mode Support for Row Store 
+–  Multi-threaded rebuilds of Clustered Columnstore Indexes break the sequence of pre-sorted segment ordering (Order Clustering) 
+–  Columnstore Segments Maintenance – Remove &amp; Merge Implement Computed Columns for Clustered Columnstore Indexes 
+ Scripts Library: 
+I am publishing  CSIL – Columnstore Indexes Script Library , with the first release targeting the 1st of September 2015. Sign up

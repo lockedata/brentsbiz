@@ -1,0 +1,53 @@
+Columnstore – Columnstore Indexes &amp; Batch Execution Mode 
+ 
+	 Skip to content 
+
+	 
+			 
+				 Menu 
+					 About Me 
+ F.A.Q. 
+ Resources 
+ Scripts Library 
+ The Book 
+ The Training 
+ 
+				 
+										 
+					     
+						 
+					 
+				 
+			 
+		 
+
+		 
+			 
+									 Columnstore 
+									 Columnstore Indexes &amp; Batch Execution Mode 
+											 
+		 
+
+	 
+			 
+    		 
+	
+	 
+		 
+
+	 
+		 
+ Columnstore Indexes – part 92 (“Lobs”) 		 
+			 BI Niko Neugebauer November 27, 2016 		 
+			 
+		 Continuation from the previous 91 parts, the whole series can be found at http://www.nikoport.com/columnstore/. Since the very first version of the Columnstore Indexes in 2012, there has been no support for LOB (large objects binaries). The reason behind not focusing… 
+	 
+
+	 
+		 Continue Reading 
+	 
+
+	 Columnstore Indexes – part 91 (“SQL Server 2016 Standard Edition Limitations”) 		 
+			 BI Niko Neugebauer November 20, 2016 		 
+			 
+		 Continuation from the previous 90 parts, the whole series can be found at ht

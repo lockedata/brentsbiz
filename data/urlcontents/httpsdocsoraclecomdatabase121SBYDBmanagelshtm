@@ -1,0 +1,43 @@
+Managing a Logical Standby Database 
+ Go to main content 
+ 
+ 
+   17/35   
+ 
+ 11  Managing a Logical Standby Database 
+ 
+ See the following topics for information about how to manage a logical standby database: 
+ 
+ Overview of the SQL Apply Architecture 
+ 
+ 
+ Controlling User Access to Tables in a Logical Standby Database 
+ 
+ 
+ Views Related to Managing and Monitoring a Logical Standby Database 
+ 
+ 
+ Monitoring a Logical Standby Database 
+ 
+ 
+ Customizing a Logical Standby Database 
+ 
+ 
+ Managing Specific Workloads In the Context of a Logical Standby Database 
+ 
+ 
+ Using Extended Datatype Support During Replication 
+ 
+ 
+ Tuning a Logical Standby Database 
+ 
+ 
+ Backup and Recovery in the Context of a Logical Standby Database 
+ 
+ 
+ 
+ 
+ 11.1  Overview of the SQL Apply Architecture 
+ 
+ SQL Apply uses a collection of background processes to apply changes from the primary database to the logical standby database. 
+ Figure 11-1  shows the flow of information and the role that each process perf

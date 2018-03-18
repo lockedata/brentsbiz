@@ -1,0 +1,21 @@
+SQL Server – Find Tables With Similar Table Structure – SQL Jana 
+ 
+	 Skip to content 
+
+	 
+			
+								 SQL Jana 
+									 Jana's ramblings on Oracle, SQL Server, PowerShell and technology 
+						 
+
+		
+			 
+	 
+		 SQL Server – Find Tables With Similar Table Structure 
+			 
+		 Today, as I was working with a table and I needed to find the “archived” version of the table. Typically, the archive table would have a name with “Archive” suffixed to the actual table name. Since I could not find the archive table by just matching on the table name, I had to improvise. 
+ I figured that other tables that are structurally similar to my table are likely candidates to be the Archive version of my table. By structurally similar, I mean that they have a lot of matching columns names. 
+ This is how I decided to go about finding the archive version of the table: 
+ Find the tables whose name is not the same as the current table 
+ Get the count of matching column names 
+ The ones with the highest column n

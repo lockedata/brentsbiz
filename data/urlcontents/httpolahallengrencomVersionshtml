@@ -1,0 +1,54 @@
+SQL Server Maintenance Solution Version History 
+ SQL Server Maintenance Solution 
+ 
+
+ 
+
+ Menu 
+ Home 
+ SQL Server Backup 
+ SQL Server Integrity Check 
+ SQL Server Index and Statistics Maintenance 
+ Downloads 
+ Frequently Asked Questions 
+ Version History 
+ Organizations that Use the Solution 
+ Sign Up for the Newsletter 
+ License 
+ Contact 
+ 
+ Awards 
+ 
+ 
+ 
+   
+
+ 
+ Sponsors 
+
+ 
+
+ 
+   
+
+   
+
+ 
+
+ Version History 
+
+ 07 Oct 2016 
+
+ Fixed a bug in DatabaseIntegrityCheck and IndexOptimize when running on Azure SQL Database. 
+
+ 06 Oct 2016 
+
+ Fixed a collation conflict that occurred when creating the objects in a database with a collation other than the one in tempdb. 
+
+ 02 Oct 2016 
+
+ Added support for selecting availability groups in DatabaseBackup, DatabaseIntegrityCheck, and IndexOptimize, using a new parameter, @AvailabilityGroups. 
+
+ Added a new keyword, AVAILABILITY_GROUP_DATABASES in the @Databases parameter in DatabaseBackup, DatabaseIntegrityCheck, and IndexOptimize. 
+
+ Added sup

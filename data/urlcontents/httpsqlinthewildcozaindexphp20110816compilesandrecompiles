@@ -1,0 +1,33 @@
+Compiles and recompiles | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Compiles and recompiles 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  Execution Plans  &gt;  Compiles and recompiles     
+     
+   
+     
+       Author:  Gail 
+       16 August 2011 
+       4 Comments 
+     
+     
+       Execution Plans ,  SQL Server ,  Syndication 
+       
+      
+   
+     
+ I want to spend some time over the next few months looking at query compilation and the plan cache, and there’s a couple concepts that I want to get cleared up beforehand. The first of those is around two terms that are often used interchangeably, compile and recompile. 
+ Compile 
+ A compile occurs when a query is given to the query optimiser and, when it does a lookup into the plan cache, no matching plan is found. The optimism must then compile the query, generating an execution plan, must add that plan to the plan cac

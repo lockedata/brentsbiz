@@ -1,0 +1,33 @@
+Use the Visual Studio Code mssql extension for SQL Server | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Use Visual Studio Code to create and run Transact-SQL scripts for SQL Server 
+
+					 
+								 03/17/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  This article shows how to use the  mssql  extension for Visual Studio Code (VS Code) to develop SQL Server databases. 
+ Visual Studio Code is a graphical code editor for Linux, macOS, and Windows that supports extensions. The  mssql  extension for VS Code  enables you to connect to SQL Server, query with Transact-SQL (T-SQL), and view the results. 
+ Install VS Code 
+ If you have not already installed VS Code,  Download and install VS Code  on your machine. 
+ 
+ Start VS Code. 
+ 
+ Install 

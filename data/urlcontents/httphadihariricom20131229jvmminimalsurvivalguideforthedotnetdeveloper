@@ -1,0 +1,69 @@
+JVM Minimal Survival Guide – Hadi Hariri 
+
+ 
+
+ 
+	 
+		 Hadi Hariri 
+	 
+	 
+		 About 
+		        
+				 Posts 
+		        
+				 Talks 
+		        
+				 Projects 
+		        
+				 Courses 
+		        
+		     
+ 
+
+
+
+ 
+   
+    
+
+  Twitter 
+
+  LinkedIn 
+  Github 
+
+
+ JetBrains 
+
+   
+   
+      
+         JVM Minimal Survival Guide 
+      
+     
+     
+       Last updated:  07th January, 2018 
+
+ Why this Guide      Work in progress 
+       Target Audience 
+     
+   The Basics      Java the language. Java the ecosystem. Java the JVM. 
+       A Multi-language platform 
+       JVM Bytecode 
+       Cross Platform 
+     
+   JVM Implementations, Editions and Versions      Editions and Versions          Editions 
+           Versions 
+         
+     
+   Installing Java 
+   Application Output a.k.a Artifacts      JAR Files 
+       WAR Files 
+     
+   Running Java Applications      Classpath 
+     
+   Build Tools      Ant 
+       Maven 
+       Gradle 
+       IntelliJ IDEA Build 
+     
+   Frameworks and Libraries  

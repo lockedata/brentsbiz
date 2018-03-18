@@ -1,0 +1,57 @@
+ The pain of Real-Time Data Analysis in SQL Server 2016  |   
+		 
+	
+			 
+	
+				 
+	
+			 
+									
+			 HOME 
+					 OFFERINGS 
+					 ONLINE TRAININGS 
+					 ACADEMY 
+					 BLOG 
+					 QUICKIE 
+					 
+				 
+			
+			 
+			
+	 
+				
+		 
+	
+		 
+		
+	 
+	
+	 	
+	
+	
+	 
+
+
+	 
+	
+		 
+
+			
+				
+					 The pain of Real-Time Data Analysis in SQL Server 2016 
+						
+						 
+					February 15, 2016 · 
+					Klaus Aschenbrenner ·
+											 
+							 8 Comments 						 
+									
+				 
+
+						
+						 
+							
+		
+		 (Be sure to checkout the FREE  SQLpassion Performance Tuning Training Plan  - you get a weekly email packed with all the essential knowledge you need to know about performance tuning on SQL Server.)
+ 
+ SQL Server 2016 provides you with a lot of new features and functionality around the ColumnStore index that was introduced back with SQL Server 2012. One of these new features is the ability to create a  Filtered Non-Clustered ColumnStore Index  on to

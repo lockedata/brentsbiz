@@ -1,0 +1,56 @@
+Insights into "Timeout Expired" | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ November 6, 2011 
+ 
+	  Insights into “Timeout Expired” 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  commandtimeout ,  sqlcommand ,  tabular data stream ,  tds ,  timeout  —  Michael J. Swart @ 8:53 pm  
+
+	 
+		 Timeout Expired. The timeout period elapsed prior to the completion 
+of the operation or the server is not responding 
+ Many of you readers will recognize this error message. This error message is telling you that a query took too long to execute and caused this exception to be thrown. And unless you’ve changed the  CommandTimeout  property on your  SqlCommand  to a different value, then “too long” means longer than 30 seconds. 
+ Logically, this 

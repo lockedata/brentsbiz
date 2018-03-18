@@ -1,0 +1,43 @@
+SQL Server Database Mirroring Tips and Tricks, Part 2 | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Microsoft Releases SQL Server 2008 SP3 Cumulative Update 4 
+					 Microsoft DreamSpark Program  → 
+				 
+
+				 
+											 SQL Server Database Mirroring Tips and Tricks, Part 2 					
+					 
+						 Posted on   March 21, 2012 						 by   Glenn Berry   					 
+
+					 
+						 If you ever find yourself having to setup database mirroring between different, untrusted Windows Domains, one of the most common ways to do it involves creating certificates on each instance, creating logins and users for those certificates, and copying the certificates back and forth between the instances. I will have a future post that walks you thr

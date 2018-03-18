@@ -1,0 +1,27 @@
+I can make your logs clap… | Andrea Allred presents RoyalSQL 
+ 
+	 
+		 
+					 
+				 Andrea Allred presents RoyalSQL 
+						 Bringing happy endings to all your data stories. 
+					 
+					
+ 
+	 
+
+	
+		 
+						
+							 May 31, 2016    by    andreaallred 					 
+		
+						 
+							I can make your logs clap…					 
+			 
+		 The SQL error log has this nasty habit of getting big when I am not looking.  There are only two ways to keep is at a normal size. One is to stop and start your SQL instance (Reboot, Restart, Stop and Start) and the other is to run this handy little script: 
+ 
+
+EXEC sp_cycle_errorlog;
+
+ 
+ This will end the current log and start a new one.  Why does this matter?  The SQL Error log holds information about your backups, failed logins, SQL errors, edition information and other fun stuff.  The bigger it is, the longer it will take SQL to load it into memory so that you can read it.  Usually when you need to read it, you are in trouble so the slower it is, the more stressed you w

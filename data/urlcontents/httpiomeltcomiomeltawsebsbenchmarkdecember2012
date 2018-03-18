@@ -1,0 +1,20 @@
+IOMelt Provisioned IOPS EBS Benchmark Results 
+ IOMelt Provisioned IOPS EBS Benchmark Results - December 2012 
+ Rodrigo Campos -  camposr@gmail.com  -  @xinu 
+ 
+ 
+This is a set of benchmark results for AWS Provisioned IOPS EBS in the US East Region (North Virginia).
+ 
+
+ 
+ Direct link to the  results Direct link to the  Raw data and R script to generate charts Please note that this R script is different from the one used for the August benchmark. It was modified in order to support the two new columns in the CSV output of IOMelt. 
+ 
+ 
+ 
+Introduction: 
+
+ 
+Since I have published the  previous EBS benchmark  some people have asked me to do the same tests using provisioned IOPS EBS volumes.
+ 
+ 
+These tests were performed in the AWS US East Region (North Virginia) using a m1.large instance. The volume size was the minimum necessary in order to create 100, 1000 and 2000 provisioned IOPS EBS volumes. The volume size was always the minimum necessary in order to configure the desired IOPS capaci

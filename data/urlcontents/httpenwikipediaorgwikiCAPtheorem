@@ -1,0 +1,19 @@
+CAP theorem - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ CAP theorem 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 In  theoretical computer science , the  CAP theorem , also named  Brewer's theorem  after computer scientist  Eric Brewer , states that it is impossible for a  distributed data store  to simultaneously provide more than two out of the following three guarantees: [1] [2] [3] 
+ Consistency 
+ Availability 
+ Partition tolerance 
+ Every read receives the most recent write or an error 
+ Every request receives a (non-error) response – without guarantee that it contains the most recent write 
+ The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes 
+ In other words, the CAP theorem states that in the presence of a network partition, one has to choose between consistency and availability. Note that consistency as defined in the CAP theorem is qu

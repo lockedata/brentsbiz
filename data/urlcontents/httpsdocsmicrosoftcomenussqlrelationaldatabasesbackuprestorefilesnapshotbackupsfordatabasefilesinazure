@@ -1,0 +1,31 @@
+File-Snapshot Backups for Database Files in Azure | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 File-Snapshot Backups for Database Files in Azure 
+
+					 
+								 05/23/2016 
+							 10 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     SQL Server File-snapshot backup uses Azure snapshots to provide nearly instantaneous backups and quicker restores for database files stored using the Azure Blob storage service. This capability enables you to simplify your backup and restore policies. For a live demo, see  Demo of Point in Time Restore . For more information on storing database files using the Azure Blog storage service, see  SQL Server Data Files in Microsoft Azure .   
+   
+   Download    
+ To download  SQL Server 2016, go to   Evaluation Center .   
+ 
+ Have an 

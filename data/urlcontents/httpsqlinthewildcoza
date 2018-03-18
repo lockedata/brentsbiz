@@ -1,0 +1,26 @@
+SQL in the Wild | A discussion on SQL Server 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+   
+     Latest Posts 
+       Homebuilt sequential columns 
+         
+           Author:  Gail 
+           27 February 2018 
+           0 Comments 
+         
+         
+           
+ I gave my introductory session on transactions at all three of the South African SQL Saturdays in 2016, as well as at SQL Saturday Oregon in October 2017, and something that came up in most of them was the ‘manual sequence’, the idea of using a column in a table to store a max value and using that in place of an identity column or sequence object. 
+ To be clear, I don’t think this is a good idea. The identity column works well if a sequential series of numbers are needed. If the number sequence needs to that spans tables, then the sequence object is a good replacement. 
+ But, there will always be some requirements that insist on gap-less sequences

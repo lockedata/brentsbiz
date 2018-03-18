@@ -1,0 +1,48 @@
+Database Engine Stored Procedures (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Database Engine Stored Procedures (Transact-SQL) 
+
+					 
+								 11/02/2015 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     SQL Server supports the following system stored procedures that are used for general maintenance of an instance of  SQL Server.   
+ 
+ 
+ sp_add_data_file_recover_suspect_db 
+ sp_help 
+ sp_add_log_file_recover_suspect_db 
+ sp_helpconstraint 
+ sp_addextendedproc 
+ sp_helpdb 
+ sp_addextendedproperty 
+ sp_helpdevice 
+ sp_addmessage 
+ sp_helpextendedproc 
+ sp_addtype 
+ sp_helpfile 
+ sp_addumpdevice 
+ sp_helpfilegroup 
+ sp_altermessage 
+ sp_helpindex 
+ sp_attach_db 
+ sp_helplanguage 
+ sp_attach_single_file_db 
+ sp_helpserver 
+ sp_autostats 
+ sp_h

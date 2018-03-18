@@ -1,0 +1,27 @@
+Backing Up a Database with Memory-Optimized Tables | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Backing Up a Database with Memory-Optimized Tables 
+
+					 
+								 03/20/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Memory-optimized tables are backed up as part of regular database backups. As for disk-based tables, the CHECKSUM of data and delta file pairs is validated as part of the database backup to detect storage corruption.   
+ Note  During a backup, if you detect a CHECKSUM error in one or more files in a memory-optimized filegroup, the backup operation fails. In that situation, you must restore your database from the last known good backup.   
+  If you don’t have a backup, you can export the data from memory-optimized tables and disk-based tables a

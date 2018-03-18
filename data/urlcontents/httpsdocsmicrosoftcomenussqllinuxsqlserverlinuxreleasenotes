@@ -1,0 +1,35 @@
+Release notes for SQL Server 2017 on Linux | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Release notes for SQL Server 2017 on Linux 
+
+					 
+								 02/20/2018 
+							 12 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  The following release notes apply to SQL Server 2017 running on Linux. This article is broken into sections for each release. The GA release has detailed supportability and known issues listed. Each Cumulative Update (CU) release has a link to a support article describing the CU changes as well as links to the Linux package downloads. 
+ Supported platforms 
+ Platform 
+ File System 
+ Installation Guide 
+ Red Hat Enterprise Linux 7.3 or 7.4 Workstation, Server, and Desktop 
+ XFS or EXT4 
+ Installation guid

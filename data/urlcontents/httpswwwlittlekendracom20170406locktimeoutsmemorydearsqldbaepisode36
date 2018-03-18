@@ -1,0 +1,39 @@
+Lock Timeouts &amp; Memory (Dear SQL DBA Episode 37) - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Lock Timeouts &amp; Memory (Dear SQL DBA Episode 37) 
+
+				 
+					 April 6, 2017 Kendra Little Dear SQL DBA ,  Locking 1  Comment 				 
+			 
+		 
+
+			 
+ The dev server got bogged down during a deployment and lock timeouts were everywhere. Was the perfmon counter way off about how much memory was being used just for locks? 
+ In this 19 minute episode… 
+ 00:33 What’s new @ SQL Workbooks: Down the Rabbit Hole 
+ 03:00 This week’s question about lock timeouts &amp; memory in SQL Server 
+ Subscribe to Dear SQL DBA on  YouTube , or check out the audio  podcast  to listen anywhere, anytime. 
+ Note: it does say Episode #36 at the beginning of the video, but this is really episode #37. So much for memory! 
+ 
+ Share! Twitter Facebook Email 
+ 
+	 Related 
+ 
+			 		 
+	 
+			 
+									 
+						 Previous Post 
+						 Reviving Healthy Work Habits: Toggl and Weekly Highlights 
+					

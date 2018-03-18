@@ -1,0 +1,17 @@
+How to share data between stored procedures 
+
+ How to Share Data between Stored Procedures 
+ An SQL text by  Erland Sommarskog , SQL Server
+   MVP.  Most recent update  2017-05-26. Copyright  applies to this text. See here for  font conventions  used in this article. 
+ Introduction  
+  This article tackles two related questions: 
+ How can I
+   use the result set from one stored procedure in another , also expressed
+      as  How can I
+   use the result set from a stored procedure in a SELECT statement? 
+    How can I pass  table data in a parameter from one stored procedure to
+      another?  
+ In this text I will discuss a number of possible solutions and point out their
+   advantages and drawbacks. Some methods apply only when you want to
+   access the output from a stored procedure, whereas other methods are good for the input scenario, and yet others are good for both input and output. In the case
+   you want to access a result set, most methods require you to rewri

@@ -1,0 +1,26 @@
+Configure the max worker threads Server Configuration Option | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Configure the max worker threads Server Configuration Option 
+
+					 
+								 11/23/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes how to configure the  max worker threads  server configuration option in  SQL Server by using  SQL Server Management Studio or  Transact-SQL. The  max worker threads  option configures the number of worker threads that are available to  SQL Server processes.  SQL Server uses the native thread services of the operating systems so that one or more threads support each network that  SQL Server supports simultaneously, another thread handles database checkpoints, and a pool of threads handles 

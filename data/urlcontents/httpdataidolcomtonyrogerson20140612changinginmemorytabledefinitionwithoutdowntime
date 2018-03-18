@@ -1,0 +1,78 @@
+  Changing In-Memory Table definition without down time 
+ 
+	
+	 
+	 
+
+				 
+		 
+        			
+			 
+			 Tony Rogerson Ramblings on Data 
+			 
+		
+			 
+											 My thoughts and experiences around my work and research with NoSQL, NewSQL, Relational, Big Data, GPGPU, Data Analytics; also the Microsoft Data Platform including Microsoft SQL Server 
+						 
+		
+			 About Me 
+ Hekaton (XTP) 
+ Presentations 
+ WebCasts 
+ 
+							 
+			  
+		
+			 
+			 
+		
+													 RSS 
+						
+			 
+			  
+
+							 
+	 
+			
+					 
+		 
+        
+		 
+
+	 
+	 
+
+	 
+    
+
+
+	 
+	 
+
+				 
+		 
+        				
+			
+ 
+		
+		 
+
+	 
+	
+					 June 12, 2014 
+		    
+		
+												 Changing In-Memory Table definition without down time   4 
+			 
+					    
+
+					  
+				 by  Tony Rogerson  • 
+				 Extreme Transaction Processing (XTP) ,  In-Memory Tables ,  SQL Server ,  Who Cares 
+				 
+		    
+		
+		 
+
+				
+			 One of the restrictions of a “memory optimised” table is that you cannot modify its definition once created. You may find that once your 

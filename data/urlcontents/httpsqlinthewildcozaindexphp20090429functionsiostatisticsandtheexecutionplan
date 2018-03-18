@@ -1,0 +1,32 @@
+Functions, IO statistics and the Execution plan | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Functions, IO statistics and the Execution plan 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  Performance  &gt;  Functions, IO statistics and the Execution plan     
+     
+   
+     
+       Author:  Gail 
+       29 April 2009 
+       15 Comments 
+     
+     
+       Performance ,  SQL Server ,  Syndication ,  T-SQL 
+       
+      
+   
+     
+ It’s no secret that I’m not overly fond of most user-defined functions. This isn’t just a pet hate, I have some good reasons for disliking them. All too often they’re performance bottlenecks, but that can be said about many things in SQL. The bigger problem is that they’re hidden performance bottlenecks that often go overlooked and ignored for too long. 
+ I’m going to start with this fairly simple scalar function, created in the AdventureWorks datab

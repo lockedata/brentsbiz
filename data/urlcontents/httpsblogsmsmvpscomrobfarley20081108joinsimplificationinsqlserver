@@ -1,0 +1,27 @@
+JOIN simplification in SQL Server – Rob Farley 
+ 
+		 
+		 ↓ Skip to Main Content 
+	 
+	 
+						 
+				 
+								 Rob Farley 
+								 …who now blogs at blogs.lobsterpot.com.au 
+				 
+	 
+
+		 
+			 Post navigation 
+
+	
+		 Previous Post:  A few changes… 		 Next Post:  Unique Indexes with GROUP BY 
+	
+	 JOIN simplification in SQL Server 
+
+		 
+			  By  robfarley 
+		 
+	 
+		 This is another of my tips/techniques that I demonstrated recently. It is not a new SQL Server 2008 feature – it works just fine in older versions – I demonstrated it running on SQL Server 2005 but using SQL Server 2008 Management Studio. [Note: It’s ended up appearing earlier than  another post  that I wrote on the plane. This one is  Tip #4 .] 
+ When you have a single-table query and then introduce a JOIN, there are a number of ways in which that JOIN impacts your query. I want to talk about four such JOIN effects that I’ve identified. Understanding these four effects will help you take advantage of the simplification I am ab

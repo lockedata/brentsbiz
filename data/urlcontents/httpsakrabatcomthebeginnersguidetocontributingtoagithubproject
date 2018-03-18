@@ -1,0 +1,32 @@
+The beginner’s guide to contributing to a GitHub project – Rob Allen's DevNotes 
+ 
+     
+         
+             Rob Allen's DevNotes 
+                                     Developing software in the Real World 
+                     
+         Home 
+ Hire me! 
+ Talks 
+ Slim 
+ ZF 
+ OpenWhisk 
+ Kitura Tutorial 
+ Archives 
+ About 
+ 
+ 
+
+ 
+
+
+     
+
+         
+
+                                                                 The beginner's guide to contributing to a GitHub project 
+                 This is a guide to contributing to an open source project that uses GitHub. It's mostly based on how I've seen  Zend Framework ,  Slim Framework  and  joind.in  operate. However, this is a general guide so check your project's README  for specifics. 
+ TL;DR 
+ Skip to the  summary . 
+ Step 1: Set up a working copy on your computer 
+ Firstly you need a local fork of the the project, so go ahead and press the "fork" button in GitHub. This will create a copy of the repository in your own GitHub account an

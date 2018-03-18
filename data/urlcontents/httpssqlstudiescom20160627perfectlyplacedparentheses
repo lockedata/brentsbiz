@@ -1,0 +1,58 @@
+Perfectly Placed Parentheses | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Perfectly Placed Parentheses 
+       				 14 
+		         June 27, 2016  by Kenneth Fisher 
+
+		 
+			 Like many other programming languages T-SQL uses parentheses  ()  for a number of tasks.  To help determine precedence, function calls etc.  Now it’s nothing like  LISP  but with enough in one statement it can still get confusing at times. 
+ The last page of any Lisp program 
+ Here is a fairly simple T-SQL Example 
+ 
+ Intellisense is telling us that something is wrong, but what? If you can tell just by looking more power to you. I per

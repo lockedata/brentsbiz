@@ -1,0 +1,21 @@
+A Visual Explanation of SQL Joins 
+ 
+ 
+ Coding Horror 
+ programming and human factors 
+ 
+ 
+ 
+ 
+ 
+ 11 Oct 2007 
+ A Visual Explanation of SQL Joins 
+ I thought Ligaya Turmelle's  post on SQL joins  was a great primer for novice developers. Since SQL joins  appear  to be set-based, the use of  Venn diagrams  to explain them seems, at first blush, to be a natural fit. However, like the commenters to her post, I found that the Venn diagrams didn't quite match the  SQL join syntax  reality in my testing. 
+ I love the concept, though, so let's see if we can make it work. Assume we have the following two tables.  Table A  is on the left, and  Table B  is on the right. We'll populate them with four records each. 
+ id name       id  name
+-- ----       --  ----
+1   Pirate      1   Rutabaga
+2  Monkey     2    Pirate 
+3   Ninja       3   Darth Vader
+4  Spaghetti  4    Ninja 
+ Let's join these tables by the name field in a few different ways and see if we can get a conceptual match to those nifty Ve

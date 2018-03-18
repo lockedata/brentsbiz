@@ -1,0 +1,32 @@
+sys.dm_exec_query_plan (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_exec_query_plan (Transact-SQL) 
+
+					 
+								 08/02/2016 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns the Showplan in XML format for the batch specified by the plan handle. The plan specified by the plan handle can either be cached or currently executing.   
+  The XML schema for the Showplan is published and available at  this Microsoft Web site . It is also available in the directory where  SQL Server is installed.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sys.dm_exec_query_plan ( plan_handle )  
+ Arguments 
+   plan_handle  Uniquely identifies a query plan for a batch that is cached or is currently executing.   
+   plan_handle  is  varbinary(64

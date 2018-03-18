@@ -1,0 +1,30 @@
+Goal: Only dbcc check new Full backups – The Tri Hard DBA 
+ 
+	 Skip to content 
+
+	 
+									 The Tri Hard DBA 
+			 Might not be the best, but I do Tri hard. 
+		 
+	 Menu 
+		 Home 
+ About 
+ Contact 
+ 	 
+	 
+		 DBA 
+					 Goal: Only dbcc check new Full backups 		
+		 
+			 August 16, 2016 August 17, 2016   TheTriHardDba 		 
+	 
+		 In my previous  post  I had the goal of taking my network backups and looking at all of the FULL backups and saving that info to a table then to restore it, run a dbcc checkdb on it, then drop the database. 
+ This time my goal is to only look at the newest FULL backups. 
+ I was successful in doing this just had to add a check to when I am inserting into my BackupFiles table. 
+ 
+ 
+	SELECT @counter = Count(*) FROM BackupFiles where FileNamePath = @BackupFile
+	If(@counter = 0)
+	Begin
+    --put backupfile into a table and then later work out which ones are log and full backups
+		INSERT INTO BackupFiles (FileNamePath, dbname) VALUES(@BackupFile, @BackupDirectory)
+		--pr

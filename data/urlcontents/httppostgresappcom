@@ -1,0 +1,34 @@
+Postgres.app – the easiest way to get started with PostgreSQL on the Mac 
+
+	 
+		 
+				 
+		  			 Postgres.app 
+		  			 The easiest way to get started with PostgreSQL on the Mac 
+				 
+				 Download 
+					 Documentation 
+					 
+						 Github  4074 Stars 
+					 
+				 en 
+		
+	
+		
+		
+		
+			 de 
+		
+	
+ 
+			 
+	 Postgres.app is a full-featured PostgreSQL installation packaged as a standard Mac app.
+It includes everything you need to get started:
+we’ve even included popular extensions like  PostGIS  for geo data and  plv8  for JavaScript. 
+
+ Postgres.app has a beautiful user interface and a convenient menu bar item.
+You never need to touch the command line to use it – but of course we do include all the necessary  command line tools  and header files for advanced users. 
+
+ Postgres.app updates automatically, so you get bugfixes as soon as possible. 
+
+ The current version requires macOS 10.10 or later and comes with the latest PostgreSQL versions (10.3, 9.6.8, and 9.5.12), but we also maintain  o

@@ -1,0 +1,26 @@
+How to Tune Indexes for a Stored Procedure - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 How to Tune Indexes for a Stored Procedure 
+
+				 
+					 November 29, 2016 Kendra Little Execution Plans ,  Indexes ,  Performance ,  Query Tuning 3  Comments 				 
+			 
+		 
+
+			 
+ You’ve got an important stored procedure that you think needs index help– but it runs in environment with lots of other queries. How do you focus in and discover exactly what indexes need tuning for that procedure? 
+ The best way to tune indexes in a stored procedure 
+ The best way is to run the stored procedure yourself to generate and save an “actual” execution plan, which contains the estimates SQL Server used when it generated the plan as well as actual rowcounts, actual memory granted, etc. It will also contain a green tooltip with a “missing index request” if SQL Server thinks an index would help. 
+ Tips on how to tune procedures with actual execution plans: 
+ If you execute the stored pr

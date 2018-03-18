@@ -1,0 +1,61 @@
+Write-Only permissions | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Write-Only permissions 
+       				 3 
+		         August 11, 2016  by Kenneth Fisher 
+
+		 
+			 Yep, that’s right, you heard me.   Write-Only  not  Read-Only .  I was presenting  SQL Server Security Basics  at  NTSSUG  the other night and there was an interesting discussion on the idea of granting someone write permissions without corresponding read permissions. 
+ So for example: 
+ -- Setup code
+CREATE LOGIN WriteOnlyUser WITH PASSWORD = 'WriteOnlyUser',CHECK_POLICY = OFF;
+GO
+USE AdventureWorks2014;
+GO
+CREATE USER WriteOnlyUser FROM L

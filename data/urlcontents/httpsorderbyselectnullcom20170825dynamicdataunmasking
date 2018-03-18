@@ -1,0 +1,30 @@
+Dynamic Data Unmasking – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 Dynamic Data Unmasking 
+		 
+						 Posted on  August 25, 2017 August 29, 2017  by  Joe Obbish 					 
+
+	 
+		 Dynamic data masking is a SQL Server 2016 feature to mask sensitive data at the column level from non-privileged users. Hiding SSNs is a common example in the documentation. However, the  documentation  also gives the following warning: 
+ The purpose of dynamic data masking is to limit exposure of sensitive data, preventing users who should not have access to the data from viewing it. Dynamic data masking does not aim to prevent database users from connecting directly to the database and running exhaustive queries that expose pieces of the sensitive data. 
+ How bad can it be? This post explores how quickly a table of SSNs can be unmasked by a non-privileged user. 
+ Simple Demo 
+ Let’s use a table stru

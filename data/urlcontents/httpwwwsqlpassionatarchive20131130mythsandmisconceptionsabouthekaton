@@ -1,0 +1,53 @@
+ Myths and Misconceptions about Hekaton  |   
+		 
+	
+			 
+	
+				 
+	
+			 
+									
+			 HOME 
+					 OFFERINGS 
+					 ONLINE TRAININGS 
+					 ACADEMY 
+					 BLOG 
+					 QUICKIE 
+					 
+				 
+			
+			 
+			
+	 
+				
+		 
+	
+		 
+		
+	 
+	
+	 	
+	
+	
+	 
+
+
+	 
+	
+		 
+
+			
+				
+					 Myths and Misconceptions about Hekaton 
+						
+						 
+					November 30, 2013 · 
+					Klaus Aschenbrenner ·
+									
+				 
+
+						
+						 
+							 (Be sure to checkout the FREE  SQLpassion Performance Tuning Training Plan  - you get a weekly email packed with all the essential knowledge you need to know about performance tuning on SQL Server.)
+ 
+  Over the last weeks and months, I invested a lot of my time to get a better understanding of Hekaton – the new In-Memory technology that will be part of SQL Server 2014. I have done a lot of reading about the various internal data structures that Hekaton is using for its storage (mainly Hash Indexes, and Bw-Tree). And in additiona

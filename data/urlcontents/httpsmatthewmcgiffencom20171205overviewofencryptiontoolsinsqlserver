@@ -1,0 +1,22 @@
+Overview of Encryption Tools in SQL Server | Matthew McGiffen DBA 
+ 
+	 Skip to content 
+	 
+						 Matthew McGiffen DBA 
+			 
+		 
+
+		 Menu 
+			 Home 
+ About 
+ Contact 
+ 		 
+		
+	 
+		 Overview of Encryption Tools in SQL Server 
+		 
+						 December 5, 2017 December 5, 2017  ~  Matthew McGiffen 					 
+	 
+		 More and more people are considering some level of encryption against their data stored in SQL Server. In many cases it might be considered that other measures such as firewalls, well defined access permissions and application code free of security flaws, already offer sufficient protection. 
+ Anyone who follows the tech news though will know that attacks and data breaches are common. Encryption often provides the second line of defence, i.e. even if someone malicious gains access to your data, they may not be able to read what they find there. 
+ Over the last 10 years, the number of features available in SQL Server for working with encryption has grown. It can be confusing to understand

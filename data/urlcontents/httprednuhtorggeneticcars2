@@ -1,0 +1,76 @@
+HTML5 Genetic Algorithm 2D Car Thingy - Chrome recommended 
+
+ 
+   
+
+     
+       
+
+         
+           250 
+           187 
+           125 
+           62 
+           0 
+         
+
+       
+       
+
+         
+           
+         
+
+       
+     
+
+     
+       
+       
+       
+     
+
+     
+
+   
+
+   
+
+     
+       
+         
+       
+         
+
+       
+         Create new world with seed 
+
+       Generation 
+         Cars alive 
+         Distance 
+         Height 
+         Mutation rate: 
+           
+             0% 1% 2% 3% 4% 5% 10% 20% 30% 40% 50% 75% 100% 
+         Mutation size: 
+           
+             0% 1% 2% 3% 4% 5% 10% 20% 30% 40% 50% 75% 100% 
+         Floor: 
+           
+             fixed mutable 
+         Gravity: 
+           
+             Jupiter (24.8) Neptune (11.2) Saturn (10.4) Earth (9.81) Venus (8.9) Uranus (8.7) Mars/Mercury (3.7) Moon (1.6) 
+         Elite clones: 
+           
+             0 1 2 3 4 5 6 7 8 9 10 
+         
+       
+     
+
+   
+ 
+
+
+ 
+   But what is it

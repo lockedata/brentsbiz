@@ -1,0 +1,40 @@
+Columnstore Indexes – part 86 (“New Trace Flags in SQL Server 2016”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore Indexes – part 86 (“New Trace Flags in SQL Server 2016”)    			 
+  			 
+    			 Continuation from the previous 85 parts, the whole series can be found at  http://www.nikoport.com/columnstore/ 
+ With the release of SQL Server 2016, a great number of new functionalities with specific internal structures and own behaviours were created ( Columnstore Indexes – part 60 (“3 More Batch Mode Improvements in SQL Server 2016”) ,  Columnstore Indexes – part 60 (“3 More Batch Mode Improvements in SQL Server 2016”) ,  Columnstore Indexes – part

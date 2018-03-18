@@ -1,0 +1,133 @@
+Evolutionary Database Design 
+  
+     
+  
+   
+     
+     
+       
+       
+   
+
+ 
+
+ Intro 
+   Videos 
+   Design 
+   Agile 
+   Refactoring 
+   FAQ 
+   
+     About Me 
+
+     All Sections  
+
+     
+       ThoughtWorks 
+ 
+
+     
+   
+   
+  
+
+     
+   
+   
+  
+  
+ 
+ 
+ 
+ home    
+     
+     
+       
+       
+   
+
+ 
+ 
+
+ topics 
+ agile 
+
+ refactoring 
+
+ design 
+
+ noSQL 
+
+ DSL 
+
+ continuous delivery 
+
+ microservices 
+ 
+
+ media 
+ books 
+
+ video 
+ 
+
+ site 
+ site introduction 
+
+ about me 
+
+ FAQ 
+
+ content index 
+
+ photos 
+ 
+
+ catalogs 
+ refactoring 
+
+ P of EAA 
+
+ EAA dev 
+
+ DSL 
+ 
+
+ feeds 
+ twitter 
+
+ rss 
+
+ facebook 
+ 
+
+ popular 
+ microservices 
+
+ dependency injection 
+ 
+
+ ThoughtWorks 
+ blogs 
+
+ careers 
+
+ products 
+ 
+ 
+
+ 
+ 
+ Contents 
+ 
+
+ Jen implements a new story Dealing with Change 
+ Limitations 
+ The Practices 
+ DBAs collaborate closely with developers 
+
+ All database artifacts are version controlled with application code 
+
+ All database changes are migrations 
+
+ Everybody gets their own databas

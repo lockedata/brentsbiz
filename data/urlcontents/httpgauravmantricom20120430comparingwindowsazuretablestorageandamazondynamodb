@@ -1,0 +1,10 @@
+Comparing Windows Azure Table Storage and Amazon DynamoDB - GauravMantri.com GauravMantri.com Gaurav Mantri's Personal Blog Home 
+ About 
+ Contact 
+ Archives 
+ 
+ 			 Gaurav Mantri's Personal Blog. 
+		 You are here:  Home   /   Amazon AWS   /  Comparing Windows Azure Table Storage and Amazon DynamoDB Comparing Windows Azure Table Storage and Amazon DynamoDB 
+ April 30, 2012   by  Gaurav   7 Comments   In this blog post, we are going to compare  Windows Azure Table Storage Service  and  Amazon DynamoDB  from core functionality point of view. 
+ For the sake of brevity, we’re going to refer  Windows Azure Table Storage Service  as  WATS  and  Amazon DynamoDB  as  ADDB . 
+ From fundamental functionality point of view, both WATS and ADDB provide similar functionality. Both of them are NoSQL database systems designed to store massive amount of data. You can read more about NoSQL databases on  Wikipedia . Apart from ADDB, Amazon has another NoSQL database offering called  Amazon SimpleDB . I h

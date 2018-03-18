@@ -1,0 +1,65 @@
+Avoid Frequent use of TVPs With Wide Rows | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ August 31, 2015 
+ 
+	  Avoid Frequent use of TVPs With Wide Rows 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 
+ Tackling A Hairy Problem 
+This series includes a number of stand-alone posts which can fit together to tell a bigger story
+ Part One: Types of Performance Metrics 
+ Part Two: What’s Going On Inside Tempdb? 
+ Part Three: Avoid Frequent use of TVPs With Wide Rows 
+ Part Four: Troubleshooting Tempdb, a Case Study 
+ 
+ Let’s say there’s a procedure that uses a table-valued parameter (TVP), and that TVP type has a large maximum width. Something like:  
+ 
+
+ -- Create a message table type 
+ C

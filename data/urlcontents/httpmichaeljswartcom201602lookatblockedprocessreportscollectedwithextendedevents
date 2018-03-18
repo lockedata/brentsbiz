@@ -1,0 +1,60 @@
+Look at Blocked Process Reports Collected With Extended Events | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ February 25, 2016 
+ 
+	  Look at Blocked Process Reports Collected With Extended Events 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 9:25 am  
+
+	 
+		 
+ SQL Server Concurrency 
+ Part One: Future Proofing for Concurrency 
+ Part Two: Look at Blocked Process Reports Collected With Extended Events 
+ Part Three 
+ 
+ I just met a friend at a SQL Saturday who let me know that he recognizes my name because it was attached to a project I wrote five years ago. The “Blocked Process Report Viewer”. I was impressed. I’m glad to know that it’s still used. So I decided to update it for 2016. 
+ I’ve extended

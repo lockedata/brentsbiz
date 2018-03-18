@@ -1,0 +1,49 @@
+Cross-database queries in Azure SQL Database | James Serra's Blog 
+ 
+     
+    	 
+		 
+		 
+		 
+		     
+			 James Serra's Blog 
+		     
+		 
+		 Big Data and Data Warehousing 
+		 Skip to content 
+
+	     
+			 
+	    		 
+ Home Presentations 
+ Consulting 
+ About Me 
+ Contact Me 
+ 
+		 
+		
+	 
+     
+
+
+     
+ 
+
+        	     
+
+
+		 
+		     ←  HP Superdome X for high-end OLTP/DW 
+		     SQL Server on Linux!  → 
+		 
+
+		 
+		     	 Cross-database queries in Azure SQL Database 
+ 
+
+			         
+ Posted on   March 2, 2016   by   James Serra 
+         
+
+			 
+			     A limitation with  Azure SQL database  has been its inability to do cross-database SQL queries.  This has changed with the introduction of  elastic database queries , now in preview.  However, it’s not as easy as on-prem SQL Server, where you can just use the three-part name syntax DatabaseName.SchemaName.TableName.  Instead, you have to define remote tables (tables outside your current database), which is similar to how  PolyBase  works for th

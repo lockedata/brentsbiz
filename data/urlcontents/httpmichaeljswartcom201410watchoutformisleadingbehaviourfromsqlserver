@@ -1,0 +1,58 @@
+Watch Out for Misleading Behaviour From SQL Server | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ October 3, 2014 
+ 
+	  Watch Out for Misleading Behaviour From SQL Server 
+	 Filed under:  Miscelleaneous SQL , SQL Scripts , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 9:36 am  
+
+	 
+		 Takeaway:  To get consistent behaviour from SQL Server, I share a set of statements I like to run when performing tuning experiments. 
+ Inconsistent Behaviour From SQL Server? 
+ I often have conversations where a colleague wants to understand why SQL Server performs faster in some cases and slower in other cases. 
+ The conversation usually starts “Why does SQL Server perform faster when I…” (fill in the blank): 
+ … changed the join order of the query 
+ … 

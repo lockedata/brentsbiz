@@ -1,0 +1,22 @@
+The Curse and Blessings of Dynamic SQL 
+
+ The Curse and Blessings of Dynamic SQL 
+ An SQL text by  Erland Sommarskog ,
+SQL Server MVP.  Latest revision : 2015-04-14.  Copyright  applies to this text. 
+ An earlier version of this article is
+   also available in
+    German . Translations
+   provided by SQL Server MVP Frank Kalis. 
+ Introduction 
+ If you follow the various newsgroups on Microsoft  SQL  Server,
+you often see people asking why they can't do: 
+ SELECT * FROM @tablename
+SELECT @colname FROM tbl
+SELECT * FROM tbl WHERE x IN (@list) 
+ For all three examples you can expect someone to answer  Use dynamic  SQL 
+   and give a quick example on how to do it. Unfortunately, for all three examples
+   above, dynamic  SQL  is a poor solution.
+   On the other hand, there are situations where dynamic  SQL 
+   is the best or only way to go.  
+ In this article I will discuss the use of dynamic  SQL 
+   in stored procedures and to a minor extent from client languages. To 

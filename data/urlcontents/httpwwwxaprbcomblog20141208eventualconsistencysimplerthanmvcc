@@ -1,0 +1,78 @@
+
+    
+      If Eventual Consistency Seems Hard, Wait Till You Try MVCC · Baron Schwartz's Blog
+    
+   
+
+    
+ 
+   
+	   Baron Schwartz's Blog · Stay Curious! 
+   
+
+   Search 
+    
+         About Baron Schwartz 
+    
+         Essential Books 
+    
+         Regex Toolkit 
+    
+         Staying Secure Online 
+    
+         The Nokia-Withings Steel HR 
+    
+         The Ultimate Notebook 
+    
+         The Ultimate Pen 
+    
+   
+	   © 2018 Baron Schwartz.
+	   RSS Feed ,  Contact . Powered by  Hugo ,
+	   Netlify ,
+	   Forestry ,
+	   GitHub ,
+	   Disqus ,
+	   Lunr.js .
+	 
+   
+ 
+
+
+    
+     
+       
+         
+           
+             Baron Schwartz's Blog 
+           
+         
+       
+
+       
+
+
+ 
+   If Eventual Consistency Seems Hard, Wait Till You Try MVCC 
+   Mon, Dec 8, 2014 in
+		
+		 Programming 
+		
+		 Databases 
+		
+		 Best Of 
+		
+		 
+	 
+	 
+	 
+	 
+ 
+
+   
+   
+   This should sound familiar: 
+
+ 
+ One of the great lies about NoSQL databases is that they’re simple. Simplicity
+done wrong makes 

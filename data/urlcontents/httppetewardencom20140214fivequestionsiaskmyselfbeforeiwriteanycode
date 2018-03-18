@@ -1,0 +1,38 @@
+Five questions I ask myself before I write any code « Pete Warden's blog 
+
+
+ 
+		 	 
+		 Search 
+		 
+ 
+
+		
+		 Pete Warden's blog 
+			 Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better. 
+		 Menu 
+			 Skip to content 
+			 Home About 
+ 
+		 
+
+		 
+			 
+
+			
+				
+ 
+					 Five questions I ask myself before I write any code 
+			 
+		 February 14, 2014      By    Pete Warden   in  Uncategorized 				 3 Comments 
+					 
+
+	 
+		 
+						 
+   
+ Photo by John 
+ Do I need to write it? 
+ Is there another way I can accomplish the goal without writing any code? For example, I was about to write a script to send templated emails from a spreadsheet, but I realized that showing the non-engineer I was collaborating with how to do it themselves through Mailchimps UI would make both of us a lot happier. 
+ Has someone else written it? 
+ If I’m doing anything that feels at all computer-sciencey, the answer to this is almost certainly ‘Yes’! The only questions are whether I can find the code, and

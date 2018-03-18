@@ -1,0 +1,55 @@
+Swart's Ten Percent Rule | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ May 28, 2013 
+ 
+	  Swart’s Ten Percent Rule 
+	 Filed under:  SQLServerPedia Syndication  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 “Just because you can, doesn’t mean you should.” SQL Server has a number of limits and restrictions (many of the limits are described  here ). Most of the time these restrictions don’t feel restrictive at all. I can’t think of a single scenario where I’d want more than 128 characters to name a column. And I don’t think I’ll ever need to select more than 4096 columns at a time. I get the feeling that if you need over 10% of what Microsoft restricts you to, then you’re probably doing it wrong. 
+ So I turn that thought into Swart’s Ten Percent Rule: 
+ If you’re usin

@@ -1,0 +1,33 @@
+I Escaped from a SQL Server Service Pack Nightmare | All About SQL 
+ 
+	 All About SQL 
+				 Discussing all things around the Microsoft Data Platform 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+												 Azure Section 
+ SQL Server Section 
+ Personal Section 
+ SQL Server Central Articles 
+ TechNet articles 
+ SQL Server Video Library 
+ Presentations 
+ 			 
+
+		 
+			 
+
+				
+					 Post navigation 
+						 ←  Previous 
+						 Next  → 
+					 I Escaped from a SQL Server Service Pack Nightmare 
+
+				 
+						 Posted on  April 24, 2017    by    blobeater 		 
+			 
+		 I hope you take backups or have a recovery plan in place before a SQL Server service pack upgrade,  if not you might want to reconsider. Initially I wasn’t going to capture the screen shots during this recovery because my focus was to fix the issue but I thought I would just in case others experience the same thing. 
+ I wanted to move from SQL Server 2014 SP1 to SP2, as you can see I had a clear issue. 

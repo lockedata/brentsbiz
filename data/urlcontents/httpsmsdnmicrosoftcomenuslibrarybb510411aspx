@@ -1,0 +1,30 @@
+What's New in Database Engine - SQL Server 2016 | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 What's new in Database Engine - SQL Server 2016 
+
+					 
+								 07/26/2017 
+							 23 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse 
+ This topic summarizes the enhancements introduced in the  SQL Server 2017 release of the  SQL Server Database Engine.  The new features and enhancements increase the power and productivity of architects, developers, and administrators who design, develop, and maintain data storage systems. 
+ To review what is new in the other SQL Server components, see  What's New in SQL Server 2016 . 
+ Note   SQL Server 2016 is a 64-bit application. 32-bit installation is discontinued, though some elements run as 32-

@@ -1,0 +1,58 @@
+The View of Foreign Keys That I Wanted | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ May 23, 2012 
+ 
+	  The View of Foreign Keys That I Wanted 
+	 Filed under:  SQL Scripts , SQLServerPedia Syndication , Technical Articles  — Tags:  foreign keys ,  system views  —  Michael J. Swart @ 8:47 pm  
+
+	 
+		 
+ So I’ve been working on an automation project that makes frequent use of foreign key metadata. I find myself writing queries for this data but I discovered that there’s no super-easy out-of-the-box view of foreign keys for me to use. Here are the ones I considered. 
+ INFORMATION_SCHEMA views 
+ INFORMATION_SCHEMA views that give me foreign key information include  
+ INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE for the foreign key info 
+ INFORMATION_SCHEMA.REFERENTI

@@ -1,0 +1,59 @@
+spaghettidba | Italian recipes for your daily database cooking 
+ 
+
+	 
+
+		 Skip to navigation 
+			 Skip to main content 
+			 Skip to primary sidebar 
+			 Skip to secondary sidebar 
+			 Skip to footer 
+		 
+			 
+				 
+					 spaghettidba 
+					 Italian recipes for your daily database cooking 
+				 
+			 
+
+			 
+				 Home 
+ About 
+ Code Repository 
+ SQL Server Infernals 
+ Speaking 
+ 
+
+					
+					
+											 Twitter 
+					
+					
+											 RSS Feed 
+					
+				 
+
+			 
+
+							
+			 
+
+			 
+
+ 			 
+	 			 
+					 
+
+	
+			 Recovering the PsGallery Repository behind a Corporate Proxy 	
+	 
+		 Dec 19 
+	 
+
+	 
+		 Posted by  spaghettidba 
+	 
+
+	 
+		 While getting a new workstation is usually nice, reinstalling all your softwares and settings is definitely not the most pleasant thing that comes to my mind. One of the factors that can contribute the most to making the process even less pleasant is working around the corporate proxy. 
+ Many applications live on the assumption that nobody uses proxy servers, th

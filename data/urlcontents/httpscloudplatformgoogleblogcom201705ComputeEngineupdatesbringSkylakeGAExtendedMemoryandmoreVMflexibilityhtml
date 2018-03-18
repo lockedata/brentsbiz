@@ -1,0 +1,51 @@
+
+Google Cloud Platform Blog: Compute Engine updates bring Skylake GA, extended memory and more VM flexibility
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Google Cloud Platform Blog
+           
+ 
+ 
+ 
+Product updates, customer stories, and tips and tricks on Google Cloud Platform
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Compute Engine updates bring Skylake GA, extended memory and more VM flexibility
+ 
+ 
+ 
+ 
+ 
+Wednesday, May 31, 2017
+ 
+ 
+ 
+ 
+ 
+ 
+ By Hanan Youssef, Sami Iqram and Scott Van Woudenberg, Product Managers, Google Compute Engine   
+We’re pleased to announce several updates to  Google Compute Engine  that give you more powerful and flexible instances. Google Cloud is the first and only public cloud to deliver Intel’s next-generation Xeon server processor (codenamed Skylake), and starting today, it’s generally available (GA). In addition, we’ve made several other enhancements to Compute Engine: Increased total amount of memory per instance by removing memory caps 
+ Increased variety of machine shap

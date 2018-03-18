@@ -1,0 +1,22 @@
+Linux Kernel Documentation 
+
+ Documentation extracted from the Linux kernel and mirrored on the web where
+Google can find it: 
+ html/latest  - Kernel Documentation (new sphinx format). 
+ htmldocs  - Kernel Documentation in docbook format (deprecated). 
+ 
+
+ README  various README files scattered around Linux kernel source 
+ 
+ Output of kernel's "make help". 
+ Standards documents applicable to the Linux kernel 
+ Single Unix Specification v4  (Also known as Open Group Base Specifications issue 7, and POSIX 2008.  See especially  system interfaces ) 
+
+ C99 standard (current version of the C programming language):  ISO/IEC C9899 PDF ,  html , or  searchable website . 
+ LP64 standard  defining the size of char, short, int, and long on 32-bit and 64-bit platforms.  (See also the  rationale  for the standard, and the  legacy reasons  another OS declined to adopt this standard). 
+
+ Linux Foundation's specs page  (ELF, Dwarf, ABI...) 
+ SCSI standards 
+ Videos worth watching 
+
+ Clay Shirky (NYU)

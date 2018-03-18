@@ -1,0 +1,23 @@
+How to read and interpret the SQL Server log 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         How to read and interpret the SQL Server log 
+         March 10th, 2014  
+         
+
+ 
+ The SQL Server transaction log contains the history of every action that modified anything in the database. Reading the log is often the last resort when investigating how certain changes occurred. It is one of the main forensic tools at your disposal when trying to identify the author of an unwanted change. Understanding the log and digging through it for information is pretty hard core and definitely not for the faint of heart. And the fact that the output of  ::fn_dblog  can easily go into millions of rows does not help either. But I’ll try to give some simple practical examples that can go a long way into helping sort through all the information and dig out what you’re interested in. 
+ 
+ SQL Server uses  Write-ahead logging  to maintain transactional con

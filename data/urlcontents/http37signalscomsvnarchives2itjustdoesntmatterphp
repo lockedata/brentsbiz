@@ -1,0 +1,27 @@
+It just doesn't matter - Signal vs. Noise (by 37signals) 
+
+ 
+
+  
+   
+
+   
+   
+     It just doesn’t matter  Jason   16 Feb 2006 
+ 
+ 
+ 192 comments 
+
+Latest by 
+r3n
+    
+     
+     
+
+     Today I spent a lot of time fielding questions about why we did this or that with Campfire. Why we added certain things, why we left out others, why the UI looks like this and not like that, etc. It’s always a blast to interact with people who are genuinely curious (and not just there to bust balls). 
+
+ My favorite answer to the “why?” question is always: “Because it just doesn’t matter.” I think that statement embodies what makes a product great. Figuring out what matters and leaving out the rest. 
+
+ Some common questions: 
+
+ “Why time stamps every 5 minutes? Why not time stamp every chat line?” Answer: It just doesn’t matter. How often do you need to track a conversation by the second or even the minute? Certainly not 95% of the time. 5 minute stamps are sufficient because anything more specific just 

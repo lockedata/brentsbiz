@@ -1,0 +1,38 @@
+Running SQL Queries with Visual Studio Code | SQL DBA with A Beard 
+ 
+		 SQL DBA with A Beard 
+			 He's a SQL DBA and he has a beard 
+		 Menu 
+			 Skip to content 
+
+			 PowerShell 
+ SQL Server 
+ Presentations 
+ PowerShell Gallery Scripts 
+ About Me 
+ About Me 
+	 Twitter 
+	 LinkedIn 
+	 Presentations 
+	 PowerShell Gallery Scripts 
+	 Script Center Scripts 
+ 
+ dbareports and dbatools 
+ dbareports website 
+	 dbareports Github 
+	 dbatools website 
+	 dbatools Github 
+	 discuss both on Slack 
+ 
+ 		 
+
+	 
+		 
+
+		
+			
+ Running SQL Queries with Visual Studio Code 
+		 
+			Posted on  January 5, 2017  by  SQLDBAwithTheBeard 		 
+	 
+		 Reading this blog post by  Shawn Melton Introduction of Visual Studio Code for DBAs  reminded me that whilst I use Visual Studio Code (which I shall refer to as Code from here on) for writing PowerShell and Markdown and love how easily it interacts with Github I hadn’t tried T-SQL. If you are new to Code (or if you are not) go and read Shawns blog post but here are the s

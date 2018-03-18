@@ -1,0 +1,46 @@
+sp_monitor (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_monitor (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Displays statistics about  Microsoft  SQL Server.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_monitor  
+ Return Code Values 
+   0  (success) or  1  (failure)   
+ Result Sets 
+ Column name 
+ Description 
+ last_run 
+ Time  sp_monitor  was last run. 
+ current_run 
+ Time  sp_monitor  is being run. 
+ seconds 
+ Number of elapsed seconds since  sp_monitor  was run. 
+ cpu_busy 
+ Number of seconds that the server computer's CPU has been doing  SQL Server work. 
+ io_busy 
+ Number of seconds that  SQL Server has spent doing input and output operations. 
+ idle 
+ Number of s

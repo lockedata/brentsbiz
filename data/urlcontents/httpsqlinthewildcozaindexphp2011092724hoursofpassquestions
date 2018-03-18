@@ -1,0 +1,35 @@
+24 Hours of PASS Questions | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       24 Hours of PASS Questions 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  24 Hours of PASS Questions     
+     
+   
+     
+       Author:  Gail 
+       27 September 2011 
+       2 Comments 
+     
+     
+       SQL Server ,  Syndication 
+       
+      
+   
+     
+ I finally found the time to work through the questions from the 24 Hours of PASS session that I did. Thanks to everyone that attended the event 
+ Q1: Can you filter execution plans for sort warnings? 
+ No. The sort and hash warnings don’t appear in the execution plan. You’d have to trace for the hash and sort warning events and correlate that with either batch/statement started and completed events or with the run-time plan events. 
+ Q2: To get the query executions can you just add the statement completed or batch completed events? 
+ The Statement Co

@@ -1,0 +1,37 @@
+BgInfo - Windows Sysinternals | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 BgInfo v4.25 
+
+					 
+								 05/16/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 By Mark Russinovich 
+ Published: January 19, 2018 
+   Download BgInfo ]  (974 KB) Run now  from  Sysinternals Live . 
+ Introduction 
+ How many times have you walked up to a system in your office and needed
+to click through several diagnostic windows to remind yourself of
+important aspects of its configuration, such as its name, IP address, or
+operating system version? If you manage multiple computers you probably
+need  BGInfo . It automatically displays relevant information about a
+Windows computer on the desktop's background, such as the computer name,
+IP address, service pack version, and more. You can edit any field as
+well as the font and background colors, and can place it in your startup
+folder so tha

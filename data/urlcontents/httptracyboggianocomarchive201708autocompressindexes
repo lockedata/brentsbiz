@@ -1,0 +1,59 @@
+Determining Which Indexes to Compress Among Thousands | Tracy Boggiano's SQL Server  Blog 
+
+ Skip to content 
+
+ 
+
+	    
+	 
+
+      
+              
+         
+                         
+     
+    
+        
+     
+       
+              	 SQL Server Administration and Performance Tuning 
+       
+                  
+     
+    
+        
+     
+    
+                 
+                   
+                     Toggle navigation 
+                     
+                     
+                     
+                   
+                               
+               
+                 Home 
+ About Me 
+ Events 
+ Presentations 
+ SQL on Linux 
+ 
+             
+ 
+         
+            
+
+		 
+			
+			            
+			
+								
+					 
+    
+     
+             Determining Which Indexes to Compress Among Thousands 
+            		 
+     
+ 		 Our Problem 
+ In a shared in environment you may have hundreds of databases with the same schema but depending on the data loaded i

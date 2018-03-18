@@ -1,0 +1,19 @@
+SQL Server connection strings - ConnectionStrings.com 
+ 
+ Developers number one Connection Strings reference Knowledge Base Q &amp; A forums 
+ log in About Thank You Search SQL Server connection strings 
+
+ .NET libraries .NET Framework Data Provider for SQL Server Context Connection 
+ OLE DB providers SQL Server Native Client 11.0 OLE DB Provider SQL Server Native Client 10.0 OLE DB Provider SQL Native Client 9.0 OLE DB Provider Microsoft OLE DB Provider for SQL Server SQLXML 4.0 OLEDB Provider SQLXML 3.0 OLEDB Provider 
+ ODBC drivers SQL Server Native Client 11.0 ODBC Driver SQL Server Native Client 10.0 ODBC Driver SQL Native Client 9.0 ODBC Driver Microsoft SQL Server ODBC Driver 
+ Wrappers and others MSDataShape .NET Framework Data Provider for OLE DB .NET Framework Data Provider for ODBC 
+ 
+ 
+ 
+ .NET Framework Data Provider for SQL Server 
+ 
+ Standard Security 
+
+ Server = myServerAddress; Database = myDataBase; User Id = myUsername; Password = myPassword; 
+ 
+ SQL

@@ -1,0 +1,52 @@
+
+Google Cloud Platform Blog: Making the most of an SRE service takeover - CRE life lessons
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Google Cloud Platform Blog
+           
+ 
+ 
+ 
+Product updates, customer stories, and tips and tricks on Google Cloud Platform
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Making the most of an SRE service takeover - CRE life lessons
+ 
+ 
+ 
+ 
+ 
+Friday, July 7, 2017
+ 
+ 
+ 
+ 
+ 
+ 
+ By Adrian Hilton, Customer Reliability Engineer   
+In  Part 2  of this blog post we explained what an SRE team would want to learn about a service angling for SRE support, and what kind of improvements they want to see in the service before considering it for take-over. And in  Part 1 , we looked at why an SRE team would or wouldn’t choose to onboard a new application.  Now, let’s look at what happens once the SREs agree to take on the pager. 
+Onboarding preparation 
+If a service entrance review determines that the service is suitable for SRE support, developers and the SRE team move into the “onboarding”

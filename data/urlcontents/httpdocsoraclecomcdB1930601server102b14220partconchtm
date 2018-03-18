@@ -1,0 +1,27 @@
+Partitioned Tables and Indexes 
+ Go to main content 
+ 
+ 
+ 
+ 24/36   
+ 18    Partitioned Tables and Indexes 
+ This chapter describes partitioned tables and indexes. It covers the following topics: 
+ 
+ Introduction to Partitioning 
+ 
+ 
+ Overview of Partitioning Methods 
+ 
+ 
+ Overview of Partitioned Indexes 
+ 
+ 
+ Partitioning to Improve Performance 
+ 
+ 
+ Note: 
+ This functionality is available only if you purchase the Partitioning option. 
+ 
+ 
+ Introduction to Partitioning 
+ Partitioning  addresses key issues in supporting very large tables and indexes by letting you decompose them into smaller and more manageable pieces called  partitions . SQL queries and DML statements do not need to be modified in order to access partitioned tables. However, after partitions are defined, DDL statements can access and manipulate individuals partitions rather than entire tables or indexes. This is how partitioning can simplify the manageability of large database objects. Also, partitioning is entirely t

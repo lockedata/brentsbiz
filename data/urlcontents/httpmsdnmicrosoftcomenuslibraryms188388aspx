@@ -1,0 +1,38 @@
+ALTER INDEX (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 ALTER INDEX (Transact-SQL) 
+
+					 
+								 11/24/2017 
+							 45 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Modifies an existing table or view index (relational or XML) by disabling, rebuilding, or reorganizing the index; or by setting options on the index.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ -- Syntax for SQL Server and Azure SQL Database
+
+ALTER INDEX { index_name | ALL } ON &lt;object&gt;  
+{  
+      REBUILD {  
+            [ PARTITION = ALL ] [ WITH ( &lt;rebuild_index_option&gt; [ ,...n ] ) ]   
+          | [ PARTITION = partition_number [ WITH ( &lt;single_partition_rebuild_index_option&gt; ) [ ,...n ] ]  
+   

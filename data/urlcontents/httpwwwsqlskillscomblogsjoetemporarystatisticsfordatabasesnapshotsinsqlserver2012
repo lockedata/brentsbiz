@@ -1,0 +1,48 @@
+Temporary Statistics for Database Snapshots in SQL Server 2012 - Joe Sack 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Joe Sack 
+ SQL Server Performance Tuning, High Availability and Disaster Recovery Blog 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ About Joe 
+ Email Joe 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Performance  &gt;&gt;  Temporary Statistics for Database Snapshots in SQL Server 2012 
+
+ Temporary Statistics for Database Snapshots in SQL Server 2012 By:  Joseph Sack    Posted on: March 20, 2012 5:43 am  
+ You may have already heard that SQL Server 2012 adds automatic generation of statistics for AlwaysOn availability group readable secondaries, storing the statistics in tempdb.    This functionality was also extended to other areas beyond just AlwaysOn availability groups as I’ll demonstrate next… 
+ 
+ 
+ Using the AdventureWorksDWDenali database, I’ll start by checking the current sta

@@ -1,0 +1,85 @@
+The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering 
+ 
+ 
+ 
+ 
+ 
+ 
+ LinkedIn Engineering 
+ Engineering 
+ 
+ 
+ 
+ 
+ 
+menu
+ 
+ 
+ 
+Home
+ 
+ 
+ 
+ 
+Blog
+ 
+ 
+ 
+ 
+Data
+ 
+ 
+ 
+ 
+Open Source
+ 
+ 
+ 
+ 
+Jobs
+ 
+ 
+ 
+ 
+Women in Tech
+ 
+ 
+ 
+ 
+ Search... 
+ 
+ Clear Search Input 
+ 
+ 
+ Cancel 
+ 
+ 
+ 
+ 
+ 
+ 
+dismiss this message
+ 
+ 
+ 
+ 
+ The Log: What every software engineer should know about real-time data's unifying abstraction 
+ 
+ 
+ 
+ Jay Kreps 
+ 
+ December 16, 2013 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+  I joined LinkedIn about six years ago at a particularly interesting time. We were just beginning to run up against the limits of our monolithic, centralized database and needed to start the transition to a portfolio of specialized distributed systems. This has been an interesting experience: we built, deployed, and run to this day a distributed graph database, a distributed search backend, a Hadoop installation, and a first and second generation key-value store

@@ -1,0 +1,40 @@
+Restore a deleted Azure SQL Database | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ Restore a deleted Azure SQL Database 
+
+		 
+			Posted on  July 3, 2014  by  Amit Banerjee 		 
+	 
+		 There could be a need where you have to restore a database that was deleted accidentally due to malicious intent or a plain old mistake (people end up writing resumes for such mistakes) or for some other inexplicable need! This is where backups come into the picture! For the Web and Business editions, this is not an option unless you have exported the database or you had made a copy of the existing database. Note that Business and Web service tiers will be retired in 12 months from April 24, 2014. 
+ If

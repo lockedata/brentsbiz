@@ -1,0 +1,25 @@
+AWS Tips I Wish I'd Known Before I Started - W(e)blinks 
+
+ 
+
+     
+             
+                 
+         
+
+         
+                     [n]  
+                     Archive 
+                 
+             
+         
+             AWS Tips I Wish I'd Known Before I Started 
+             A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS. 
+         
+     AWS Tips I Wish I'd Known Before I Started 
+             3rd 
+                 February 
+                 2014 
+             by Rich Adams 
+             aws ec2 s3 iam security vpc elastic-mapreduce tips 
+                Moving from physical servers to the "cloud" involves a paradigm shift in thinking. Generally in a physical environment you care about each invididual host; they each have their own static IP, you probably monitor them individually, and if one goes down you have to get it back up ASAP. You m

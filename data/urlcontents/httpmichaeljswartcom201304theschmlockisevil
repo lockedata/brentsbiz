@@ -1,0 +1,55 @@
+The Sch-M lock is Evil | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ April 17, 2013 
+ 
+	  The Sch-M lock is Evil 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 A necessary evil, but still evil. Why? Because it it won’t share with Sch-S and Sch-S is taken and held for absolutely  everything  (Yes, even your NOLOCK queries). And that can lead to some interesting concurrency problems. Let me explain. 
+ Sch-M 
+ Sch-M is an abbreviation for Schema Modification. It refers to a kind of lock that is taken on a table/index or other object whenever you want to modify that object. SQL Server allows only one Sch-M lock on an object at a time. So if you want to modify a table, your process wai

@@ -1,0 +1,29 @@
+Best practices for private config data and connection strings in configuration in ASP.NET and Azure - Scott Hanselman 
+ Scott Hanselman 
+         about 
+            	 blog 
+            	 speaking 
+            	 podcasts 
+            	 books   
+           
+               
+                   
+               
+                browse by  category  or  date 
+               
+       
+     
+
+     
+     Best practices for private config data and connection strings in configuration in ASP.NET and Azure 
+     January 6, '16 
+		 Comments [48] 
+     Posted in  ASP.NET     
+     
+              Sponsored By 
+                    
+                     
+
+                   
+          
+		 A reader emailed asking how to avoid accidentally checking in passwords and other sensitive data into GitHub or source control in general. I think it's fair to say that we've all done this once or twice - it's a rite of passage for developers old and new.   The simplest way to avoid checking i

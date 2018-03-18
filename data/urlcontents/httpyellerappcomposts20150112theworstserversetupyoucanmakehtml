@@ -1,0 +1,26 @@
+Yeller - The Worst Server Setup Mistake You Can Make 
+       
+           
+             Yeller: The Exception Tracker with Answers 
+           
+           
+             Articles 
+             Pricing 
+             Login 
+             Try it Free 
+           
+         
+         
+             
+                 
+                     The Worst Server Setup Mistake You Can Make 
+                     
+   This is a blog about the development of  Yeller , The Exception Tracker with Answers 
+   Read more about Yeller here 
+ 
+
+ There’s one server setup mistake you can make that will screw you up for years to come. It’ll haunt your business, your developers and your server admins, and be hugely expensive to fix. It’s surprisingly easy to make. The mistake? 
+ Setting the timezone to anything other than UTC 
+ Use UTC 
+ Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . Use  UTC . 
+ It seems like it’s going to

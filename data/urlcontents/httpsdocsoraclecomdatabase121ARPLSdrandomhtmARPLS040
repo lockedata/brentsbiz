@@ -1,0 +1,56 @@
+DBMS_RANDOM 
+ Go to main content 
+ 
+ 
+ 123/290   
+ 
+ 119  DBMS_RANDOM 
+ The  DBMS_RANDOM  package provides a built-in random number generator.  DBMS_RANDOM  is not intended for cryptography. 
+ This chapter contains the following topics: 
+ 
+ Using DBMS_RANDOM 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Security Model 
+ 
+ 
+ Operational Notes 
+ 
+ 
+ 
+ Summary of DBMS_RANDOM Subprograms 
+ 
+ 
+ 
+ Using DBMS_RANDOM 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Security Model 
+ 
+ 
+ Operational Notes 
+ 
+ 
+ Deprecated Subprograms 
+ 
+ Note: 
+Oracle recommends that you do not use deprecated procedures in new applications. Support for deprecated features is for backward compatibility only. 
+ The following subprograms are deprecated with Oracle Database 11 g : 
+ 
+ INITIALIZE Procedure 
+ 
+ 
+ RANDOM Function 
+ 
+ 
+ TERMINATE Procedure 
+ 
+ 
+ 
+ 
+ Security Model 
+ This package should be installed as  SYS . By default, the package is initialized with the current user name, current time down to the second, and the current session. 

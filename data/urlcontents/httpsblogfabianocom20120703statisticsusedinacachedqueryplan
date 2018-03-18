@@ -1,0 +1,61 @@
+Statistics used in a cached query plan | Blog - Fabiano Neves Amorim 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+	 
+		 
+
+	 
+		 Blog – Fabiano Neves Amorim 
+		 SELECT * FROM [Coisas Da Minha Cabeça] WHERE dbo.fn_TempoParaPost() &lt; dbo.fn_TempoLivre() 
+	 
+
+	 
+ 
+ 
+
+ 
+ 
+	 
+	 Início 
+	 Sobre 
+	 
+ 
+		 
+			 
+				 
+		 
+	 
+ 
+ 
+ 
+
+ 
+ 
+
+	 
+	 
+
+
+	 
+		 Início 
+		 &gt;  Não categorizado 		 &gt; Statistics used in a cached query plan	 
+
+	 
+		 Statistics used in a cached query plan 
+		 
+			 3 de julho de 2012 
+			 mcflyamorim 										 Deixe um comentário 
+				 Go to comments 
+						 
+		 
+		 
+			 Today I was working on the material for the on-demand (online) training we’ll offer in next few days at Sr.Nimbus when I find-out a very interesting thing. 
+ “The statistics used in a query plan are stored in a cached execution plan, and you can see them using the special trace flag 8666 (there is always a traceflag).” 
+ It is also possible to identify which statistics were used in a query plan compilation if you run the query using 

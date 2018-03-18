@@ -1,0 +1,41 @@
+SQL DBA with A Beard | He's a SQL DBA and he has a beard 
+ 
+		 SQL DBA with A Beard 
+			 He's a SQL DBA and he has a beard 
+		 Menu 
+			 Skip to content 
+
+			 PowerShell 
+ SQL Server 
+ Presentations 
+ PowerShell Gallery Scripts 
+ About Me 
+ About Me 
+	 Twitter 
+	 LinkedIn 
+	 Presentations 
+	 PowerShell Gallery Scripts 
+	 Script Center Scripts 
+ 
+ dbareports and dbatools 
+ dbareports website 
+	 dbareports Github 
+	 dbatools website 
+	 dbatools Github 
+	 discuss both on Slack 
+ 
+ 		 
+
+	 
+		 
+
+		
+						
+				
+ dbachecks – Configuration Deep Dive 
+				 
+			Posted on  February 22, 2018  by  SQLDBAwithTheBeard 		 
+			 
+		 Today is the day that  we have announced dbachecks   a PowerShell module enabling you to validate your SQL Instances. You can read more about it  here where you can learn how to install it and see some simple use cases 
+ 108 Configurations 
+ One of the things I have been talking about  in my presentation “Green is Good Red is Bad”  is configuring Pester checks so that you do

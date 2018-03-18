@@ -1,0 +1,35 @@
+Manage Metadata When Making a Database Available on Another Server | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Manage Metadata When Making a Database Available on Another Server 
+
+					 
+								 08/24/2016 
+							 18 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic is relevant in the following situations:   
+ Configuring the availability replicas of an  Always On availability groups availability group.   
+ 
+ Setting up database mirroring for a database.   
+ 
+ When preparing to change roles between primary and secondary servers in a log shipping configuration.   
+ 
+ Restoring a database to another server instance.   
+ 
+ Attaching a copy of a database on another server instance.   
+ Some applications depend on information, entities, and/or objects that are outsid

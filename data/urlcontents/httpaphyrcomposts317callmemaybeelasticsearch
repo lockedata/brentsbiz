@@ -1,0 +1,35 @@
+Jepsen: Elasticsearch 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       Jepsen: Elasticsearch 
+
+       
+         2014/06/15 Distributed Systems Jepsen Elasticsearch 
+     
+
+     
+        
+
+ This post covers Elasticsearch 1.1.0. In the months since its publication, Elasticsearch has added a  comprehensive overview of correctness issues  and their progress towards fixing some of these bugs. 
+
+ Previously, on  Jepsen , we saw  RabbitMQ  throw away a staggering volume of data. In this post, we’ll explore Elasticsearch’s behavior under various types of network failure.  
+
+ Elasticsearch is a distributed search engine , built around Apache Lucene–a well-respected Java indexing library. Lucene handles the on-disk storage, indexing, and searching of documents, while ElasticSearch handles document updates, the API, and distribution. Documents are written to collections as free-f

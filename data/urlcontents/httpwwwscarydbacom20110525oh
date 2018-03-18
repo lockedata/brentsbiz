@@ -1,0 +1,27 @@
+Oh ****! - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Oh ****! 		 Home  /  SQL Server 2005  /  Oh ****! 	 
+ 
+	 
+		 
+		 
+			 25 May 2011  by  Grant Fritchey  22 Comments 		 
+		 Did you ever accidentally close SQL Server Management Studio? And, in closing SSMS, did you get the prompt that says “Save changes to the following items?” And did you, completely unthinkingly, with a query you had just been working on, hit Cancel? Yeah, me neither. What kind of idiot does that…. 
+ OK. I confess. I just did that. Silly thing it was, but I had just spent at least 1/2 an hour working on a query and now it was gone…. or was it? I had just run the query and had been looking at the results when I closed SSMS. Initially, I panicked and started thinking about how I could get the data back (somewhere there’s a fi

@@ -1,0 +1,45 @@
+Page Life Expectancy isn't what you think... - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  Buffer Pool  &gt;&gt;  Page Life Expectancy isn’t what you think… 
+
+ Page Life Expectancy isn’t what you think… By:  Paul Randal    Posted on: October 19, 2011 11:04 am  Updated 5/11/2015… 
+ There’s a lot of controversy about the Buffer Manager performance object counter Page Life Expectancy – mostly around people continuing to quote 300 as a threshold for starting to worry about there being a problem (which is just utter nonsense these days). That’s far too *low* to be the point at which to start worrying if your PLE dips and stays there. Jonathan came up with a better number to use – based on the size of your buffer pool – see the bottom o

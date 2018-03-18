@@ -1,0 +1,37 @@
+The Cult of Automation | Art of the DBA 
+ 
+
+	 
+		 
+				
+			 Art of the DBA 
+						 Blending the right and left sides of SQL Server Database Administration 
+		 
+		
+		 Skip to Content ↓ 
+		
+		 About 
+ Presentations 
+ 
+	 
+ 
+	 
+		 	
+	 
+		
+				
+				
+				
+		 
+			
+			 The Cult of Automation 
+			
+			 
+				 Jun 3rd, 2015 
+				 by  Mike Fal .  
+							 
+			
+			 
+				 Last week, while perusing through the usual interesting links from Twitter, I came across an article from  Kendra Little  ( @Kendra_Little ) titled  “Not Everything Should be Automated” . It’s brief post where Kendra talks about why she has stopped automating some of her tasks. The title is attention grabbing (well, it grabbed MY attention), but there’s a core debate hidden in here that I want to take sides on. 
+ If You Liked It, You Should Have Wrote a Script For It 
+ I often hear “you can’t automate everything”. As a card carrying member of the Cult of Automation (caps mine), I usually respond with “

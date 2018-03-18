@@ -1,0 +1,245 @@
+---
+title: "What topics did people click?"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+
+library(tidyverse)
+library(DBI)
+con <- dbConnect(odbc::odbc(), .connection_string = "Driver={ODBC Driver 13 for SQL Server};server={brento.database.windows.net};
+database={brentodb};
+uid={datasci};
+pwd={nZY0*51lG^};")
+
+# cred creation
+
+#in master
+#CREATE LOGIN datasci WITH password='nZY0*51lG^';
+# in db
+#CREATE USER datasci FROM LOGIN datasci;
+#EXEC sp_addrolemember 'db_datareader', 'datasci';
+#alter user datasci with default_schema=anon
+```
+
+
+# Getting links clicked
+
+```{r}
+lookupfile ="../data/link_lookup.csv"
+
+if(!file.exists(lookupfile)){
+con %>% 
+  tbl("mailchimp_clicks") %>% 
+  select(click_url) %>% 
+  distinct() %>% 
+  collect() %>% 
+  mutate(clean_url=click_url) ->
+  unique_urls
+
+urltools::parameters(unique_urls$clean_url)<-NULL
+
+unique_urls %>% 
+  mutate(clean_file= stringr::str_replace_all(clean_url,"[:punct:]","")) ->
+  unique_urls
+
+  write_csv(unique_urls, lookupfile)
+}
+
+logfile="../data/urls.csv"
+
+if(!file.exists(logfile)){
+  unique_urls %>% 
+    select(urls=clean_urls) %>% 
+    mutate(fetched=FALSE, broken=FALSE) %>% 
+    write_csv(logfile)
+}
+```
+
+# Fetching the internet
+Downloading the internet!
+
+```{r}
+fetch_text_raw<-function(url, dir="../data/urlcontents"){
+  clean_url <- stringr::str_replace_all(url,"[:punct:]","")
+  dest_file <- file.path(dir, clean_url)
+  
+  if(!file.exists(dest_file)){
+  url %>% 
+    xml2::read_html() %>% 
+    rvest::html_node("body") %>% 
+    rvest::html_nodes(xpath='//*[not(ancestor::script or name()="script" or ancestor::style or name()="style")]/text()') %>% 
+    stringr::str_c(collapse = " ") %>% 
+    stringr::str_trunc(1000, ellipsis = "") %>% 
+    readr::write_file(file.path(dir, clean_url))
+  }
+  clean_url
+}
+
+fetch_text<-safely(fetch_text_raw)
+
+example<-"https://google.co.uk"
+fetch_text(example)
+read_file(file.path("../data/urlcontents",stringr::str_replace_all(example,"[:punct:]","")))
+
+```
+
+Gotta fetch 'em all!
+
+```{r, message=FALSE, warning=FALSE, results='hide'}
+logfile %>% 
+  read_csv() %>% 
+  filter(fetched==FALSE,
+         broken==FALSE) %>% 
+  pluck("urls") -> 
+  to_process 
+
+to_process %>% 
+  map(fetch_text) ->
+  processed
+
+processed %>% 
+  map_lgl(~!is.null(.$error)) ->
+  broken
+
+result<-tibble(urls=to_process, broken)
+```
+
+Update our CSV!
+
+```{r}
+"../data/urlcontents" %>% 
+  list.files() %>% 
+  tibble(url=., fetched=TRUE, broken=FALSE) ->
+  fetched
+
+logfile %>% 
+  read_csv()  %>% 
+  mutate(url=stringr::str_replace_all(urls,"[:punct:]",""))  %>% 
+  left_join(fetched, by="url", suffix=c("_orig","_fetch"))  %>% 
+  left_join(result, by="urls", suffix=c("_orig","_result"))  -> 
+  url_scraped 
+
+url_scraped %>% 
+  transmute(urls, 
+            fetched=coalesce(fetched_fetch, fetched_orig),
+            broken=coalesce(broken, broken_orig)) %>% 
+  write_csv(logfile)
+```
+
+What didn't fetch?
+```{r}
+logfile %>% 
+  read_csv() %>% 
+  filter(broken) %>% 
+  select(urls)
+```
+
+A lot of these are domains owned by Brent - let's make a him a list of broken URLs so he can sort out some redirects to improve his SEO.
+
+```{r}
+logfile %>% 
+  read_csv() %>% 
+  filter(broken) %>% 
+  filter(str_detect(urls, fixed("brentozar.com")) |
+           str_detect(urls, fixed("groupby.org"))
+  ) %>% 
+  select(urls) %>% 
+  write_csv("../outputs/brokenbrentlinks.csv")
+```
+
+# Analysing links clicked
+We have the first 1000 characters where possible of any URL clicked by mailing list members. We can use this to get an indication about what the pages are about.
+
+```{r}
+library(tidytext)
+```
+
+Read in all the files, excluding things that were images or pdfs etc and as a result returned back something bigger than expected.
+
+```{r}
+"../data/urlcontents/" %>% 
+  list.files(full.names = TRUE, include.dirs = TRUE) ->
+  files
+  
+files<- files[file.size(files) < 1100]
+```
+
+Now get all the content, split into bigrams that don't have stop words and produce a count of bigrams present into the data.
+
+```{r}
+files %>% 
+  tibble(file=.) %>% 
+  filter(!stringr::str_detect(file, "(jpg|pdf|gif|mp4)$")) %>% 
+  mutate(text=map_chr(file,read_file)) %>% 
+  unnest_tokens(words,text,token = "ngrams", n=2) %>% 
+  separate(words, c("a","b")) %>% 
+  anti_join(stop_words,by = c("a"="word")) %>% 
+  anti_join(stop_words,by = c("b"="word")) %>% 
+  unite(words, a, b, sep = " ") %>%
+  count(file, words, sort = TRUE) %>%
+  ungroup() ->
+  word_freqs
+
+word_freqs
+```
+
+We now need to convert this into a document term matrix to detect topics.
+
+```{r}
+word_freqs %>% 
+  cast_dtm(file, words, n) ->
+  word_dtm
+
+word_dtm
+```
+
+
+Now that we have this, we can use it detect different topics using Lichert Distance allocation algorithm to try grouping terms together.
+
+```{r}
+library(topicmodels)
+word_dtm %>% 
+  LDA(k = 8, control = list(seed=7867))  ->
+  word_lda
+
+word_lda %>% 
+  tidy(matrix="beta") ->
+  lda_words
+
+word_lda %>% 
+  tidy(matrix="gamma") ->
+  lda_files
+```
+
+Let's see what the topic allocations look like by word.
+
+```{r fig.height=10}
+library(ggplot2)
+
+lda_words %>% 
+  group_by(topic) %>% 
+  top_n(10, beta) %>% 
+  ggplot(aes(y=term, x=topic, size=beta)) +
+  geom_point()
+
+```
+
+Let's see what sort of sites we're getting in the different categories.
+
+```{r}
+lda_files %>% 
+  group_by(topic) %>% 
+  top_n(5, gamma) %>% 
+  mutate(file=str_replace_all(document, fixed("../data/urlcontents/http"),"")) %>%
+  select(topic, file)
+```
+
+Now let's output these results for use in later works.
+
+```{r}
+lda_files %>% 
+  mutate(url=str_replace_all(document, fixed("../data/urlcontents/"),"")) %>% 
+  write_csv("../data/urltopics.csv")
+```

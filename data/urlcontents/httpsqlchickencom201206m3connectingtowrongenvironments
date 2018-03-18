@@ -1,0 +1,35 @@
+Monday Morning Mistakes: Connecting to Wrong Environments – SQLChicken.com 
+ 
+	 Skip to content 
+
+	 
+
+	 
+			 
+
+	 
+	 
+
+		
+		 
+							 SQLChicken.com 
+			
+								 SQL Server Tips &amp; Tricks 
+						 
+
+		
+	 
+ 
+
+ 
+
+		
+	 
+		 
+
+ 
+	 
+		 Posted on   2012/06/18  by  admin Monday Morning Mistakes: Connecting to Wrong Environments 	 
+		 Today’s  Monday Morning Mistake  issue is another painfully common one that we all run into at some point. You’ve got some new code given to you by a developer that’s supposed to be ran against QA (because you’re a good DBA and you don’t grant developers access to anything outside of Development). Part of the code drops some existing tables and recreates them with new schemas, objects, etc. You hit the execute button when the blood drains from your face when you realize the instance you were connected to was a production instance! 
+ Issue 
+ You have multiple instances of SQL Server to manage and you want a visual indicator in SQL Server Management Studio (SSMS) 

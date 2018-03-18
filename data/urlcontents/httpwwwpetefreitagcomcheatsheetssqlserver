@@ -1,0 +1,52 @@
+SQL Server T-SQL Cheat Sheet 
+ SQLServer TSQL CheatSheet 
+
+ 
+ DECLARE and SET Varibales 
+ 
+DECLARE @Mojo int
+SET @Mojo = 1
+SELECT @Mojo = Column FROM Table WHERE id=1
+ 
+ IF / ELSE IF / ELSE Statement 
+ 
+IF @Mojo &lt; 1
+  BEGIN
+	PRINT 'Mojo Is less than 1'
+  END
+ELSE IF @Mojo = 1
+  BEGIN
+    PRINT 'Mojo Is 1'
+  END
+ELSE
+  BEGIN
+	PRINT 'Mojo greater than 1'
+  END
+ 
+ CASE Statement 
+ 
+SELECT Day = CASE 
+  WHEN (DateAdded IS NULL) THEN 'Unknown'
+  WHEN (DateDiff(day, DateAdded, getdate()) = 0) THEN 'Today'
+  WHEN (DateDiff(day, DateAdded, getdate()) = 1) THEN 'Yesterday'
+  WHEN (DateDiff(day, DateAdded, getdate()) = -1) THEN 'Tomorrow'
+  ELSE DATENAME(dw , DateAdded) 
+END
+FROM Table
+ 
+ Add A Column 
+ 
+ALTER TABLE YourTableName ADD [ColumnName] [int] NULL;
+ 
+ Rename a Column 
+ 
+EXEC sp_rename 'TableName.OldColName', 'NewColName','COLUMN';
+ 
+ Rename a Table 
+ 
+EXEC sp_rename 'OldTableName', 'NewTableName';
+ 
+ Add a Foreign Key 
+ 
+ALTER TABLE Products WITH CHECK 
+ADD CONSTRAINT [FK_Prod_Man] 

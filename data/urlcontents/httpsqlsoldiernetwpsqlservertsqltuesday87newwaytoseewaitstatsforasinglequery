@@ -1,0 +1,46 @@
+T-SQL Tuesday #87 – New Way to See Wait Stats for a Single Query – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   T-SQL Tuesday #87 – New Way to See Wait Stats for a Single Query 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ T-SQL Tuesday #87 – New Way to See Wait Stats for a Single Query 
+	 February 14, 2017 
+	 by  SQLSoldier 
+	 SQL Server 
+	 1 Comment 
+	 1 
+ 
+
+
+ T-SQL Tuesday #87: Fixing Old Problems with Shiny New Toys  Welcome to  T-SQL Tuesday #87  being hosted this month by Matt Gordon ( blog | @sqlatspeed ). This month’s topic is “Fixing Old Problems with Shiny New Toys”. The old problem I’m going to talk about is seeing what wait types are experienced by a particular query.
+ If you would like to participate in this month’s bl

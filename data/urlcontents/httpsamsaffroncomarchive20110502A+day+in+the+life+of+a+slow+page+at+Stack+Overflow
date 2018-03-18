@@ -1,0 +1,39 @@
+A day in the life of a slow page at Stack Overflow
+ 
+	 
+		 
+			 
+         
+           Sam Saffron 
+           Programming, Technology and the Art of Hacking 
+         
+         Ruby 
+           MiniProfiler 
+           SQL 
+           Dapper 
+           Media Browser 
+           C# 
+         
+			 
+			 
+ Home 
+	 About 
+ 
+ 
+
+		 
+     
+       
+        
+ 
+	 
+     A day in the life of a slow page at Stack Overflow 
+		 
+		almost 7 years ago		 
+	 
+	 
+       I have been spending a fair amount of time tuning Stack Overflow, in this post I will walk through the process of tuning a single page. 
+ In this post I would like to walk through our internal process of tuning a particular page on Stack Overflow. 
+ In this example I will be looking at our  badge detail page . It is not the most important page on the site, however it happens to showcase quite a few issues. 
+ ## #Step  1, Do we even have a problem? 
+ As a developer, when I browse through the sites I can see how long a page takes to render. 

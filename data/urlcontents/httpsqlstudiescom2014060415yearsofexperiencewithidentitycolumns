@@ -1,0 +1,59 @@
+15 years of experience with Identity columns    | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 15 years of experience with Identity columns 
+       				 34 
+		         June 4, 2014  by Kenneth Fisher 
+
+		 
+			 An identity column is an auto incrementing column 
+ An identity column is typically used as a primary key 
+ A primary key that’s an identity column is usually a surrogate key 
+ A surrogate key is one that is not related to the contents of the row in any way 
+ An identity column must be NOT NULL 
+ You can tell if a column is an identity column by looking at the is_identity column of sys.columns or usin

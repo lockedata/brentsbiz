@@ -1,0 +1,31 @@
+Moving A Database to New Storage With No Downtime | Bob Pusateri - SQL Server and Kindred Subjects 
+    			 
+ About Bob 
+ Community 
+ Talks 
+ Contact 
+
+ 
+	 
+					 
+					 
+		 
+     
+		 
+	 
+			 
+				     
+		  	 
+	 
+		 Moving A Database to New Storage With No Downtime 
+		 
+					   SQL Server ,  SQLServerPedia Syndication ,  TSQL Tuesday 
+							   Add comments 
+					 
+		 
+		 Mar   12 2013 
+	   		 
+			 
+ It’s once again the second Tuesday of the month, meaning it’s  T-SQL Tuesday ! This month’s topic comes to us from Jen McCown ( blog  |  @JenniferMcCown ). Jen is asking us to share our knowledge about  filegroups , and it just so happens that I have a story about migrating to new storage that involved a large number of file and filegroup operations. 
+ The Problem 
+ At work we have been very fortunate to get a new SAN, and I was charged with moving data from the old SAN to the new one. This data falls under 2 main groups: large numbers of small files which can be moved at any time without 

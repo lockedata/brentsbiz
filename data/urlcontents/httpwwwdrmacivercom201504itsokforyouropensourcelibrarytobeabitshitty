@@ -1,0 +1,22 @@
+It’s OK for your open source library to be a bit shitty | David R. MacIver 
+ 
+ 
+ David R. MacIver 
+ 
+ Menu 
+ Skip to content 
+ Home 
+ Blog 
+ CV 
+ Contact Me 
+   
+ 
+ 
+ It’s OK for your open source library to be a bit shitty 
+ 
+ (Content note: I normally try to keep my natural level of profanity slightly under control on this blog. I won’t be doing that in this post) 
+ The major reason I wrote  Hypothesis  is to  destroy shitty software . Everything is terrible, and I want it to be less terrible. 
+ But that random code you threw together as a hack, stopped when it did what you needed to do, threw it up on pypi and then neglected it? 
+ That’s totally OK. Thanks for writing it. The world is slightly better for your having done so, and there is no burden of expectation on you to “do a better job”. It’s not a job after all, is it? We’re not paying you to do it. 
+ And this is what it ultimately comes down to. 
+ I flatter myself that one of the things that I can legitimately claim about Hypoth

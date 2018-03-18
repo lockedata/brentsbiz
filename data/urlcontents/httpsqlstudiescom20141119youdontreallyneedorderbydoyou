@@ -1,0 +1,60 @@
+You don’t really need ORDER BY do you? | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 You don’t really need ORDER BY do you? 
+       				 7 
+		         November 19, 2014  by Kenneth Fisher 
+
+		 
+			 You see dozens of blog posts and articles about how the order of a result set is not guaranteed without an ORDER BY clause and here is my contribution to the subject. 
+ You all know I love examples so without further ado here we go: 
+ Using data from AdventureWorks2014 
+ -- Create and load the test table
+SELECT AddressId, AddressLine1, AddressLine2, City, 
+	StateProvinceCode, PostalCode, SpatialLocation, 
+	Ad

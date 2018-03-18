@@ -1,0 +1,10 @@
+Error and Transaction Handling in SQL Server 
+ Error and Transaction Handling in SQL Server
+ Part One – Jumpstart Error Handling 
+ 
+ An SQL text by  Erland Sommarskog , SQL Server MVP.  Latest revision : 2015-05-03.    Copyright  applies to this text. See here for  font conventions  used in this article.
+ This part is also available in a  Spanish translation  by Geovanny Hernandez. 
+ 
+ Introduction 
+
+ This article is the first in a series of three about error and transaction handling in SQL Server. The aim of this first article is to give you a jumpstart with error handling by  showing you a basic pattern which is good for the main bulk of your code. This part is written with the innocent and inexperienced reader in mind, and for this reason I am intentionally silent on many details. The purpose here is to tell you  how  without dwelling  much on  why . If you take my words for your truth, you may prefer to only read this part and save the other two  for a later point in your 

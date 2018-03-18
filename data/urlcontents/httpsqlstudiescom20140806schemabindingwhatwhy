@@ -1,0 +1,56 @@
+SchemaBinding – What &amp; Why | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 SchemaBinding – What &amp; Why 
+       				 24 
+		         August 6, 2014  by Kenneth Fisher 
+
+		 
+			 What 
+ When you use the SchemaBinding keyword while creating a  view  or  function  you  bind  the structure of any underlying tables or views.  So what does that mean?  It means that as long as that schemabound object exists as a schemabound object (ie you don’t remove schemabinding) you are limited in changes that can be made to the tables or views that it refers to.   
+ That still sounds a bit confusing.  This may be easier wi

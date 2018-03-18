@@ -1,0 +1,37 @@
+ Nick Craver - Why you should wait on upgrading to .Net 4.6 
+     
+         
+           
+          Nick Craver Software Imagineering 
+         
+         Home 
+             Blog 
+             Desktop 
+             
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+             
+         
+     
+       
+         
+           Why you should wait on upgrading to .Net 4.6 
+             Jul 27, 2015 
+           Update (August 11th):  A patch for this bug has been released by Microsoft. Here’s their update to the advisory: 
+
+ 
+   We released an updated version of RyuJIT today, which resolves this advisory. The update was released as  Microsoft Security Bulletin MS15-092  and is available on Windows Update or via direct download as  KB3086251 . The update resolves:  Cor

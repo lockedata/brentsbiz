@@ -1,0 +1,38 @@
+Columnstore Indexes and other new Optimizations in Denali | Benjamin Nevarez 
+ 
+
+	 
+		 
+				
+			 Benjamin Nevarez 
+						 Query Tuning and Optimization 
+		 
+		
+		 Skip to Content ↓ 
+		
+		 About 
+ Blogs 
+ Books 
+ Contact 
+ Presentations 
+ 
+	 
+ 
+	 
+		 	
+	 
+		
+				
+				
+				
+		 
+			
+			 Columnstore Indexes and other new Optimizations in Denali 
+			
+			 
+				 Apr 21st, 2011 
+				 by  Benjamin Nevarez .  
+							 
+			
+			 
+				 One of the most exciting new features that will be available on the next version of SQL Server, code-named Denali, are the columnstore indexes and some related new optimizations for data warehouse queries. Most of us learned about this project, code-named Apollo, at the PASS Summit 2010 last November when it was demonstrated on Tuesday’s keynote and explained on some sessions by Eric Hanson later that day, and by Susan Price the following day. Eric has also written the white paper “Columnstore Indexes for Fast Data Warehouse Query Proce

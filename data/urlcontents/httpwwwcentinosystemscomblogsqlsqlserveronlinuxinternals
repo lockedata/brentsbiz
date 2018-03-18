@@ -1,0 +1,26 @@
+SQL Server on Linux - How I think they did it! - Centino Systems Blog 
+ 
+	 Centino Systems Blog 
+			 We make a system out of your systems. 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ Publications 
+ Talks 
+ Training 
+ About 
+ 
+		 
+			 
+	 
+		 
+
+			
+				
+	 SQL Server on Linux – How I think they did it! 
+										 
+					 2 Replies 				 
+					 
+			 OK, so everyone wants to know how Microsoft did it…how they got SQL Server running on Linux. In this article, I’m going to try to figure out how. 
+ Update:  Since the publication of this post, Microsoft has published a blog post detailing the implementation  here .  
+ There’s a couple of approaches they could take…a direct port or some abstraction layer…A direct port would have been hard, basically any OS interaction would have had to been looked at and that would have been time consuming and risk prone. Who comes along to save the day? Abstraction. The word you hear about a million times when you take Operating Systems classes in undergra

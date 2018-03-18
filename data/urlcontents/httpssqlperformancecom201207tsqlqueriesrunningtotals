@@ -1,0 +1,32 @@
+Best approaches for running totals - updated for SQL Server 2012 - SQLPerformance.com 
+   
+     
+       
+     
+     
+       
+       
+     
+   
+   
+	  
+     
+       Home 
+       Archives 
+       Authors 
+       Categories 
+       Newsletters 
+       About 
+       Q &amp; A Community 
+         GO 
+         
+		 
+	   
+     
+ 
+       Best approaches for running totals – updated for SQL Server 2012 
+     
+       July 24, 2012 by  Aaron Bertrand  in  SQL Performance ,  SQL Plan ,  T-SQL Queries        |  33 Comments 
+        
+   
+         Auto-correlate and track performance for all of your Windows processes and services, right now or historically.   More   → SentryOne Newsletters The SQLPerformance.com bi-weekly newsletter keeps you up to speed on the most recent blog posts and forum discussions in the SQL Server community. eNews is a bi-monthly newsletter with fun information about SentryOne, tips to help improve your productivity, and much more. Subscribe   → Featured Author Jonatha

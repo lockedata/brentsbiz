@@ -1,0 +1,50 @@
+Ascending Key Problem in Fact Tables - Part 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The Ascending Key Problem in Fact Tables –Part two: Stat Job! 
+ 
+   2011-07-07 
+   Grade of the Steel   SQL Server Archive   	
+   7 Comments   Data Warehouse ,  Histogram ,  Predictability ,  SQL ,  SQL Server ,  Statistics 
+ 
+ In my  last post  I described a common problem with statistics in data warehouses. I also directed you to a trace flag that partially solves the problem. There is an issue with this trace flag: at the time of writing this blog, it does not work on partitioned tables. Considering that large tables tend to be partitioned, this could be an issue.

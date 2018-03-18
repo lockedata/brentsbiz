@@ -1,0 +1,55 @@
+ Plan Caching  |   
+		 
+	
+			 
+	
+				 
+	
+			 
+									
+			 HOME 
+					 OFFERINGS 
+					 ONLINE TRAININGS 
+					 ACADEMY 
+					 BLOG 
+					 QUICKIE 
+					 
+				 
+			
+			 
+			
+	 
+				
+		 
+	
+		 
+		
+	 
+	
+	 	
+	
+	
+	 
+
+
+	 
+	
+		 
+
+			
+				
+					 Plan Caching 
+						
+						 
+					March 20, 2017 · 
+					Klaus Aschenbrenner ·
+											 
+							 Leave a Comment 						 
+									
+				 
+
+						
+						 
+							 (Be sure to checkout the FREE  SQLpassion Performance Tuning Training Plan  - you get a weekly email packed with all the essential knowledge you need to know about performance tuning on SQL Server.)
+ 
+ Today I want to talk more about Plan Caching and its side-effects in SQL Server. As you might know, every logical query submitted to SQL Server is compiled into a physical execution plan. That execution plan is afterwards cached in the so-called  Plan Cache  for further reuse. Let’s talk in the first step about adhoc SQL statements and whi

@@ -1,0 +1,40 @@
+SQL Server 2016 Public Preview (CTP2) – sys.dm_exec_query_stats | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ SQL Server 2016 Public Preview (CTP2) – sys.dm_exec_query_stats 
+
+		 
+			Posted on  June 5, 2015  by  Amit Banerjee 		 
+	 
+		 In any new release of SQL Server, one of the features that I first explore is the DMV enhancements. In SQL Server 2016 CTP 2, 24 new columns are added to  sys.dm_exec_query_stats (Transact-SQL)  provide information about memory grants and parallel thread usage! 
+ I have documented in the table below the equivalent XML nodes from the execution plan which are now available in the DMV output. This saves you a lot of time from tracking down each and eve

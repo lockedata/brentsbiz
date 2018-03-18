@@ -1,0 +1,50 @@
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server(): The Truth About Cursors:  Part 1 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server()
+ 
+ 
+ 
+ 
+ Thoughts, Musings, Ruminations, and Brainstorms on SQL and Perhaps Other Topics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Sunday, May 16, 2010 
+
+           
+        
+ 
+ 
+ 
+ 
+The Truth About Cursors:  Part 1
+ 
+ 
+ 
+ 
+ 
+ Oh my God!  CURSORs are comin’!   Are we going to let ’em set foot in this town?  Hell No!!! We don’t want their kind ’round these parts! We gotta protect our wives and kin! So grab yer pitchforks and torches!  We ain’t gonna stand for it anymore!  Let’s teach ’em a thing or two!   Kill the beasts! I wanted to open this blog article with the same kind of flavor that I’ve seen in most blog posts regarding cursors.  In other words:  They are bad… they are evil… they are tools of the Devil!  That’s all there is to it.  Don’t ever use them under any circumst

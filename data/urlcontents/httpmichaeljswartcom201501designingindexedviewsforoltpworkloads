@@ -1,0 +1,56 @@
+Designing Indexed Views for OLTP Workloads | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ January 23, 2015 
+ 
+	  Designing Indexed Views for OLTP Workloads 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 When I look at indexed views defined on OLTP databases, I’m encouraged when their join diagrams resemble snowflake schemas. 
+ 
+ When you create an indexed view, SQL Server will enforce  a number of restrictions . These restrictions ensure that your views are deterministic and easy to maintain. The restrictions are more than a recommendation, SQL Server simply won’t let you create the index if your view doesn’t meet those criteria. 
+ Indexed Views Can Sometimes Cause Poor Performance 

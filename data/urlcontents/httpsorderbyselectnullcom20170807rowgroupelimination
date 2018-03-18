@@ -1,0 +1,35 @@
+Rowgroup Elimination – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 Rowgroup Elimination 
+		 
+						 Posted on  August 7, 2017 August 7, 2017  by  Joe Obbish 					 
+
+	 
+		 Rowgroup elimination is a performance optimization based on compressed rowgroup metadata that can allow rowgroups to be skipped during query execution. It’s likely that all of the metadata used for the optimization is exposed in the  sys.column_store_segments  DMV. This blog post explores some of the less well known rules and limitations for rowgroup elimination. 
+ Test Data 
+ To keep things very simple we’ll build 100 rowgroups with exactly 1 million rows in each of them.  ID  and  ID2  increase from 1 to 10000000 and  ID_NULL  is always NULL. Code to create and populate the table: 
+ 
+DROP TABLE IF EXISTS dbo.MILLIONAIRE_CCI;
+
+CREATE TABLE dbo.MILLIONAIRE_CCI (
+	ID BIGINT NULL,
+	ID2 BIGINT NULL,
+	ID_NULL B

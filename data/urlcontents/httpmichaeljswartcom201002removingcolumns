@@ -1,0 +1,54 @@
+Removing Columns | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ February 5, 2010 
+ 
+	  Removing Columns 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  "sql server" ,  sys.system_internals_partition_columns  —  Michael J. Swart @ 1:00 am  
+
+	 
+		 Takeaway:  Deleting columns does not reduce the width of a record (including new ones). Tables have to be rebuilt in order to reclaim space. 
+ So I had the opportunity to talk to Michelle Ufford ( SqlFool.com ) last November after her PASS Summit Talk. We wondered what happens to the space taken by columns after they’ve been deleted. For example, you may be removing columns or altering columns in order to reduce a records’ width. The improved bytes/row (and rows/page) can provide a huge bene

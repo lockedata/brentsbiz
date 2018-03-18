@@ -1,0 +1,27 @@
+ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 Large CCI ETLs Cannot Scale Without TF 834 		 
+			 Posted on  March 6, 2018 March 8, 2018  by  Joe Obbish 					 
+			 
+		 Large servers may experience a scalability bottleneck related to the  RESERVED_MEMORY_ALLOCATION_EXT  wait event during loading of columnstore tables. This blog post shares a reproduction of the issue and discusses some test results. 
+ The Test Server 
+ Testing was done on a four socket bare metal server with 24 cores per socket. The server had 1 TB of RAM and storage was provided by a SAN. Within SQL Server, we were able to read data at a peak rate of about 5.5 GB/s. Hyperthreading was disabled, but there aren’t any other nonstandard OS configuration settings that I’m aware of. 
+ SQL Server 2016 SP1 CU7 was installed on Windows Server 2016. Most default settings were retained for this testing, including allowing

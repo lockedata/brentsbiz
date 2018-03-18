@@ -1,0 +1,44 @@
+DELETE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DELETE (Transact-SQL) 
+
+					 
+								 05/10/2017 
+							 14 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Removes one or more rows from a table or view in  SQL Server.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ -- Syntax for SQL Server and Azure SQL Database  
+
+[ WITH &lt;common_table_expression&gt; [ ,...n ] ]  
+DELETE   
+    [ TOP ( expression ) [ PERCENT ] ]   
+    [ FROM ]   
+    { { table_alias  
+      | &lt;object&gt;   
+      | rowset_function_limited   
+      [ WITH ( table_hint_limited [ ...n ] ) ] }   
+      | @table_variable  
+    }  
+    [ &lt;OUTPUT Clause&gt; ]  
+    [ FROM table_source [ ,...n ] ]   
+    [ WHERE { &lt;search_condition&gt;   
+   

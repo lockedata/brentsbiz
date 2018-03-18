@@ -1,0 +1,40 @@
+Introduction to Azure Cosmos DB | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Welcome to Azure Cosmos DB 
+
+					 
+								 12/15/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 Tip The Azure Cosmos DB DocumentDB API or SQL (DocumentDB) API is now known as Azure Cosmos DB SQL API. You don't need to change anything to continue running your apps built with DocumentDB API. The functionality remains the same. 
+ 
+ Azure Cosmos DB is Microsoft's globally distributed, multi-model database. With the click of a button, Azure Cosmos DB enables you to elastically and independently scale throughput and storage across any number of Azure's geographic regions. It offers throughput, latency, availability, and consistency guarantees with comprehensive  service

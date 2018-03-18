@@ -1,0 +1,27 @@
+Data Wrangler 
+   
+       
+         
+       
+       
+        blog 
+        wrangle 
+        feedback 
+       
+       
+     
+   
+     
+      
+        
+        Wrangler is an interactive  tool for data cleaning and transformation.  
+        Spend less time formatting and more time analyzing your data.
+        
+       
+
+ UPDATE:  The Stanford/Berkeley Wrangler research project is complete, and the software is no longer actively supported. Instead, we have started a commercial venture,  Trifacta . For the most recent version of the tool, see the free  Trifacta Wrangler . 
+
+          
+          Why wrangle?
+           Too much time is spent manipulating data just to get analysis and visualization tools to read it. Wrangler is designed to accelerate this process: spend less time fighting with your data and more time learning from it.  
+             Wrangler allows interactive transformation of messy, real-world data into the data tables analysis tools expect. Export data for use in Excel, R,

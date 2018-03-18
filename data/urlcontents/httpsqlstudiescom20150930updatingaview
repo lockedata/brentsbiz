@@ -1,0 +1,59 @@
+Updating a view | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Updating a view 
+       				 2 
+		         September 30, 2015  by Kenneth Fisher 
+
+		 
+			 I was recently asked how to update views.  Specifically the question was about using triggers to update a view.   
+ So updating a simple view is easy enough.  Per  BOL : 
+ Updatable Views 
+ You can modify the data of an underlying base table through a view, as long as the following conditions are true: 
+ Any modifications, including UPDATE, INSERT, and DELETE statements, must reference columns from only one base table. 
+ The columns being modified in the v

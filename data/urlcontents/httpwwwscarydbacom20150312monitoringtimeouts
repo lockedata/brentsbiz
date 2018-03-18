@@ -1,0 +1,28 @@
+Monitoring for Timeouts - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Monitoring for Timeouts 		 Home  /  SQL Server 2012  /  Monitoring for Timeouts 	 
+ 
+	 
+		 
+		 
+			 12 Mar 2015  by  Grant Fritchey  11 Comments 		 
+		 The question came up at  SQL Rally , “Can you use Extended Events to monitor for query timeouts?” 
+ My immediate response was yes… and then I stood there trying to think of exactly how I’d do it. Nothing came quickly to mind. So, I promised to track down the answer and post it to the blog. 
+ My first thought is to use the  Causality Tracking  feature to find all the places where you have a sql_batch_starting without a sql_batch_completed (or the same thing with rpc calls). And you know what, that would work. But, before I got too deep in trying to write the query that would fin

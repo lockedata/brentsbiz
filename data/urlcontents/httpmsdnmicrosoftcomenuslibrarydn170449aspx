@@ -1,0 +1,33 @@
+Requirements for Using Memory-Optimized Tables | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Requirements for Using Memory-Optimized Tables 
+
+					 
+								 11/24/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    For using In-Memory OLTP in Azure DB see  Get started with In-Memory in SQL Database .   
+  In addition to the  Hardware and Software Requirements for Installing SQL Server , the following are requirements to use In-Memory OLTP:   
+  SQL Server 2016 SP1 (or later), any edition. For  SQL Server 2014 and  SQL Server 2016 RTM (pre-SP1) you need Enterprise, Developer, or Evaluation edition. 
+ Note In-Memory OLTP requires the 64-bit version of  SQL Server.   
+ 
+ 
+  SQL Server needs enough memory to hold the data in memory-optimi

@@ -1,0 +1,27 @@
+Data type conversion (Database Engine) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Data type conversion (Database Engine) 
+
+					 
+								 7/23/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Data types can be converted in the following scenarios: 
+ When data from one object is moved to, compared with, or combined with data from another object, the data may have to be converted from the data type of one object to the data type of the other.   
+ When data from a  Transact-SQL result column, return code, or output parameter is moved into a program variable, the data must be converted from the  SQL Server system data type to the data type of the variable.   
+ When you convert between an application variable and a  SQL Server result set column, return cod

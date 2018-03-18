@@ -1,0 +1,65 @@
+This is how to shred Extended Event XML faster 
+ 
+ 
+ 
+ 
+ 
+   A script to help delete... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ / 
+ comedy 
+ / 
+ mds 
+ / 
+ musings 
+ / 
+ photos 
+ / 
+ powershell 
+ / 
+ sql 
+ / 
+ ssis 
+ / 
+ ssrs 
+ 
+ 
+ 
+ 
+ 
+ A cool way to check...   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ This is how to shred Extended Event XML faster 
+ 
+ 
+18 OCT 2015
+•
+ 
+8 mins read
+ 
+about
+sql
+ 
+ 
+ Note : This applies largely to ring buffers, not trace files. 
+ The last few weeks I've been capturing application-level database timeouts and dipped my toe into Extended Events to do so. Knowing that the default ADO.NET query timeout is 30s I decided to capture queries taking &gt;= 27s to run and that finished with an error. 
+ Note : This was done on SQL Server 2012/2014, and I also read that the order of the Where clause is important to improve performance which is why I've put the result check first. 
+ If   Exists   ( 
+		 Select 	 Top   1   0 
+		 From 	 sys . dm_xe_sessions 
+		 Where 	 name   =   'Query_Timeouts' ) 
+ Begin 
+		 Alter   E

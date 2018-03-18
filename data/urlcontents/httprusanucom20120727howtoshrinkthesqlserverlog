@@ -1,0 +1,23 @@
+How to shrink the SQL Server log 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         How to shrink the SQL Server log 
+         July 27th, 2012  
+         
+
+ 
+ I noticed that my database log file has grown to 200Gb. I tried to shrink it but is still 200Gb. How can I shrink the log and reduce the file size? 
+ The problem is that even after you discover about  DBCC SHRINKFILE  and attempt to reduce the log size, the command seems not to work at all and leaves the log at the same size as before. What is happening? 
+ If you look back at  What is an LSN: Log Sequence Number  you will see that LSNs are basically pointers (offsets) inside the log file. There is one level of indirection (the VLF sequence number) and then the rest of the LSN is basically an offset inside the Virtual Log File (the VLF). The log is always defined by the two LSNs: the head of the log (where new log records will be placed) and the tail of the log (what is the oldest lo

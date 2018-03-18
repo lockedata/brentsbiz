@@ -1,0 +1,51 @@
+The compelling case for using heaps | sqlsunday.com 
+ 
+
+	 
+			 
+				 
+					 sqlsunday.com 
+					 T-SQL programming, useful tips and tutorials for the MS SQL Server developer. 
+				 
+			 
+		 
+	 Menu 
+		 Skip to content 
+
+		 About sqlsunday.com 
+ Structured Concepts 
+ Development 
+	 Performance 
+	 Training 
+	 Master data tool 
+	 File parser API 
+	 Datawarehouse-as-a-service 🇸🇪 
+ 
+ Slack app 
+ Presentations 
+ Downloads 
+ Checklists 
+ Installing SQL Server 2014 
+	 Installing SQL Server 2016 
+	 Installing SQL Server 2017 
+	 Links and utilities 
+ 
+ 		 
+			 Search 
+		 
+		 
+			 
+				 
+					 Search for: 
+					 
+				 		 
+	 
+
+	 
+		 The compelling case for using heaps 				 
+			 2016-09-01 2016-09-03  /  Daniel Hutmacher 					 
+	 
+		 I’m an outspoken advocate of always using a clustered index on each and every table you create as a matter of best practice. But even I will agree that there’s a case for using the odd heap now and then. 
+ 
+ The great thing with (clustered) indexes 
+ There are numerous

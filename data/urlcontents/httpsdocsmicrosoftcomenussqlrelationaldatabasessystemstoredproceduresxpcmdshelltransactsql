@@ -1,0 +1,31 @@
+xp_cmdshell (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 xp_cmdshell (Transact-SQL) 
+
+					 
+								 03/16/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Spawns a Windows command shell and passes in a string for execution. Any output is returned as rows of text.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+xp_cmdshell { 'command_string' } [ , no_output ]  
+ Arguments 
+   '   command_string   '  Is the string that contains a command to be passed to the operating system.  command_string  is  varchar(8000)  or  nvarchar(4000) , with no default.  command_string  cannot contain more than one set of double quotation marks. A single pair of quotation marks is required if any spaces are present in the file paths or program

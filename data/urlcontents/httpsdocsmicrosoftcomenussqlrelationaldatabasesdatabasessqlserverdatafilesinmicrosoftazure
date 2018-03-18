@@ -1,0 +1,29 @@
+SQL Server data files in Microsoft Azure | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SQL Server data files in Microsoft Azure 
+
+					 
+								 10/02/2017 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     
+  SQL Server Data Files in Microsoft Azure enables native support for SQL Server database files stored as Microsoft Azure Blobs. It allows you to create a database in SQL Server running in on-premises or in a virtual machine in Microsoft Azure with a dedicated storage location for your data in Microsoft Azure Blob Storage. This enhancement especially simplifies to move databases between machines by using detach and attach operations. In addition, it provides an alternative storage location for your database backup f

@@ -1,0 +1,42 @@
+Setting up Database Mail to use my Gmail account 
+ 
+		 
+			 
+
+				 
+					 
+												 
+                                        
+                         Mat Hayward-Hill's SQL Server Blog 
+                      
+                                                          Sharing what I know about SQL Server 
+                   
+						 
+					 
+					 
+												 Menu 
+							 						 
+
+			    
+			 
+		 
+
+		
+						 
+					 
+						 
+							                                                    Setting up Database Mail to use my Gmail account 
+                        						   						 
+											 
+				 
+				 
+		 
+
+	
+	 
+		 
+			
+				
+ 
+		 This week I had to setup a sandbox environment to test sending some HTML reports (created by a SQL Server stored procedure, more on this next week) I’d prepared for a client, and wanted delivered to my mailbox each morning. For the purpose of this demo I used my Gmail account. 
+ I created my sandbox environment using Microsoft Azure; this is my go-to for any test

@@ -1,0 +1,40 @@
+Google App Engine Blog: Google BigQuery Service: Big data analytics at Google speed 
+ 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ Google App Engine Blog News, notes, tips and tricks from the Google App Engine Team 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Monday, November 14, 2011 
+
+           
+        
+ 
+ 
+ 
+ 
+ Google BigQuery Service: Big data analytics at Google speed 
+ 
+ 
+ 
+ Our post today,  cross-posted with the  Google Enterprise Blog ,  comes from one of our sister projects, BigQuery. We know that many of you are interested in processing large volumes of data and we encourage you to try it out. Rapidly crunching terabytes of big data can lead to better business decisions, but this has traditionally required tremendous IT investments.  Imagine a large online retailer that wants to provide better product recommendations  by analyzing website usage and purchase patterns from millions of website visits.  Or consider a car manufacturer that wants to maximize its a

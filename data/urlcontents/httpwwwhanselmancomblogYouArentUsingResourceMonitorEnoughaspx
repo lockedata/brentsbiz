@@ -1,0 +1,29 @@
+You aren't using Resource Monitor enough - Scott Hanselman 
+ Scott Hanselman 
+         about 
+            	 blog 
+            	 speaking 
+            	 podcasts 
+            	 books   
+           
+               
+                   
+               
+                browse by  category  or  date 
+               
+       
+     
+
+     
+     You aren't using Resource Monitor enough 
+     August 5, '14 
+		 Comments [21] 
+     Posted in  Tools     
+     
+              Sponsored By 
+                    
+                     
+
+                   
+          
+		 Most folks learn how to use Task Manager pretty quickly. We've all been on the phone with non-technical-relative and ask them to open up Task Manager.   As we move from user to technical-user we are introduced to  SysInternals tools  and perhaps  Process Monitor  for finding out what's happening to a disk. However, I find that for quick questions that using Resource Monitor is faster to access and the informatio

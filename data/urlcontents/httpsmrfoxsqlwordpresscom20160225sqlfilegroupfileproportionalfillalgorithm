@@ -1,0 +1,37 @@
+SQL Filegroup/File Proportional Fill Algorithm – Mr. Fox SQL 
+	 Skip to content 
+
+	 
+		 
+			 Primary Menu 
+				 |  HOME PAGE | 
+ |  ABOUT ME | 
+ |  MY PRESENTATIONS | 
+ |  MY WEB LINKS | 
+ |  MY NOTES &amp; DISCLAIMERS | 
+ 			 
+				 Search 
+				 
+					 
+						 
+				 
+					 Search for: 
+					 
+				 					 
+				 
+			 
+    	 
+	 
+
+	 
+				 				 Mr. Fox SQL 
+				 Outfoxing data challenges by being rather damn sneaky… 
+			 
+	 
+	 
+		 SQL Filegroup/File Proportional Fill Algorithm 
+					 
+				 25 February 2016 28 May 2017 Mr. Fox SQL (Rolf Tesmer) 			 
+		
+	 
+			 I had a question at work recently where there was some confusion around how SQL Server allocates data across  data files  within a  filegroup  in a  user database .  There was a mention that data was  not being distributed evenly  across files and also that a  trace flag  was needed for SQL Server to distribute data evenly.  I am uncertain if those circumstances were database config related or something else outside of proportional fill.

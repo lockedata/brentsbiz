@@ -1,0 +1,35 @@
+Providence: Failure Is Always an Option - Jason Punyon 
+   Jason Punyon 
+  
+ RSS 
+  
+ 
+   
+  
+ Blog 
+   Archives 
+ 
+     
+       
+ Providence: Failure Is Always an Option 
+    
+    
+       
+        
+
+
+
+
+ Feb   12 th ,  2015   3:42 pm 
+    
+   This post is part of a series on the Providence project at Stack Exchange.  The first post can be found  here . 
+
+ The   last   five   blog   posts  have been a highlight reel of Providence’s successes. Don’t be fooled, though, the road to Providence was long and winding. Let’s balance out the highlight reel with a look at some of the bumps in the road. 
+
+ I said the road was long. Let’s quantify that. The first commit to the Providence repo happened on February 13, 2014 and Providence officially shipped with  Targeted Job Ads for Stack Overflow  on January 27, 2015. We worked on Providence for about a year. 
+
+ You read that right; we worked on Providence for about a year. I’m telling you that this system… 
+
+ 
+
+ …took a year to build. It’s kind of

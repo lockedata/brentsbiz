@@ -1,0 +1,35 @@
+sys.hash_indexes (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.hash_indexes (Transact-SQL) 
+
+					 
+								 06/10/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Shows the current hash indexes and the hash index properties. Hash indexes are supported only on  In-Memory OLTP (In-Memory Optimization) .   
+  The sys.hash_indexes view contains the same columns as the sys.indexes view and an additional column named  bucket_count . For more information about the other columns in the sys.hash_indexes view, see  sys.indexes (Transact-SQL) .   
+ Column name 
+ Data type 
+ Description 
+ &lt;inherited columns&gt; 
+ 
+ Inherits columns from  sys.indexes (Transact-SQL) . 
+ bucket_count 
+ int 
+ Count of hash buckets for hash indexes.  F

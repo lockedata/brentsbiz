@@ -1,0 +1,77 @@
+Cluster Aware Updating and AlwaysOn Availability Groups | The SQL Herald 
+
+ 
+	 
+					 The SQL Herald 
+				 Databases et al… 
+	 
+	 
+		 
+			 Search: 
+			 
+		 
+	 
+ 
+ 
+	 
+		 
+			 Home About 
+ 
+		 
+		 
+			 Posts 
+			 Comments 
+		 
+	 
+
+	 
+			 
+		 SQL 
+ 
+	 Uncategorized 
+ 
+	 Clustering 
+ 
+	 business 
+ 
+	 SQLPASS 
+ 
+	 SQL Server 2016 
+ 
+	 Virtualization 
+ 
+	 SQL Saturday 
+ 
+	 vendors 
+ 
+	 ColumnStore 
+ 
+		 
+	 
+ 
+
+ 
+ 
+
+	 
+
+		
+			 
+				 ←  SAN Basics for DBAs–Central Pennsylvania Users Group 
+				 The Best Consulting Gig Ever  → 
+			 
+
+			 
+
+				 
+
+					 Cluster Aware Updating and AlwaysOn Availability Groups 
+
+					 
+						 
+							 November 16, 2012 
+																						 2 Comments 
+																				 
+					 
+
+					 One of the features I was most looking forward to in Windows Server 2012, was  Cluster Aware Updating . My company has a  lot  of Windows servers, and therefore a lot of clusters. So when a big vulnerability happens and they all need to be rebooted, we use System Center Configu

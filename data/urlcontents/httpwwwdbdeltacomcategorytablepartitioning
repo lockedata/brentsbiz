@@ -1,0 +1,26 @@
+Table Partitioning | Dan Guzman's Blog 
+ 
+	 Dan Guzman's Blog 
+				 Microsoft SQL Server Technical Articles 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+									 Skip to secondary content 
+												 Home 
+			 
+
+		 
+
+			
+				 Category Archives:  Table Partitioning 
+
+									 SQL Server 2016 SP1 Standard Edition Enhancements 
+			
+						 
+				 Posted on  November 18, 2016    by    Dan Guzman 			 
+			
+					 
+			 I seldom get excited about service packs but the changes released with SQL Server 2016 SP1 are the most significant I’ve seen in a SQL Server service pack in 20+ years.  Microsoft announced this week at the Microsoft Connect(); developer’s conference that SQL Server 2016 SP1, which is available for download immediately, allows features previously available only in Enterprise/Developer Editions to be used in lessor Standard, Web, Express, and LocalDB Editions too.  Features like table partitioning, In-Memory OLTP, and columnstore are now options for

@@ -1,0 +1,25 @@
+SQL Server Clustered Columnstore Indexes at TechEd 2013 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         SQL Server Clustered Columnstore Indexes at TechEd 2013 
+         June 11th, 2013  
+         
+
+ 
+ Now that the TechEd 2013 presentations are  up online on Channel9  you can check out Brian Mitchell’s session  What’s New for Columnstore Indexes and Batch Mode Processing . Brian does a great job at presenting the new updatable  clustered columnstore indexes and the enhancements done to the vectorized query execution (aka. batch mode). Besides the TechEd  presentation there is also another excellent resource available online right now for your education on the topic: the  SIGMOD 2013  paper  Enhancements to SQL Server Column Stores .  Besides the obvious updatability, this paper cites some more improvements that are available in clustered columnstores:
+ Improved Index Build 
+ Sampling Support 
+ Bookmark Support 
+ Schema modification sup

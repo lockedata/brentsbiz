@@ -1,0 +1,43 @@
+Database Mirroring From SQL Server 2005 to SQL Server 2008 R2 SP1 CU3 | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Scaling SQL Server Presentation from SQLSaturday #104 Precon 
+					 January 2012 SQL Server 2008/2008 R2 Diagnostic Information Queries  → 
+				 
+
+				 
+											 Database Mirroring From SQL Server 2005 to SQL Server 2008 R2 SP1 CU3 					
+					 
+						 Posted on   January 12, 2012 						 by   Glenn Berry   					 
+
+					 
+						 I recently ran into a production instance of SQL Server 2005 SP2 (Build 3042) that is running in a two node, single instance fail-over cluster, running on Windows Server 2003 R2 SP2. As you may be aware, this entire stack is out of Mainstream support from Microsoft (both the OS 

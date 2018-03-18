@@ -1,0 +1,36 @@
+Stuck in SQLPS | Art of the DBA 
+ 
+
+	 
+		 
+				
+			 Art of the DBA 
+						 Blending the right and left sides of SQL Server Database Administration 
+		 
+		
+		 Skip to Content ↓ 
+		
+		 About 
+ Presentations 
+ 
+	 
+ 
+	 
+		 	
+	 
+		
+				
+				
+				
+		 
+			
+			 Stuck in SQLPS 
+			
+			 
+				 Aug 16th, 2016 
+				 by  Mike Fal .  
+							 
+			
+			 
+				 A month and a half ago, with a lot of fanfare and maybe a little confetti, the SQL Server Tools Team released an  update to SQL Server Management Studio  that massively updated the SQL Server Powershell experience. As I blogged, this is a big deal and long overdue. I am extremely happy that this is finally getting some attention in Redmond. 
+ However, once the dust settled and I had a chance to dig into things, I discovered that not all was rainbows and candy. The truth of the matter is that SQLPS is not so easily replaced. We are still going to be burdened with using the old module for at least the short term. This 

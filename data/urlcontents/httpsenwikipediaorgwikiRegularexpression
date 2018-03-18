@@ -1,0 +1,45 @@
+Regular expression - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ Regular expression 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 "Regex" redirects here. For the comic boox, see  Re:Gex . 
+ 
+ 
+ 
+ 
+ This article  may be too technical for most readers to understand . Please  help improve it  to  make it understandable to non-experts , without removing the technical details.  (September 2016)   ( Learn how and when to remove this template message ) 
+ 
+ 
+ 
+ 
+ 
+The match results of the pattern
+ 
+ 
+ (? &lt; = \ .)   {2,}(?= [A-Z] ) 
+ 
+At least two spaces are matched, but only if they occur directly after a period (.) and before an upper case letter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ Stephen Cole Kleene , who helped found the concept 
+ 
+ 
+ 
+ 
+ 
+ 
+A blacklist on  Wikipedia  which uses regular expressions to identify bad titles 
+ 
+ 
+ A  regular expression ,  regex  or  regexp [1]  (sometimes called a  rational expression ) [2] [3]  is, in  theoretic

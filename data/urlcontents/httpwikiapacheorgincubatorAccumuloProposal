@@ -1,0 +1,33 @@
+AccumuloProposal - Incubator Wiki 
+
+ 
+ 
+ Search: 
+ 
+ 
+ Incubator Wiki 
+ Login 
+ 
+
+ AccumuloProposal 
+ 
+
+
+ FrontPage RecentChanges FindPage HelpContents AccumuloProposal 
+ 
+
+ Immutable Page Comments Info Attachments 
+ 
+ 
+     More Actions: 
+     Raw Text Print View Render as Docbook Delete Cache ------------------------ Check Spelling Like Pages Local Site Map ------------------------ Rename Page Copy Page Delete Page ------------------------ My Pages Subscribe User ------------------------ Remove Spam Revert to this revision Package Pages Sync Pages ------------------------ Load Save SlideShow 
+ 
+ 
+ 
+ 
+ Accumulo Proposal 
+ 
+ Abstract 
+ Accumulo is a distributed key/value store that provides expressive, cell-level access labels.  
+ Proposal 
+ Accumulo is a sorted, distributed key/value store based on Google's  BigTable  design.  It is built on top of Apache Hadoop, Zookeeper, and Thrift.  It features a few novel improvements on the  BigTable  design in the form of cell-level access labe

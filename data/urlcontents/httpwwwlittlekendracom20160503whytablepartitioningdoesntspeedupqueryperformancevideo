@@ -1,0 +1,28 @@
+Why Table Partitioning Doesn't Speed Up Query Performance - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Why Table Partitioning Doesn’t Speed Up Query Performance (video) 
+
+				 
+					 May 3, 2016 Kendra Little Execution Plans ,  Free Video ,  Indexes ,  Performance ,  sql ,  Table Partitioning 16  Comments 				 
+			 
+		 
+
+			 
+ 
+ Learn why SQL Server’s table partitioning feature doesn’t make your queries faster– and may even make them slower. 
+ In this 20 minute video, I’ll show you my favorite articles, bugs, and whitepapers online to explain where table partitioning shines and why you might want to implement it, even though it won’t solve your query performance problems. 
+ Articles discussed are by  Gail Shaw ,  Remus Rusanu , and the  SQL Customer Advisory Team  (SQLCAT). Scroll down below the video for direct links to each resource. 
+ 
+ Ready to Dig In? Here are the Links Discussed in the Video 
+ Gail Shaw’s SQL Server Howlers – “ I Partitioned my Table, 

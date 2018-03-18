@@ -1,0 +1,26 @@
+Manage the suspect_pages Table (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Manage the suspect_pages Table (SQL Server) 
+
+					 
+								 03/15/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes how to manage the  suspect_pages  table in  SQL Server 2017 by using  SQL Server Management Studio or  Transact-SQL. The  suspect_pages  table is used for maintaining information about suspect pages, and is relevant in helping to decide whether a restore is necessary. The  suspect_pages  table resides in the  msdb database .   
+  A page is considered "suspect" when the  SQL Server Database Engine encounters one of the following errors when it tries to read a data page:   
+ An 823 error that was caused by a cyclic redundancy check (CRC) issued by the 

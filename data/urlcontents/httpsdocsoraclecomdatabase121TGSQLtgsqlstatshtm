@@ -1,0 +1,44 @@
+Managing Optimizer Statistics: Basic Topics 
+ Go to main content 
+ 
+ 
+   21/40   
+ 
+ 12  Managing Optimizer Statistics: Basic Topics 
+ 
+ This chapter explains basic tasks relating to optimizer statistics management. 
+ This chapter contains the following topics: 
+ 
+ Setting Optimizer Statistics Preferences 
+ 
+ 
+ Configuring Automatic Optimizer Statistics Collection 
+ 
+ 
+ Gathering Optimizer Statistics Manually 
+ 
+ 
+ Gathering System Statistics Manually 
+ 
+ 
+ See Also: 
+ 
+ " Managing Optimizer Statistics: Advanced Topics "  for advanced concepts and tasks relating to optimizer statistics 
+ 
+ 
+ " Optimizer Statistics Concepts " 
+ 
+ 
+ " Query Optimizer Concepts " 
+ 
+ 
+ 
+ 
+ 
+ About Optimizer Statistics Collection 
+ 
+ In Oracle Database,  optimizer statistics collection  is the gathering of optimizer statistics for database objects, including fixed objects. 
+ The database can collect optimizer statistics automatically. You can also collect them manually using the  DBMS_STATS  package. 
+ 
+ 
+ 

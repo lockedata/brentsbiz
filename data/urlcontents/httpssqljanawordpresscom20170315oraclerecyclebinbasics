@@ -1,0 +1,46 @@
+Oracle – Recycle Bin Basics – SQL Jana 
+ 
+	 Skip to content 
+
+	 
+			
+								 SQL Jana 
+									 Jana's ramblings on Oracle, SQL Server, PowerShell and technology 
+						 
+
+		
+			 
+	 
+		 Oracle – Recycle Bin Basics 
+			 
+		 As you may know, Oracle introduced this wonderful feature called “Recycle Bin” in 10g. It behaves very much like the Windows recycle bin. when an object is dropped, it does not really get physically removed. Instead, the object still resides in the same tablespace it used to. Oracle simply renames the object and maintains a reference to renamed version. 
+ A simple illustration should help. 
+ Create a test table: 
+ 
+CREATE TABLE test1
+AS
+SELECT * FROM all_objects
+WHERE rownum &lt; 100;
+ 
+ Drop the test table 
+ 
+DROP TABLE test1;
+ 
+ Is it in the recycle bin? 
+ 
+--Synonym for user_recyclebin
+SELECT * FROM RECYCLEBIN;
+ 
+ OBJECT_NAME 
+ ORIGINAL_NAME 
+ OPERATION 
+ TYPE 
+ TS_NAME 
+ CREATETIME 
+ DROPTIME 
+ DROPSCN 
+ PARTITION_NAME 
+ CAN_UNDROP 
+ CAN_PURGE 
+ RELATED 
+ BASE_

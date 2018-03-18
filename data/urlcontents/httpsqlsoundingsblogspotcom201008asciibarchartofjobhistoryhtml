@@ -1,0 +1,85 @@
+SQL Soundings: ASCII Bar Chart of Job History 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+               skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ SQL Soundings 
+ 
+ 
+ 
+ 
+ sounding  -  noun . 1. the act of taking a measure of depth            2. a probe of an environment
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home 
+ 
+ 
+ 
+ 
+Using SSMS Templates
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Wednesday, August 18, 2010 
+ 
+ 
+ 
+ ASCII Bar Chart of Job History 
+ 
+ 
+ 
+ If you're like me, it's a lot easier to understand things with a picture.  With that in mind, here's a script you can run as a Job which will print out a visual representation of the Jobs that ran in the last 24 hours.  The results are emailed to whatever address you provide (near the end of the script). 
+
+ 
+ ------------------------------------------------------------------------------- 
+ -- Prints a primitive bar chart that shows all the jobs that ran during the     
+ -- last 24 hours.  Useful for visualizing overlap.                              

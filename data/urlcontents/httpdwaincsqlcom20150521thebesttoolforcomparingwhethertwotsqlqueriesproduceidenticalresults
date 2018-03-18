@@ -1,0 +1,26 @@
+The Best Tool for Comparing Whether Two T-SQL Queries Produce Identical Results « dwaincsql 
+		 
+			 
+												 
+					 dwaincsql 
+					 SQL Tips for the Up and Comers 
+				 
+			 
+			 - 
+		 
+	 
+			 About the Author 
+ Contact Me 
+ Favorites 
+ 
+			 
+				 
+	 
+
+	 
+		 The Best Tool for Comparing Whether Two T-SQL Queries Produce Identical Results 		 
+			 
+								 Posted on  May 21, 2015 			 
+		 
+		 There is one software tool that should be in every software developer’s tool chest.  That is knowledge of the platform on which you are developing.  With all the hype that surrounds every new software tool that comes out, it is important to recognize the tools you already have at hand, and the ones that may be hidden gems within your development platform of choice. 
+ Let’s backtrack for a moment into how a T-SQL query is developed.  Remember my prior blog:  Make it Work, Make it Fast, Make it Pretty ?  That blog (based on the sagacious and immortal words of  SQL MVP   Jeff Moden ) suggests the

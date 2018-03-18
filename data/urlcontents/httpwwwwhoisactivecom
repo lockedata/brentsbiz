@@ -1,0 +1,27 @@
+sp_whoisactive SQL Server Monitoring Stored Procedure by Adam Machanic 
+         sp_whoisactive 
+         
+        sp_whoisactive is a comprehensive activity monitoring stored procedure that works for all versions of SQL Server from 2005 through 2017.
+         
+        You can find the most recent versions on the  Downloads  page.
+         
+        Documentation is available on the  Documentation  page.
+         
+         Subscribe  to the super-low-volume (once a quarter, max) sp_whoisactive email list: 
+ 
+     
+	
+ 
+	 Email Address  
+	 
+	 
+		 
+		 
+	      
+     
+     
+ 
+         
+         
+        (C) 2017  Adam Machanic 
+    

@@ -1,0 +1,45 @@
+Time Zones are a Drag … Seriously – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   Time Zones are a Drag … Seriously 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ Time Zones are a Drag … Seriously 
+	 November 24, 2017 
+	 by  SQLSoldier 
+	 SQL Server 
+	 1 Comment 
+	 1 
+ 
+
+
+ Time Zones  Time Zones were definitely being a drag today. I got an email from one of the developers at work asking about the performance difference between 2 queries. The only difference between the 2 queries is that one of them uses the  AT TIME ZONE  clause that was added in SQL Server 2016. I have not played around with this particular clause, but we do store quite a bit of data in the datetimeoffset data type. In the table in the developer’s queries, the data 

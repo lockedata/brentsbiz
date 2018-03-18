@@ -1,0 +1,36 @@
+Columnar Storage - Paper Trail 
+
+
+
+ 
+	 
+											
+					 
+				 
+		
+		 Henry 
+		 
+
+		
+		 
+		 Published 
+		 January 30, 2013 
+				
+									 
+
+				
+			 
+
+	 
+		 
+			 
+				 Henry 			 
+				in  Databases 				 
+				  |  
+					 January 30, 2013 			 
+							 
+			 Columnar Storage 
+			 
+		 You’re going to hear a lot about columnar storage formats in the next few months, as a variety of distributed execution engines are beginning to consider them for their IO efficiency, and the optimisations that they open up for query execution. In this post, I’ll explain why we care so much about IO efficiency and show how columnar storage – which is a simple idea – can drastically improve performance for certain workloads. 
+ Caveat: This is a personal, general research summary post, and as usual doesn’t neccessarily reflect our thinking at Cloudera about columnar storage. 
+ Disks are still the major bottleneck in query execution over large datasets. Even a machine with twelve disks running in parallel (for a

@@ -1,0 +1,33 @@
+NULLIF (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 NULLIF (Transact-SQL) 
+
+					 
+								 09/08/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns a null value if the two specified expressions are equal. For example,  SELECT NULLIF(4,4) AS Same, NULLIF(5,7) AS Different;  returns NULL for the first column (4 and 4) because the two input values are the same. The second column returns the first value (5) because the two input values are different.  
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ NULLIF ( expression , expression )  
+ Arguments 
+   expression  Is any valid scalar  expression .   
+ Return Types 
+  Returns the same type as the first  expression .   
+  NULLIF returns the first  expression  if the two exp

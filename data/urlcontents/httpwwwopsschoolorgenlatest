@@ -1,0 +1,50 @@
+Ops School Curriculum — Ops School Curriculum 0.1 documentation 
+
+   
+
+    
+     
+          Ops School Curriculum 
+         
+   
+       
+
+       
+        
+        
+             Introduction Goals and Focus 
+ Syllabus layout 
+ 
+ Contributions How we’ll organize work 
+ How to contribute 
+ Rewards for contributions 
+ Ops School Videos 
+ How to write sections 
+ Overwriting existing content 
+ Credits 
+ 
+ Guidelines 
+ Careers in Operations Deciding a career path 
+ Generalized career paths 
+ Specialized career paths 
+ How to become an operations engineer 
+ 
+ Sysadmin 101 What is Systems Administration? 
+ What is Development? 
+ Contrasting Development and Operations 
+ History of Development and Operations 
+ What System Administration Isn’t 
+ 
+ Unix fundamentals 101 File systems 
+ Shells 
+ Package management 
+ The Boot Process 
+ Useful shell tools 
+ Crontab 
+ 
+ Unix fundamentals 201 Kernel tuning 
+ Signals 
+ Syscalls 
+ Booting over the network 
+ /bin/init  and its descendants 
+ Looking at syste

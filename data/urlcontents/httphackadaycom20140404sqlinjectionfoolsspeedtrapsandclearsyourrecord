@@ -1,0 +1,46 @@
+SQL Injection Fools Speed Traps and Clears Your Record | Hackaday 
+ 
+     
+         
+
+     Skip to content 
+
+     
+             
+                 
+             
+                 Hackaday 
+             
+         
+
+         Primary Menu 
+
+         Home 
+ Blog 
+ Hackaday.io 
+ Store 
+ Hackaday Prize 
+ Submit 
+ About 
+ 		 March 9, 2018 
+
+     
+         SQL Injection Fools Speed Traps and Clears Your Record 
+         
+             
+                106 Comments             
+             by: 
+                 James Hobson 
+             
+
+         
+             April 4, 2014 
+             
+                
+                 
+             
+
+         
+     
+         Typical speed camera traps have built-in OCR software that is used to recognize license plates. A clever hacker decided to see if he could defeat the system  by using SQL Injection… 
+ The basic premise of this hack is that the hacker has created a simple SQL statement which will hopefully cause the database to delete any record of his 

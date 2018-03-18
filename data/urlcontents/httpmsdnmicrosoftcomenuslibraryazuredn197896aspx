@@ -1,0 +1,42 @@
+Virtual machine sizes for Azure Cloud services | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Sizes for Cloud Services 
+
+					 
+								 07/18/2017 
+							 9 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 This topic describes the available sizes and options for Cloud Service role instances (web roles and worker roles). It also provides deployment considerations to be aware of when planning to use these resources. Each size has an ID that you put in your  service definition file . Prices for each size are available on the  Cloud Services Pricing  page. 
+ Note To see related Azure limits, see  Azure Subscription and Service Limits, Quotas, and Constraints 
+ 
+ Sizes for web and worker role instances 
+ There are multiple standard sizes to choose from on Azure. C

@@ -1,0 +1,92 @@
+PostgreSQL: Documentation: devel: CREATE POLICY 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL devel  (2018-03-09 12:17:03)
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ 
+ 
+
+ 
+ 
+   CREATE POLICY 
+     Prev   
+       Up 
+       SQL Commands 
+       Home 
+         Next 
+     
+ 
+   
+   
+     CREATE POLICY 
+     CREATE POLICY — define a new row level security policy for a
+    table 
+   
+   
+     Synopsis 
+     
+CREATE POLICY  name  ON  table_name 
+    [ AS { PERMISSIVE | RESTRICTIVE } ]
+    [ FOR { ALL | SELECT | INSERT | UPDATE | DELETE } ]
+    [ TO {  role_name  | PUBLIC | CURRENT_USER | SESSION_USER } [, ...] ]
+    [ USING (  using_expression  ) ]
+    [ WITH CHECK (  check_expression  ) ]
+ 
+   
+   
+     Description 
+     The  CREATE POLICY  command
+    defines a new row-level security policy for a table. N

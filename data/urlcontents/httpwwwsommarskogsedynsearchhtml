@@ -1,0 +1,9 @@
+Dynamic Search Conditions in T-SQL 
+ Dynamic Search Conditions in T‑SQL 
+ An SQL text by  Erland Sommarskog , SQL Server
+   MVP.  Most recent update  2016-10-29.  Copyright  applies to this text. See here for  font conventions  used in this article. 
+
+ Introduction 
+ It is very common in information systems to have functions where the users are able to search the data by selecting
+   freely among many possible criterias. When you implement such a function with SQL Server there are two challenges: to produce the correct result and have good performance.  
+ When it comes to the latter, there is a key theme: there is no single execution plan that is good for all possible search criterias. Rather, you want the query plan to be different depending on user input. There are two ways to achieve this. You can write a static SQL query and add the hint  OPTION (RECOMPILE)  which forces SQL Server to compile the query every time. Or you can use dynamic SQL to build a query string which inc

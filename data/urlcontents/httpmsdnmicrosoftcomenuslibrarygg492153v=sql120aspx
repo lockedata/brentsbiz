@@ -1,0 +1,31 @@
+CREATE COLUMNSTORE INDEX (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE COLUMNSTORE INDEX (Transact-SQL) 
+
+					 
+								 08/10/2017 
+							 25 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Convert a rowstore table to a clustered columnstore index or create a nonclustered columnstore index. Use a columnstore index to efficiently run real-time operational analytics on an OLTP workload or to improve data compression and query performance for data warehousing workloads.   
+ Note Starting with  SQL Server 2016, you can create the table as a clustered columnstore index.   It is no longer necessary to first create a rowstore table and then convert it to a clustered columnstore index.   
+ 
+ Tip F

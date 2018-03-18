@@ -1,0 +1,25 @@
+Online Index Operations for indexes containing LOB columns 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Online Index Operations for indexes containing LOB columns 
+         August 5th, 2011  
+         
+
+ 
+ SQL Server supports online index and table rebuild operations which allow for maintenance operations to occur w/o significant downtime. While a table is being rebuild, or a new index is being built on it, the table is fully utilizable. It can be queried and any updates done to the table while the online rebuild operation is occurring will be contained in the final rebuilt table. A detailed explanation on how these online rebuild operations work can be found in the  Online Indexing Operations in SQL Server 2005  white paper. But Online Index Build operations in SQL Server 2005, 2008 and 2008 R2 do not support tables that contain LOB columns, attempting to do so would trigger an error: 
+ 
+ 
+ Msg 2725, Level 16, State 2, Line … 
+An o

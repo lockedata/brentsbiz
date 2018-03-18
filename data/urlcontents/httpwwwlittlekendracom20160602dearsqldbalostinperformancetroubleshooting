@@ -1,0 +1,28 @@
+How to Troubleshoot Performance in SQL Server (Dear SQL DBA) - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Lost in Performance Troubleshooting – Kendra’s Perf Triage for SQL Server (Dear SQL DBA) 
+
+				 
+					 June 2, 2016 Kendra Little Dear SQL DBA ,  sql 11  Comments 				 
+			 
+		 
+
+			 
+ The SQL Server is slow, what should you do? I answer a reader question and share my strategy for performance troubleshooting. 
+ Note: This is a “listen-able” video.  You can also listen to this as a podcast – learn how at  littlekendra.com/dearsqldba . 
+ 
+ This week, our question is about troubleshooting performance 
+ Dear SQL DBA, 
+ is there any step-by-step script that you would use to start your troubleshooting? My production SQL Server has a problem with memory pressure. Page Life Expectancy is low and lazy writes are high. I heard that Microsoft engineers will use SQL Diag then Nexus to troubleshoot, but I have not had success using those tools. 
+ Lost in Performance 

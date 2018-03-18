@@ -1,0 +1,58 @@
+Git: The Safety Net for Your Projects · An A List Apart Article 
+ 
+   
+	 A List Apart 
+
+	 Menu 
+
+	 Home 
+			
+			 Articles 
+			 Events 
+			 Topics 
+			 Write for us 
+			 Back to top 
+			 
+				 
+					 
+					 
+			 
+		 
+
+		 Issue №   402  
+					
+				
+				 Illustration by
+					
+					
+					 Mike Pick 
+					
+					
+				 
+				
+				
+				 Git: The Safety Net for Your Projects 
+
+				 
+					 by  Tobias Günther 
+
+					 September 02, 2014 
+
+						Published in  Project Management ,  Workflow &amp; Tools 
+
+
+					 
+				 
+
+				
+
+			 
+
+				
+
+				
+
+				 I remember January 10, 2010, rather well: it was the day we lost a project’s complete history. We were using Subversion as our version control system, which kept the project’s history in a central repository on a server. And we were backing up this server on a regular basis—at least, we thought we were. The server broke down, and then the backup failed. Our project wasn’t completely lost, but all the historic versions were gone.  
+
+
+				 Article Continues B

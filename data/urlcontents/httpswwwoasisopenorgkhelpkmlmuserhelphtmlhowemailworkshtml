@@ -1,0 +1,415 @@
+7. How Email Really Works 
+
+ 
+     
+     
+     
+          
+        Kavi Help Center 
+     
+ 
+     
+       
+     
+                Search only in:
+                                                                                                           
+                             
+                            Kavi® Mailing List Manager documentation
+         
+                                                           
+ 
+
+     
+
+     
+         Getting Started Product Help Kavi® Billing Kavi® Commerce Kavi® Edit Kavi® Mailing List Manager Kavi® Members Kavi® Groups Index Search 
+
+     
+								 Kavi Mailing List Manager Help 
+ Chapter�7. How Email Really Works 
+   
+ Part I. Concepts 
+   
+ 
+ 
+ 
+ Chapter 7. How Email Really Works 
+ 
+ Table of Contents 
+ It's So Simple...or Is It? 
+ An Example 
+ It's Like Regular Mail 
+ Troubleshooting Email Issues 
+ 
+ 
+ 
+ It's So Simple...or Is It? 
+ From the user standpoint, email seems so simple. You set
+      the email address of the person to whom you want to send the email,
+      compose your message and click 'Send'. 
+ All done. 
+ In reality, sending your message off into the
+       network cloud  is a bit like sending Little Red Riding Hood
+      into the deep dark woods. You never know what might happen. 
+ 
+ Figure 7.1. How email really works 
+ 
+ 
+ Back to top 
+ 
+ 
+ 
+ An Example 
+ In this diagram, the sender is a human being using their
+      company account to send an
+      email to someone at a different company. 
+ 
+ 
+ Step A: Sender creates and sends an email 
+ The originating sender creates an email in their  Mail User Agent (MUA)  and clicks
+      'Send'. The MUA is the application the originating sender uses
+      to compose and read email, such as Eudora, Outlook, etc. 
+ 
+ 
+ 
+ Step B: Sender's MDA/MTA routes the email 
+ The sender's MUA transfers the email to a  Mail Delivery Agent
+	  (MDA) . Frequently, the sender's MTA also handles the
+	responsibilities of an MDA. Several of the most
+	common MTAs do this, including sendmail and  qmail  (which Kavi uses). 
+ The
+	MDA/MTA accepts the email, then routes it to local mailboxes
+      or forwards it if it isn't locally
+      addressed. 
+ In our diagram, an MDA forwards the
+	email to an MTA and it enters the first of a series of
+      "network clouds," labeled as a "Company Network" cloud. 
+ 
+ 
+ 
+ Step C: Network Cloud 
+ An email can encounter a network cloud within a large
+	  company or ISP, or the largest network cloud in existence:
+	the Internet. The network cloud may encompass a multitude of mail
+      servers, DNS servers, routers, lions, tigers, bears (wolves!)
+	and other devices and services too numerous to
+      mention. These are prone to be slow when processing an
+      unusually heavy load, temporarily unable to receive an
+      email when taken down for
+      maintenance, and sometimes may not have identified themselves properly to
+      the Internet through the Domain Name System (DNS) so that other MTAs
+      in the network cloud are unable to deliver mail as
+      addressed. These devices may be protected by firewalls, spam
+      filters and malware detection software that may bounce or even
+      delete an email. When an email is deleted by this kind of
+      software, it tends to  fail silently , so the
+      sender is given no information about where or when the delivery
+      failure occurred. 
+ Email service providers and other companies that process
+	a
+	large volume of email often have their own, private network
+	    clouds. These
+	organizations commonly have multiple mail servers, and route all email through a
+	    central gateway server (i.e., mail hub) that redistributes
+ mail to whichever MTA is available. Email on these secondary MTAs must
+	usually wait for the primary MTA (i.e., the designated
+	 host for that domain) to become available, at which time the
+	secondary mail
+	server will transfer its messages to the primary MTA. 
+ 
+ 
+ 
+ Step D: Email Queue 
+ The email in the diagram is addressed to someone at
+	another company, so it enters an email queue
+	with other outgoing email messages. If there is a high volume
+	of mail in the queue—either because there are many
+	messages or the messages are unusually large, or
+	both—the message will be delayed in the queue
+	until the MTA processes the messages ahead of it. 
+ 
+ 
+ 
+ Step E: MTA to MTA Transfer 
+ When transferring an email, the sending MTA handles all aspects of mail delivery
+      until the message has been either accepted or rejected by the
+      receiving MTA. 
+ As the email clears the queue, it enters the Internet
+	network cloud, where it is routed along a host-to-host
+      chain of servers. Each MTA in the Internet network cloud needs to "stop and ask directions"
+	from the Domain Name System (DNS) in order to identify the next MTA
+	in the delivery chain. The exact route depends partly on server availability and
+	mostly on which MTA can be found to accept email for the domain
+	specified in the address. Most email takes a path that
+	is dependent on server availability, so a pair of messages
+	originating from the same host and addressed to the same
+	receiving host could take different paths. These days, it's mostly spammers that
+	specify any part of the path, deliberately routing their
+	message through a series of relay servers in an attempt to obscure the true origin of the
+	message. 
+ To find the recipient's  IP address  and mailbox, the MTA must drill down through the
+	    Domain Name System (DNS), which consists of a set of servers
+	    distributed across the Internet. Beginning with the root
+	nameservers at the  top-level domain (.tld) , 
+	    then domain nameservers that handle requests for domains
+	within that .tld, and eventually to nameservers that know about the
+	local domain. 
+ 
+ DNS resolution and transfer process 
+ There are 13 root servers serving the top-level domains
+	    (e.g., .org, .com, .edu, .gov, .net, etc.). These root servers
+	    refer requests for a given domain to the root name servers that
+	    handle requests for that tld. In practice, this
+	    step is seldom necessary. 
+ 
+ The MTA can bypass this step because it
+	    has already knows which domain name servers handle
+	    requests for these .tlds. It asks the appropriate DNS
+	    server which Mail Exchange (MX) servers have knowledge of the
+	    subdomain or local host in the email address. The DNS
+	    server responds with an MX record: a prioritized list of MX
+	    servers for this domain. 
+ An MX server is really an MTA wearing a different hat,
+	    just like a person who holds two jobs with
+	    different job titles (or three, if the MTA also
+	    handles the responsibilities of an MDA).
+	    To the DNS server, the server that accepts messages is an
+	    MX server. When is
+	  transferring messages, it is called an MTA. 
+ 
+ The MTA contacts the MX servers on the MX
+	    record in
+	    order of priority until it finds the
+	    designated host for that address domain. 
+ The sending MTA asks if the host accepts
+	    messages for the recipient's username at that domain
+	    (i.e., username@domain.tld) and
+	    transfers the message. 
+ 
+ 
+ 
+ 
+ Step F: Firewalls, Spam and Virus Filters 
+ The transfer process described in the last step is somewhat
+	    simplified. An email may be transferred to more than one MTA
+	    within a network cloud and is likely to be passed to at
+	least one firewall before it reaches it's destination. 
+ An email encountering a firewall may be tested by spam and virus
+	filters before it is allowed to pass inside the
+	firewall. These filters test to see if the message qualifies as spam or
+	 malware . If the
+	message contains malware, the file is usually quarantined and the sender is notified. If the message
+	is identified as spam, it will probably be deleted without notifying the
+	sender. 
+ Spam is difficult to detect
+	because it can assume so many different
+	forms, so spam filters test on a broad set of criteria and
+	tend to misclassify a significant number of messages as spam,
+	particularly messages from mailing lists. When an email from a
+	list or other automated source
+	seems to have vanished somewhere in the network cloud,
+	the culprit is usually a spam filter at the receiver's ISP or
+	company. This explained in
+      greater detail in  Virus Scanning and Spam Blocking . 
+ 
+ 
+ 
+ Delivery 
+ In the diagram, the email makes it past the hazards of the spam trap...er...filter, and is accepted for delivery by the receiver's
+	MTA. The MTA calls a
+	    local MDA to deliver the mail to the
+	    correct mailbox, where it will sit until it
+	is
+	    retrieved by the recipient's MUA. 
+ 
+ 
+ 
+ RFCs 
+ Documents that define email standards are called
+      "Request For Comments (RFCs)", and are available on
+	the Internet through the Internet Engineering Task Force (IETF) website. There are many
+      RFCs and they form a somewhat complex, interlocking set of
+      standards, but they are a font of information for
+      anyone interested in gaining a deeper understanding of
+      email. 
+ 
+ Here are a couple of the most pertinent RFCs: 
+ RFC 822: Standard
+	for the Format of ARPA Internet Text Messages 
+ RFC 2821: Simple Mail
+      Transfer Protocol 
+ 
+ 
+ Back to top 
+ 
+ 
+ 
+ It's Like Regular Mail 
+ Email construction and delivery is similar
+      to regular mail by design, because email is modeled on regular
+      mail. 
+ 
+ 
+ A Message Enclosed in an Envelope 
+ An email message is constructed like a letter you'd send through the postal service: a message enclosed in an
+	envelope. The email envelope header is analogous to
+	the envelope of a hardcopy letter, but some of the information
+	that is ordinarily present on a hardcopy envelope is contained
+	in the message header instead of the envelope header. This header
+	header also contains information that is not usually found on
+	a real-world envelope, but is essential to email delivery and
+	troubleshooting. The envelope header is usually hidden
+	when you view an email, and the message header is usually
+	visible. Together, these two headers are called the full
+	header. 
+ 
+ 
+ 
+ Message Header Fields 
+ Anyone who has used email is familiar with
+      the message header, which is displayed when you view an email message and
+    includes the 'From:', 'To:', 'Cc:', 'Date:' and 'Subject:' fields.
+The content of these fields differs only slightly from regular mail, because the 'From:',
+	'To:' and 'Cc:', fields in an email identify the sender and
+	intended recipients by email
+      address. 
+ 
+ 
+ 
+ The Date Field 
+ The
+	message header's 'Date:' field is
+      applied by the originating sender's  MUA , so it is only as accurate
+	as the clock on the sender's computer. 
+ 
+ 
+ 
+ The Subject: Field 
+ The 'Subject:' field isn't used in regular mail except in
+	formal business letters where its closest analogy is the 'Re:'
+	line, but this field is necessary for email because without
+	it, you could only differentiate one email from another in the inbox
+	based on the 'From:', 'To:' and 'Date:' fields. 
+ 
+ 
+ 
+ The Return-Path 
+ Email contains more detailed information about its delivery
+	process than the single postmark of regular mail. As the email passes
+      through the delivery chain,  MTAs  add more interesting and
+	reliable postmark-like timestamps and MTA location information,
+	including the envelope header's 'Received' fields (described in the next section)
+	and the 'Return-Path', which contains the identity of the
+	sender, such as &lt;username@domain.tld&gt;. 
+ The 'Return-Path'
+	is often referred to as the "envelope sender", and
+	this is the
+	address that mailing lists use to determine "who"
+	sent a message. The 'Return-Path'
+	is also the address to which bounces are sent. 
+ 
+ 
+ 
+ The Received field 
+ A 'Received' field added by each MTA
+	in the email delivery chain as it accepts a message for
+	transfer. When a receiving MTA accepts the email for relay or
+	    local delivery, it
+	    records information about the transaction in the email's  envelope
+	      header . This includes a message ID that it uses,
+	    and which will appear in the MTA server logs, timestamps
+	    indicating the time of the transfer and the identity of
+	    the sending MTA. If you follow the 'Received' entries in order,
+	they will lead you back to the originating MTA (but not to the
+	senders email address). 
+ This information about the true identity of the
+	    sending MTA is valuable when troubleshooting issues with
+	    spam or malicious messages. These kinds of messages often
+	    contain forged identities in the 'From:' and 'Reply-To'
+	    fields, but the true identity of the sending MTA can be
+	    extracted from the envelope header. When contacted by the
+	    sending MTA, the receiving MTA checks to
+	    see whether the hostname provided to it by
+	    the originating MTA resolves to a unique IP
+	    address. If it does, then it is a fully qualified domain
+	    name and the receiving MTA adds the information to the
+	    'Received' field. If the hostname does not
+	    resolve properly, the receiving MTA adds the originating
+	    MTA's IP address (and possibly also the true hostname)
+	    instead. 
+ 
+ 
+ 
+ The Reply-To field 
+ The envelope header also contains a 'Reply-To' address
+	provided by the sender that the receiver can use to reply to
+	the sender. This is analogous to the return address on regular
+	mail. Email messages, particularly automated notifications and messages
+	from mailing
+	lists, often set a different 'Reply-To' address so that
+	bounced messages will be sent to an automated bounce
+	handler. Like a return address on regular mail, the 'Reply-To' address doesn't have to be a real
+	address, but if it isn't, mail sent to it will be
+	undeliverable. Spam and messages containing malware are likely
+	to have false information in the 'From:'
+	    and 'Reply-to' fields, but the originator's true Internet
+	    address is recorded in the first 'Received' entry in the
+	email's envelope header. 
+ 
+ Back to top 
+ 
+ 
+ 
+ Troubleshooting Email Issues 
+ 
+ 
+ What if something goes wrong? 
+ Messages eaten by spam filters fail silently because a
+	sending MTA has already successfully completed the transfer to
+	a firewall server. Message failures that occur when an
+	MTA is attempting to transfer a message will not fail
+	silently, so except when a message was unfortunate enough to
+	have been mistaken for spam or is currently languishing in a
+	moderation queue or waiting for the next archive update, users will know what happened to their
+	message because MTAs reliably complain when transfers fail. 
+ A sending MTA can encounter two general kinds of problems
+	transferring an email: transient or permanent failures. 
+ transient failures 
+ If a transient error occurs, the MTA will hang onto the message,
+      periodically retrying the delivery until it either succeeds or
+      fails, or until the MTA decides that the transient issue is
+      really a permanent condition. 
+ permanent failures 
+ If the MTA cannot deliver the
+      message (it has received a fatal error message or failed to
+	      complete the transfer after
+	      repeated attempts), it bounces the message back to the sender. If the
+      sender is a mailing list, the bounce may be handled by
+      automated bounce-handling software. For more information, see
+	       Bounces and Automated Bounce Handling . 
+ 
+ 
+ 
+ 
+ Links to troubleshooting materials 
+ This documentation has extensive information on
+	troubleshooting. See  Introduction to
+	  Troubleshooting  for a list of available materials. 
+ 
+ Back to top 
+ 
+ 
+ 
+   
+ 
+   
+ 
+ Chapter 6. Email Commands  
+ 
+  Chapter 8. Mailing List Moderation 
+ 
+
+			     
+     Can't find the answer you need here?  Contact Support 
+     
+    

@@ -1,0 +1,51 @@
+DPM… and “Why are my SQL Transaction Logs filling up?” (the answer… really) | Geeql.com 
+
+ 
+	 
+		 
+						 
+				 
+					 Geeql.com 
+				 
+			 
+			 Lessons, tips, and tricks from a SQL database geeq 
+
+		 
+
+		 
+			 Home About 
+ Contact 
+ 
+
+	 
+
+	 
+		 RSS 
+		 
+			 
+				 
+	 
+		 
+			 ←  Thinking outside the Box in Disaster Recovery 		 
+		 
+			 T-SQL Tuesday: My favorite Bug  → 		 
+	 
+
+	 
+
+		
+				 
+							DPM… and “Why are my SQL Transaction Logs filling up?” (the answer… really)					 
+	
+				 
+			 
+									 21 
+					 Jun 
+							 
+		 
+	
+	 
+		
+		 Here at Avanade we run a lot of pre-release software from Microsoft, so we can work the bugs out, so to speak, and thus be able to get better solutions to the customers we’ve got. 
+ One of the software packages that we use is the System Center Suite – including, in this case, the  Data Protection Manager  part.  It’s now in production, released product for some time, and we now run all our backups with it. 
+ The thing that is totally weird for me as a 

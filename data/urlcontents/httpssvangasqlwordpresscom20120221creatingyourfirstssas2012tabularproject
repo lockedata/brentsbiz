@@ -1,0 +1,32 @@
+Creating Your First SSAS 2012 Tabular Project | Sam Vanga 
+ 
+		 
+			 Sam Vanga 
+				 SQL Server, T-SQL, BI and more… 
+			 Menu 
+				 Skip to content 
+
+				 Home About 
+ Contact 
+ 
+			 
+	 
+		
+		 
+			 
+
+			
+				
+ 
+			 
+
+		 Creating Your First SSAS 2012 Tabular Project 
+
+		 
+			 February 21, 2012  by  Samuel Vanga 		 
+	 
+		 No matter how simple it is, new things come with some confusion; at least until you get used to it. Analysis Services 2012 Tabular is no different. This post will look at steps to create your first Tabular project. 
+ Let’s start with firing up SQL Server Data Tools located under Microsoft SQL Server 2012 RC0. I’ve selected to create a new project. 
+ 
+ In the above image, I’ve selected Analysis Services Tabular Project. 
+ You might see a error message similar to the one below. This happens when the server instance specified in the Workspace Server property doesn’t have an analysis services running in tabular mode. For instance, in this example the name of my instance is

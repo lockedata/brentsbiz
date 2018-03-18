@@ -1,0 +1,39 @@
+ Nick Craver - Stack Overflow: How We Do Deployment - 2016 Edition 
+     
+         
+           
+          Nick Craver Software Imagineering 
+         
+         Home 
+             Blog 
+             Desktop 
+             
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+               
+                 
+                   
+               
+             
+         
+     
+       
+         
+           Stack Overflow: How We Do Deployment - 2016 Edition 
+             May 3, 2016 
+           
+   This is #3 in a  very long series of posts  on Stack Overflow’s architecture. 
+Previous post (#2):  Stack Overflow: The Hardware - 2016 Edition 
+ 
+
+ We’ve talked about  Stack Overflow’s architecture  and  the hardware behind it . The next  most requested topic  was Deployment. How do we get code a developer (or some random stranger) writes into

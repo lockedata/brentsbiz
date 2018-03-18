@@ -1,0 +1,26 @@
+Configure availability group for distributed transactions | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Configure availability group for distributed transactions 
+
+					 
+								 07/19/2017 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  SQL Server 2017 supports all distributed transactions including databases in an availability group. This article explains how to configure an availability group for distributed transactions   
+ In order to guarantee distributed transactions, the availability group must be configured to register databases as distributed transaction resource managers.   
+ Note  SQL Server 2016 also supports distributed transactions, however support in  SQL Server 2016 is limited. In  SQL Server 2016 a distributed transaction with a database in an availability grou

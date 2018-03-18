@@ -1,0 +1,73 @@
+Lifting the Curse of Knowledge - DaedTech 
+
+ 
+
+	
+	 
+		 
+				 DaedTech 						 Stories about Software 
+					
+			 
+
+			
+		 	   Home 
+ Check Out Products I Offer 
+ Hire Me 
+ View Interviews and Columns 
+ Get in Touch 
+ 		 	   -- Main Menu -- Home Check Out Products I Offer Hire Me View Interviews and Columns Get in Touch 
+
+	 
+	
+				
+		 
+
+			
+			 
+
+				
+				
+
+ 
+
+	 
+	 Mar 10 
+	 By  Erik Dietrich 
+
+		 
+	
+	 
+
+			 Lifting the Curse of Knowledge 
+	
+	 
+				 
+			 Category:  The Life of a Programmer 
+
+			 Tags:  Career ,  Soft Skills 
+								 
+			 
+
+		 
+
+		 
+		
+			 
+			 
+			 
+			 
+public ActiveProduct(Product product, StringVersion driver, Side es)
+{
+    Side = es;
+
+    try
+    {
+        if (product == null)
+            throw new Exception("Can't create an active product from a null product");
+
+        Logger.LogTimeStudyStart("ActiveProduct create");
+
+        if (driver.IsEmpty())
+            CurrentDriver = product.Driver;
+        else
+     

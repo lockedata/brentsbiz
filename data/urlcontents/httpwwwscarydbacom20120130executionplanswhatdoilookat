@@ -1,0 +1,27 @@
+Execution Plans, What Do I Look At? - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Execution Plans, What Do I Look At? 		 Home  /  SQL Server 2005  /  Execution Plans, What Do I Look At? 	 
+ 
+	 
+		 
+		 
+			 30 Jan 2012  by  Grant Fritchey  7 Comments 		 
+		 The question came up, what are the top 3-5 things that you look at in a query. I realized then that I hadn’t really written them down. There are some areas that let me know pretty much immediately where problems lie within a plan. You don’t necessarily know the answer from looking at these things, but you know you have a problem. Being me, I couldn’t stick to 5, so here are 6: 
+ Immediately check the properties on the first operator (SELECT/DELETE/INSERT) . There’s tons of information in here and people frequently just ignore it. You can see i

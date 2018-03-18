@@ -1,0 +1,151 @@
+PostgreSQL: Documentation: 8.3: Server Programming 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL 8.3 
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.3 
+		
+	
+
+	/
+	
+		
+		 9.4 
+		
+	
+
+	/
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ |  Unsupported versions:
+
+	
+	
+	 7.4 
+	
+
+	/
+	
+	 8.0 
+	
+
+	/
+	
+	 8.1 
+	
+
+	/
+	
+	 8.2 
+	
+
+	/
+	
+	 8.3 
+	
+
+	/
+	
+	 8.4 
+	
+
+	/
+	
+	 9.0 
+	
+
+	/
+	
+	 9.1 
+	
+
+	/
+	
+	 9.2 
+	
+
+
+ 
+ 
+
+ 
+ 
+   PostgreSQL
+      8.3.23 Documentation 
+     Prev 
+
+       Fast Backward 
+
+       
+
+       Fast Forward 
+
+       Next 
+     
+
+ 
+   
+
+   
+     V. Server Programming 
+
+     
+       
+
+       This part is about extending the server functionality with
+      user-defined functions, data types, triggers, etc. These are
+      advanced topics which should probably be approached only
+      after all the other user documentation about  PostgreSQL  has been u

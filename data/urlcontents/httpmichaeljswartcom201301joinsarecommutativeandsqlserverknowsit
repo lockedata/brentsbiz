@@ -1,0 +1,54 @@
+Joins are Commutative and SQL Server Knows it | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ January 11, 2013 
+ 
+	  Joins are Commutative and SQL Server Knows it 
+	 Filed under:  SQLServerPedia Syndication  —  Michael J. Swart @ 9:00 am  
+
+	 
+		 Takeaway:   I explain how SQL Server is aware that inner joins are commutative and so the order of tables in your queries doesn’t matter. Update Jan. 11, 2013:  Please see my update at the end of this article where I qualify that statement (because it depends). 
+ I want to explore a common question I get from people who are getting up to speed on this whole SQL thing. At one time or another, we’ve all wondered whether we get any performance improvements by varying the order that we join tables together (and by joins I 

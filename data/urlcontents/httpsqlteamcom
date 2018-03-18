@@ -1,0 +1,90 @@
+
+	SQL Server Information at SQLTeam.com
+ 
+ 
+ 
+
+
+ 
+ 
+		     
+		         
+		  
+		 
+		 
+		
+		
+    
+
+    
+ 
+	 
+ 
+              Home   |        
+              Weblogs   | 
+            
+              Forums   |
+            
+             
+            
+              SQL Server Links  
+   
+    
+          
+        
+        
+
+ 
+ 
+    Search: 
+   
+
+ 
+         
+      
+
+ 
+    
+      Active Forum Topics   |  
+      Popular Articles   |
+     All Articles by Tag   | 
+	
+	  SQL Server Books   |  
+	 
+	  About  
+	
+ 
+
+ 	
+
+    
+ 
+ 
+     
+     
+ 
+ 
+  
+	   
+
+ 
+ 
+
+ 
+ 
+
+
+	
+	
+ 
+		
+		 
+		 
+		
+
+ 
+ 
+  
+		    
+             Featured Article:  Fast CSV Import in PowerShell to SQL Server 
+             I recently had to write some simple scripts for a proof of concept.  These scripts use PowerShell to import and export CSV files from SQL Server.  The scripts were simple to write and maintain but were slow.  It turns out there are a f

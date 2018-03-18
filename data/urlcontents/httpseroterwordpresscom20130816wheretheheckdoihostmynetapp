@@ -1,0 +1,19 @@
+Where the heck do I host my … .NET app? – Richard Seroter's Architecture Musings 
+		 
+							 Richard Seroter's Architecture Musings 
+						 
+												 
+							Blog Featuring Code, Thoughts, and Experiences with Software and Services						 
+											 
+	 
+				 Home About 
+ My Pluralsight Courses 
+ Downloads 
+ Contact Me 
+ 					 
+ Home   ›   .NET   ›   Where the heck do I host my … .NET app? 
+		Where the heck do I host my … .NET app? 	 
+	 
+ By  Richard Seroter   on   August 16, 2013 	•  (  7  ) 
+ 
+	 In this short series of posts, I’m looking at the various options for hosting different types of applications. I  first looked at Node.js  and its diverse ecosystem of providers, and now I’m looking at where to host your .NET application. Regardless of whether you think .NET is passé or not, the reality is that there are millions upon millions of .NET developers and it’s one of the standard platforms at enterprises worldwide. Obviously Microsoft’s own cloud will be an attractive place to

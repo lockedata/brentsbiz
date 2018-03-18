@@ -1,0 +1,64 @@
+
+One Big Fluke
+            ›
+            Why is Map Reduce faster? -- A practical example of data joins
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        One Big Fluke
+                       
+ 
+ 
+ 
+ 
+ 
+ 
+                    I'm Brett Slatkin and this is where I write about programming and related topics.
+                   	 Check out my favorite posts  if you're new to this site.
+                    You can also  contact me here  or  view my projects .
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13 January 2013
+ 
+ 
+ 
+ 
+ 
+ 
+@
+ 
+ 
+23:01
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Why is Map Reduce faster? -- A practical example of data joins
+ 
+ 
+ 
+Joining data with Map Reduce is the fastest, most scalable way to generate reports. 
+Generating reports is a vital part of any product. Reports show how you're meeting the needs of your users. Reports tell you how much money you owe or are earning. Even  PageRank  is just a report of the best content. But generating reports at scale, on large amounts of data, is difficult.

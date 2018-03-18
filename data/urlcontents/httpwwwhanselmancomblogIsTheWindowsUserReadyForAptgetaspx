@@ -1,0 +1,29 @@
+Is the Windows user ready for apt-get? - Scott Hanselman 
+ Scott Hanselman 
+         about 
+            	 blog 
+            	 speaking 
+            	 podcasts 
+            	 books   
+           
+               
+                   
+               
+                browse by  category  or  date 
+               
+       
+     
+
+     
+     Is the Windows user ready for apt-get? 
+     May 28, '13 
+		 Comments [88] 
+     Posted in  NuGet  |  Open Source  |  Tools     
+     
+              Sponsored By 
+                    
+                     
+
+                   
+          
+		 What it does    Chocolatey lets you install Windows applications quickly from the command line via a central catalog of installation scripts. You could install Git, 7Zip or even Microsoft Office (given a key.) The idea is seamless and quiet installations using a well-known key.     For example, once installed you can do this from and command line:    cinst git       cinst 7zip       cinst rub

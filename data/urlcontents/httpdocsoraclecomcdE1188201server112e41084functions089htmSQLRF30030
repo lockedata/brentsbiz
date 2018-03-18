@@ -1,0 +1,28 @@
+LISTAGG 
+ Go to main content 
+ 
+ 
+ 129/522   
+ 
+ LISTAGG  
+ Syntax 
+ Description of the illustration ''listagg.gif'' 
+ See Also: 
+ "Analytic Functions"  for information on syntax, semantics, and restrictions of the  ORDER   BY  clause and  OVER  clause 
+ Purpose 
+ For a specified measure,  LISTAGG  orders data within each group specified in the  ORDER   BY  clause and then concatenates the values of the measure column. 
+ 
+ As a single-set aggregate function,  LISTAGG  operates on all rows and returns a single output row. 
+ 
+ 
+ As a group-set aggregate, the function operates on and returns an output row for each group defined by the  GROUP   BY  clause. 
+ 
+ 
+ As an analytic function,  LISTAGG  partitions the query result set into groups based on one or more expression in the  query_partition_clause . 
+ 
+ The arguments to the function are subject to the following rules: 
+ 
+ The  measure_expr  can be any expression. Null values in the measure column are ignored. 
+ 
+ 
+ The  delimiter_expr 

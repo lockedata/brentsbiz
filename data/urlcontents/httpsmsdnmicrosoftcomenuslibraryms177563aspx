@@ -1,0 +1,37 @@
+Transact-SQL Syntax Conventions (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Transact-SQL Syntax Conventions (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    The following table lists and describes conventions that are used in the syntax diagrams in the  Transact-SQL Reference.   
+ Convention 
+ Used for 
+ UPPERCASE 
+  Transact-SQL keywords. 
+ italic 
+ User-supplied parameters of  Transact-SQL syntax. 
+ bold 
+ Database names, table names, column names, index names, stored procedures, utilities, data type names, and text that must be typed exactly as shown. 
+ underline 
+ Indicates the default value applied when the clause that contains the underlined value is 

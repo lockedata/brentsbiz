@@ -1,0 +1,53 @@
+Cross Database Query in Azure SQL Database - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Cross Database Query in Azure SQL Database 		 Home  /  Azure  /  Cross Database Query in Azure SQL Database 	 
+ 
+	 
+		 
+		 
+			 21 Mar 2016  by  Grant Fritchey  36 Comments 		 
+		 You can’t query across databases in Azure SQL Database… or can you? 
+ Let’s check. I’ve created two new databases on an existing server: 
+ 
+ I’ve created two tables on each respective database: 
+
+		 
+		
+			 
+			 Transact-SQL 
+			 
+			 
+CREATE TABLE dbo.DB1Table (
+     ID INT IDENTITY(1, 1)
+            NOT NULL
+            PRIMARY KEY,
+     Val VARCHAR(50)
+    );
+
+
+CREATE TABLE dbo.DB2Table (
+     ID INT IDENTITY(1, 1)
+            NOT NULL
+            PRIMARY KEY,
+     Val VARCHAR(50)
+    ); 
+			 
+				 
+					 

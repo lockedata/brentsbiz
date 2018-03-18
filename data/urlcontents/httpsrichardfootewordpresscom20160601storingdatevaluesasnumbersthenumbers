@@ -1,0 +1,31 @@
+Storing Date Values As Numbers (The Numbers) | Richard Foote's Oracle Blog 
+
+ 
+
+	 
+
+				 Richard Foote's Oracle Blog 
+		 Focusing Specifically On Oracle Indexes, Database Administration and Some Great Music 
+		
+		 Home 
+	 Richard Foote 
+ Richard Foote’s Art 
+ Presentations &amp; Demos 
+ Index Internals Seminar 
+ Recommendations 
+ 
+
+	 jump to navigation 
+
+
+ 
+ 
+	 
+					Storing Date Values As Numbers (The Numbers)				 June 1, 2016 
+	 
+	 Posted by Richard Foote in  12c ,  CBO ,  Histograms ,  Oracle Indexes ,  Storing Dates As Numbers .
+ trackback 
+				 
+
+	 In my  last couple of posts , I’ve been discussing how storing date data in a character based column is a really really bad idea. 
+ In a follow-up question, I was asked if storing dates in NUMBER format was a better option. The answer is that it’s probably an improvement from storing dates as strings but it’s still a really really bad idea. Storing dates in DATE format is easily the best option as is storing any data in its native data 

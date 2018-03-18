@@ -1,0 +1,33 @@
+.NET Core is Boiling the Ocean – Aaronontheweb 
+     
+       
+         
+          
+           
+             Aaronontheweb 
+             Software. Startups. Outer Space. 
+           
+          
+           Home 
+             Consulting 
+             About 
+             Talks 
+             Open Source 
+           
+     
+
+     
+       
+     .NET Core is Boiling the Ocean 
+   
+
+   
+    May 26, 2016
+   I get asked regularly in the  Akka.NET Gitter Chat  and elsewhere about “when will Akka.NET support  .NET Core ?” 
+
+ TL;DR; .NET Core 
+ Part of the issue I’ll address here is that  .NET Core means different things to different people  and there hasn’t been clear messaging on that from Microsoft as far as I know, so I’ll summarize how it’s relevant to me,  Petabridge , and Akka.NET. 
+
+ .NET Core is about decoupling .NET from Windows . Allowing it to run in non-Windows environments without having to install a giant 400mb set of binaries. 
+
+ This will allow .NET to run in containers on Linux and 

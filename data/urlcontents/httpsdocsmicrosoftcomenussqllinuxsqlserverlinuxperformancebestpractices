@@ -1,0 +1,28 @@
+Performance best practices for SQL Server on Linux | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Performance best practices and configuration guidelines for SQL Server 2017 on Linux 
+
+					 
+								 09/14/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  This article provides best practices and recommendations to maximize performance for database applications that connect to SQL Server on Linux. These recommendations are specific to running on the Linux platform. All normal SQL Server recommendations, such as index design, still apply. 
+ The following guidelines contain recommendations for configuring both SQL Server and the Linux operating system. 
+ SQL Server configuration 
+ It is recommended to perform the following configuration tasks after you i

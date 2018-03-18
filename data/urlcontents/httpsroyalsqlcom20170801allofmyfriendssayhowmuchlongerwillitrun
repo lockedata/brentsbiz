@@ -1,0 +1,24 @@
+All of my friends say, “How much longer will it run?” | Andrea Allred presents RoyalSQL 
+ 
+	 
+		 
+					 
+				 Andrea Allred presents RoyalSQL 
+						 Bringing happy endings to all your data stories. 
+					 
+					
+ 
+	 
+
+	
+		 
+						
+							 August 1, 2017    by    andreaallred 					 
+		
+						 
+							All of my friends say, “How much longer will it run?”					 
+			 
+		 I have frequently needed to see how much longer a backup was going to run, or how much longer a restore was going to run.  This little bit of code is something I use to help me know how to plan.  I replace “Backup” with “Restore” if I want to see how much longer to plan for a restore.  I also use it for when I am tracking a rollback.  I remove the where clause and get a large list, the one that has a percentage and not a clear explanation is usually the one I want.   Sometimes the time remaining is lie.  I have had it imply 4 hours, when it took 13.  The comfort is that I can tell it is still working. 
+ 
+
+SELECT command,

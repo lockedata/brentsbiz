@@ -1,0 +1,31 @@
+
+            bobby-tables.com: A guide to preventing SQL injection         
+         
+     
+ 
+ 
+     
+         
+             Bobby Tables: A guide to preventing SQL injection          
+     
+     
+              
+     
+         Home                  About                  ASP                  ColdFusion                  C#                  Delphi                  .NET                  Go                  Java                  Perl                  PHP                  PL/SQL                  PostgreSQL                  Python                  R                  Ruby                  Scheme          
+                  Who is Bobby Tables? 
+
+ From the webcomic  xkcd 
+
+ 
+
+ 
+
+ School : Hi, this is your son's school. We're having some computer trouble. 
+
+ Mom : Oh, dear -- Did he break something? 
+
+ School : In a way. Did you really name your son  Robert'); DROP TABLE Students;-- ? 
+
+ Mom : Oh. Yes. Little Bobby Tables we call him. 
+
+ School : Well, we've lost this year's student records. I 

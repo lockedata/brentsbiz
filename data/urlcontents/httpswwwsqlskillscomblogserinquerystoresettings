@@ -1,0 +1,48 @@
+Query Store Settings - Erin Stellato 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Erin Stellato 
+ The SQL Sequel 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Erin 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Query Store Settings 
+
+ Query Store Settings By:  Erin Stellato    Posted on: November 28, 2017 9:36 am  In SQL Server 2017 there are nine (9) settings related to Query Store.  While these are documented in  sys.database_query_store_options , I often get asked what the value for each setting “should” be.  I’ve listed out each setting below, along with the default value and considerations around changing the setting. 
+   
+ OPERATION_MODE 
+ The default value for a new or upgraded database in SQL Server 2016 or SQL Server 2017 is OFF.  For Azure SQL Database, the default value is READ_WRITE. 
+ If you want to enable Query Store, this needs to be set to READ_WRITE, which is the desired st

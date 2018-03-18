@@ -1,0 +1,57 @@
+SQL Server Integrity Check 
+ SQL Server Maintenance Solution 
+ 
+
+ 
+
+ Menu 
+ Home 
+ SQL Server Backup 
+ SQL Server Integrity Check 
+ SQL Server Index and Statistics Maintenance 
+ Downloads 
+ Frequently Asked Questions 
+ Version History 
+ Organizations that Use the Solution 
+ Sign Up for the Newsletter 
+ License 
+ Contact 
+ 
+ Awards 
+ 
+ 
+ 
+   
+
+ 
+ Sponsors 
+
+ 
+
+ 
+   
+
+   
+
+ 
+
+ SQL Server Integrity Check 
+
+ DatabaseIntegrityCheck is the SQL Server Maintenance Solution’s stored procedure for checking the integrity of databases. DatabaseIntegrityCheck is supported on SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016, and SQL Server 2017. 
+
+ 
+ Download 
+
+ Download  MaintenanceSolution.sql . This script creates all the objects and jobs that you need. You can also  download  the objects as separate scripts. 
+
+ 
+ License 
+
+ The SQL Server Maintenance Solution is  free . 
+
+ 
+ Parameters 
+
+ 
+ Databases 
+ Select databases. The keyword

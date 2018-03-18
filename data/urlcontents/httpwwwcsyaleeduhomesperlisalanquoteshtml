@@ -1,0 +1,34 @@
+Perlisisms - "Epigrams in Programming" by Alan J. Perlis 
+ 
+ 
+ EPIGRAMS IN PROGRAMMING 
+ 
+ 
+1. One man's constant is another man's variable.
+ 
+2. Functions delay binding; data structures induce binding.
+Moral: Structure data late in the programming process.
+ 
+3. Syntactic sugar causes cancer of the semicolon.
+ 
+4. Every program is a part of some other program and rarely
+fits.
+ 
+5. If a program manipulates a large amount of data, it does
+so in a small number of ways.
+ 
+6. Symmetry is a complexity-reducing concept (co-routines
+include subroutines); seek it everywhere.
+ 
+7. It is easier to write an incorrect program than
+understand a correct one.
+ 
+8. A programming language is low level when its programs
+require attention to the irrelevant.
+ 
+9. It is better to have 100 functions operate on one data
+structure than 10 functions on 10 data structures.
+ 
+10. Get into a rut early: Do the same process the same way.
+Accumulate idioms. Standardize. The only difference(!)
+between Shakespeare and 

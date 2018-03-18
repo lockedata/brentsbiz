@@ -1,0 +1,28 @@
+Copy-Only Backups (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Copy-Only Backups (SQL Server) 
+
+					 
+								 08/10/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    A  copy-only backup  is a  SQL Server backup that is independent of the sequence of conventional  SQL Server backups. Usually, taking a backup changes the database and affects how later backups are restored. However, occasionally, it is useful to take a backup for a special purpose without affecting the overall backup and restore procedures for the database. Copy-only backups serve this purpose.   
+  The types of copy-only backups are as follows:   
+ Copy-only full backups (all recovery models)   
+  A copy-only backup cannot serve as a differential base or differential backup and do

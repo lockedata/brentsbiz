@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PASS Summit 2014
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20141107T181500Z
+DTEND:20141107T193000Z
+DTSTAMP:20180309T105302Z
+UID:11jq30kt2s7fbm3m15i9kkrmts@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=PA
+ SS Summit 2014;X-NUM-GUESTS=0:mailto:brentozar.com_m5m2ehsh7scqdf0qgk5tniio
+ ko@group.calendar.google.com
+CREATED:20140916T131004Z
+DESCRIPTION:Queries need your help! Your mission\, should you choose to acc
+ ept it\, is to make great decisions about what indexes are best for your wo
+ rkload. In this session\, we'll review the difference between clustered and
+  nonclustered indexes\, show when to use included columns\, understand what
+  sargability means\, and introduce statistics. You'll leave this session wi
+ th the ability to confidently determine why\, or why not\, SQL Serv

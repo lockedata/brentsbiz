@@ -1,0 +1,55 @@
+My Queries For Top 20 Resource Hogs | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ September 19, 2013 
+ 
+	  My Queries For Top 20 Resource Hogs 
+	 Filed under:  SQL Scripts , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 Takeaway:  This post is for me. This post is a handy place for me to put some queries that I use often. If you find them useful too, that’s wonderful, bookmark this page with  http://michaeljswart.com/go/Top20 . 
+ These queries will give the top 20 resource consumers for cached queries based on a few different metrics. I’ve posted queries like this before, and others have written many other versions of this query. All these queries are based on  sys.dm_exec_query_stats . 
+ But I’ve tweaked my own quer

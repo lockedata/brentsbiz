@@ -1,0 +1,55 @@
+Comparing two query plans | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Comparing two query plans 
+       				 3 
+		         June 14, 2016  by Kenneth Fisher 
+
+		 
+			  This month my friend Michael J Swart( b / t ) would like us to talk about the new 2016 version of SQL Server.  The feature I want to talk about has been around for a bit.  Not because it’s not part of SQL 2016 but because it’s part of  SQL Server Management Studio .  SSMS is no longer tied directly to the rest of SQL Server and the  2016  version has been available for a little while now .   
+ One of the new/not so new features that I’ve be

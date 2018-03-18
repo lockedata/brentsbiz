@@ -1,0 +1,25 @@
+Comparing Database Performance Over Time 
+ Go to main content 
+ 
+ 
+   14/27   
+ 
+ 8  Comparing Database Performance Over Time 
+ 
+ This chapter describes how to compare database performance over time using Automatic Workload Repository (AWR) Compare Periods reports and contains the following topics: 
+ 
+ About Automatic Workload Repository Compare Periods Reports 
+ 
+ 
+ Generating Automatic Workload Repository Compare Periods Reports 
+ 
+ 
+ Interpreting Automatic Workload Repository Compare Periods Reports 
+ 
+ 
+ 
+ 
+ About Automatic Workload Repository Compare Periods Reports 
+ 
+ Performance degradation of the database occurs when your database was performing optimally in the past, but has over time gradually degraded to a point where it becomes noticeable to the users.  AWR Compare Periods report enables you to compare database performance over time. 
+ An AWR report shows AWR data during a period in time between two snapshots (or two points in time). An AWR Compare Periods report, on the o

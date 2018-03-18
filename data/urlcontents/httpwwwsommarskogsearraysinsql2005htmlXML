@@ -1,0 +1,8 @@
+Arrays and Lists in SQL Server (The Full Story) 
+ Arrays and Lists in SQL Server The Long Version 
+
+ An SQL text by  Erland Sommarskog , SQL Server
+   MVP.  Latest revision : 2016-08-21. Copyright  applies to this text. See here for  font conventions  used in this article. 
+ Introduction 
+ If you were referred to this article in answer to your question in an SQL Server forum, you should read the  short version  of this article first and chances are very good that the short version  is all you need for the moment. This article covers the topic in depth, and you would read it if you have an "advanced" scenario or you are more the geeky sort of person. Even if you intend to read this article in full, read the short version as an introduction first, because I will not repeat it all here. 
+ A problem that has been popular over the years with SQL Server is how to handle a list of values. In the  majority of the cases, people have a comma-separated list, because this format is produced

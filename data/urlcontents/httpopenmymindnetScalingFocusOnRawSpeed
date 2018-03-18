@@ -1,0 +1,8 @@
+Scaling? Focus On Raw Speed home 
+ Scaling? Focus On Raw Speed 
+ 11 Sep 2013 
+ When web developers talk about scale, we're typically talking about supporting a greater number of users and requests. To achieve this, we want  more  threads, processes or hardware. Ideally, this type of horizontal scaling should allow you to grow linearly. If a single server can handle 5K requests per second, then two servers should be able to handle 10K requests per second. In other words, scale has become synonymous with the idea that we need  more . 
+
+ While  more  is good,  less  is even better. Consider a request that takes 100ms to process. In a single threaded application, we can handle 10 requests per second. One way to support 40 requests per second, is to use more threads. Specifically, we'd need 3 more threads. 
+
+ As an alternative to adding  more  threads, we could also make our request take  less  time. To achieve the same 40 requests per second using our original thread, we'd need to cut the 

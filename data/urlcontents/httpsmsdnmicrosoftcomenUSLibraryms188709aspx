@@ -1,0 +1,25 @@
+Configure the priority boost Server Configuration Option | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Configure the priority boost Server Configuration Option 
+
+					 
+								 03/02/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes how to configure the  priority boost  configuration option in  SQL Server 2017 by using  SQL Server Management Studio or  Transact-SQL. Use the  priority boost  option to specify whether  Microsoft  SQL Server should run at a higher  Microsoft Windows 2008 or Windows 2008 R2 scheduling priority than other processes on the same computer. If you set this option to 1,  SQL Server runs at a priority base of 13 in the Windows 2008 or Windows Server 2008 R2 scheduler. The default is 0, which is a priority base of 7. 

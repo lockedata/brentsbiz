@@ -1,0 +1,28 @@
+Always Encrypted (Database Engine) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Always Encrypted (Database Engine) 
+
+					 
+								 04/24/2017 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     
+  Always Encrypted is a feature designed to protect sensitive data, such as credit card numbers or national identification numbers (for example, U.S. social security numbers), stored in  Azure SQL Database or  SQL Server databases. Always Encrypted allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the  Database Engine ( SQL Database or  SQL Server). As a result, Always Encrypted provides a separation between those who own the data (and can view it) and those who manage the data (but shou

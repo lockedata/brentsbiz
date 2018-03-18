@@ -1,0 +1,60 @@
+SQL style guide by Simon Holywell 
+         ↑ 
+ 
+     
+         
+    Deutsch (German)
+ 
+    English
+ 
+    日本語 (Japanese)
+ 
+    Português (BR) (Portuguese - Brazil)
+ 
+    Русский (Russian)
+ 
+    简体中文 (Simplified Chinese)
+ 
+    正體中文 (Traditional Chinese)
+ 
+     
+ 
+ 
+         SQL Style Guide 
+         by
+             Simon Holywell  ·
+             @Treffynnon 
+         
+         
+             Tweet 
+         
+        
+     
+ Overview 
+   General      Do 
+       Avoid 
+     
+   Naming conventions      General 
+       Tables 
+       Columns 
+       Aliasing or correlations 
+       Stored procedures 
+       Uniform suffixes 
+     
+   Query syntax      Reserved words 
+       White space 
+       Indentation 
+       Preferred formalisms 
+     
+   Create syntax      Choosing data types 
+       Specifying default values 
+       Constraints and keys 
+       Designs to avoid 
+     
+   Appendix      Reserved keyword reference 
+     
+ SQL style guide 
+
+ Overview 
+
+ You can use this set of guidelines,

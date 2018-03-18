@@ -1,0 +1,60 @@
+Automatic Availability Groups for Sharepoint on SQL Server 
+ 
+ 
+ 
+ 
+ 
+   New site design, please report... 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ / 
+ comedy 
+ / 
+ mds 
+ / 
+ musings 
+ / 
+ photos 
+ / 
+ powershell 
+ / 
+ sql 
+ / 
+ ssis 
+ / 
+ ssrs 
+ 
+ 
+ 
+ 
+ 
+ Copy SCOM sys.messages between servers...   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Automatic Availability Groups for Sharepoint on SQL Server 
+ 
+ 
+29 NOV 2015
+•
+ 
+11 mins read
+ 
+about
+sql
+ 
+ 
+ One of the downsides of AlwaysOn Availability Groups (AOAG) is how new databases are not automatically added to a group and protected; unlike traditional Failover Cluster Instances with shared disks where everything is automatically protected from outages and with no further setup required. 
+ But it's not difficult to change this. 
+
+ Sharepoint is particularly vulnerable without this because it is usually configured to create a new database whenever a new site is created. It adds additional workload or processes for Sharepoint admins to notify DBAs of new databases (or for DBAs to monitor 

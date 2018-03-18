@@ -1,0 +1,21 @@
+In-Memory, OLTP, SQL Server, Hekaton, SQL 2017 | Ned Otter Blog 
+ 
+	 Ned Otter Blog 
+			 SQL Server DBA and Musician 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ 
+		 
+	 
+		 
+
+			
+				
+	 SQL 2017 In-Memory roundup 
+										 
+					 1 Reply 				 
+					 
+			 SQL Server 2017 includes enhancements to many features, and some of those enhancements include In-Memory OLTP.  
+ Microsoft states that ALTER TABLE for memory-optimized tables is now “usually substantially faster”. I asked for clarity about that – if it means that ALTER TABLE is faster for the same events that were able to be executed in parallel and minimally logged in SQL 2016, or if there are new ALTER TABLE statements which now execute in parallel. They replied that there is no change to the set of operations that executed in parallel. So the ALTER TABLE commands that executed fast now (theoretically) execute faster. 
+ Up to and including SQL 2016, the maximum number of nonclustered indexes on a memory-optimized table was ei

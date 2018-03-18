@@ -1,0 +1,24 @@
+Specify Query Parameterization Behavior by Using Plan Guides | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Specify Query Parameterization Behavior by Using Plan Guides 
+
+					 
+								 03/14/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    When the PARAMETERIZATION database option is set to SIMPLE, the  SQL Server query optimizer may choose to parameterize the queries. This means that any literal values that are contained in a query are substituted with parameters. This process is referred to as simple parameterization. When SIMPLE parameterization is in effect, you cannot control which queries are parameterized and which queries are not. However, you can specify that all queries in a database be parameterized by setting the PARAMETERIZATION database option to FORCED. This

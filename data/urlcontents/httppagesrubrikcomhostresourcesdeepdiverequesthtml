@@ -1,0 +1,20 @@
+Rubrik | eBook: VMware vSphere 6.5 Host Resources Deep Dive 
+	
+	 
+			 
+		 
+	 
+			 Download NOW VMware vSphere 6.5 Host Resources Deep Dive By Frank Denneman &amp; Niels Hagoort 
+			
+			 
+		
+	 
+			 
+				 
+					 
+						 
+ 
+ The VMware vSphere 6.5 Host Resources Deep Dive is a guide to building consistent high-performing ESXi hosts. Written for administrators, architects, consultants, aspiring VCDX-es and people eager to learn more about the elements that control the behavior of CPU, memory, storage and network resources. This book explains the concepts and mechanisms behind the physical resource components and the VMkernel resource schedulers, enabling you to: 
+ •  Optimize your workload for current and future Non-Uniform Memory Access (NUMA) systems. 
+ •  Discover how vSphere Balanced Power Management takes advantage of the CPU Turbo Boost functionality, and why High Performance does not. 
+ •  Tune VMkernel components to optimize performance for VXLAN network traffic and NFV environment

@@ -1,0 +1,36 @@
+Azure SQL Databases and #Powershell: Database Restores | Art of the DBA 
+ 
+
+	 
+		 
+				
+			 Art of the DBA 
+						 Blending the right and left sides of SQL Server Database Administration 
+		 
+		
+		 Skip to Content ↓ 
+		
+		 About 
+ Presentations 
+ 
+	 
+ 
+	 
+		 	
+	 
+		
+				
+				
+				
+		 
+			
+			 Azure SQL Databases and #Powershell: Database Restores 
+			
+			 
+				 May 11th, 2016 
+				 by  Mike Fal .  
+							 
+			
+			 
+				 A database administrator’s first priority is to ensure their datais protected in the event of a disaster. Typical scenarios range from someone forgetting a WHERE clause to completely losing the data center that houses our servers. We are charged with thinking through all the possible scenarios and making sure we can support our company’s Recovery Time and Recovery Point Objectives (RTO and RPO). This sort of responsibility is a lot why being DBA is a tough job. 
+ Owning our servers gives us a lot of control of how our disaster recovery is

@@ -1,0 +1,22 @@
+A plain English introduction to CAP theorem « Kaushik Sathupadi 
+
+
+ 
+   
+     Kaushik Sathupadi 
+     
+      Programmer. Creator. Co-Founder.  Dad.
+     
+   
+  
+   
+ 
+	 See all my projects and blogs →	 
+ 
+
+ A plain english introduction to  CAP  Theorem 
+ You’ll often hear about the  CAP  theorem which specifies some kind of an upper limit when designing distributed systems. As with most of my other introduction tutorials, lets try understanding  CAP  by comparing it with a real world situation. 
+ Chapter 1: “Remembrance Inc” Your new venture : 
+ Last night when your spouse appreciated you on remembering her birthday and bringing her a gift, a strange Idea strikes you. People are so bad in remembering things. And you’re sooo good at it. So why not start a venture that will put your talent to use? The more you think about it, the more you like it. In fact you even come up with a news paper ad which explains your idea 
+ Remembrance Inc! - Never forget,  even without remembering!
+   Ever f

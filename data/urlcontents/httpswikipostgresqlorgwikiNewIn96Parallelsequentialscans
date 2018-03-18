@@ -1,0 +1,36 @@
+NewIn96 - PostgreSQL wiki 
+	 
+		 
+	 
+		 
+		 Want to edit, but don't see an edit button when logged in?  Click here. 
+ 		 NewIn96 
+		 
+			 From PostgreSQL wiki 
+			 
+									 Jump to:  navigation ,  search 			 
+			 Contents 
+ 1   What's New in PostgreSQL 9.6 
+ 1.1   Parallel Query 
+ 1.1.1   Parallel sequential scans 
+ 1.1.2   parallel joins 
+ 1.1.3   parallel aggregates 
+ 
+ 1.2   postgres_fdw 
+ 1.2.1   Sort pushdown 
+ 1.2.2   join pushdown 
+ 1.2.3   DML (UPDATE/DELETE) pushdown 
+ 1.2.4   Operator and function pushdown 
+ 
+ 1.3   Replication 
+ 1.3.1   New remote_apply replication mode which waits for confirmation that a standby has applied changes 
+ 1.3.2   Support for multiple synchronous standbys 
+ 1.3.3   pg_stat_wal_receiver 
+ 1.3.4   Replication slots can allocate WAL at creation 
+ 
+ 1.4   Text Search 
+ 1.4.1   Phrase full text search 
+ 1.4.2   Editable tsvector fields 
+ 
+ 1.5   Transactions, VACUUM and the Visibility Map 
+ 1.5.1   pg_visibility extension for examining visibility ma

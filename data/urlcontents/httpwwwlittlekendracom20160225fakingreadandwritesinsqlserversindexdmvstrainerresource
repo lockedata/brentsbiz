@@ -1,0 +1,26 @@
+Faking Read and Writes in SQL Server's Index DMVs (Trainer Resource) - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Faking Read and Writes in SQL Server’s Index DMVs (Trainer Resource) 
+
+				 
+					 February 25, 2016 Kendra Little Indexes 5  Comments 				 
+			 
+		 
+
+			 
+ 
+ Trainers and speakers need the code they write to be predictable, re-runnable, and as fast as possible. Faking writes can be useful for speakers and teachers who want to be able to generate some statistics in SQL Server’s index dynamic management views or get some query execution plans into cache. The “faking” bit makes the code re-runnable, and usually a bit faster. For writes, it also reduces the risk of filling up your transaction log. 
+ I didn’t invent either of the techniques used below. Both patterns are very common and generic, and so simple that no origin is known. 
+ Lots of Tiny Writes: The ROLLBACK Trick 
+ SQL Server counts inserts, updates, or deletes as happening even if it was 

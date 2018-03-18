@@ -1,0 +1,23 @@
+Named Parameters in T-SQL Functions | Scribnasium 
+ 
+	 Scribnasium 
+			 Lexical Exercise 
+		 Menu 
+			 Skip to content 
+			 Home About Riley Major 
+ Talks 
+ 
+		 
+			 
+	 
+		 
+
+			
+				
+	 Named Parameters in T-SQL Functions 
+										 
+					 Leave a reply 				 
+					 
+			 
+ I have to admit,  I’ve been pleased  with the developments with SQL Server 2016. In addition to all of the new features, they brought  SQL Server to Linux  and with  SP1  they  opened all the goodies up to Standard Edition . So when  Brent Ozar  asked us to  scour Microsoft Connect for even more improvements for T-SQL Tuesday #86  ( #tsql2sday ), I wondered if we wouldn’t tempt fate. But as IT folks  we love to complain about our tools , so here goes. 
+ Now I’ve never been impressed with the  Connect site . For years, it’s been clunky and slow. (Though it seems speedy today. Perhaps Brent’s focus brought some attention to the performance issues.) Its dated style hasn’t been updated since I started using it years ago.

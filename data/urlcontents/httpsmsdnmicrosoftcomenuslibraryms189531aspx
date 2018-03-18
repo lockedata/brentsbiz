@@ -1,0 +1,37 @@
+sp_add_alert (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_add_alert (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates an alert.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_add_alert [ @name = ] 'name'   
+     [ , [ @message_id = ] message_id ]   
+     [ , [ @severity = ] severity ]   
+     [ , [ @enabled = ] enabled ]  
+     [ , [ @delay_between_responses = ] delay_between_responses ]   
+     [ , [ @notification_message = ] 'notification_message' ]   
+     [ , [ @include_event_description_in = ] include_event_description_in ]   
+     [ , [ @database_name = ] 'database' ]   
+     [ , [ @event_description_keyword = ] 'event_description_keyword_pattern' ]   
+     [ , { [ @job_id = ]

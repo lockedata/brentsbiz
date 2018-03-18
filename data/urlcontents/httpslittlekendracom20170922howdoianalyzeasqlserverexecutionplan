@@ -1,0 +1,26 @@
+How Do I Analyze a SQL Server Execution Plan? - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 How Do I Analyze a SQL Server Execution Plan? 
+
+				 
+					 September 22, 2017 Kendra Little Dear SQL DBA ,  Execution Plans ,  Execution Plans ,  Performance No Comments 				 
+			 
+		 
+
+			 
+ A query is slow, and you figure out how to collect the query execution plan. Now what? In this video, I talk “big picture” about what execution plans are, what “cost” is, why to collect “compiled for” values, and the steps I take to analyze execution plans while performance tuning queries. 
+ No time to watch right now or read the transcript below? Listen in podcast format  on iTunes  ,  on Google Play,  or plug this RSS feed into your favorite podcast app:  http://dearsqldba.libsyn.com/rss 
+ Transcript of this episode 
+ Please forgive errors in grammar and punctuation: robots helped create this transcript. And I’m grammatically challenged. 
+ Welcome to Dear SQL DBA, a podcast for

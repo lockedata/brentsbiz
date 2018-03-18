@@ -1,0 +1,18 @@
+Slow in the Application, Fast in SSMS? 
+ Slow in the Application, Fast in SSMS?
+   Understanding Performance Mysteries 
+
+ An SQL text by  Erland Sommarskog , SQL Server MVP.  Last revision : 2017-12-05.  Copyright  applies to this text. See here for  font conventions  used in this article. 
+This article is also available in  Russian , translated by Dima Piliugin.  
+
+ Introduction 
+ When I read various forums about SQL Server, I frequently see questions from
+deeply mystified
+posters. They have identified a slow query or slow stored procedure
+in their application. They take the SQL batch from the application and run it in SQL Server
+Management Studio (SSMS) to analyse it, only to find that the
+response is instantaneous. At this point
+they are inclined to think that SQL Server is all about
+magic. A similar mystery is when a developer has extracted a query in his stored
+procedure to run it stand-alone only to find that it runs much faster – or much
+slower – than inside the

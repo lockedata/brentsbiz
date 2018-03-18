@@ -1,0 +1,41 @@
+Clearing Plan Cache in SQL Database (Azure) | All About SQL 
+ 
+	 All About SQL 
+				 Discussing all things around the Microsoft Data Platform 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+												 Azure Section 
+ SQL Server Section 
+ Personal Section 
+ SQL Server Central Articles 
+ TechNet articles 
+ SQL Server Video Library 
+ Presentations 
+ 			 
+
+		 
+			 
+
+				
+					 Post navigation 
+						 ←  Previous 
+						 Next  → 
+					 Clearing Plan Cache in SQL Database (Azure) 
+
+				 
+						 Posted on  January 5, 2017    by    blobeater 		 
+			 
+		 Sometimes when in a testing mode I do like to clear cache within my SQL database (Azure). Nowadays a lot of my test databases are Azure based so how I clear cache is different to how I would do it with an older “earthed” SQL Server. 
+ Looking at my locally installed SQL Server. 
+ 
+
+SELECT @@VERSION
+ 
+ 
+ Getting some basic information about the cache for a specific database. 
+ 
+ SELECT st.dbid, cp.objtype, cp.size_in_

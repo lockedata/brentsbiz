@@ -1,0 +1,28 @@
+Make the Optimizer Work Harder - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Make the Optimizer Work Harder 		 Home  /  SQL Server 2005  /  Make the Optimizer Work Harder 	 
+ 
+	 
+		 
+		 
+			 20 Jun 2011  by  Grant Fritchey  9 Comments 		 
+		 One of my favorite indicators for whether or not you have a good execution plan is when you see the “Reason for Early Termination” property in the TSQL operator like this: 
+ 
+ The optimizer considered this particular plan “Good Enough.” which is what you want to see. When you see “Timeout” as the reason, that’s an indication that the plan you have may be sub-optimal. The question is, can you make the optimizer spend more time on your queries. Well, actually, the question is,  should  you make the optimizer spend more time on queries. During my session on SQL

@@ -1,0 +1,37 @@
+Enable or Disable Backup Checksums During Backup or Restore (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Enable or Disable Backup Checksums During Backup or Restore (SQL Server) 
+
+					 
+								 03/17/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes how to enable or disable backup checksums when you are backing up or restoring a database in  SQL Server 2017 by using  SQL Server Management Studio or  Transact-SQL.   
+   In This Topic    
+ Before you begin:    
+   Security    
+ 
+ To enable or disable backup checksums, using:    
+   SQL Server Management Studio    
+   Transact-SQL    
+ 
+  Before You Begin 
+  Security 
+  Permissions 
+  BACKUP  BACKUP DATABASE and BACKUP LOG permissions default to members of the  sysadmin  fixed 

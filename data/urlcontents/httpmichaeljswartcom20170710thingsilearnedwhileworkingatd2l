@@ -1,0 +1,58 @@
+10 Things I Learned While Working At D2L | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ July 16, 2017 
+ 
+	  10 Things I Learned While Working At D2L 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication  —  Michael J. Swart @ 3:49 pm  
+
+	 
+		 Today marks my tenth anniversary working for D2L and it also marks ten years since I specialized in databases full time. 
+I’ve never worked anywhere this long. I always told myself that I’d stick around as long as there were new and interesting challenges to tackle and there’s no end in sight. 
+ 
+So I thought I’d compile a list of things I didn’t know in 2007. 
+ 1. Database Performance Improvements Are Often Dramatic 
+ A poorly performing database query can run orders of magnitude slower than a tuned query. Com

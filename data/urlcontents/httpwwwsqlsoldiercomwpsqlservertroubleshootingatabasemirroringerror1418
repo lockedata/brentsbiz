@@ -1,0 +1,48 @@
+Troubleshooting Database Mirroring Error 1418 – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   Troubleshooting Database Mirroring Error 1418 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ Troubleshooting Database Mirroring Error 1418 
+	 February 2, 2011 
+	 by  SQLSoldier 
+	 SQL Server 
+	 5 Comments 
+	 0 
+ 
+
+
+ 
+ Troubleshooting Database Mirroring Error 1418 
+ Error 1418 is a common, hard-to-troubleshoot error. It is so common that it has been given its own page dedicated to the error in Books Online:  MSSQLSERVER_1418 . Unfortunately, that page only lists a few troubleshooting steps. Over the years, I’ve compiled a longer list of troubleshooting steps for this error. I’ve encountered every one of these issues at some point. 
+ The serve

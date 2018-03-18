@@ -1,0 +1,31 @@
+SET SHOWPLAN_ALL (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SET SHOWPLAN_ALL (Transact-SQL) 
+
+					 
+								 06/10/2016 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Causes Microsoft  SQL Server not to execute  Transact-SQL statements. Instead,  SQL Server returns detailed information about how the statements are executed and provides estimates of the resource requirements for the statements.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+SET SHOWPLAN_ALL { ON | OFF }  
+ Remarks 
+  The setting of SET SHOWPLAN_ALL is set at execute or run time and not at parse time.   
+  When SET SHOWPLAN_ALL is ON,  SQL Server returns execution information for each statement without executing it, and  Transact-SQL statements are not executed. After 

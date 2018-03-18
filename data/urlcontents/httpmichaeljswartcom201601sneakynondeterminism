@@ -1,0 +1,55 @@
+Sneaky Non-Determinism in Column Defaults | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ January 27, 2016 
+ 
+	  Sneaky Non-Determinism in Column Defaults 
+	 Filed under:  SQLServerPedia Syndication  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 Remember that functions – including those found in default constraints – are not executed simultaneously. This can sneak up on you whenever you have multiple function calls in a single statement or multiple default constraints in a single table. 
+ I recently found a flaky unit test that involved datetime columns. And  as Martin Fowler says   “Few things are more non-deterministic than a call to the system clock.” 
+ But the cause can be subtle. Two columns with the same default of  SYSDATETIME  can have different values in the 

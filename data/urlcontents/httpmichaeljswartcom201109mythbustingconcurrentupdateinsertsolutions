@@ -1,0 +1,55 @@
+Mythbusting: Concurrent Update/Insert Solutions | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ September 8, 2011 
+ 
+	  Mythbusting: Concurrent Update/Insert Solutions 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  "sql server" ,  concurrency ,  high concurrency ,  upsert  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 Update: This is a post on the topic of UPSERT. See my more recent post  SQL Server UPSERT Patterns and Antipatterns 
+ I’ve recently come across a large number of methods that people use to avoid concurrency problems when programming an Insert/Update query. Rather than argue with some of them. I set out to test out how valid each method by using experiment! Here’s the myth: 
+ Does Method X really perform Insert/Update queries c

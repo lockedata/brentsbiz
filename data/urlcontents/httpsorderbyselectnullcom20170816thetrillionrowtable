@@ -1,0 +1,33 @@
+The Trillion Row Table – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 The Trillion Row Table 
+		 
+						 Posted on  August 16, 2017 August 16, 2017  by  Joe Obbish 					 
+
+	 
+		 I loaded one trillion rows into a nonpartitioned table just to see what would happen. Spoiler: bad things happen. 
+ Hardware and Table Plan 
+ I did all of my testing on my home desktop which has an i5-4670 CPU (quad core), 5 GB of RAM for SQL Server, and a Samsung SSD 850 EVO 1 TB. Obviously not ideal to do testing like this but it was enough to get the job done. In order to fit a trillion rows into a table I had to use a CCI. Rowstore tables simply don’t offer good enough compression. For example, consider a page compressed heap with nothing but NULL values. One million rows takes up 10888 KB of disk space: 
+ 
+DROP TABLE IF EXISTS dbo.TEST_HEAP;
+CREATE TABLE dbo.TEST_HEAP (
+ID BIGINT
+) WITH (DATA_COM

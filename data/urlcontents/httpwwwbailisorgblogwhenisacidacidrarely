@@ -1,0 +1,29 @@
+When is "ACID" ACID? Rarely. | Peter Bailis 
+   
+     Peter Bailis  ::  Highly Available, Seldom Consistent 
+ Data management, distributed systems, and beyond 
+   
+   
+     
+
+ When is "ACID" ACID? Rarely. 
+
+ 22 Jan 2013 
+
+ tl;dr: ACID and NewSQL databases rarely provide true ACID guarantees
+ by default, if they are supported at all. See  the
+ table . 
+
+ Many databases today differentiate themselves from their NoSQL
+counterparts by claiming to support  “100%
+ACID”  transactions or by  “guaranteeing
+strong consistency (ACID).”  In reality, few of these
+databases—including traditional “big iron” systems like
+Oracle—provide formal ACID guarantees,  even when they claim to do so . 
+
+ The textbook definition of ACID Isolation is  serializability 
+(e.g.,  Architecture
+of a Database System , Section 6.2), which states that the outcome
+of executing a set of transactions should be equivalent to some serial
+execution of those transactions. This means that each transaction gets
+to operate on the d

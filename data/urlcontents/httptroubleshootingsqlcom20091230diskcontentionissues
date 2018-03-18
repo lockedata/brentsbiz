@@ -1,0 +1,40 @@
+Wikis: Disk Contention Issues | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ Wikis: Disk Contention Issues 
+
+		 
+			Posted on  December 30, 2009  by  Amit Banerjee 		 
+	 
+		 I had written this post a while back and decided to add a bit of more context w.r.t. Perfmon and other DMVs that can be used to fetch information. 
+ It is said that the recommendation was that  Average Disk Queue Length  (perfmon counter in Logical/Physical Disk object) for disks be less than 2 * number of spindles on the disk. So if your disk had 10 spindles, then values above 20 woud be a cause of concern. But on a SAN or on virtualized environments, this particular counter can be misleading at times. So what

@@ -1,0 +1,31 @@
+Automatic tuning | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Automatic tuning 
+
+					 
+								 08/16/2017 
+							 11 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Automatic tuning is a database feature that provides insight into potential query performance problems, recommend solutions, and automatically fix identified problems. 
+ Automatic tuning in SQL Server 2017 notifies you whenever a potential performance issue is detected, and lets you apply corrective actions,
+or lets the  Database Engine automatically fix performance problems.
+Automatic tuning in SQL Server 2017 enables you to identify and fix performance issues caused by  SQL plan choice regressions . Automatic tuning in  Azure SQL Database cre

@@ -1,0 +1,40 @@
+Azure SQL Data Sync (Preview) | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Sync data across multiple cloud and on-premises databases with SQL Data Sync (Preview) 
+
+					 
+								 11/13/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 SQL Data Sync is a service built on Azure SQL Database that lets you synchronize the data you select bi-directionally across multiple SQL databases and SQL Server instances. 
+ Data Sync is based around the concept of a Sync Group. A Sync Group is a group of databases that you want to synchronize. 
+ A Sync Group has the following properties: 
+ The  Sync Schema  describes which data is being synchronized. 
+ 
+ The  Sync Direction  can be bi-directional or can flow in only one direction. That is, the Sync Direction can be  Hub to Member  or  Member to Hub , or 

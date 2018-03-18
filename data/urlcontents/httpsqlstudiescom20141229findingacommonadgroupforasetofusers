@@ -1,0 +1,54 @@
+Finding a common AD group for a set of users. | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Finding a common AD group for a set of users. 
+       				 8 
+		         December 29, 2014  by Kenneth Fisher 
+
+		 
+			 I work for a large organization that over the last few years has been doing a LOT of reorgs.  And what comes with reorgs? Lots of security requests.  I’m always working to find easier ways to deal with them and I’ve gotten pretty good at it over time.  One common security request we receive looks something like this: “Please grant XYZ access to Doc, Dopey, Sleepy and Sneezy.”  This is easy enough i

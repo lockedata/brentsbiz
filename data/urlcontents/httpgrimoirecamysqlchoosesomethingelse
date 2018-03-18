@@ -1,0 +1,42 @@
+
+		The Codex » 
+		Do Not Pass This Way Again
+	 
+
+ 
+	
+		 
+					
+						 index 
+					
+				 
+			
+				 
+					
+						 mysql 
+					
+				 
+			
+				 
+					
+						choose-something-else
+					
+				 
+			
+		 
+		 Do Not Pass This Way Again 
+ Considering MySQL? Use something else. Already on MySQL? Migrate. For every
+successful project built on MySQL, you could uncover a history of time wasted
+mitigating MySQL's inadequacies, masked by a hard-won, but meaningless, sense
+of accomplishment over the effort spent making MySQL behave. 
+ Thesis: databases fill roles ranging from pure storage to complex and
+interesting data processing; MySQL is differently bad at both tasks. Real apps
+all fall somewhere between these poles, and suffer variably from both sets of
+MySQL flaws. 
+ MySQL is bad at  storage . 
+ MySQL is bad at  data processing . 
+ MySQL is bad  by design . 
+ Bad arguments  for using MySQL. 
+ Much of this is inspired by the principles behind  PHP: A Fractal of Bad
+Design . I
+suggest reading that art

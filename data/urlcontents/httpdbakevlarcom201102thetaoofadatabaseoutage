@@ -1,0 +1,28 @@
+The Tao of a Database Outage - DBA Kevlar 
+ 
+ Skip to content 
+ 
+ 
+             
+         
+             
+         
+     
+
+ 
+                                                                                                                                                                                                                                         
+ 
+
+ Menu 
+	 Schedule and Events 
+ Raspberry Pi Page 
+ Links 
+ Scripts &amp; Questions 
+ About 
+ 
+
+ 
+ The Tao of a Database Outage              
+                      Posted on  February 27, 2011       by  Kellyn Pot'Vin              
+	 
+             Hello there! If you are new here, you might want to  subscribe to the RSS feed  for updates on this topic. As many companies judge a DBA’s worth on the uptime of a database, nothing tests a DBA’s mettle like database service outages where the cause is indeterminate at the time of the outage.  The secondary challenge is that once the database is brought back up, the DB

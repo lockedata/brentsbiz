@@ -1,0 +1,29 @@
+Transactions - Always On availability groups and database mirroring | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Transactions - availability groups and database mirroring 
+
+					 
+								 11/01/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This topic describes cross-database and distributed transactions support for Always On availability groups and database mirroring.   
+ Support for distributed transactions 
+ SQL Server 2017 supports distributed transactions for databases in availability groups. This support includes databases on the same instance of SQL Server or databases on different instances of SQL Server. Distributed transactions are not supported for databases configured for database mirroring. 
+ Note  SQL Server 2016SQL Server 2016 in

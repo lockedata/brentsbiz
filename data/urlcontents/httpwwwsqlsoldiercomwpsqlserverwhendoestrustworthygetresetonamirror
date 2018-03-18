@@ -1,0 +1,47 @@
+When Does Trustworthy Get Reset on a Mirror? – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   When Does Trustworthy Get Reset on a Mirror? 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ When Does Trustworthy Get Reset on a Mirror? 
+	 April 4, 2011 
+	 by  SQLSoldier 
+	 SQL Server 
+	 5 Comments 
+	 0 
+ 
+
+
+ When Does Trustworthy Get Reset on a Mirror? 
+ Is Your Database Trustworthy? 
+When I’ve done sessions on automating database mirroring processes and in  my book , I talk about incorporating steps to set properties that get reset during the restore process in the mirroring setup such as database owner and the Trustworthy property. When you perform the initial restores of the database to set up mirroring, the database owner is set to the

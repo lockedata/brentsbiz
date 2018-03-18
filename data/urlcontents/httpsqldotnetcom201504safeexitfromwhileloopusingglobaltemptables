@@ -1,0 +1,37 @@
+Safe exit from WHILE loop using ##global temp tables | One developer's SQL blog 
+ 
+	 
+		 
+			 Home About 
+ Contact Me 
+	 Who am I ? 
+ 
+			 Menu 
+			 
+		 
+			 
+ 		 
+	 
+ 
+ 
+		 
+		 One developer's SQL blog 
+		 A .NET developer writing about SQL 
+		 
+	 
+	 
+ 
+ 
+		 
+		 Safe exit from WHILE loop using ##global temp tables 
+		 
+			 
+				Posted by  Horia 
+				on				05/04/2015							 
+						 Leave a comment  (2) 
+			 Go to comments 
+					 
+		 
+		 
+			 Loops, SQL Server – these two things don’t go along as best friends, but every once in a WHILE, there’s no other way around. If I also add transactions, i surely want to have full control over it. 
+Not once i had to stop a loop doing some processing after it was 30 mins in, and it was using transactions, and I hate pressing the red square button. I just hate that. Waiting for current command to be rolled back, rolling back any open transactions… Recently, when again i had to use a WHILE again, I started to ask myself 

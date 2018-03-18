@@ -1,0 +1,51 @@
+
+Google Cloud Platform Blog: Incident management at Google — adventures in SRE-land
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Google Cloud Platform Blog
+           
+ 
+ 
+ 
+Product updates, customer stories, and tips and tricks on Google Cloud Platform
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Incident management at Google — adventures in SRE-land
+ 
+ 
+ 
+ 
+ 
+Monday, February 27, 2017
+ 
+ 
+ 
+ 
+ 
+ 
+ By Paul Newson, Incident Commander   
+Have you ever wondered what happens at Google when something goes wrong? Our industry is fond of using colorful metaphors such as “putting out fires” to describe what we do. Of course, unlike the actual firefighters pictured here, our incidents don’t normally involve risk to life and limb. Despite the imperfect metaphor, Google Site Reliability Engineers (SREs) have a lot in common with other first responders in other fields. 
+Like these other first responders, SREs at Google regularly practice emergency response, honing the skills, tools, techniques and attitude required to q

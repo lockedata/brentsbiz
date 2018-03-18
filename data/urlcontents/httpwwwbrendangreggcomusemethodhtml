@@ -1,0 +1,24 @@
+The USE Method 
+
+ 
+ This Site: 
+ Start Here Homepage Blog Full Site Map Sys Perf book Linux Perf Perf Methods USE Method TSA Method Off-CPU Analysis Active Bench. WSS Estimation Flame Graphs Heat Maps Frequency Trails Colony Graphs perf Examples eBPF Tools DTrace Tools DTraceToolkit DtkshDemos Guessing Game Specials Books Other Sites This Page: 
+ USE Method 
+   Intro 
+   Summary 
+   Hardware 
+   Metrics 
+   Software 
+   Interpretations 
+   Strategy 
+   Apollo 
+   Others 
+   Conclusion 
+   Acks 
+   Updates USE Checklists: 
+ Rosetta Linux Solaris Mac OS X FreeBSD Unix 7th SmartOS 
+
+ 
+ The USE Method 
+ Boeing 707 Emergency Checklist (1969) 
+ The Utilization Saturation and Errors (USE) Method is a methodology for analyzing the performance of any system. It directs the construction of a checklist, which for server analysis can be used for quickly identifying resource bottlenecks or errors. It begins by posing questions, and then seeks answers, instead of beginning with given metrics (partia

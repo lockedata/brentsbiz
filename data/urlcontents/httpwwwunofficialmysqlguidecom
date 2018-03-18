@@ -1,0 +1,58 @@
+Welcome — The Unofficial MySQL 8.0 Optimizer Guide 1.0.1 documentation 
+
+ 
+
+  
+
+  The Complete List of Features 
+   My Blog 
+  The Unofficial MySQL 8.0 Optimizer Guide 
+
+  
+
+ 
+
+
+
+  
+
+     
+       
+         
+           
+            
+   
+ Welcome ¶ 
+ 
+ Changelog ¶ 
+ 2016-09-26: Initial Release 
+ 
+ 
+ About the Author ¶ 
+ 
+ Morgan Tocker is the Product Manager for the MySQL Server at Oracle.  He has previously worked in a variety of roles including Support, Training and Community.  Morgan is based out of Toronto, Canada. 
+ Follow  @morgo  on Twitter. 
+ 
+ 
+ Acknowledgements ¶ 
+ Thank you to the MySQL Optimizer team for providing diagrams of the Server Architecture, Cost model and Query Optimization. 
+ Thank you to Chrissy Cutting for Copy Editing. 
+ 
+ 
+ 
+ Important 
+ Examples are based on the world sample database.
+It can be downloaded from  http://dev.mysql.com/doc/index-other.html 
+ 
+ 
+ 
+
+
+           
+         
+       
+       
+         Navigation 
+ Introduction 
+ Server Architecture 
+ B+t

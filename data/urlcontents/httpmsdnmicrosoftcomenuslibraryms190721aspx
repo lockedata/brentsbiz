@@ -1,0 +1,45 @@
+ms.workload: "Inactive" | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 
+								 2/12/2018 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 title: "Auto Stats Event Class | Microsoft Docs"
+ms.custom: ""
+ms.date: "03/14/2017"
+ms.prod: "sql-non-specified"
+ms.prod_service: "database-engine, sql-database"
+ms.service: ""
+ms.component: "event-classes"
+ms.reviewer: ""
+ms.suite: "sql"
+ms.technology:  
+ "database-engine"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords:  
+ "Auto Stats event class"
+ms.assetid: cd613fce-01e1-4d8f-86cc-7ffbf0759f9e
+caps.latest.revision: 34
+author: "stevestein"
+ms.author: "sstein"
+manager: "craigg" 
+ ms.workload: "Inactive" 
+ Auto Stats Event Class 
+ THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    The  Auto Stats  event class indicates that an automatic updating of index and column sta

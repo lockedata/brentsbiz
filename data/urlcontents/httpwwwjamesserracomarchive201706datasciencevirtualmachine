@@ -1,0 +1,50 @@
+Data Science Virtual Machine | James Serra's Blog 
+ 
+     
+    	 
+		 
+		 
+		 
+		     
+			 James Serra's Blog 
+		     
+		 
+		 Big Data and Data Warehousing 
+		 Skip to content 
+
+	     
+			 
+	    		 
+ Home Presentations 
+ Consulting 
+ About Me 
+ Contact Me 
+ 
+		 
+		
+	 
+     
+
+
+     
+ 
+
+        	     
+
+
+		 
+		     ←  Data Warehouse Fast Track Reference Guide for SQL Server 2016 
+		     Azure DevTest Labs  → 
+		 
+
+		 
+		     	 Data Science Virtual Machine 
+ 
+
+			         
+ Posted on   June 14, 2017   by   James Serra 
+         
+
+			 
+			     The Data Science Virtual Machine (DSVM) is a customized VM image on Microsoft’s Azure cloud built specifically for doing data science.  It has many popular data science and other tools pre-installed and pre-configured to jump-start building intelligent applications for advanced analytics.  So instead of you having to create a VM and download and install all these tools which can take many hours, within a matter of minutes you can be up and running. 
+ T

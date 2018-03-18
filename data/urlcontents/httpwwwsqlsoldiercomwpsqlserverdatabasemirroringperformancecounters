@@ -1,0 +1,47 @@
+SQLU HA/DR Week – Database Mirroring Performance Counters – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   SQLU HA/DR Week – Database Mirroring Performance Counters 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ SQLU HA/DR Week – Database Mirroring Performance Counters 
+	 April 20, 2011 
+	 by  SQLSoldier 
+	 SQL Server 
+	 4 Comments 
+	 0 
+ 
+
+
+ SQLU HA/DR Week – Database Mirroring Performance Counters 
+ SQL U - HA/DR Week 
+Database mirroring debuted in SQL Server 2005 and had eleven performance counters for monitoring mirroring. There were ten new performance counters released with SQL Server 2008. We now have twenty-one performance counters to use for monitoring database mirroring. A list with a brief description of each can be found i

@@ -1,0 +1,36 @@
+INTO Clause (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SELECT - INTO Clause (Transact-SQL) 
+
+					 
+								 05/23/2017 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    SELECT…INTO creates a new table in the default filegroup and inserts the resulting rows from the query into it. To view the complete SELECT syntax, see  SELECT (Transact-SQL) .   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ [ INTO new_table ]
+[ ON filegroup]
+ Arguments 
+   new_table  Specifies the name of a new table to be created, based on the columns in the select list and the rows chosen from the data source.   
+    filegroup 
+  Specifies the name of the filegroup in which new table will be created. The fileg

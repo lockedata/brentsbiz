@@ -1,0 +1,34 @@
+sp_cursoropen (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_cursoropen (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 7 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Opens a cursor. sp_cursoropen defines the SQL statement associated with the cursor and cursor options, and then populates the cursor. sp_cursoropen is equivalent to the combination of the  Transact-SQL statements DECLARE_CURSOR and OPEN. This procedure is invoked by specifying ID =2 in a tabular data stream (TDS) packet.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_cursoropen cursor OUTPUT, stmt  
+    [, scrollopt[ OUTPUT ] [ , ccopt[ OUTPUT ]  
+    [ ,rowcount OUTPUT [ ,boundparam][,...n]]] ]]  
+ Arguments 
+   cursor  A SQL Server-generated c

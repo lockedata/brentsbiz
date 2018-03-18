@@ -1,0 +1,29 @@
+How to Test SQL Server Cumulative Updates and Service Packs - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Required Testing for Installing SQL Server Cumulative Updates and Service Packs 
+
+				 
+					 April 28, 2016 Kendra Little Change Management ,  High Availability ,  Maintenance ,  sql 14  Comments 				 
+			 
+		 
+
+			 
+ 
+ Microsoft recently updated their policies and recommendations for installing cumulative updates. Now, in the header for  each cumulative update , it reads: 
+ Microsoft recommends ongoing, proactive installation of CUs as they become available: 
+ SQL Server CUs are certified to the same levels as Service Packs, and should be installed at the same level of confidence. 
+ Historical data shows that a significant number of support cases involve an issue that has already been addressed in a released CU. 
+ CUs may contain added value over and above hotfixes. This includes supportability, manageability, and reliability updates. 
+ 
+ But Important 

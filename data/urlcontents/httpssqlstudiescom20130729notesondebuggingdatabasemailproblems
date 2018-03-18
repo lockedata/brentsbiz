@@ -1,0 +1,60 @@
+Notes on debugging Database Mail problems | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Notes on debugging Database Mail problems 
+       				 7 
+		         July 29, 2013  by Kenneth Fisher 
+
+		 
+			 I’ve had to debug database mail problems several times over the last year or so.  Below is a collection of the stored procedures and queries that I’ve ended up using.  I’ve added notes to most of them to help explain and work with them.   
+ USE msdb
+GO
+
+-- Check that the service broker is enabled on MSDB. 
+-- Is_broker_enabled must be 1 to use database mail.
+SELECT is_broker_enabled FROM sys.databases WHE

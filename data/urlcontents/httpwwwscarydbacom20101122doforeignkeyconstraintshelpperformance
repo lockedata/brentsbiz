@@ -1,0 +1,35 @@
+Do Foreign Key Constraints Help Performance? - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Do Foreign Key Constraints Help Performance? 		 Home  /  SQL Server 2005  /  Do Foreign Key Constraints Help Performance? 	 
+ 
+	 
+		 
+		 
+			 22 Nov 2010  by  Grant Fritchey  45 Comments 		 
+		 Most people are very aware of the fact that having a foreign key constraint in place on your tables adds overhead to inserts and deletes. And many people believe that there is no benefit to foreign keys beyond referential integrity (which, the application can handle perfectly well, right?). But is that an accurate statement? Here’s the basis for our investigation, a query in AdventureWorks2008R2: 
+
+		 
+		
+			 
+			 Transact-SQL 
+			 
+			 
+SELECT p.LastName + ', ' + p.FirstName AS 'PersonName'
+ FROM Person.Add

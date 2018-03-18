@@ -1,0 +1,34 @@
+Q&amp;A from the DBA Fundamentals Virtual Chapter | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Q&amp;A from the DBA Fundamentals Virtual Chapter 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  Execution Plans  &gt;  Q&amp;A from the DBA Fundamentals Virtual Chapter     
+     
+   
+     
+       Author:  Gail 
+       25 August 2015 
+       3 Comments 
+     
+     
+       Execution Plans ,  Performance ,  SQL Server 
+       
+      
+   
+     
+ A couple of weeks ago I did a presentation to the DBA Fundamentals virtual chapter. The presentation title was “What execution plans can tell you about query performance” 
+ The slides and recording are available at the  Virtual Chapter’s home page 
+ I didn’t manage to get all of the questions answered, so here are a couple of slightly more involved questions which didn’t get answered. 
+ Does the order of table matter when doing an inner join? 

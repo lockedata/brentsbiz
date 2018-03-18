@@ -1,0 +1,29 @@
+sp_RestoreGene – Paul Brewer 
+		 
+							 Paul Brewer 
+						 
+												 
+							Microsoft Data Platform Specialist						 
+											 
+	 
+				 Home ps_RestoreGene 
+ sp_RestoreGene 
+ CA_SQLAZURE 
+ CA_SQLHekaton 
+ 					 
+ 
+		sp_RestoreGene 	 
+	 Double click to highlight it all, copy / paste in a query analyser window on the primary server (SQL Server 2005 or higher) where the backup history exists.   Copy / Paste only works with Chrome or newer versions of Internet Explorer, a line feed/character return problem corrupts the T-SQL if copied using Internet Explorer 8 or lower. 
+ 
+
+USE [master] 
+GO 
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_NAME = 'sp_RestoreGene') 
+EXEC ('CREATE PROC dbo.sp_RestoreGene AS SELECT ''stub version, to be replaced''') 
+GO 
+                    
+/*********************************************************************************************
+Restore Generator v7.0 (2018-02-16)
+(C) 2012, Paul Brewer
+                    
+Fe

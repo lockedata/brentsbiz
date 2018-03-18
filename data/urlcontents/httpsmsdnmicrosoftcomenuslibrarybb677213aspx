@@ -1,0 +1,28 @@
+Tutorial: Using the hierarchyid Data Type | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Tutorial: Using the hierarchyid Data Type 
+
+					 
+								 03/14/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This tutorial is intended for users who are experienced with  Transact-SQL, but are new to the  hierarchyid  data type.   
+ What You Will Learn 
+ This tutorial is divided into two lessons:   
+ Lesson 1: Converting a Table to a Hierarchical Structure In this lesson, you take an existing employee table that is structured as a parent/child hierarchy and move the data into a new table that represents the hierarchy by using the  hierarchyid  data type. This lesson requires the    AdventureWorks2012  sample database.   
+ Lesson 2: Creating and Managing Data in a H

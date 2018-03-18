@@ -1,0 +1,41 @@
+CISL 1.1.0 is released – Columnstore Maintenance Solution for SQL Server 2014 – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				CISL 1.1.0 is released – Columnstore Maintenance Solution for SQL Server 2014    			 
+  			 
+    			 After a very long waiting period, I have finally released the initial version of my Columnstore Maintenance solution for SQL Server 2014.  The version 1.1.0 of the CISL  (Columnstore Indexes Scrtips Library), free &amp; open source is live and available for download. 
+ This is an important release and this is why I am incrementing .1 minor version to it’s number instead of a .0.1 (build version). 
+The importance of this release is that

@@ -1,0 +1,43 @@
+Initial Data Collection Script | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ Initial Data Collection Script 
+
+		 
+			Posted on  January 21, 2010  by  Amit Banerjee 		 
+	 
+		 Where would you be able to use it?  
+ The cases where you can use this script effectively are: 
+ 1. Performance issues where a quick initial look at the general state of the server is very valuable. 
+ 2. Situations where issue is actually happening right now. However, that said, it is always good to collect post mortem data as well for further diagnostics. Performance Dashboard is a good option here but if you want a snapshot of the server and store it somewhere, then this script can help you. 
+ 3. Situations 

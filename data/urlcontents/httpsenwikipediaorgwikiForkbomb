@@ -1,0 +1,42 @@
+Fork bomb - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ Fork bomb 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 "Rabbit virus" redirects here. For the disease used in an attempt to exterminate rabbits in Australia, see  Myxomatosis . 
+ 
+ 
+ 
+ 
+The concept behind a fork bomb — the processes continually replicate themselves, potentially causing a denial of service 
+ 
+ 
+ In  computing , a  fork bomb  (also called  rabbit virus  or  wabbit [1] ) is a  denial-of-service attack  wherein a  process  continually replicates itself to deplete available system resources, slowing down or crashing the system due to  resource starvation . 
+ 
+ 
+ 
+ Contents 
+ 
+ 1   History 
+ 2   Implementation 
+ 3   Examples of fork bombs 
+ 3.1   Bash 
+ 3.2   Windows batch 
+ 3.3   Perl 
+ 3.4   Python 
+ 3.5   Java 
+ 3.6   Javascript 
+ 3.7   C 
+ 3.8   Assembly (Linux running on IA-32) 
+ 3.9   PowerShell 
+ 
+ 4   Prevention 
+ 5   See also 
+ 6   References 
+ 

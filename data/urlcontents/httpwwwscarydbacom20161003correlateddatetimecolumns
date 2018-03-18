@@ -1,0 +1,26 @@
+Correlated Datetime Columns - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Correlated Datetime Columns 		 Home  /  SQL Server 2005  /  Correlated Datetime Columns 	 
+ 
+	 
+		 
+		 
+			 03 Oct 2016  by  Grant Fritchey  1 Comment 		 
+		 SQL Server is a deep and complex product. There’s always more to learn. For example, I had never heard of Correlated Datetime Columns. They were evidently introduced as a database option in SQL Server 2005 to help support data warehousing style queries (frequently using dates and times as join criteria or filter criteria).  You can read up on the concept here  from this older article from 2008 on MSDN. However, doing a search online I didn’t find much else explaining how this  stuff worked ( one article here , that didn’t break this down in a way I could easily unders

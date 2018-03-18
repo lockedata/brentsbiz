@@ -1,0 +1,40 @@
+Columnstore Indexes – part 99 (“Merge”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore Indexes – part 99 (“Merge”)    			 
+  			 
+    			 Continuation from the previous 98 parts, the whole series can be found at  http://www.nikoport.com/columnstore/ . 
+ This blog post is focused on the MERGE statement for the Columnstore Indexes, or as I call it – the worst enemy of the Columnstore Indexes. It is extremely difficult to imagine some statement or way of making the worst out of the Columnstore Indexes, if not the infamous MERGE statement. Why ? Because it is not only making Columnstore Indexes perform slow, it will make them perform  MUCH SLOWER th

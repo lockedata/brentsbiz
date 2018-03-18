@@ -1,0 +1,24 @@
+Inside the SQL Server 2012 Columnstore Indexes 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Inside the SQL Server 2012 Columnstore Indexes 
+         May 29th, 2012  
+         
+
+ 
+ Columnar storage has established itself as the de-facto option for Business Intelligence (BI) storage. The traditional row-oriented storage of RDBMS was designed for fast single-row oriented OLTP workloads and it has problems handling the large volume range oriented analytical processing that characterizes BI workloads. But what  is  columnar storage and, more specifically, how does SQL Server 2012 implement columnar storage with the new  COLUMNSTORE  indexes? 
+ 
+ Column Oriented Storage 
+ The defining characteristic of columnar storage is the ability to read the values of a particular column of a table without having to read the values of all the other columns. In row-oriented storage this is impossible because the individual column values are physically 

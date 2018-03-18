@@ -1,0 +1,62 @@
+  Architectures for Running SQL Server Analysis Service (SSAS) on Data in Hadoop Hive | Thinknook 
+
+	 	
+				  
+			 
+						
+						 
+						
+							 
+							 
+							
+							 
+						
+							 Follow us on Twitter Join our Facebook Group Join me on Google Plus Add me on Linkedin 	 RSS   
+							
+							 
+						
+							
+						
+			
+
+			
+		 
+		 
+		
+			 
+				
+				 
+				
+				
+
+		 
+		
+			 
+			
+			
+			 
+					 Architectures for Running SQL Server Analysis Service (SSAS) on Data in Hadoop Hive					 
+					 
+			 
+			
+			 
+	         
+	        	
+	        	 
+	        		
+	        		 
+	        		
+	        			 25 
+   						 Feb 
+   						
+	        		 
+	        		
+	        	 
+				
+			 	
+			
+
+			 	
+			
+			  February 25, 2013 	
+				 Recently I have been involved in researching and building a low-latency high-data-volume OLAP environment for a social entity and interaction analysis platform, the perfect mixture of concepts such as Big Data collection and processing,  large-scale Net

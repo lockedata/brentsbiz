@@ -1,0 +1,32 @@
+CREATE WORKLOAD GROUP (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE WORKLOAD GROUP (Transact-SQL) 
+
+					 
+								 01/04/2018 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates a Resource Governor workload group and associates the workload group with a Resource Governor resource pool. Resource Governor is not available in every edition of  Microsoft SQL Server. For a list of features that are supported by the editions of  SQL Server, see  Features Supported by the Editions of SQL Server 2016 .   
+   Transact-SQL Syntax Conventions .   
+ Syntax 
+ CREATE WORKLOAD GROUP group_name  
+[ WITH  
+    ( [ IMPORTANCE = { LOW | MEDIUM | HIGH } ]  
+      [ [ , ] REQUEST_MAX_MEMORY_GRANT_PERCENT = value ]  
+      [ [ , ] REQUEST_M

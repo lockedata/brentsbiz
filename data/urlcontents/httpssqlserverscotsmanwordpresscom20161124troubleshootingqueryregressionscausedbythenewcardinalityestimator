@@ -1,0 +1,45 @@
+Troubleshooting Query Regressions Caused By The New Cardinality Estimator | SQL Server Musings Of A True Scotsman 
+ 
+	 
+		 
+			 
+								 
+					 
+						 SQL Server Musings Of A True Scotsman 
+					 
+				 
+				 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home 
+ Blog 
+ Twitter 
+ 			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Statistics &amp; Cardinality Estimator Model Variations 
+					 A Guide On Forcing The Legacy CE  → 
+				 
+
+				 
+											 Troubleshooting Query Regressions Caused By The New Cardinality Estimator 					
+					 
+						 Posted on   November 24, 2016 						 by   sqlserverscot   					 
+
+					 
+						 In this blog post I’ll show methods that can be used to identify and troubleshoot query plan regressions caused by the new cardinality estimator.  I’ll show how this was a very manual task in SQL Server 2014 and how the process was made much easier in SQL Server 2016 with the introduction of Query Store. 
+ For the purpose of this demo, I will 

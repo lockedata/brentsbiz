@@ -1,0 +1,34 @@
+Indexing for ORs | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Indexing for ORs 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  Indexes  &gt;  Indexing for ORs     
+     
+   
+     
+       Author:  Gail 
+       3 May 2011 
+       8 Comments 
+     
+     
+       Indexes ,  SQL Server ,  Syndication 
+       
+      
+   
+     
+ All of the indexing strategy posts I’ve written in the past have been concerned with predicates combined with ANDs. That’s only one half of the possibilities though. There’s the case of predicates combines with ORs, and the guidelines for indexing that work well with ANDs don’t work with ORs 
+ When dealing with predicates combined with AND, the predicates are cumulative, each one operates to further reduce the resultset. 
+ For this reason, multi-column indexes support multiple predicates combined with AND operators. 
+ If we look at a quick example, consider the

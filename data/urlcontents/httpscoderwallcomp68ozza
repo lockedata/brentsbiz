@@ -1,0 +1,85 @@
+Save your company's ass - Launch a static "emergency 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Coderwall
+ 
+ 
+ 
+ 
+ 
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ 
+ 
+ 
+ 
+ 
+ More 
+Tips
+ 
+ 
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ PHP 
+ Android 
+ .NET 
+ Java 
+ Jobs 
+ 
+ 
+ 
+ Jobs 
+ 
+ 
+ 
+ 
+ Sign In or Up 
+ 
+ 
+ 
+
+ 
+ 
+ February 25, 2016 18:51 
+ 68ozza 
+ 
+ 
+ 
+ 
+ Last Updated: February 25, 2016 
+ 
+·
+ 
+ 
+46.47K
+ 
+ 
+·
+ blockjon 
+ 
+ 
+ 
+ 
+ Save your company's ass - Launch a static "emergency mode" site on S3 
+ 
+ maintenance 
+ server 
+ ops 
+ 
+ 
+ We were just featured in an email that was sent to a million people. It went great but we were a little concerned about what would happen if we had an unexpected problem in our application at the last minute. If our site went down on the day that thousands of people were all trying to get to RockThePost, we would have squandered the opportunity and I would have have been completely embarrassed. 
+
+ We decided to launch our "hot spare" website. It's a special lite

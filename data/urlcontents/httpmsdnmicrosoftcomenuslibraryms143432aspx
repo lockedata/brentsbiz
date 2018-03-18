@@ -1,0 +1,36 @@
+Maximum Capacity Specifications for SQL Server | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Maximum Capacity Specifications for SQL Server 
+
+					 
+								 11/6/2017 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  For content related to previous versions of SQL Server, see  Maximum Capacity Specifications for SQL Server . 
+ 
+   The following tables specify maximum sizes and numbers of various objects defined in  SQL Server components. To navigate to the table for a  SQL Server technology, click on its link:   
+   SQL Server Database Engine Objects    
+   SQL Server Utility Objects    
+   SQL Server Data-tier Application Objects    
+   SQL Server Replication Objects    
+   Database Engine Objects 
+  Maximum sizes and num

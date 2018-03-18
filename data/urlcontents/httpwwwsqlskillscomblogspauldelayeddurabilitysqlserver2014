@@ -1,0 +1,47 @@
+Delayed Durability in SQL Server 2014 - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  Performance Tuning  &gt;&gt;  Delayed Durability in SQL Server 2014 
+
+ Delayed Durability in SQL Server 2014 By:  Paul Randal    Posted on: November 20, 2014 11:13 am  One of the cool new features in SQL Server 2014 is delayed durability (available in all Editions), which is described in detail in Books Online  here . 
+ I think I’m going to see a lot of people turn this on, as you can get a profound increase in transaction throughput with the right workload. However, I also think a lot of people are going to turn this on without realizing the potential for data loss and making the appropriate trade off. 
+ Why can it give a throughput boost? 
+ I put

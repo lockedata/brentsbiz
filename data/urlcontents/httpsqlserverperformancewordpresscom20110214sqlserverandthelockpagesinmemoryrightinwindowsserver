@@ -1,0 +1,43 @@
+SQL Server and the “Lock pages in memory” Right in Windows Server | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Presentation Slides For Hardware 201 at SQLSaturday #66 in Colorado Springs 
+					 Recent AMD Processor News  → 
+				 
+
+				 
+											 SQL Server and the “Lock pages in memory” Right in Windows Server 					
+					 
+						 Posted on   February 14, 2011 						 by   Glenn Berry   					 
+
+					 
+						 Another Windows setting you  might  want to enable is “Lock pages in memory”. There is some controversy within the SQL Server community and within Microsoft about whether and when you should enable this setting. Before you decide whether you want to do this, let me give you some background. When SQL Server 2005 

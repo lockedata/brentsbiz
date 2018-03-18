@@ -1,0 +1,54 @@
+You Can't Force Query Plans If They Use TVPs With PKs | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ April 27, 2016 
+ 
+	  You Can’t Force Query Plans If They Use TVPs With PKs 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 12:24 pm  
+
+	 
+		 Have you ever played “Fortunately/Unfortunately”? It’s a game where players alternately give good news and bad news. It goes something like this: 
+ Databases such as SQL Server make it easy to retrieve sets of data. Unfortunately , it’s kind of awkward to send sets of data to SQL Server. Fortunately , table-valued parameters (TVPs) make this easier. Unfortunately , queries that use TVPs often suffer from non-optimal query plans. Fortunately , creating primary key

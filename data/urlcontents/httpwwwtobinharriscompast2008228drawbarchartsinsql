@@ -1,0 +1,42 @@
+Draw Bar Charts with raw SQL 
+
+	
+ 
+		
+	
+	 
+		 
+			 Tobin Harris 
+  		 
+  			 home  
+  			 blog 
+  			 music 
+  			 books 
+  		 
+	 
+	 
+		 &lt;&lt; back to blog 
+ 
+	 Draw Bar Charts with raw SQL 	  
+   Feb 28, 2008 ,  software  ~  sql  ~  gui  ~  design 
+
+	 
+	 
+		 I was writing a quick query the other day that showed how many people registered on a site over time. I thought that it would be nice to have a graph-like representation of this, so I didn't actually have to read the numbers.  
+
+ Then I thought, what if I could do this in SQL rather than having to mess about with Excel or similar. So, within a minute I'd use the padding and replace to get a rough-n-ready bar chart. The result is below, I quite like it :) 
+
+ 
+
+ Here's the SQL 
+
+ select 
+    Convert(varchar,DateConfirmed,106) as Date, 
+    count(*) as ConfirmedRegistrations,
+    replace(space(count(*)),' ','|') as Chart
+from 
+    Operators
+where 
+    DATEDIFF(day, DateConfirmed, GETDATE()) &lt; 30
+group by 
+    Convert(varchar,Da

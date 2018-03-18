@@ -1,0 +1,53 @@
+T-SQL Tuesday: My favorite Bug | Geeql.com 
+
+ 
+	 
+		 
+						 
+				 
+					 Geeql.com 
+				 
+			 
+			 Lessons, tips, and tricks from a SQL database geeq 
+
+		 
+
+		 
+			 Home About 
+ Contact 
+ 
+
+	 
+
+	 
+		 RSS 
+		 
+			 
+				 
+	 
+		 
+			 ←  DPM… and “Why are my SQL Transaction Logs filling up?” (the answer… really) 		 
+		 
+					 
+	 
+
+	 
+
+		
+				 
+							T-SQL Tuesday: My favorite Bug					 
+	
+				 
+			 
+									 10 
+					 Jan 
+							 
+		 
+	
+	 
+		
+		 Heyo – 
+ Haven’t written a  T-SQL Tuesday  post in a long time – but this one sounded like fun, so here we go. 
+ 
+ A number of years ago, when SQL 2005 came out – I have to admit, I didn’t like it at all.  At the time, there were no trackpads in our department, and a lot of the simple keyboard functionality I’d gotten used to from SQL 7 and sql 2000 were just gone.  We joked that you could take down an entire database department by walking around to people’s desks at lunchtime and stealing their mice. 
+ It had a lot of bugs in it.  It took me ju

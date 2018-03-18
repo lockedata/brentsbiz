@@ -1,0 +1,45 @@
+Transferring Logins to a Database Mirror – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   Transferring Logins to a Database Mirror 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ Transferring Logins to a Database Mirror 
+	 August 13, 2010 
+	 by  SQLSoldier 
+	 SQL Server 
+	 33 Comments 
+	 0 
+ 
+
+
+ I recently discovered that my book ( Pro SQL Server 2008 Mirroring ) has an older version of the script to copy logins to the mirror partner for database mirroring. The final version of the script handles SQL logins as well as Windows groups and users. I’m really disappointed that the newer script didn’t make it into the book because I put a lot of work into it to make sure it handled SQL logins. There are two main issues with transferring SQL 

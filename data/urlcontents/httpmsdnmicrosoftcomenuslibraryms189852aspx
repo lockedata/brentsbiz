@@ -1,0 +1,29 @@
+Database Mirroring (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Database Mirroring (SQL Server) 
+
+					 
+								 05/16/2016 
+							 16 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Note   This feature will be removed in a future version of Microsoft SQL Server. Avoid using this feature in new development work, and plan to modify applications that currently use this feature. Use  Always On availability groups instead.   
+ 
+   Database mirroring  is a solution for increasing the availability of a  SQL Server database. Mirroring is implemented on a per-database basis and works only with databases that use the full recovery model.   
+ Important  For information about support for database mirroring, restrictions, prerequisites, recommendations for co

@@ -1,0 +1,37 @@
+SQL queries for Azure Cosmos DB | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SQL queries for Azure Cosmos DB 
+
+					 
+								 07/25/2017 
+							 52 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 Tip The Azure Cosmos DB DocumentDB API or SQL (DocumentDB) API is now known as Azure Cosmos DB SQL API. You don't need to change anything to continue running your apps built with DocumentDB API. The functionality remains the same. 
+ 
+ Microsoft Azure Cosmos DB supports querying documents using SQL (Structured Query Language) as a JSON query language on SQL API accounts. Azure Cosmos DB is truly schema-free. By virtue of its commitment to the JSON data model directly within the database engine, it provides automatic indexing of JSON documents without requiring explicit schema or creation of secondary indexes.

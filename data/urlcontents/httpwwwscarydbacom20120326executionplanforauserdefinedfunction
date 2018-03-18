@@ -1,0 +1,29 @@
+Execution Plan for a User Defined Function - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Execution Plan for a User Defined Function 		 Home  /  SQL Server 2005  /  Execution Plan for a User Defined Function 	 
+ 
+	 
+		 
+		 
+			 26 Mar 2012  by  Grant Fritchey  15 Comments 		 
+		 When you execute a multi-statement user-defined function you may see an execution plan that looks something like this: 
+ 
+ It appears as if the cost of the UDF is free. This is especially true if you use the UDF in a query with other objects, such as joining it to actual tables. Since the optimizer always assumes a multi-statement UDF has a single row for statistics estimates, it’ frequently displays a low cost. 
+ But you know that there’s more going on there, right? It’s a multi-statement UDF because it’s doing a lot of 

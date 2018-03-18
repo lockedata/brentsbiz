@@ -1,0 +1,33 @@
+Guidelines for Online Index Operations | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Guidelines for Online Index Operations 
+
+					 
+								 07/10/2017 
+							 7 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    When you perform online index operations, the following guidelines apply:   
+ Clustered indexes must be created, rebuilt, or dropped offline when the underlying table contains the following large object (LOB) data types:  image ,  ntext , and  text .   
+ 
+ Nonunique nonclustered indexes can be created online when the table contains LOB data types but none of these columns are used in the index definition as either key or nonkey (included) columns.   
+ 
+ Indexes on local temp tables cannot be created, rebuilt, or dropped on

@@ -1,0 +1,30 @@
+Signs that you're a bad programmer - Software Engineering Tips 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ Software Engineering Tips Search this site 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ Home ‎ &gt; ‎
+   
+ 
+ Signs that you're a bad programmer 
+ 
+ 
+ 
+ June 1st, 2012.  This article now has a sequel:  Signs that you're a  good  programmer. Why was this written?  Most of these faults were discovered the hard way by the author himself, either because he committed them himself or saw them in the work of others.    This paper is not meant for grading programmers , it was intended to be read by programmers who trust their ability to judge when something is a sign of bad practice, and when it's a consequence of special circumstances.  This paper was written to force its author to think, and published because he thinks you lot would probably get a kick out of it, too. 1. Inability to reason about code Reasoning about code means being able to follow the execution path ("running the program in your head") while knowing what the g

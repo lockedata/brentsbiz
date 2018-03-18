@@ -1,0 +1,55 @@
+What Does Microsoft Mean By Scans? | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ March 16, 2011 
+ 
+	  What Does Microsoft Mean By Scans? 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  full scans ,  probe scans ,  range scans ,  seeks  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 Takeaway:  There are a number of ways Microsoft lets you measure database scans. But Microsoft doesn’t use the word “scan” consistently. I sort through them all here. 
+ I want to tell you about the investigation that led to this blog post. As part of a SQL Risk Assessment Program, we found an issue that identified  a high number of full scans versus index searches . It seemed natural to start digging into where these scans were occurring. 
+ The starting point wa

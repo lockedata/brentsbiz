@@ -1,0 +1,37 @@
+A Trio of Table Variables | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       A Trio of Table Variables 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  T-SQL  &gt;  A Trio of Table Variables     
+     
+   
+     
+       Author:  Gail 
+       12 October 2010 
+       31 Comments 
+     
+     
+       SQL Server ,  Syndication ,  T-SQL 
+       
+      
+   
+     
+ So, it’s the second Tuesday of the month again, and it’s time for T-SQL Tuesday again.  This month it’s hosted by  Sankar Reddy  and the topic is “ Misconceptions in SQL Server ” 
+ I thought I’d tackle a trio of table variable myths and partial truths. 
+ Table Variables are memory-only 
+ This one is pervasive and irritating. It typically goes like this: 
+ You should use table variables rather than temp tables because table variables are memory only. 
+ This myth can be broken down into two parts: 
+ That table variables are not part o

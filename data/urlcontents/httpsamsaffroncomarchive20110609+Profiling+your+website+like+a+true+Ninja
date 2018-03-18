@@ -1,0 +1,41 @@
+Profiling your website like a true Ninja
+ 
+	 
+		 
+			 
+         
+           Sam Saffron 
+           Programming, Technology and the Art of Hacking 
+         
+         Ruby 
+           MiniProfiler 
+           SQL 
+           Dapper 
+           Media Browser 
+           C# 
+         
+			 
+			 
+ Home 
+	 About 
+ 
+ 
+
+		 
+     
+       
+        
+ 
+	 
+     Profiling your website like a true Ninja 
+		 
+		over 6 years ago		 
+	 
+	 
+       I am very happy to re-announce the MVC mini profiler, used in production at Stack Overflow. 
+ After a mammoth effort by  Jarrod Dixon  the team’s production profiler is now ready for an open source release. 
+ http://code.google.com/p/mvc-mini-profiler/ 
+ Let me start with a  bold  claim. Our open-source profiler is perhaps the  best  and most comprehensive production web page profiler out there for  any  web platform. 
+ There I said it, so let me back up that statement. 
+ The stone-age of web site profiling 
+ Ever since the inception of the web people have been

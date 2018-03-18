@@ -1,0 +1,45 @@
+Day 14 of 31 Days of Disaster Recovery: Fixing a Corrupt Tempdb – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   Day 14 of 31 Days of Disaster Recovery: Fixing a Corrupt Tempdb 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ Day 14 of 31 Days of Disaster Recovery: Fixing a Corrupt Tempdb 
+	 January 15, 2013 
+	 by  SQLSoldier 
+	 SQL Server 
+	 5 Comments 
+	 0 
+ 
+
+
+ 31 Days of Disaster Recovery  Welcome to day 14 of my 31 Days of Disaster Recovery series.  I’ve previously discussed handling corruption for  nonclustered indexes  and   allocation pages . Today, I’m going to talk about a specific corruption that is very simple to fix; however, it does mean taking the server offline briefly. How brief depends on a few things, such as is the c

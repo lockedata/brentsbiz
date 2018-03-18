@@ -1,0 +1,43 @@
+October 2011 SQL Server 2012 Diagnostic Information Queries | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  October 2011 SQL Server 2008 Diagnostic Information Queries 
+					 Denver SQL Server User’s Group Meeting on October 20, 2011  → 
+				 
+
+				 
+											 October 2011 SQL Server 2012 Diagnostic Information Queries 					
+					 
+						 Posted on   October 19, 2011 						 by   Glenn Berry   					 
+
+					 
+						 Since Microsoft released the official name for “SQL Server Code Named Denali” last week at the PASS 2011 Summit, it seems like a good time for me to release an updated version of my  SQL Server 2012 Diagnostic Information Queries .  This set includes most of the  relevant new DMVs  that are included in SQL S

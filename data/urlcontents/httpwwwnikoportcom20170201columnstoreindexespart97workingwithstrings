@@ -1,0 +1,41 @@
+Columnstore Indexes – part 97 (“Working with Strings”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore Indexes – part 97 (“Working with Strings”)    			 
+  			 
+    			 Continuation from the previous 96 parts, the whole series can be found at  http://www.nikoport.com/columnstore/ . 
+ After many years of using &amp; fighting the  String  data type in Columnstore Indexes, I have finally decided to write a blog post that is dedicated to them and show some of the cases that I have meet. 
+ For the queries I will be using the same version generated copy of the TPCH database (1GB version), that I have used previously. If you want to have one, use the go

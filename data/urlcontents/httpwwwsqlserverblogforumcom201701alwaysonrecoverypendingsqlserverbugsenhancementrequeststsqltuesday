@@ -1,0 +1,38 @@
+AlwaysON RECOVERY PENDING SQL Server Bugs Enhancement Requests T-SQL Tuesday « Sql server Blog Forum 
+ 
+
+ Sql server Blog Forum   Helping SQL server DBAs and Developers 
+
+ 
+ Subscribe via RSS 
+
+ 
+ 
+ Home 
+ #SQLHelp 
+ About Me 
+ Disclaimer and copyright 
+ SQLTools 
+ 
+ 
+   
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 11 Jan/17 0 
+ AlwaysON RECOVERY PENDING SQL Server Bugs Enhancement Requests T-SQL Tuesday 
+ This month's  T-SQL Tuesday  topic is "SQL Server Bugs &amp; Enhancement Requests" and hosted by my favorite and inspirational  Brent Ozar . 
+   
+ 
+   
+ Here is my bug report: 
+ https://connect.microsoft.com/SQLServer/feedback/details/3022019  and it is still in active. 
+ It happen one of my production database, when I tried to remove the database from alwaysON and other important databases went recovery pending and inaccessible. I have no idea what happened to all other databases, then I came to know it is a bug. 
+   
+ " 
+ The issue is when the database removed from the primary replica, wit

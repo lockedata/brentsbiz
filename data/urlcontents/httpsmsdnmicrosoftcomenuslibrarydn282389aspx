@@ -1,0 +1,27 @@
+Estimate Memory Requirements for Memory-Optimized Tables | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Estimate Memory Requirements for Memory-Optimized Tables 
+
+					 
+								 12/02/2016 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Memory-optimized tables require that sufficient memory exist to keep all of the rows and indexes in memory. Because memory is a finite resource, it is important that you understand and manage memory usage on your system. The topics in this section cover common memory use and management scenarios. 
+ Whether you are creating a new memory-optimized table or migrating an existing disk-based table to an  In-Memory OLTP memory-optimized table, it is important to have a reasonable estimate of each table’s memory needs so you c

@@ -1,0 +1,44 @@
+New TPC-E Benchmark for HP DL385 G7 | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  SQL Server 2008 Diagnostic Information Queries (December 2011) 
+					 Scaling SQL Server Presentation from SQLSaturday #104 Precon  → 
+				 
+
+				 
+											 New TPC-E Benchmark for HP DL385 G7 					
+					 
+						 Posted on   January 3, 2012 						 by   Glenn Berry   					 
+
+					 
+						 Somewhat unnoticed during the holiday season, HP has submitted a  new TPC-E benchmark for the DL385 G7 two socket database server , equipped with two  32nm 2.6GHz AMD Opteron 6282SE processors . This system, with 256GB of RAM and 84 spindles (in two  Violin Memory Systems V3205 Flash Memory arrays ), comes in with a 1,232.84 TpsE score. 
+ This score i

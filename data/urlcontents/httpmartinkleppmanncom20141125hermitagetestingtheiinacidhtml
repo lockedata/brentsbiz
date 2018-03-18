@@ -1,0 +1,45 @@
+Hermitage: Testing the “I” in ACID — Martin Kleppmann’s blog 
+     
+         
+     Skip to content 
+ 
+
+ 
+     
+         
+             Martin Kleppmann 
+         
+     
+ 
+
+ 
+     
+         
+             About/Contact 
+             
+     
+ 
+
+ 
+             
+                 Tweet 
+
+                 Hermitage: Testing the “I” in ACID 
+
+                
+                 Published by Martin Kleppmann on 25 Nov 2014. 
+                
+
+                 tl;dr:  I have created a  test suite  for comparing the
+transaction isolation levels in different databases. I did this as background research for
+ my book . This post explains why. 
+
+ What is isolation? 
+
+ First came the NoSQL movement, with its siren call that our systems could be so scalable, so much
+faster and so highly available if we just abandon ACID transactions and make our systems
+ BASE  instead. 
+
+ Then came the concurrency bugs — for example, the Bitcoin exchange that was
+ almost bankrupted  because it had a race condition
+on outgo

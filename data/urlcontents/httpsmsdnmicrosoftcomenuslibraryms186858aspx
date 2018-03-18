@@ -1,0 +1,37 @@
+RESTORE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 RESTORE Statements (Transact-SQL) 
+
+					 
+								 08/09/2016 
+							 23 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Restores backups taken using the BACKUP command. This command enables you to perform the following restore scenarios:   
+ Restore an entire database from a full database backup (a complete restore).   
+ 
+ Restore part of a database (a partial restore).   
+ 
+ Restore specific files or filegroups to a database (a file restore).   
+ 
+ Restore specific pages to a database (a page restore).   
+ 
+ Restore a transaction log onto a database (a transaction log restore).   
+ 
+ Revert a database to the point in time captured by a database snapshot.   
+ For more information about

@@ -1,0 +1,29 @@
+2 Understanding Data Labels and User Labels 
+ 
+ Skip Headers 
+ Oracle® Label Security Administrator's Guide 
+10 g  Release 1 (10.1) 
+ Part Number B10774-01 
+ 
+ Home 
+ Book List 
+ Contents 
+ Index 
+ Master Index 
+ Feedback 
+ Previous 
+ Next 
+ View PDF 
+   2 
+ Understanding Data Labels and User Labels 
+  
+ This chapter discusses the fundamental concepts of data labels and user labels, and introduces the terminology that will help you understand Oracle Label Security. 
+  
+ The chapter includes: 
+ Introduction to Label-Based Security 
+ Label Components 
+ Label Syntax and Type 
+ How Data Labels and User Labels Work Together 
+ Administering Labels   Introduction to Label-Based Security 
+  
+ Label-based security provides a flexible way of controlling access to sensitive data. Oracle Label Security controls data access based on the identity and label of the user, and the sensitivity and label of the data. Label security adds protections beyond the discretionary access controls that determine t

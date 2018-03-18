@@ -1,0 +1,34 @@
+How To Prevent SELECT * The Evil Way – SQLChicken.com 
+ 
+	 Skip to content 
+
+	 
+
+	 
+			 
+
+	 
+	 
+
+		
+		 
+							 SQLChicken.com 
+			
+								 SQL Server Tips &amp; Tricks 
+						 
+
+		
+	 
+ 
+
+ 
+
+		
+	 
+		 
+
+ 
+	 
+		 Posted on   2012/07/27  by  admin How To Prevent SELECT * The Evil Way 	 
+		 SELECT * FROM…when administrators see that from developer code, we generally tend to cringe. Why? In a nutshell, it’s terrible on a few fronts. First, typically that SELECT * FROM that gets written (a lot of the times) lacks a WHERE clause. What’s the problem? Well, that pulls back every single row from the table. 
+ Sure, that may not be too bad on a table with a few hundred rows but what about on a table with millions? That could cause a lot of performance problems since you’re trying to read all the data off disk (again, potentially).  Secondly, do you really  need  all those rows and/or columns? It’s a waste of time and resources to pull back every column from a table if your application is only goin

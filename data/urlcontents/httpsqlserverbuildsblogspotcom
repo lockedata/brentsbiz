@@ -1,0 +1,40 @@
+Microsoft SQL Server Version List 
+ 
+ 
+ 
+ 
+ 
+ Microsoft SQL Server Version List 
+ 
+
+ 
+ 
+ What version of SQL Server do I have? 
+ This unofficial build chart lists all of the known Service Packs ( SP ), Cumulative Updates ( CU ), patches, hotfixes and other builds of MS SQL Server 2017, 2016, 2014, 2012, 2008 R2, 2008, 2005, 2000, 7.0, 6.5 and 6.0 that have been released. 
+ Useful articles: 
+ How to identify your SQL Server version and edition 
+ SQL Server Internal Database Versions 
+ Microsoft SQL Server Support Lifecycle 
+ Microsoft SQL Server Home 
+ Microsoft SQL Server Developer Center 
+ Microsoft TechNet: Microsoft SQL Server 
+ Microsoft Knowledge Base 
+ Sqlservr.exe versions     
+ Quick summary: 
+ 
+ 
+   RTM  ( Gold,  no  SP ) SP1 SP2 SP3 SP4
+   SQL Server 2017      codename vNext 
+ 14.0.1000.169  14.00.1000.169  *new 
+   
+   
+   
+   
+   SQL Server 2016 
+ 13.0.1601.5  13.00.1601.5 
+ 13.0.4001.0 or 13.1.4001.0 
+ 
+ 
+ 
+   SQL Server 2014      codename Hekaton 
+ 12.0.2000.8  12.00.2000

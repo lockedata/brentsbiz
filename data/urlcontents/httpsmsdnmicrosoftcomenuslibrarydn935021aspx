@@ -1,0 +1,29 @@
+CREATE EXTERNAL TABLE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE EXTERNAL TABLE (Transact-SQL) 
+
+					 
+								 11/27/2017 
+							 16 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates an external table for PolyBase, or Elastic Database queries. Depending on the scenario, the syntax differs significantly. An external table created for PolyBase cannot be used for Elastic Database queries.  Similarly, an external table created for Elastic Database queries cannot be used for PolyBase, etc.  
+ Note  PolyBase is supported only on SQL Server 2016 (or higher), Azure SQL Data Warehouse, and Parallel Data Warehouse. Elastic Database queries are supported only on Azure SQL Database v12 or

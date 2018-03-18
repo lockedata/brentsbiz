@@ -1,0 +1,45 @@
+Why are column oriented databases so much faster than row oriented databases? - Terence Siganakis 
+     
+       
+ 
+ Manage 
+ Edit Post 
+ Comments 
+ 
+ Logout 
+ 
+ 
+ Login 
+ 
+ 
+       
+        
+       
+
+      
+         
+             Terence Siganakis 
+           
+
+          
+             Data science, bioinformatics, software development &amp; BBQ 
+          
+
+          
+             
+               « Back to blog 
+             
+          
+         
+        
+
+ 
+   
+       Why are column oriented databases so much faster than row oriented databases? 
+
+      
+     
+   
+    
+       I have been playing around with Hybrid Word Aligned Bitmaps for a few weeks now, and they turn out to be a rather remarkable data structure.  I believe that they are utilized extensively in modern column oriented databases such as  Vertica  and  MonetDB . 
+ Essentially HWABs are a data structure that allows you to represent a sparse bitmap (series of 0's and 1's) really efficiently in memory.  The key trick here 

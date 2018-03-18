@@ -1,0 +1,44 @@
+T-SQL Tuesday #025 – Share Your Tricks #TSQL2sDay – Strate SQL 
+ 
+	 Skip to content 
+
+	 
+	 
+					 Data Adventures with an Architect 
+		
+				 Facebook 
+ Twitter 
+ GitHub 
+ LinkedIn 
+ RSS Feed 
+ YouTube 
+ 		 
+ 
+		 
+	 
+		 
+										 Strate SQL 
+					 
+
+		 Menu 
+	 Home 
+ About 
+ Publications 
+ Reference Material 
+ Wait Statistics 
+	 10 Monthly Maintenance Tasks for SQL Server 
+	 Plan Cache 
+	 Free Tools for the Data Platform Professional 
+	 SSIS Resources 
+	 Security Resources 
+ 
+ Contact 
+ SQL Karaoke 
+ 
+ 
+					 
+	 
+		 T-SQL Tuesday #025 – Share Your Tricks #TSQL2sDay 				 
+			 December 13, 2011  by  jasonstrate , posted in  Performance Tuning &amp; Tracing ,  SQL Server 2008 ,  SQL Server 2008 R2 ,  SQLServerSyndication 		 			 
+		 Another month and it’s another T-SQL Tuesday.  This month we are being hosted by Allen White ( Blog  |  @SQLRunr ) and the topic is to  Share Your Tricks . 
+ One of my favorite things to do in SQL Server is to  run queries against the plan cache .  Within ther

@@ -1,0 +1,28 @@
+Registry bloat after SQL Server 2012 SP1 installation 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Registry bloat after SQL Server 2012 SP1 installation 
+         February 15th, 2013  
+         
+
+ 
+ SQL Server 2012 installation has the potential to leave an  msiexec.exe  installer process running after the installation finishes, as described in  Windows Installer starts repeatedly after you install SQL Server 2012 SP1 : 
+ After you install SQL Server 2012 SP1 on a computer, the Windows Installer (Msiexec.exe) process is repeatedly started to repair certain assemblies. Additionally, the following events are logged in the Application log: 
+EventId: 1004 
+Source: MsiInstaller 
+Description: Detection of product ‘{A7037EB2-F953-4B12-B843-195F4D988DA1}’, feature ‘SQL_Tools_Ans’, Component ‘{0CECE655-2A0F-4593-AF4B-EFC31D622982}’ failed. The resource”does not exist. 
+ EventId: 1001 
+Source: MsiInstaller 
+Description: Detection of product ‘

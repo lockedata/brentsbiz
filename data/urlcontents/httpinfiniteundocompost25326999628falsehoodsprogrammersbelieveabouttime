@@ -1,0 +1,16 @@
+Falsehoods programmers believe about time: @noahsussman: Infinite Undo Infinite Undo! A blog about Tentacular Devops    staying-with-the-trouble-as-a-service in the post-information age  
+          
+         Software As Narrative How-To Articles Devops Reading List 
+CC Sharealike © 2017 by Noah Sussman 
+                                Jun 
+                                17th
+                             
+                            Sun
+                         Falsehoods programmers believe about time Over the past couple of years  I have spent a lot of time  debugging
+other engineers’ test code.  This was interesting work, occasionally
+frustrating but always informative. One might not immediately think
+that test code would have bugs, but of course  all  code has bugs and
+tests are no exception. I have repeatedly been confounded to discover just how
+many mistakes in  both  test  and  application code stem from
+misunderstandings or misconceptions about  time.   By this I mean both
+the 

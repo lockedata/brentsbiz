@@ -1,0 +1,26 @@
+Optimizing Redis Usage For Caching | Søren Optimizing Redis Usage For Caching 
+     
+         Soren 
+       
+
+       
+         
+       Services 
+         Blog 
+         Contact 
+       Optimizing Redis Usage For Caching 
+           27 Jul 2015 
+           by  Parker Selbert 
+         If you’re convinced that Redis is the  right tool for caching  I
+whole heartedly agree, it’s amazing! Here are four essential optimizations for
+leveraging Redis as a cache in your infrastructure. Most of these optimizations
+are still helpful even if you are using a hosted solution. 
+
+ Use a Dedicated Cache Instance 
+
+ Unlike Memcached, which is multi-threaded, Redis only runs a single thread per
+process. Considering the brute speed of Redis a single process seems like plenty
+for many workloads. That’s until your platform traffic starts rising, background
+jobs are firing continuously, pub/sub channels are relaying thousands of
+payloads over the network and the cache is being hit continuously. Each request
+t

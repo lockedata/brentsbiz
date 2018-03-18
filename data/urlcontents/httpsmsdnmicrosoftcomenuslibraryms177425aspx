@@ -1,0 +1,26 @@
+Piecemeal Restores (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Piecemeal Restores (SQL Server) 
+
+					 
+								 03/14/2017 
+							 9 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic is relevant only for databases in the Enterprise edition of  SQL Server that contain multiple files or filegroups; and, under the simple model, only for read-only filegroups.   
+  For information about piecemeal restore and memory-optimized tables, see  Piecemeal Restore of Databases With Memory-Optimized Tables .   
+   Piecemeal restore  allows databases that contain multiple filegroups to be restored and recovered in stages. Piecemeal restore involves a series of restore sequences, starting with the primary filegroup and, in some cases, one or more secondary filegroups. Piecemeal r

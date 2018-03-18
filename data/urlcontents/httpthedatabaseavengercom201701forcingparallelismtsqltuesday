@@ -1,0 +1,60 @@
+Forcing Parallelism - T-SQL Tuesday - The Database Avenger 
+
+	
+	
+	 
+
+		 
+			
+									
+			 
+					
+										
+					 
+					 
+	 
+						 
+ 
+	 
+		 
+	 
+ 
+	
+ 
+	 
+					 
+					
+				 
+		
+						
+			 
+				 
+					 Home 
+ Presentations 
+ About Me 
+ 						 
+	 					 
+			 
+				
+			
+		 
+		
+		
+	
+	 
+
+				
+		 
+		 
+
+		
+	 Forcing Parallelism – T-SQL Tuesday 
+			
+	 
+	
+		 
+ T-SQL Tuesday is a monthly event where SQL Server bloggers write a post based on a subject chosen by the month’s host. This month’s host is Brent Ozar ( b / t ) and this months topic is  SQL Server Bugs &amp; Enhancement Requests . 
+ My enhancement request for SQL Server is a new query hint to force parallelism. 
+ Parallelism 
+ If the cost of processing a query is above the Cost Threshold for Parallelism (CTP), the optimiser may choose a parallel execution plan. Parallelism splits the work up and distributes it across CPU cores to get the job done quicker. 
+ The optimiser doesn’t always produce a parallel plan when it should. The use of sca

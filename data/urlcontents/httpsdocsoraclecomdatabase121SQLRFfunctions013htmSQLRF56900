@@ -1,0 +1,18 @@
+APPROX_COUNT_DISTINCT 
+ Go to main content 
+ 
+ 
+ 86/555   
+ 
+ APPROX_COUNT_DISTINCT 
+ 
+ Note: 
+The  APPROX_COUNT_DISTINCT  function is available starting with Oracle Database 12 c  Release 1 (12.1.0.2). 
+ Syntax 
+ Description of the illustration ''approx_count_distinct.gif'' Purpose 
+ APPROX_COUNT_DISTINCT  returns the approximate number of rows that contain distinct values of  expr . 
+ This function provides an alternative to the  COUNT   (DISTINCT   expr )  function, which returns the exact number of rows that contain distinct values of  expr .  APPROX_COUNT_DISTINCT  processes large amounts of data significantly faster than  COUNT , with negligible deviation from the exact result. 
+ For  expr , you can specify a column of any scalar data type other than  BFILE ,  BLOB ,  CLOB ,  LONG ,  LONG   RAW , or  NCLOB . 
+ APPROX_COUNT_DISTINCT  ignores rows that contain a null value for  expr . This function returns a  NUMBER . 
+ Examples 
+ The following statement returns the approximate num

@@ -1,0 +1,32 @@
+Fix Missing Boundary Points in Partitioned Tables  - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 How to Fix Lopsided Partitioned Tables 
+
+				 
+					 January 26, 2016 Kendra Little sql ,  Table Partitioning 1  Comment 				 
+			 
+		 
+
+			 
+ Over the years I’ve gotten lots of emails and questions from students that start like this: 
+ Help! My partitioned table has the wrong data in a partition! It’s lopsided. I started trying to fix it, but… 
+ The next sentence is one of a few things. Sometimes it’s all of them. 
+ It was taking forever, so I stopped it. 
+ It was blocking users, so I stopped it. 
+ My transaction log blew up and ran out of space and it failed and rolled back. 
+ The story usually then goes on: 
+ It took forever, and now I’m afraid to touch it again. 
+ And then the question:  What do I do now? 
+ The Problem: Missing Boundary Points in the Partitioned Table 
+ First, let’s explain a bit about what went wrong. When you set up partitioned tables in SQL

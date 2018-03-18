@@ -1,0 +1,96 @@
+SQL Server 2016 enhancements - Truncate Table and Table Partitioning 
+
+ 
+
+	 
+
+			 SQLShack 
+
+			 
+
+			 Skip to content 
+
+			
+		 
+
+			 
+
+			
+
+		 
+
+				 
+
+ 
+	 Español 
+ 
+	 
+		 
+		 
+	 
+
+     
+         
+
+
+
+
+ 
+
+
+
+		
+
+
+
+		
+		
+
+		
+
+		
+
+	 
+
+
+
+	 
+	 
+		 
+
+			
+				
+
+
+	 
+						  
+					 
+					
+				 
+		 
+
+		
+		 
+						
+			 SQL Server 2016 enhancements – Truncate Table and Table Partitioning 
+
+						April 18, 2017			  by  Prashanth Jayaram 
+			
+			
+
+		 
+
+									 
+  The idea behind this article is to discuss the importance and the implication of  SQL Partition  and understand the  truncate  command partitioning enhancements in SQL 2016
+ 
+ 
+  One of the biggest challenges for a DBA is to identify the right candidate for table partitioning, as it requires expertise in design and implementation.
+ 
+
+
+ 
+  The following are the various truncating options available in SQL 2016
+ 
+ 
+    Truncate individual partitions
+   

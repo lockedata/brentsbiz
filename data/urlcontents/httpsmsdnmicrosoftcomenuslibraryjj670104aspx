@@ -1,0 +1,31 @@
+CREATE SELECTIVE XML INDEX (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE SELECTIVE XML INDEX (Transact-SQL) 
+
+					 
+								 08/10/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates a new selective XML index on the specified table and XML column. Selective XML indexes improve the performance of XML indexing and querying by indexing only the subset of nodes that you typically query. You can also create secondary selective XML indexes. For information, see  Create, Alter, and Drop Secondary Selective XML Indexes .   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ CREATE SELECTIVE XML INDEX index_name  
+    ON &lt;table_object&gt; (xml_column_name)  
+    [WITH XMLNAMESPACES (&lt;xmlnamespace_list&gt;)]  
+    FOR (

@@ -1,0 +1,61 @@
+What's Going On Inside Tempdb? | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ August 12, 2015 
+ 
+	  What’s Going On Inside Tempdb? 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 11:56 am  
+
+	 
+		 
+ Tackling A Hairy Problem 
+This series includes a number of stand-alone posts which can fit together to tell a bigger story
+ Part One: Types of Performance Metrics 
+ Part Two: What’s Going On Inside Tempdb? 
+ Part Three: Avoid Frequent use of TVPs With Wide Rows 
+ Part Four: Troubleshooting Tempdb, a Case Study 
+ 
+ I discovered that digging into tempdb’s transaction log using the undocumented  fn_dblog  is a surprisingly useful technique for finding data to help battle tempdb contention. But it’s not easy.

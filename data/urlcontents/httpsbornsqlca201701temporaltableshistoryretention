@@ -1,0 +1,75 @@
+Temporal Tables and History Retention - Born SQL 
+			
+
+
+
+		
+		 
+
+				 
+
+					 
+
+						 
+
+						 Menu 
+
+						 
+
+						 
+
+						 
+
+						 
+
+						
+						 
+
+							
+								 
+
+									 
+
+								
+						   
+
+					   
+
+							 Home 
+ About 
+ Services 
+ dbSnitch 
+	 Upgrade Wizard 
+	 Disaster Recovery 
+	 2-Day Tune-Up 
+	 DBA 
+	 Speaking 
+ 
+ Blog 
+ Resources 
+ SQL 2000: Duplicate Index Finder 
+	 Database Backup Sync and Restore 
+	 Max Server Memory Matrix 
+ 
+ Contact Us 
+ 
+
+			 
+						 
+	 
+ 
+	 
+		 						 
+				 Temporal Tables and History Retention 
+
+
+
+		 
+
+			 Posted on  10 January 2017 6 January 2017  by  randolph 
+		 
+
+	 
+
+		 I’m a huge fan of Temporal Tables in SQL Server 2016. I first wrote about them, in a  four-part series  in November 2015, before SQL Server was even released. I don’t always get this excited about new features. 
+ However, it has some limitations. As part of this week’s  T-SQL Tuesday ,  hosted  by the attractive and humble Brent Ozar, I have discovered a Microsoft Con

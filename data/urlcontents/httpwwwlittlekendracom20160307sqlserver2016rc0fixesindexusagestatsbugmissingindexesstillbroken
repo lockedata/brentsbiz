@@ -1,0 +1,24 @@
+What Resets index_usage_stats and Missing Index DMVs? - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 What Resets sys.dm_db_index_usage_stats and Missing Index DMVs? 
+
+				 
+					 March 7, 2016 Kendra Little Indexes ,  sql ,  SQL Server 2016 16  Comments 				 
+			 
+		 
+
+			 
+ Managing indexes got trickier with SQL Server 2012. SQL Server has tracked and reported statistics on how often indexes are used and requested since SQL Server 2005. As of SQL Server 2012, suddenly all that information started getting reset whenever anyone ran ALTER INDEX REBUILD. 
+ Confusingly for users, this only happened with one specific command: REBUILD. ALTER INDEX REORGANIZE has never reset index usage stats or missing index requests. 
+ In this post I’ll cover new changes in behavior in  SQL Server 2016 RC0 , encourage you to vote for  Connect bug #2446044 to fix missing index requests from being reset by REBUILD , and close with a chart describing the behavior of different commands

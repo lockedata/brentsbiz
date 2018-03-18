@@ -1,0 +1,42 @@
+"Pretty Plans vs. Performance" or "Grant Gets Pwned" - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 “Pretty Plans vs. Performance” or “Grant Gets Pwned” 		 Home  /  SQL Server 2008  /  “Pretty Plans vs. Performance” or “Grant Gets Pwned” 	 
+ 
+	 
+		 
+		 
+			 19 Dec 2014  by  Grant Fritchey  19 Comments 		 
+		 If you get an execution plan that looks like this: 
+ 
+ I wouldn’t blame you for immediately thinking about query tuning. Especially if the code that generated it looks like this: 
+
+		 
+		
+			 
+			 Transact-SQL 
+			 
+			 
+SELECT  soh.OrderDate,
+        sod.OrderQty,
+        sod.LineTotal
+FROM    Sales.SalesOrderHeader AS soh
+INNER JOIN Sales.SalesOrderDetail AS sod
+        ON sod.SalesOrderID = soh.SalesOrderID
+WHERE   soh.SalesOrderID IN (@p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @

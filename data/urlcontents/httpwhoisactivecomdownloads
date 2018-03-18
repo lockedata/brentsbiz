@@ -1,0 +1,18 @@
+sp_whoisactive SQL Server Monitoring Stored Procedure Downloads 
+         sp_whoisactive Downloads 
+         Home  ...  Documentation 
+         
+        Want new version notification? Sign up for the sp_whoisactive email list.
+         
+
+	 Email Address  
+	 
+		 
+		 
+	      
+     
+ 
+         Version 11.30 - December 10, 2017  (ALL versions 2005-2017 --  INCLUDING Azure PAAS. )
+         I finally decided enough is enough. Azure SQL DB support simply can't wait, and I don't want to create a fork of sp_whoisactive. So I went through the proc, applied a little CASE expression magic, and here we are.  FULL AZURE SUPPORT. FULL BOX SUPPORT. END OF STORY. 
+             Removed "USE master" at the top. It's the one thing I couldn't figure out how to leave in and still make the thing work on Azure. That's probably a breaking change for you if you're auto-deploying the proc, so watch out. 
+             Added some environment settings at the top that should have been there anyway. I get occasional 

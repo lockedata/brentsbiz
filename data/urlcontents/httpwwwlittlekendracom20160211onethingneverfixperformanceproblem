@@ -1,0 +1,27 @@
+The #1 Thing to Never Do to Fix a Performance Problem - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 The #1 Thing to Never Do to Fix a Performance Problem 
+
+				 
+					 February 11, 2016 Kendra Little Backups 15  Comments 				 
+			 
+		 
+
+			 
+ Never, ever, disable backups to fix a performance problem. 
+ If you’re not having a performance crisis, you might look at that sentence and say, “Wow, that’s super dumb! Who would ever do that?” 
+ Well, a lot of people, actually. It’s pretty common. 
+ When performance gets really bad, people get confused. Are all the backups running making it worse? It’s very common for people to think that disabling backups or making them less frequent might lessen the load on the server. It’s worth testing, right? 
+ It’s not.  
+ It’s absolutely possible that backups could be part of a performance problem. You might have hit an IO situation or a bug where backups are exacerbating the issue. But backups exist to protect against data loss

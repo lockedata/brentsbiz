@@ -1,0 +1,36 @@
+Microsoft Connect item for an SSRS pre-report canvas « TryCatchFinally.net 
+ 
+
+ TryCatchFinally.net   Some SQL, some .NET, and whatever else 
+
+ 
+ Subscribe via RSS 
+
+ 
+ 
+ Home 
+ T-SQL Scripts 
+ SQL Server 
+ .NET 
+ Windows Server 
+ About Me 
+   
+ 
+
+ 
+ 
+ 
+ 10 Jan/17 0 
+ Microsoft Connect item for an SSRS pre-report canvas 
+
+ 
+ 
+ 
+ 
+ 
+ Current state: 
+ About six months ago, I  submitted a connect request  for SQL Server (my first one) to suggest an improvement to the SSRS interface - a customizable canvas that's displayed before an SSRS report renders, while parameters are being entered. My issue was that there was information I wanted report users to have (like expected wait time, suggestions for the parameters, the report title and a short description that might help them, etc.) and there was no way to get it to them. 
+ With a giant empty screen staring at them, it seemed like a great place to add that information: 
+ 
+ The suggestion: 
+ Ideally, while the user is con

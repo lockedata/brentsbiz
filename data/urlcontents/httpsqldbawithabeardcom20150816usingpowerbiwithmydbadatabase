@@ -1,0 +1,47 @@
+Using Power Bi with my DBA Database | SQL DBA with A Beard 
+ 
+		 SQL DBA with A Beard 
+			 He's a SQL DBA and he has a beard 
+		 Menu 
+			 Skip to content 
+
+			 PowerShell 
+ SQL Server 
+ Presentations 
+ PowerShell Gallery Scripts 
+ About Me 
+ About Me 
+	 Twitter 
+	 LinkedIn 
+	 Presentations 
+	 PowerShell Gallery Scripts 
+	 Script Center Scripts 
+ 
+ dbareports and dbatools 
+ dbareports website 
+	 dbareports Github 
+	 dbatools website 
+	 dbatools Github 
+	 discuss both on Slack 
+ 
+ 		 
+
+	 
+		 
+
+		
+			
+ Using Power Bi with my DBA Database 
+		 
+			Posted on  August 16, 2015  by  SQLDBAwithTheBeard 		 
+	 
+		 Every good DBA should have a DBA database. A place to store information about all of their instances and databases. 
+ I have an InstanceList table which looks like this 
+ 
+CREATE TABLE [dbo].[InstanceList](
+[InstanceID] [int] IDENTITY(1,1) NOT NULL,
+[ServerName] [nvarchar](50) NOT NULL,
+[InstanceName] [nvarchar](50) NOT NULL,
+[Port] [int] NOT NULL,
+[AG] [bit] NULL,
+[Inactive] [bit] NULL

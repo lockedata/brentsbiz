@@ -1,0 +1,33 @@
+Jepsen: MongoDB stale reads 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       Jepsen: MongoDB stale reads 
+
+       
+         2015/04/20 Databases Distributed Systems Jepsen MongoDB 
+     
+
+     
+       Please note: our followup analysis of  3.4.0-rc3  revealed additional faults in MongoDB’s replication algorithms which could lead to the loss of acknowledged documents–even with Majority Write Concern, journaling, and fsynced writes. 
+
+ In  May of 2013 , we showed that MongoDB 2.4.3 would lose acknowledged writes at all consistency levels. Every write concern less than MAJORITY loses data by design due to rollbacks–but even WriteConcern.MAJORITY lost acknowledged writes, because when the server encountered a network error, it returned a successful, not a failed, response to the client. Happily, that bug was fixed a few releases later. 
+
+ Since then I’ve improved  Jepsen  

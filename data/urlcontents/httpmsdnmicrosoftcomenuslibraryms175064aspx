@@ -1,0 +1,34 @@
+SOME | ANY (Transact-SQL) | Microsoft Docs | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SOME | ANY (Transact-SQL) 
+
+					 
+								 03/15/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Compares a scalar value with a single-column set of values. SOME and ANY are equivalent.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+scalar_expression { = | &lt; &gt; | ! = | &gt; | &gt; = | ! &gt; | &lt; | &lt; = | ! &lt; }   
+     { SOME | ANY } ( subquery )   
+ Arguments 
+   scalar_expression  Is any valid  expression .   
+  { = | &lt;&gt; | != | &gt; | &gt;= | !&gt; | &lt; | &lt;= | !&lt; }  Is any valid comparison operator.   
+  SOME | ANY  Specifies that a comparison should be made.   
+   subquery  Is a subquery that has a result set of one column. The dat

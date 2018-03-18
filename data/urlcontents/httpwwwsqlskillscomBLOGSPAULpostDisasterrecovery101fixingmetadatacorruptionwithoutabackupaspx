@@ -1,0 +1,45 @@
+Disaster recovery 101: fixing metadata corruption without a backup - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  Corruption  &gt;&gt;  Disaster recovery 101: fixing metadata corruption without a backup 
+
+ Disaster recovery 101: fixing metadata corruption without a backup By:  Paul Randal    Posted on: March 10, 2011 8:11 am  (Check out my online training courses:  SQL Server: Detecting and Correcting Database Corruption  and  SQL Server: Advanced Corruption Recovery Techniques . We can also  help you  with disaster recovery.) 
+ Yesterday on the MVP newsgroup someone was asking how to fix some metadata corruption when their backups all had the corruption in too. There are two options: export everything out to a new database or roll

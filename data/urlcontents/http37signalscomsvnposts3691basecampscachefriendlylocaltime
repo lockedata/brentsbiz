@@ -1,0 +1,61 @@
+Basecamp's cache-friendly local time – Signal v. Noise 
+
+     
+     You’re reading 
+     Signal v. Noise , a publication  about  the web 
+    by  Basecamp 
+      since 1999. 
+     Happy  ! 
+   
+
+  
+ 
+       
+        
+
+ 
+    
+    Basecamp's cache-friendly local time
+   
+
+   
+    
+       
+       Javan   wrote this on   Dec 02 2013 
+    
+
+     Discuss 
+
+    
+   
+
+   
+
+     
+       
+         
+         Tweet 
+           
+       
+     
+
+     
+       
+         
+         Share on Facebook 
+           
+       
+     
+
+     
+       
+         
+         Share on LinkedIn 
+           
+       
+     
+   
+   An important ingredient in the  caching to the max  recipe is sharing caches between users. When cache keys are free of user-specific attributes, requests are far more likely to hit a warm cache and remain snappy. 
+
+
+	 This cache sharing constraint means we can’t render local times. If we did, the time would be cached correctly for the first viewer and incorrectly for everyone in a different time z

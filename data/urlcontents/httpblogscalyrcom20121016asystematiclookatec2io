@@ -1,0 +1,52 @@
+A Systematic Look at EC2 I/O - Scalyr Blog 
+ Skip to main content 
+ 
+
+ 
+				 
+					 
+						 
+							 
+								 Toggle navigation 
+								 
+								 
+								 
+							 
+
+							
+							 
+								 
+							 
+
+							
+							
+						 
+						 Features 
+ Pricing 
+ Company 
+ Scalyr Blog 
+ 					 
+				 
+			 
+		 
+
+		 
+								 
+
+		 
+            			 
+				 
+
+	 
+		 
+		 A Systematic Look at EC2 I/O 
+
+			 
+				   October 16, 2012 September 18, 2014     Steve Newman 
+								 
+					  Engineering 				 
+								
+			 
+		 
+			 At Scalyr, we’re building a large-scale  storage system for timeseries and log data . To make good design decisions, we need hard data about EC2 I/O performance. 
+ Plenty   of   data  has been published on this topic, but we couldn’t really find the answers we needed. Most published data is specific to a particular application or EC2 configuration, or was collected from a small number of instances and hence is statistically suspect. (More on this be

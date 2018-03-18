@@ -1,0 +1,25 @@
+Stack Dumps in SQL Server (video) - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Stack Dumps in SQL Server (Dear SQL DBA Episode 33) 
+
+				 
+					 March 9, 2017 Kendra Little Dear SQL DBA ,  Junior DBA ,  Operations ,  sql ,  System Administration 2  Comments 				 
+			 
+		 
+
+			 
+ Learn what a Stack Dump is in SQL Server and watch a demo where I cause a stack dump against a test SQL Server instance under load. Learn how to find information about stack dumps on your SQL Server, and how to escalate them when required. 
+ Watch this week’s 21 minute video, and subscribe to my  YouTube channel  if you’d like to see more. You can also get future episodes in the audio  podcast  if you like to listen on the go. Links from this episode and scripts for reproducing the stack dump are at the bottom of the post. 
+ Update, June 2017: We’re getting a new feature where you can analyze stack dumps in the cloud.  Read about it here . 
+ Note: I joke around for a while at the beg

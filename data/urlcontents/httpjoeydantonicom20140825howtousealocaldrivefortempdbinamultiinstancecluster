@@ -1,0 +1,77 @@
+How to Use a Local Drive for TempDB in a Multi-Instance Cluster | The SQL Herald 
+
+ 
+	 
+					 The SQL Herald 
+				 Databases et al… 
+	 
+	 
+		 
+			 Search: 
+			 
+		 
+	 
+ 
+ 
+	 
+		 
+			 Home About 
+ 
+		 
+		 
+			 Posts 
+			 Comments 
+		 
+	 
+
+	 
+			 
+		 SQL 
+ 
+	 Uncategorized 
+ 
+	 Clustering 
+ 
+	 business 
+ 
+	 SQLPASS 
+ 
+	 SQL Server 2016 
+ 
+	 Virtualization 
+ 
+	 SQL Saturday 
+ 
+	 vendors 
+ 
+	 ColumnStore 
+ 
+		 
+	 
+ 
+
+ 
+ 
+
+	 
+
+		
+			 
+				 ←  Azure Virtual Machines and SQL Server—Mind Your Endpoints 
+				 SQL Server Days Belgium  → 
+			 
+
+			 
+
+				 
+
+					 How to Use a Local Drive for TempDB in a Multi-Instance Cluster 
+
+					 
+						 
+							 August 25, 2014 
+																						 1 Comment 
+																				 
+					 
+
+					 One of the cool new features that was introduced in SQL Server 2012 was official support for using a local drive for TempDB in a SQL Server Failover Cluster Instance. In prior versions, this was unofficially supported (it was a bit of hack), but it made sense—TempD

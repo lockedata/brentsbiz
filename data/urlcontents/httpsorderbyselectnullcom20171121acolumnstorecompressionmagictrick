@@ -1,0 +1,39 @@
+A Columnstore Compression Magic Trick – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 A Columnstore Compression Magic Trick 
+		 
+						 Posted on  November 21, 2017 November 28, 2017  by  Joe Obbish 					 
+
+	 
+		 Columnstore compression is complicated, and in some cases, surprising. 
+ The Setup 
+ The source data for the CCI has enough rows to fit six perfect rowgroups. The  ID  column is just sequential integers from 1 to 6291456. The  ID2  column is the  ID  column modulo 20001. Code to load the data into a temp table: 
+   
+ &lt;span 				data-mce-type="bookmark" 				id="mce_SELREST_end" 				data-mce-style="overflow:hidden;line-height:0" 				style="overflow:hidden;line-height:0" 			&gt;﻿&lt;/span&gt;
+DROP TABLE IF EXISTS #STG_DATA;
+CREATE TABLE #STG_DATA (
+	ID BIGINT NOT NULL,
+	ID2 BIGINT NOT NULL,
+	PRIMARY KEY (ID)
+);
+
+INSERT INTO #STG_DATA WITH (TABLOCK)
+SELECT t.RN, t.RN % 

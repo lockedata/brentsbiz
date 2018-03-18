@@ -1,0 +1,33 @@
+sys.dm_exec_session_wait_stats (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_exec_session_wait_stats (Transact-SQL) 
+
+					 
+								 02/01/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse 
+   Returns information about all the waits encountered by threads that executed for each session. You can use this  view to diagnose performance issues with the  SQL Server session and also with specific queries and batches.  This view returns session the same information that is aggregated for  sys.dm_os_wait_stats (Transact-SQL)  but provides the  session_id  number as well.   
+ Applies to :  SQL Server ( SQL Server 2016 through  SQL Server 2017).   
+ Column name 
+ Data type 
+ Description 
+ session_id 
+ smallint 
+ The id of the sess

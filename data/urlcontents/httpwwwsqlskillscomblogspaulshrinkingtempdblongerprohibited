@@ -1,0 +1,46 @@
+Shrinking tempdb no longer prohibited - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  Bugfixes  &gt;&gt;  Shrinking tempdb no longer prohibited 
+
+ Shrinking tempdb no longer prohibited By:  Paul Randal    Posted on: April 30, 2014 9:17 am  For the longest time the guidance around tempdb is that if you shrink it on a live system then it could cause tempdb corruption. 
+ A few months ago I was discussing this with my good friend Bob Ward from Product Support and neither of us could remember the last time we’d seen a case of tempdb corruption that had been caused by shrinking. So we both did some investigations, including looking through the internal bug databases, to find the root cause of the long-running advice. 
+ The bottom line is 

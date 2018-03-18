@@ -1,0 +1,22 @@
+The Bizzaro Guide to SQL Server Performance 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         The Bizzaro Guide to SQL Server Performance 
+         March 31st, 2010  
+         
+
+ 
+ Some say performance troubleshooting is a difficult science that blends just the right amount of patience, knowledge and experience. But I say forget all that, a few bullet points can get you a long way in fixing any problem you encounter. Is more important to find a google SEO friendly result that gives simplistic advice. Most importantly, good advice never contains the words ‘It depends’. Without further ado, here is my bulletproof SQL Server optimization guide: 
+ Always trust your gut feeling.  Avoid doing costly and unnecessary measurements. They may lead down the treacherous path of the scientific method. A gut feeling is always easier to explain and this improves communication. Measurements require use of complicated notions not everybody understands, so

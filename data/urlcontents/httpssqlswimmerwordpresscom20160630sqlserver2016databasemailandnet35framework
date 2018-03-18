@@ -1,0 +1,25 @@
+SQL Server 2016, Database Mail and .Net 3.5 Framework | SQLSwimmer 
+
+ 
+	 
+		 SQLSwimmer 
+		 Swimming through the Sea of SQL  
+		 
+			 
+						 
+		 
+		 About 
+ Presentations 
+ 
+
+	 
+
+  		 
+			 
+				 Posted by:  sqlswimmer  | June 30, 2016  
+				 SQL Server 2016, Database Mail and .Net 3.5 Framework 
+			 
+			 
+				 
+			      		 There were so many cheers when Microsoft announced that the  .Net 3.5 Framework was no longer a pre-requisite  for installing SQL Server starting with SQL Server 2016.  Folks were so excited, until they started testing certain pieces of the product, specifically Database Mail.  That’s right, if you want to use Database Mail in SQL Server 2016 you have to install the .Net 3.5 Framework. 
+ If you are installing SQL Server 2016 on Windows Server 2012 R2, this might be a problem for two reasons.  First, the .Net 3.5 Framework is no longer included by default when spinning up a new install.  Second, you will get no errors when testing Database Mail in SQL Server 2016.  M

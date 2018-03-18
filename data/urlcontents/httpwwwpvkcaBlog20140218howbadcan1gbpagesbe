@@ -1,0 +1,40 @@
+How Bad Can 1GB Pages Be? - Paul Khuong: some Lisp Paul Khuong: some Lisp 
+  
+ Blog 
+   Archives 
+   RSS 
+ 
+           
+  
+ 
+     
+       
+ How Bad Can 1GB Pages Be? 
+      
+    
+    
+       
+        
+
+
+
+
+ Feb   18 th ,  2014   12:06 am 
+        
+         |  Comments 
+        
+        
+       
+    
+   I joined the ad server team at  AppNexus 
+two weeks ago.  It’s a new problem domain for me, one that I find
+pretty interesting so far: the workload is definitely on the
+branchy/pointer-chasing side of things, and, although aggregate
+throughput matters, we work under stringent latency goals.  There are
+a few hash table lookups on the code path I’ve been working on, and
+some micro-benchmarking revealed that 1GB pages could easily shave 25%
+off the latency for lookups in large (hundreds of MB) tables. 
+
+ That’s not too surprising.  Given any change, it’s usually easy to
+design a situation that makes it shine.  I find it just as important to
+ask the opposite question: what’s the worst slowdow

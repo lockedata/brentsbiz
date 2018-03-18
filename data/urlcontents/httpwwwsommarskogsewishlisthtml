@@ -1,0 +1,9 @@
+My SQL Server Wishlist 
+ My SQL Server Wishlist Version 2016   
+ An SQL text by  Erland
+   Sommarskog , SQL Server MVP.  Most recently updated  2017-09-20. Copyright  applies to this text.
+ See here for  font conventions  used in this article. 
+ Introduction 
+ As you may imagine, my wishlist for new features in of SQL Server exceeds what most kids send to Santa Claus. This article is a collection of suggestions filed on Microsoft Connect that I think Microsoft should
+implement. This is not to say that this is all that I wish for; to keep a focus, I have constrained this list to development-related items.  
+ The list consists of four sections. There is one for general programming, one for improvements to querying and there is a section with DDL improvements. But the most important section is the first section which focuses on area where I feel that Microsoft rather have gone backwards over the years: facilitating robust system development. Robustness implies that you detect erro

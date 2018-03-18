@@ -1,0 +1,48 @@
+Can You Dig It? – Parallelism in the Plan Cache – Strate SQL 
+ 
+	 Skip to content 
+
+	 
+	 
+					 Data Adventures with an Architect 
+		
+				 Facebook 
+ Twitter 
+ GitHub 
+ LinkedIn 
+ RSS Feed 
+ YouTube 
+ 		 
+ 
+		 
+	 
+		 
+										 Strate SQL 
+					 
+
+		 Menu 
+	 Home 
+ About 
+ Publications 
+ Reference Material 
+ Wait Statistics 
+	 10 Monthly Maintenance Tasks for SQL Server 
+	 Plan Cache 
+	 Free Tools for the Data Platform Professional 
+	 SSIS Resources 
+	 Security Resources 
+ 
+ Contact 
+ SQL Karaoke 
+ 
+ 
+					 
+	 
+		 Can You Dig It? – Parallelism in the Plan Cache 				 
+			 December 9, 2010  by  jasonstrate , posted in  Database Administration ,  DMO ,  Performance Tuning &amp; Tracing ,  SQL Server 2008 ,  SQL Server 2008 R2 ,  SQLServerSyndication ,  Uncategorized 		 			 
+		 
+ Follow the rest of this series at the  Can You Dig It? – Plan Cache series introduction post . 
+ 
+ 
+ She can dig it! D Sharon Pruitt 
+ In the  lead in to this post , I talked about how the plan cache can be a gol

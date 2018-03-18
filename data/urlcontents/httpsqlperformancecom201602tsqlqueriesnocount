@@ -1,0 +1,32 @@
+Performance Surprises and Assumptions : SET NOCOUNT ON - SQLPerformance.com 
+   
+     
+       
+     
+     
+       
+       
+     
+   
+   
+	  
+     
+       Home 
+       Archives 
+       Authors 
+       Categories 
+       Newsletters 
+       About 
+       Q &amp; A Community 
+         GO 
+         
+		 
+	   
+     
+ 
+       Performance Surprises and Assumptions : SET NOCOUNT ON 
+     
+       February 26, 2016 by  Aaron Bertrand  in  T-SQL Queries        |  35 Comments 
+        
+   
+         Measure and improve performance for distributed workloads on Azure SQL Data Warehouse.   More   → SentryOne Newsletters The SQLPerformance.com bi-weekly newsletter keeps you up to speed on the most recent blog posts and forum discussions in the SQL Server community. eNews is a bi-monthly newsletter with fun information about SentryOne, tips to help improve your productivity, and much more. Subscribe   → Featured Author Paul Randal, CEO of SQLskills, writes about knee-jerk performance tuning, DBCC,

@@ -1,0 +1,56 @@
+Modifying Tables Online - Part 1: Migration Strategy | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ April 16, 2012 
+ 
+	  Modifying Tables Online – Part 1: Migration Strategy 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  "sql server" ,  online schema changes ,  table migrations  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 
+ SERIES: Modifying Tables Online 
+ In the next few days I want to describe a way to modify the definition of very large tables while keeping the table available for other queries. Some table changes are already  online  operations. But  offline  changes need extra work to keep the table available. I explore one way to do that in this series. 
+ This article used to be a single blog post, but I broke it into four parts 

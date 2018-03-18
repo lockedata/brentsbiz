@@ -1,0 +1,27 @@
+Add or Remove IDENTITY Property From an Existing Column Efficiently | Dan Guzman's Blog 
+ 
+	 Dan Guzman's Blog 
+				 Microsoft SQL Server Technical Articles 
+			 
+		 Search 
+		 
+			
+			 Main menu 
+								 Skip to primary content 
+												 Home 
+			 
+
+		 
+			 
+
+				
+					 Post navigation 
+						 ←  Previous 
+						 Next  → 
+					 Add or Remove IDENTITY Property From an Existing Column Efficiently 
+
+				 
+			 Posted on  April 16, 2016    by    Dan Guzman 		 
+			 
+		 Introduction 
+Refactoring is often needed to improve schema design or address changes in requirements.  Occasionally, these schema modifications require removing the IDENTITY property from an existing non-empty table while retaining the existing values.  Unfortunately, there is no DDL command to add or remove IDENTITY from an existing column.  Traditionally, one must go through the pain of either recreating the table or jumping through hoops by adding a new column, updating the new column value with the old column value,

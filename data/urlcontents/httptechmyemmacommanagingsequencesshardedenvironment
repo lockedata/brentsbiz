@@ -1,0 +1,28 @@
+Sharding PostgreSQL sequences through trickery and deceit | Emma Tech 
+
+ 
+  
+     
+
+			 
+				  Emma  Tech   
+			 
+			
+			 Emma Home 
+					 Emma Blog 
+					 Job Openings 
+					 RSS 
+				 
+
+     
+		 
+
+		     Sharding PostgreSQL sequences through trickery and deceit 
+						 (Just don't tell our DBAs) 
+					 
+		
+						 Kevin McConnell 
+							 17 Mar 2011 postgres 
+							 2 Comments 
+						 As is the case for many suc­cess­ful web appli­ca­tions, our data­bases have grown con­sid­er­ably over the years.  While there was a time that a sin­gle moderately-sized PostgreSQL server could hap­pily store all of our trans­ac­tional data, those days are long gone.  Which is, of course, not a bad thing.  As they say, scal­ing to meet the demands of your suc­cess is a rather nice prob­lem to have.  But it does tend to turn up a few thorny tech­ni­cal chal­lenges.  One such prob­lem that we encoun­tered was find­ing a way to cre­ate unique iden­ti­fiers in a sharded environment. 
+ Our gen­eral approac

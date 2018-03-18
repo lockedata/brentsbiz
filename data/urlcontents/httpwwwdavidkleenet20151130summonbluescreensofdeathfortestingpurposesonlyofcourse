@@ -1,0 +1,49 @@
+Summon Blue Screens of Death (for testing purposes only, of course) | Convergence of Data and Infrastructure 
+    				 
+					 
+					 Convergence of Data and Infrastructure 
+		 Thoughts from David Klee 
+     
+	 
+	 
+	
+ 
+	 
+	 
+	 
+ About David Klee 
+ Community Events 
+ Education 
+ Training Sessions 
+	 Training Videos 
+	 Presentations 
+ 
+ Home Lab 
+ Articles 
+ SQL Server 
+	 Virtualization 
+	 Infrastructure 
+ 
+ Books 
+ Contact 
+
+ 
+	 
+			 
+				     
+		  	 
+	 
+		 Summon Blue Screens of Death (for testing purposes only, of course) 
+		 
+					   Best Practices ,  Technology 
+							   Add comments 
+					 
+		 
+		 Nov   30 2015 
+	   		 
+			 
+ 
+ 
+ 
+ 
+ Today I had a need to manually trigger and sustain a Blue Screen of Death (BSOD) inside a Windows Server VM. The goal was to be able to trigger a BSOD so that I could work on the detection of powered on but failed VMs inside a server environment. All major hypervisors have this feature built in, but without testing it I do not want to e

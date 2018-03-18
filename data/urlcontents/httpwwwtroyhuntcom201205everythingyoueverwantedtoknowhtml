@@ -1,0 +1,86 @@
+Troy Hunt: Everything you ever wanted to know about building a secure password reset feature 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+ 
+ Workshops 
+ 
+ 
+ Speaking 
+ 
+ 
+ Media 
+ 
+ 
+ About 
+ 
+ 
+ Contact 
+ 
+ 
+ Sponsor 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Sponsored by:   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Everything you ever wanted to know about building a secure password reset feature 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 22 May 2012 
+ 
+ This content is now available in the Pluralsight course "Secure Account Management Fundamentals" 
+ 
+Recently I’ve had a couple of opportunities to think again about how a secure password reset function should operate, firstly whilst building this functionality into  ASafaWeb  and secondly when giving some direction for someone else doing a similar thing. In that second instance, I wanted to point them to a canonical resource on the ins and outs of securely implementing a reset function. Problem is though, there isn’t one, at least not covering everything I believe is impor

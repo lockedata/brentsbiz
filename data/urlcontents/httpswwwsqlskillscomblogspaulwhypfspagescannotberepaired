@@ -1,0 +1,45 @@
+Why PFS pages cannot be repaired - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  CHECKDB From Every Angle  &gt;&gt;  Why PFS pages cannot be repaired 
+
+ Why PFS pages cannot be repaired By:  Paul Randal    Posted on: March 5, 2017 4:15 pm  Last week there was a short discussion on Twitter about why PFS pages (damaged header, not individual PFS bytes) can’t be repaired (prompted by a #sqlhelp question about why they can’t be single-page restored, like other per-database allocation bitmaps). Just for the record, they can’t be fixed by automatic page repair in a mirror or AG either. 
+ PFS pages occur every 8088 pages in every data file and store a byte of information about itself and the following 8087 pages. The most important piece o

@@ -1,0 +1,21 @@
+NHibernate parameter sizes controversy: history of the issue 
+
+     
+         
+                 
+                     Yesterday's news 
+
+                     
+                 
+             
+         
+            
+
+ 
+    
+	 NHibernate parameter sizes controversy: history of the issue 
+		 Published October 28th 2009 
+	     
+		 This post is my digest of facts and opinions on the infamous NHibernate parameter sizes controversy. Disclaimer: Everything that follows is MY INTERPRETATION of the story, based on MY UNDERSTANDING of the statements and replics made by all the participants.   
+
+ The issue was first reported in  a blog post by Grant Fritchey on 04/29/2008 . He discovered that the way NHibernate (then v1.2)  generates some of its parametrized queries (specifically for inserts of entities) causes a proliferation of execution plans in MS SQL Server's (then v2005) execution plan cache. This happens because NHibernate uses actual length of parameter's value as the size of the variable i

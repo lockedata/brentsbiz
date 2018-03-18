@@ -1,0 +1,56 @@
+What PostgreSQL has over other open source SQL databases: Part II - Compose Articles 
+
+   
+     Compose The Compose logo 
+
+   Articles 
+     Sign in 
+     Free 30-day trial 
+   
+
+   
+     
+
+ What PostgreSQL has over other open source SQL databases: Part II 
+
+   
+
+     
+
+   
+
+     
+
+   
+
+     
+
+   
+
+     
+
+   
+
+     
+
+   
+
+     
+
+ Published  Oct 15, 2015 
+
+ 
+
+   
+
+     What PostgreSQL has over other open source SQL databases: Part II 
+
+     sql postgresql 
+
+   
+
+   Free 30 Day Trial 
+
+   
+
+ PostgreSQL's tag line claims that it's "The world's most advanced open source database." In  Part I of this series  we looked at storing the data - the model, structures, types and size limits - to give you a few reasons why PostgreSQL makes this claim. In Part II here, we'll look at data manipulation and retrieval, including indexing, virtual table features and query capabilities. For this series, we looked at what makes PostgreSQL stand out from other open source SQL databases, namely MySQL, MariaD

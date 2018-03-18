@@ -1,0 +1,70 @@
+PowerShell: How to show all of an object's properties and values 
+ 
+ 
+ 
+ 
+ 
+   Development Office Politics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ / 
+ comedy 
+ / 
+ mds 
+ / 
+ musings 
+ / 
+ photos 
+ / 
+ powershell 
+ / 
+ sql 
+ / 
+ ssis 
+ / 
+ ssrs 
+ 
+ 
+ 
+ 
+ 
+ SSIS error 0xC000F427 and derived...   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ PowerShell: How to show all of an object's properties and values 
+ 
+ 
+26 MAR 2013
+•
+ 
+1 min read
+ 
+about
+powershell
+ 
+ 
+ I was scratching my head looking at a complex .NET object and wondering how to get all of the values out of it. For example: 
+ $date   =   New-Object  System.DateTime
+ $date  |  Write-Host   # Because I was doing it remotely in a job 
+ 
+ Monday, 1 January 0001 12:00:00 AM
+ 
+ And yet there are so many more properties available on the object: 
+ $date  |  Get-Member 
+ 
+ TypeName: System.DateTime
+# ... Snipped for brevity
+Date                 Property       datetime Date {get;}
+Day                  Property       int Day {get;}
+DayOfWeek            Property       System.DayOfWeek DayOfWe

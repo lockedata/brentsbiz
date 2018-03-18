@@ -1,0 +1,77 @@
+Columnstore Insert and Update Performance | The SQL Herald 
+
+ 
+	 
+					 The SQL Herald 
+				 Databases et al… 
+	 
+	 
+		 
+			 Search: 
+			 
+		 
+	 
+ 
+ 
+	 
+		 
+			 Home About 
+ 
+		 
+		 
+			 Posts 
+			 Comments 
+		 
+	 
+
+	 
+			 
+		 SQL 
+ 
+	 Uncategorized 
+ 
+	 Clustering 
+ 
+	 business 
+ 
+	 SQLPASS 
+ 
+	 SQL Server 2016 
+ 
+	 Virtualization 
+ 
+	 SQL Saturday 
+ 
+	 vendors 
+ 
+	 ColumnStore 
+ 
+		 
+	 
+ 
+
+ 
+ 
+
+	 
+
+		
+			 
+				 ←  PASS Summit Hybrid Availability Groups 
+				 Performance of SQL Server 2014 Columnstore Archival Mode  → 
+			 
+
+			 
+
+				 
+
+					 Columnstore Insert and Update Performance 
+
+					 
+						 
+							 October 23, 2013 
+																						 3 Comments 
+																				 
+					 
+
+					 I had been holding off on writing this blog post with SQL 2014 CTP1, since updateable columnstores were definite a work in progress. I did get several questions about the updatable columnstores during my presentation at the recent SQL PASS summit. So with a fresh VM with SQL 2014 CTP2 install

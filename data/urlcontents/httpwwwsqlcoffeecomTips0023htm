@@ -1,0 +1,52 @@
+SQLCoffee - Side Effects of Using Trace Flags 
+ 
+  
+ 
+ 
+               
+ 
+   
+   
+   
+
+ 
+ 
+ 
+
+ 
+ Side Effects of Using Trace Flags. 
+ 
+Last updated: February 23, 2017. 
+ 
+Using trace flags on SQL Server may have undesirable secondary effects when used 
+on production environments. 
+ This article tries to document a few of those secondary effects created by 
+specific trace flags. 
+   
+ 
+		 Trace Flag Number 
+		 
+		 Undesirable Secondary Effects 
+	   
+		   
+	 
+		 652 
+		 If you turn on trace flag 652, queries that benefit from the page 
+		pre-fetching feature may exhibit low performance.  
+		 Source . 
+	   
+		   
+	 
+		 661 
+		 It may originate page splits and data file growth. As explained by 
+		Paul Randal.
+		 
+		 Source . It may also create affects space consumption and 
+		the performance of scan operations.  
+		 Source . 
+	   
+		   
+	 
+		 834 
+		 Trace flag 834 may prevent the server from starting if memory is 
+		fragmented and if larg

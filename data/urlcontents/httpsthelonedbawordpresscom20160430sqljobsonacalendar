@@ -1,0 +1,46 @@
+SQL Jobs – On a Calendar? | The Lone DBA 
+ 
+	 
+		 
+			 
+								 
+					 
+						 The Lone DBA 
+					 
+				 
+				 SQL Server odds and ends 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About… 
+ My SQL Server Bookshelf 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Literary Documentation 
+					 Redgate SQLPrompt Execution Warnings  → 
+				 
+
+				 
+											 SQL Jobs – On a Calendar? 					
+					 
+						 Posted on   April 30, 2016 						 by   thomasrushton   					 
+
+					 
+						 SQL Server backup jobs are IO-intensive, he says, stating the obvious. 
+ When you have a lot of servers which have been set up over the years, and you’re new to the environment, and want to see when storage is being hammered , you might end up thinking that a calendar view might be of help – I know I did. 
+ So all I had to do was figure out a query to look at SQL Server scheduled task history complete with start &amp; end times (which I’d already got), and then get those into 

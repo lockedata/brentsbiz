@@ -1,0 +1,37 @@
+Installation guidance for SQL Server 2017 on Linux | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Installation guidance for SQL Server on Linux 
+
+					 
+								 03/08/2018 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  This article provides guidance for installing, updating, and uninstalling SQL Server 2017 on Linux. 
+ Tip This guide coves several deployment scenarios. If you are only looking for step-by-step installation instructions, jump to one of the quickstarts: 
+ RHEL quickstart 
+ SLES quickstart 
+ Ubuntu quickstart 
+ Docker quickstart 
+ 
+ For answers to frequently asked questions, see the  SQL Server on Linux FAQ . 
+  Supported platforms 
+ SQL Server 2017 is supported on Red Hat Enterprise Linux (RHEL)

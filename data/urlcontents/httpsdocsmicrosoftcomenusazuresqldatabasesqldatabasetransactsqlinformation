@@ -1,0 +1,39 @@
+Resolving T-SQL differences-migration-Azure SQL Database | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Resolving Transact-SQL differences during migration to SQL Database 
+
+					 
+								 10/23/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 When  migrating your database  from SQL Server to Azure SQL Server, you may discover that your database requires some re-engineering before the SQL Server can be migrated. This article provides guidance to assist you in both performing this re-engineering and understanding the underlying reasons why the re-engineering is necessary. To detect incompatibilities, use the  Data Migration Assistant (DMA) . 
+ Overview 
+ Most Transact-SQL features that applications use are fully supported in both Microsoft SQL Server and Azure S

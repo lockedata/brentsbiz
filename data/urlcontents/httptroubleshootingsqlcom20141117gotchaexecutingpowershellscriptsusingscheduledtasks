@@ -1,0 +1,39 @@
+GOTCHA: Executing powershell scripts using scheduled tasks | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ GOTCHA: Executing powershell scripts using scheduled tasks 
+
+		 
+			Posted on  November 17, 2014  by  Amit Banerjee 		 
+	 
+		 This is another gotcha for setting up scheduled tasks which execute PowerShell scripts. I have a SQL Server instance installed on an Azure virtual machine. I am using a D-Series machine which allows me to store my tempdb files on the D: drive which is a SSD drive. However, the D: drive on Azure virtual machines is not a persistent drive. If you have change the drive letters on your Azure VM, then you can use the PowerShell script in my earlier  blog post

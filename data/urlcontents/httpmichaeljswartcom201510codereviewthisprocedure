@@ -1,0 +1,56 @@
+Code Review This Procedure | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ October 1, 2015 
+ 
+	  Code Review This Procedure 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 10:28 am  
+
+	 
+		 Earlier this week we encountered a web-site outage caused by a database procedure.  I’m going to blog about that problem (in detail) in a post scheduled for next week . But before I publish that post, I want to know how subtle or obvious the problem was. It seems obvious to me now, but I have the benefit of hindsight. I wonder whether we could we have avoided this during the code review stage of development. 
+ So before I publish the details, I invite you to do a code review of this procedure in the comment section. 
+ The Procedure 
+ H

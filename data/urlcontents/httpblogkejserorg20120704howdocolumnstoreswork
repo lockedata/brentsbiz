@@ -1,0 +1,51 @@
+How do Column Stores Work? - Fighting Bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ How do Column Stores Work? 
+ 
+   2012-07-04 
+   Data Modeling   	
+   9 Comments   BI ,  CPU ,  Memory ,  Performance ,  Relational 
+ In this blog, I will provide you with some basic information about column stores. Nothing I am writing here is vendor specific IP, but merely taken from the papers published throughout history. One of the best papers that serves as an introduction is by Stonebraker: 
+ Stonebraker et a, Proceedings of 31st VLDB Conference, 2005: C-Store: “ C-Store: A Column-oriented DBMS ” 
+ The idea is older than that though, with the first pa

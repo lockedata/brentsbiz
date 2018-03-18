@@ -1,0 +1,41 @@
+sys.indexes (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.indexes (Transact-SQL) 
+
+					 
+								 04/18/2017 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Contains a row per index or heap of a tabular object, such as a table, view, or table-valued function.   
+ Column name 
+ Data type 
+ Description 
+ object_id 
+ int 
+ ID of the object to which this index belongs. 
+ name 
+ sysname 
+ Name of the index.  name  is unique only within the object.  NULL = Heap 
+ index_id 
+ int 
+ ID of the index.  index_id  is unique only within the object.  0 = Heap  1 = Clustered index  &gt; 1 = Nonclustered index 
+ type 
+ tinyint 
+ Type of index:  0 = Heap  1 = Clustered  2 = Nonclustered  3 = XML  4 = Spatial  5 = Clustered colu

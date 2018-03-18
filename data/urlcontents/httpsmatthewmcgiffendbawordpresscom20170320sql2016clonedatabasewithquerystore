@@ -1,0 +1,24 @@
+SQL 2016 – Clone Database with Query Store | Matthew McGiffen DBA 
+ 
+	 Skip to content 
+	 
+						 Matthew McGiffen DBA 
+			 
+		 
+
+		 Menu 
+			 Home 
+ About 
+ Contact 
+ 		 
+		
+	 
+		 SQL 2016 – Clone Database with Query Store 
+		 
+						 March 20, 2017  ~  Matthew McGiffen 					 
+	 
+		 This is a quickie post to introduce the new DBCC command CLONEDATABASE. 
+ Okay so this isn’t technically a SQL Server 2016 only feature as it’s also available in SQL 2014 SP2 onwards – but that wasn’t released until July 2016. 
+ CLONEDATABASE allows you to do something you could only do before through the GUI in SSMS which is to create a copy of a database without the data, but with the Statistics objects that describe the distribution of data. 
+ Why is this useful? 
+ Often in our test and development environments we don’t have access to a set of databases with an amount and distribution of data that we would have in production. This means that queries aren’t likely to perform the same way they would in a 

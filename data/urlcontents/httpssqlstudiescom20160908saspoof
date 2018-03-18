@@ -1,0 +1,59 @@
+SA Spoof | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 SA Spoof 
+       				 14 
+		         September 8, 2016  by Kenneth Fisher 
+
+		 
+			 This is nothing new but it’s still a fun idea. 
+ The problem: 
+ The vendor app we just purchased (and are told we  must  keep) requires the sa password. 
+ The vendor insists that sa is hard coded into the app and can’t possibly be changed. 
+ The sa account is the built in super user for SQL Server and we certainly aren’t going to give it to an application. 
+ This might even be a shared server where giving one application sa means a security risk for all of the other app

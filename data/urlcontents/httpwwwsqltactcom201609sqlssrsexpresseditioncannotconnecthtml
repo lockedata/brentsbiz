@@ -1,0 +1,49 @@
+SQL Tact: SQL SSRS Express Edition Cannot Connect to Azure SQL Databases 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SQL Tact
+ 
+ 
+ 
+ 
+ pointers, solutions and  toolbox scripts  for the SQL DBA not intended to replace msdn, common sense or oxford commas 
+ 
+ 
+ 
+ 
+
+           
+        
+ Sunday, September 25, 2016 
+
+           
+        
+ 
+ 
+ 
+ 
+SQL SSRS Express Edition Cannot Connect to Azure SQL Databases
+ 
+ 
+ 
+ 
+ 
+This has bit a couple of clients recently, figured I'd put out a PSA. 
+Express editions of SQL Server Reporting Service, from SQL 2016 on down, cannot connect to Azure SQL Databases. Turns out, getting something for free  does  have some significant limitations. 
+For example, you'll see an error message " The Report Server has encountered a configuration error " on a data source page, when creating a new SSRS data source in the Report Manager website. What you may have not noticed on this page was the possible values in the Data Source Type drop d

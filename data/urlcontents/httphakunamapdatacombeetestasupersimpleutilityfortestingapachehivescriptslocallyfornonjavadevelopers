@@ -1,0 +1,58 @@
+
+ Hakuna MapData!  » Blog Archive   » Beetest – a simple utility for testing Apache Hive scripts locally for non-Java developers 
+ 
+ 
+
+
+ 
+	 Hakuna MapData! The Apache Hadoop Ecosystem technical blog with some bytes of humour by Adam Kawa 
+ 
+	 
+		 
+			 Home 
+				 About 
+			 
+	 
+ 
+
+ 
+ 
+	 
+		 
+
+	 
+		 
+			 
+				 
+		 
+	 
+ 
+
+ 
+ 
+ 
+
+	 
+    	 
+	 
+
+	
+			 
+                 
+                     
+                         Beetest – a simple utility for testing Apache Hive scripts locally for non-Java developers 
+						 
+							 Posted by  Adam Kawa   |   Posted in  Programming ,  Testing ,  Troubleshooting   |   Posted on 22-12-2013 
+						 
+                     
+				 
+                 
+
+				 
+										 
+			 
+			 
+			 
+			 
+			 
+			 Recently, I have been refactoring one of our Hive scripts. Because, I introduced significant changes, a query is resource-intensive (process almost two terabytes of data) and … I wanted to iterate fast, I decided

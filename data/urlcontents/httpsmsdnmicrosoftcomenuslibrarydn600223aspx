@@ -1,0 +1,40 @@
+Cloud Design Patterns | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Cloud Design Patterns 
+
+					 
+								 11/28/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 These design patterns are useful for building reliable, scalable, secure applications in the cloud. 
+ Each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. However, most of the patterns are relevant to any distributed system, whether hosted on Azure or on other cloud platforms. 
+ Challenges in cloud development 
+ 
+     
+         Availability 
+         Availability is the proportion of time that the system is functional and working, usually measured as 

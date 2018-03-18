@@ -1,0 +1,61 @@
+Episode 76: Availability Group Improvements - SQL Data Partners 
+ 
+ 
+ 
+
+	
+	
+		 
+							 
+					 
+					 
+						 
+				 
+				 
+											 Home 
+								
+								 Knowledge Base 
+ Consulting 
+ Migration Help 
+ 
+ Podcast 
+															 
+				 
+					 Select Page 
+					 
+				 
+			 				   
+			   
+			 
+				 
+					 
+					 
+					 
+				 
+			 
+		 
+
+ 
+		 
+		 
+			 
+											 
+							 Episode 76: Availability Group Improvements 
+
+						  by  Carlos L Chacon  |  Dec 31, 2016  |  Podcast  |  
+												   
+				
+					 
+					 
+				
+				
+				
+					 
+				 
+				
+				
+				 
+				
+				
+				 
+					 Availability groups provide some exciting features in mixing high availability and disaster recovery; however, from a performance consideration, there are a few drawbacks.  With the advances in SQL Server 2016, our guest Jimmy May, set out to test the features and see if they could get some really high performance out of an availability group with two synchronous replicas.  In this episode he talks with us abou

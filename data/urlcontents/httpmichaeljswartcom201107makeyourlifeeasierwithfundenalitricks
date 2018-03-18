@@ -1,0 +1,61 @@
+Make Your Life Easier With Fun Denali Tricks | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ July 6, 2011 
+ 
+	  Make Your Life Easier With Fun Denali Tricks 
+	 Filed under:  SQLServerPedia Syndication , Technical Articles  — Tags:  "sql server" ,  snippets ,  sql server denali  —  Michael J. Swart @ 6:37 pm  
+
+	 
+		 I’ve given SQL Server Denali a spin and I have to say that I really like it. I want to demonstrate how I use some of the new features to make my life easier. How much easier? 
+ The Scenario 
+ Using the Adventureworks database, I want to perform the following: 
+
+ SELECT   top   30  ModifiedDate, rowguid, EmailAddress 
+ into  myNewTable
+ from  Person. EmailAddress SELECT top 30 ModifiedDate, rowguid, EmailAddress 
+into myNewTable
+from Person.EmailAd

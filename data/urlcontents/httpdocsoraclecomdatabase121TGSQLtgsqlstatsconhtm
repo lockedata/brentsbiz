@@ -1,0 +1,49 @@
+Optimizer Statistics Concepts 
+ Go to main content 
+ 
+ 
+   19/40   
+ 
+ 10  Optimizer Statistics Concepts 
+ 
+ Oracle Database  optimizer statistics  describe details about the database and its objects. 
+ This chapter includes the following topics: 
+ 
+ Introduction to Optimizer Statistics 
+ 
+ 
+ About Optimizer Statistics Types 
+ 
+ 
+ How the Database Gathers Optimizer Statistics 
+ 
+ 
+ When the Database Gathers Optimizer Statistics 
+ 
+ 
+ See Also: 
+ 
+ " Query Optimizer Concepts " 
+ 
+ 
+ " Histograms " 
+ 
+ 
+ " Managing Optimizer Statistics: Basic Topics " 
+ 
+ 
+ " Managing Optimizer Statistics: Advanced Topics " 
+ 
+ 
+ 
+ 
+ 
+ Introduction to Optimizer Statistics 
+ 
+ The optimizer  cost model  relies on statistics collected about the objects involved in a query, and the database and host where the query runs. 
+ Statistics are critical to the optimizer's ability to pick the best  execution plan  for a SQL statement. 
+ Optimizer statistics include the following: 
+ 
+ Table statistics 
+ 
+ Number of 

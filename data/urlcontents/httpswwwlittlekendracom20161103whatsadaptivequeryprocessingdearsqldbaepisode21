@@ -1,0 +1,27 @@
+Adaptive Query Processing SQL Server - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 What’s Adaptive Query Processing? (Dear SQL DBA Episode 21) 
+
+				 
+					 November 3, 2016 Kendra Little Dear SQL DBA ,  Execution Plans ,  Execution Plans ,  Performance ,  Query Store ,  Query Tuning ,  sql ,  SQL PASS ,  SQL Server 2016 ,  Statistics 9  Comments 				 
+			 
+		 
+
+			 
+ Episode update, April 2017: Learn About Adaptive Query Processing from Joe Sack 
+ Microsoft shared a great video about Adaptive Query Processing, and you can learn about this new feature from Microsoft Program Manager Joe Sack. My original post below is full of speculation. Joe’s video is full of actual facts! 
+ Note: I’ve embedded Joe’s video, which is published on the Microsoft Cloud Platform’s YouTube Channel. I had less than nothing to do with making it.  Go give it a thumbs up to show them some love . 
+ 
+ And now for my original episode, back when this feature was first announced 
+ I’m mixi

@@ -1,0 +1,28 @@
+Architecture of a Database System | the morning paper 
+	 Skip to content 
+	 
+				 
+			 the morning paper 			 
+				 an interesting/influential/important paper from the world of CS every weekday morning, as selected by Adrian Colyer 
+			 
+			 
+					 Home 
+				 About 
+ InfoQ QR Editions 
+ Subscribe 
+	 
+		 
+		 
+									 
+			 
+				 Architecture of a Database System 
+				 January 20, 2015 
+			 
+			 
+				 tags:  Datastores 
+				 
+									 
+			 
+			 
+								 Architecture of a Database System  – Hellerstein, Stonebraker &amp; Hamilton, 2007. 
+ This is a longer read (and hence a slightly longer write-up too) coming in at 119 pages, but it’s written in a very easy style so the pages fly by. It oozes wisdom and experience from every paragraph as Joe Hellerstein  and  Michael Stonebroker  and  James Hamilton (how’s that for some respected authorship!) take you through the architecture of a database system (circa. 2007) blending academic and industrial experience and insights. If those who don’t 

@@ -1,0 +1,36 @@
+DROP TABLE Bug on Filestream Garbage Collection - Andy M Mallon - AM² 
+ 
+ 
+ 
+		 
+ 
+ 
+ 
+ 
+ Andy M Mallon - AM² 
+ Being impatient and lazy are great qualities in a DBA 
+ 
+ 
+ 
+ 
+ 
+	 
+	 
+		 Home 
+ Event Calendar 
+ About Me 
+ Contact Andy 
+ Shortcuts, Tips, Hacks 
+ Legal Stuff 
+ 		 
+ 
+	 DROP TABLE Bug on Filestream Garbage Collection 
+ December 8, 2015 
+ Andy 
+ Availability Groups ,  Bugs ,  filestream 
+ 5 
+ 
+	 FILESTREAM is not a particularly popular feature of SQL Server–if you’re using it, you are in the minority. If you have a database with filestream in an Availability Group, then you’re REALLY in the minority. At my 9-5, this is being done, and it’s apparent that this combination of features isn’t a robust combination. 
+ The bug 
+ I ran into a situation where  garbage collection  process for filestream didn’t appear to be working properly. I initially noticed this when a significant amount of data was migrated out of the database, but no additional space was reclaimed on disk. 
+ I tr

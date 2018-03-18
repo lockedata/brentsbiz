@@ -1,0 +1,45 @@
+VMware CPU Co-Stop and SQL Server Performance | Convergence of Data and Infrastructure 
+    				 
+					 
+					 Convergence of Data and Infrastructure 
+		 Thoughts from David Klee 
+     
+	 
+	 
+	
+ 
+	 
+	 
+	 
+ About David Klee 
+ Community Events 
+ Education 
+ Training Sessions 
+	 Training Videos 
+	 Presentations 
+ 
+ Home Lab 
+ Articles 
+ SQL Server 
+	 Virtualization 
+	 Infrastructure 
+ 
+ Books 
+ Contact 
+
+ 
+	 
+			 
+				     
+		  	 
+	 
+		 VMware CPU Co-Stop and SQL Server Performance 
+		 
+					   Best Practices ,  SQL Server ,  Technology ,  Virtualization 
+							   Add comments 
+					 
+		 
+		 Mar   03 2016 
+	   		 
+			 
+ Not too many people know about the intricacies of virtualization CPU scheduling and its impact on the performance of the VMs, so application owners out there – listen up! I’ve written about  Ready Time (VMware ESXi) / Wait Time Per Dispatch (Microsoft Hyper-V)  in the past, but a different challenge arises with VMs that have large vCPU count footprints. It

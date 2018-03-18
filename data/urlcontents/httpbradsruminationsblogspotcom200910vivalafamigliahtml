@@ -1,0 +1,50 @@
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server(): Viva la Famiglia! 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server()
+ 
+ 
+ 
+ 
+ Thoughts, Musings, Ruminations, and Brainstorms on SQL and Perhaps Other Topics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Thursday, October 1, 2009 
+
+           
+        
+ 
+ 
+ 
+ 
+Viva la Famiglia!
+ 
+ 
+ 
+ 
+ 
+My wife comes from a large Italian family, and there’s a family reunion every year.  With all those relatives, it’s hard to remember how who is related to whom.  A woman will strike up a conversation with another woman and ask, “How are you related to me again?”  And the second woman will say, “I’m not sure,” but what she's  really  thinking is, “I hope the  risotto  that you brought is better than it was last year.” I’m German, so I want facts and details, and I want things organized just so!  I used to know my wife’s family tree quite well, but the knowledge has faded over the 

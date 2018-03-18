@@ -1,0 +1,45 @@
+New Pony | Push the Button 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Push the Button 
+					 
+				 
+				 William Jon McCann 
+
+										 
+
+			 
+			  				 Skip to content 
+								 Home 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Hot City 
+					 We Deliver  → 
+				 
+
+				 
+					 New Pony 
+
+					 
+						 Posted on   June 8, 2011   by   mccann 					 
+
+					 
+						 For a long time I was of the opinion that the problem with file management was the management. And the problem with file systems was the system. If only we could design a better management system we’d be all set. I think that turns out to be wrong. We didn’t need a better horse. We needed a new vehicle. 
+ Everything is a file (until it is better). 
+ 
+ This poses quite a dilemma for the design of  Finding and Reminding  in GNOME 3. So it is worth spending a bit of time investigating. 
+ First, let’s limit the scope to the type of stuff we use files for today. For most people this is basically:  Documents, Music, Pictures, Videos,

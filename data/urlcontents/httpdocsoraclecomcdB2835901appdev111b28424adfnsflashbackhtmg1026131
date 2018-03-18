@@ -1,0 +1,49 @@
+Using Oracle Flashback Technology 
+ Go to main content 
+ 
+ 
+ 
+ 20/26   
+ 13   Using Oracle Flashback Technology 
+ This chapter explains how to use Oracle Flashback Technology in database applications. 
+ Topics: 
+ 
+ Overview of Oracle Flashback Technology 
+ 
+ 
+ Configuring Your Database for Oracle Flashback Technology 
+ 
+ 
+ Using Oracle Flashback Query (SELECT AS OF) 
+ 
+ 
+ Using Oracle Flashback Version Query 
+ 
+ 
+ Using Oracle Flashback Transaction Query 
+ 
+ 
+ Using Oracle Flashback Transaction Query with Oracle Flashback Version Query 
+ 
+ 
+ Using ORA_ROWSCN 
+ 
+ 
+ Using DBMS_FLASHBACK Package 
+ 
+ 
+ Using Flashback Transaction 
+ 
+ 
+ Using Flashback Data Archive (Oracle Total Recall) 
+ 
+ 
+ General Guidelines for Oracle Flashback Technology 
+ 
+ 
+ Performance Guidelines for Oracle Flashback Technology 
+ 
+ 
+ 
+ Overview of Oracle Flashback Technology 
+ Oracle Flashback Technology is a group of Oracle Database features that that let you view past states of database objects or to return databa

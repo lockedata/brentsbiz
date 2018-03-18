@@ -1,0 +1,47 @@
+Investigating the proportional fill algorithm - Paul S. Randal 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Paul S. Randal 
+ In Recovery... 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Paul 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  Posts  &gt;&gt;  Inside the Storage Engine  &gt;&gt;  Investigating the proportional fill algorithm 
+
+ Investigating the proportional fill algorithm By:  Paul Randal    Posted on: October 4, 2016 4:58 am  This is something that came up recently on the Microsoft Certified Master DL, and is something I discuss in our IEPTO1 class because of the performance implications of it, so I thought it would make an interesting post. 
+ Allocation Algorithms 
+ The SQL Server Storage Engine (SE) uses two algorithms when allocating extents from files in a filegroup: round robin and proportional fill. 
+ Round robin means that the SE will try to allocate from each file in a 

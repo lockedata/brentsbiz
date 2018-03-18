@@ -1,0 +1,64 @@
+The CASE Statement and Performance - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 The CASE Statement and Performance 		 Home  /  SQL Server 2005  /  The CASE Statement and Performance 	 
+ 
+	 
+		 
+		 
+			 18 Feb 2014  by  Grant Fritchey  14 Comments 		 
+		 In case you don’t know, this query: 
+
+		 
+		
+			 
+			 Transact-SQL 
+			 
+			 
+UPDATE dbo.Test1
+SET C2 = 2
+WHERE C1 LIKE '%33%'; 
+			 
+				 
+					 1 2 3 
+				 
+						 UPDATE   dbo . Test1 SET   C2   =   2 WHERE   C1   LIKE   '%33%' ; 
+					 
+		 
+ 
+ Will run quite a bit slower than this query: 
+
+		 
+		
+			 
+			 Transact-SQL 
+			 
+			 
+UPDATE dbo.Test1
+SET C2 = 1
+WHERE C1 LIKE '333%'; 
+			 
+				 
+					 1 2 3 
+				 
+						 UPDATE   dbo . Test1 SET   C2   =   1 WHERE   C1   LIKE   '333%' ; 
+					 
+		 
+ 
+ Or this on

@@ -1,0 +1,35 @@
+CREATE AVAILABILITY GROUP (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CREATE AVAILABILITY GROUP (Transact-SQL) 
+
+					 
+								 10/16/2017 
+							 28 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Creates a new availability group, if the instance of  SQL Server is enabled for the  Always On availability groups feature.   
+ Important  Execute CREATE AVAILABILITY GROUP on the instance of  SQL Server that you intend to use as the initial primary replica of your new availability group. This server instance must reside on a Windows Server Failover Clustering (WSFC) node.   
+ 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+CREATE AVAILABILITY GROUP group_name  
+   WITH (&lt;with_option_spec&gt

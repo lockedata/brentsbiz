@@ -1,0 +1,37 @@
+DBCC SQLPERF (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DBCC SQLPERF (Transact-SQL) 
+
+					 
+								 01/07/2018 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Provides transaction log space usage statistics for all databases. In  SQL Server it can also be used to reset wait and latch statistics. 
+ Applies to :  SQL Server ( SQL Server 2008 through  SQL Server 2017),  SQL Database ( Preview in some regions ) 
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ DBCC SQLPERF   
+(  
+     [ LOGSPACE ]  
+     | [ "sys.dm_os_latch_stats" , CLEAR ]  
+     | [ "sys.dm_os_wait_stats" , CLEAR ]  
+)   
+     [WITH NO_INFOMSGS ]  
+ Arguments 
+ LOGSPACE Returns the current size of the transaction log and the percentage of log space used for each

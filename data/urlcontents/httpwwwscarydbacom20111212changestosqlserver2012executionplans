@@ -1,0 +1,26 @@
+Changes to SQL Server 2012 Execution Plans - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Changes to SQL Server 2012 Execution Plans 		 Home  /  SQL Server 2012  /  Changes to SQL Server 2012 Execution Plans 	 
+ 
+	 
+		 
+		 
+			 12 Dec 2011  by  Grant Fritchey  11 Comments 		 
+		 I’ve been working with execution plans quite a lot in SQL Server 2012. There are a number of changes, most of them associated with new or different functionality. I had not noticed anything really fundamental until recently. I’ve become a huge proponent of always checking the properties of the SELECT statement. There’s so much useful information in there about what’s happened with the plan generation in the optimizer (not low level stuff, but the big picture items) that you should always be checking it first as a fundamen

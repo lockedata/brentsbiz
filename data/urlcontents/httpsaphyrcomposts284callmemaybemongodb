@@ -1,0 +1,33 @@
+Jepsen: MongoDB 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       Jepsen: MongoDB 
+
+       
+         2013/05/18 Distributed Systems Jepsen Networking MongoDB 
+     
+
+     
+       Previously in  Jepsen , we discussed  Redis . In this post, we’ll see MongoDB drop a phenomenal amount of data. See also: followup analyses of  2.6.7  and  3.4.0-rc3 . 
+
+ MongoDB is a document-oriented database with a similar distribution design to Redis. In a replica set, there exists a single writable primary node which accepts writes, and asynchronously replicates those writes as an  oplog  to N secondaries. However, there are a few key differences. 
+
+ First, Mongo builds in its leader election and replicated state machine. There’s no separate system which tries to observe a replica set in order to make decisions about what it should do. The replica set decides among itself which node should

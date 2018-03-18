@@ -1,0 +1,52 @@
+DBMS Musings: If all these new DBMS technologies are so scalable, why are Oracle and DB2 still on top of TPC-C?  A roadmap to end their dominance. 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DBMS Musings
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Wednesday, May 16, 2012 
+
+           
+        
+ 
+ 
+ 
+ 
+If all these new DBMS technologies are so scalable, why are Oracle and DB2 still on top of TPC-C?  A roadmap to end their dominance.
+ 
+ 
+ 
+ 
+ 
+ (This post is coauthored by  Alexander Thomson  and  Daniel Abadi ) 
+In the last decade, database technology has arguably progressed furthest along the scalability dimension. There have been hundreds of research papers, dozens of open-source projects, and numerous startups attempting to improve the scalability of database technology. Many of these new technologies have been extremely influential---some papers have earned thousands of citations, and some new systems have been deployed by thousands of enterprises.

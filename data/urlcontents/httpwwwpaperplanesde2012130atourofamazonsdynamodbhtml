@@ -1,0 +1,34 @@
+paperplanes. A Tour of Amazon's DynamoDB 
+     
+       
+         
+           
+         
+           Hi, I'm Mathias Meyer, nice to meet you! 
+           Hi, I'm  Mathias Meyer . 
+           
+            I like fine beverages, coffee,  Twitter  and  email .
+           
+         
+       
+     
+
+     
+       
+         
+     
+       A Tour of Amazon's DynamoDB 
+         30 January 2012  by  Mathias Meyer 
+       
+     
+       Amazon's  recent
+release  of
+DynamoDB, a database whose name is inspired by  Dynamo, the key-value
+database  the
+distributed datastore they've been running in production for a good five to six
+years now. I think it's great they've finally done it, though from my
+obverservations, there's little resemblance of what the original Dynamo paper
+describes, but I'm getting ahead of myself. Traditionally Amazon hasn't been
+very open about how they implement their services, so some of what I'm stating
+here may be nothing more than an educated guess. Either way, the result is
+pre

@@ -1,0 +1,46 @@
+Don’t believe everything you read: Reconfigure flushes the plan cache | ctrl-alt-geek 
+ 
+	 
+		 
+			 
+								 
+					 
+						 ctrl-alt-geek 
+					 
+				 
+				 Information is that which surprises us 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ Immersion Submission!! 
+ Mentoring 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  Corrupt Model database 
+					 Quick tip: configure SQL Server authentication mode using T-SQL  → 
+				 
+
+				 
+											 Don’t believe everything you read: Reconfigure flushes the plan cache 					
+					 
+						 Posted on   June 25, 2012 						 by   matt.bowler   					 
+
+					 
+						 I’ve been doing a fair bit of research and investigation into the behavior of the plan cache recently. So I was concerned when I read somewhere that the reconfigure statement causes the SQL Server plan cache to be flushed. If this is true then it is a pretty crucial piece of information for a DBA. 
+ So I set up a quick experiment, using the 

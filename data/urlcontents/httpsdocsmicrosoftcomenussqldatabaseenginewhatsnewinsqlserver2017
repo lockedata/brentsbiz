@@ -1,0 +1,32 @@
+What's new in Database Engine - SQL Server 2017 | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 What's new in Database Engine - SQL Server 2017 
+
+					 
+								 10/24/2017 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This topic describes improvements made to the  SQL Server Database Engine for SQL Server 2017. Click the links for more information on each item. 
+ Note SQL Server 2017 also includes the features added in SQL Server 2016 service packs. For those items, see  What's New in SQL Server 2016 (Database Engine) . 
+ 
+ Enhancements    
+ CLR uses Code Access Security (CAS) in the .NET Framework, which is no longer supported as a security boundary. A CLR assembly created with  PERMISSION_SET = SAFE 

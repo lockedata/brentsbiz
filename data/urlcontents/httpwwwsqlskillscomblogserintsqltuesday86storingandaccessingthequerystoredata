@@ -1,0 +1,46 @@
+T-SQL Tuesday #86: Storing and Accessing the Query Store Data - Erin Stellato 
+
+
+  
+	  
+		 
+  
+ 
+ 
+
+ 
+		 
+		 
+		 About  
+		 Contact Us  
+		 
+	 
+ 
+ 
+
+
+ 
+
+ 
+ 			 
+				 Erin Stellato 
+ The SQL Sequel 
+
+			 
+				 
+			 
+			 
+			 SQLskills Home 
+ Blog Home 
+ Bio 
+ Email Erin 
+ Training 
+ Services 
+ 
+			 
+ 
+ You are here:  Home  &gt;&gt;  T-SQL Tuesday #86: Storing and Accessing the Query Store Data 
+
+ T-SQL Tuesday #86: Storing and Accessing the Query Store Data By:  Erin Stellato    Posted on: January 10, 2017 7:32 am  T-SQL Tuesday 
+ The crew over at Brent Ozar Unlimited is hosting  this month’s T-SQL Tuesday , and the request was to find an interesting Connect item (bug fix or enhancement request) and write about it.  I’ve been knee-deep in Query Store, and there are two Connect items that immediately came to mind. 
+ One of the primary uses of Query Store is finding query regressions – that’s where I start with every presentation and that’s how it’s been  pitched by Microso

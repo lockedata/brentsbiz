@@ -1,0 +1,33 @@
+Estimated vs. Actual Number of Rows in Nested Loop Operators - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Estimated vs. Actual Number of Rows in Nested Loop Operators 
+
+				 
+					 September 6, 2016 Kendra Little Execution Plans ,  Indexes ,  Performance 7  Comments 				 
+			 
+		 
+
+			 
+ This is one of those little details that confused me a ton when I was first working with execution plans. 
+ One problem with learning to work with plans is that there’s just SO MUCH to look at. And it’s a bit spread out. 
+ So, even when looking at a single tooltip, things can be confusing. 
+ Let’s talk about the nested loop operator, who can be particularly weird to understand. 
+ Meet our nested loop 
+ Here’s a nested loop from a SQL Server Execution plan: 
+ 
+ For every row that comes in from the top right index seek, SQL Server goes and does the bottom right index seek. Like this: 
+ 
+ I think the best way to explain this was tweeted by  Andy Mallon : 
+ 
+ I thought the outer

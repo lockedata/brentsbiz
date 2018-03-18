@@ -1,0 +1,47 @@
+The SQL Server 2016 Scheduler and Trace Flag 8008 |  
+ 
+		 
+			 
+								 
+					 
+						 
+				 
+				 
+					 
+					 
+				 
+							 
+		 
+
+		 
+				 Skip to content 
+				 
+					 
+				 
+
+				 About 
+ Courses 
+ Contact 
+ 			 
+		 
+
+	 
+		 
+
+			 
+				 The SQL Server 2016 Scheduler and Trace Flag 8008 	 
+		    by  datatake 
+			   Posted on   May 13, 2016 May 13, 2016 
+			  
+	 
+		 Uncategorized 
+	 
+
+	 
+		 
+
+	
+	 
+		 A lot of the work I have done over the last year has involved placing stress on the database engine via singleton inserts using a stored procedure that inserts rows in a loop under the context of explicit transaction. I use ostress to fire off multiple executions of the procedure and the table inserted into either has a clustered index key populated by NEWID() or a key crafted from @@SPID + offset in order to avoid the “Last page problem” whereby performance is throttled by the PAGELATCH_EX waits created from inserts into the . . . right most leaf node page in the index b-tree: 
+ 
+ The

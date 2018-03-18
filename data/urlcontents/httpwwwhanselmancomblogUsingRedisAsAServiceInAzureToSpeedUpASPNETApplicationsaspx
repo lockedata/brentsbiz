@@ -1,0 +1,29 @@
+Using Redis as a Service in Azure to speed up ASP.NET applications - Scott Hanselman 
+ Scott Hanselman 
+         about 
+            	 blog 
+            	 speaking 
+            	 podcasts 
+            	 books   
+           
+               
+                   
+               
+                browse by  category  or  date 
+               
+       
+     
+
+     
+     Using Redis as a Service in Azure to speed up ASP.NET applications 
+     November 6, '15 
+		 Comments [18] 
+     Posted in  ASP.NET MVC  |  Azure     
+     
+              Sponsored By 
+                    
+                     
+
+                   
+          
+		 Microsoft Azure has a  Redis Cache  as a Service. There's two tiers. Basic is a single cache node, and Standard is as a complete replicated Cache (two nodes, with automatic failover). Microsoft manages automatic replication between the two nodes, and offers a high-availability SLA. The  Premium  tier can use up to a half-terabyte of RAM and te

@@ -1,0 +1,67 @@
+DBMS_STATS 
+ Go to main content 
+ 
+ 
+ 159/290   
+ 
+ 155  DBMS_STATS 
+ With the  DBMS_STATS  package you can view and modify optimizer statistics gathered for database objects. 
+ 
+ See Also: 
+ Oracle Database SQL Tuning Guide 
+ This chapter contains the following topics: 
+ 
+ Using DBMS_STATS 
+ 
+ Overview 
+ 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Types 
+ 
+ 
+ Constants 
+ 
+ 
+ Operational Notes 
+ 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Examples 
+ 
+ 
+ 
+ Data Structures 
+ 
+ 
+ Summary of DBMS_STATS Subprograms 
+ 
+ 
+ 
+ Using DBMS_STATS 
+ This section contains topics which relate to using the  DBMS_STATS  package. 
+ 
+ Overview 
+ 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Types 
+ 
+ 
+ Constants 
+ 
+ 
+ Operational Notes 
+ 
+ 
+ Deprecated Subprograms 
+ 
+ 
+ Overview 
+ The Oracle RDBMS allows you to collect statistics of many different kinds as an aid to improving performance. This package is concerned with optimizer statistics only. Given that Oracle sets automatic statistics collection of this kind on by default, this packag

@@ -1,0 +1,35 @@
+The Internals of PostgreSQL : Introduction   
+           
+       
+       
+	  
+	   
+	     
+	    
+	   
+           
+             Introduction 
+               Table of Contents 
+		    Introduction 
+                   1. Database Cluster, Databases, and Tables 
+		     1.1 Logical Structure of Database cluster 
+		       1.2 Physical Structure of Database cluster 
+		       1.3 Internal Layout of a Heap Table File 
+		       1.4 The Methods of Writing and Reading Tuples 
+		     
+		  
+                   2. Process and Memory Architecture 
+		     2.1 Process Architecture 
+		       2.2 Memory Architecture 
+		     
+                   3. Query Processing 
+		     3.1 Overview 
+		       3.2 Cost Estimation in Single-Table Query 
+		       3.3 Creating the Plan Tree of a Single-Table Query 
+		       3.4 How the Executor Performs 
+		       3.5 Join Operations 
+		       3.6 Creating the Plan Tree of Multiple-Table Query 
+		     
+                   4. Parallel Query and Foreign Data Wrapper (FDW) 
+		  
+   

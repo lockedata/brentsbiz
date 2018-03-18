@@ -1,0 +1,46 @@
+VMware vSphere 6.5 breaks your SQL Server vNUMA settings | Convergence of Data and Infrastructure 
+    				 
+					 
+					 Convergence of Data and Infrastructure 
+		 Thoughts from David Klee 
+     
+	 
+	 
+	
+ 
+	 
+	 
+	 
+ About David Klee 
+ Community Events 
+ Education 
+ Training Sessions 
+	 Training Videos 
+	 Presentations 
+ 
+ Home Lab 
+ Articles 
+ SQL Server 
+	 Virtualization 
+	 Infrastructure 
+ 
+ Books 
+ Contact 
+
+ 
+	 
+			 
+				     
+		  	 
+	 
+		 VMware vSphere 6.5 breaks your SQL Server vNUMA settings 
+		 
+					   Best Practices ,  SQL Server ,  Technology ,  Virtualization 
+							   Add comments 
+					 
+		 
+		 Nov   29 2016 
+	   		 
+			 
+ VMware’s  latest release of the  vSphere virtualization suite, version  6.5 , changes how they handle vNUMA presentation to a virtual machine, and there’s a high likelihood that it will break your virtualized SQL Server vNUMA configuration and lead to unexpected changes in behavior.  It might even slow down your SQL Servers. 
+ Here’s 

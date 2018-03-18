@@ -1,0 +1,35 @@
+SET STATISTICS PROFILE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SET STATISTICS PROFILE (Transact-SQL) 
+
+					 
+								 06/10/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Displays the profile information for a statement. STATISTICS PROFILE works for ad hoc queries, views, and stored procedures.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+SET STATISTICS PROFILE { ON | OFF }  
+ Remarks 
+  When STATISTICS PROFILE is ON, each executed query returns its regular result set, followed by an additional result set that shows a profile of the query execution.   
+  The additional result set contains the SHOWPLAN_ALL columns for the query and these additional columns.   
+ Column name 
+ Description 
+ Rows 
+ Actual number of rows produce

@@ -1,0 +1,10 @@
+Packaging Permissions in Stored Procedures 
+
+ Packaging Permissions in Stored Procedures 
+ 
+   An SQL text by  Erland Sommarskog , SQL Server
+   MVP.  Most recent update  2017-12-03. Copyright  applies to this text. See here for  font conventions  used in this article. 
+
+ Introduction 
+ In this article you will learn you how you can package permissions for an action in SQL Server inside a stored procedure. That is, rather than granting the permissions the action requires directly to users and thereby permit them to do a lot more things they should not be allowed to, you  grant them rights to run a stored procedure which performs this specific action but not more than that. A simple example in an application is that far-reaching updates to a customer record should only be permitted for managers. An example from the DBA world is that you  have power users who need be able to see who are connected to their database, but they must not see other users on the system.  
+ For this pac

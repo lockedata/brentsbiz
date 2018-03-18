@@ -1,0 +1,60 @@
+Do You Have Check Constraints On Your Start and End Dates? | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ November 21, 2016 
+ 
+	  Do You Have Check Constraints On Your Start and End Dates? 
+	 Filed under:  Miscelleaneous SQL , SQL Scripts , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 10:13 am  
+
+	 
+		 Adam Machanic tweeted this advice last week: 
+ 
+ Please do this. Thanks. 
+ ALTER TABLE [your_table] ADD CONSTRAINT [start date must be less than end date] CHECK (start_date &lt; end_date); 
+ — Adam Machanic (@AdamMachanic)  November 17, 2016 
+ 
+ Are you missing any of these check constraints? Run this query to check. 
+This query looks for any columns in the same table that begin with “Start” and “End”. It then looks for check constraint

@@ -1,0 +1,30 @@
+Trace Flags (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DBCC TRACEON - Trace Flags (Transact-SQL) 
+
+					 
+								 01/08/2018 
+							 34 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Trace flags are used to temporarily set specific server characteristics or to switch off a particular behavior. For example, if trace flag 3205 is set when an instance of  SQL Server starts, hardware compression for tape drivers is disabled. Trace flags are frequently used to diagnose performance issues or to debug stored procedures or complex computer systems. 
+ The following table lists and describes the trace flags that are available in  SQL Server. 
+ Note Some trace flags were introduced in specific  SQL Ser

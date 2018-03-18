@@ -1,0 +1,51 @@
+Fun with random names | sqlsunday.com 
+ 
+
+	 
+			 
+				 
+					 sqlsunday.com 
+					 T-SQL programming, useful tips and tutorials for the MS SQL Server developer. 
+				 
+			 
+		 
+	 Menu 
+		 Skip to content 
+
+		 About sqlsunday.com 
+ Structured Concepts 
+ Development 
+	 Performance 
+	 Training 
+	 Master data tool 
+	 File parser API 
+	 Datawarehouse-as-a-service 🇸🇪 
+ 
+ Slack app 
+ Presentations 
+ Downloads 
+ Checklists 
+ Installing SQL Server 2014 
+	 Installing SQL Server 2016 
+	 Installing SQL Server 2017 
+	 Links and utilities 
+ 
+ 		 
+			 Search 
+		 
+		 
+			 
+				 
+					 Search for: 
+					 
+				 		 
+	 
+
+	 
+		 Fun with random names 				 
+			 2017-09-18 2017-09-17  /  Daniel Hutmacher 					 
+	 
+		 Just for laughs, we’re going to take a look at a slightly-too-complex yet elegant solution to a seemingly simple task: creating a list of 100 fictional company names for a demo database. 
+ 
+ What I need 
+ I’m working on a demo database where I need some fictional customer records (company names).

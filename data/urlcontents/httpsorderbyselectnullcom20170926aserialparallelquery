@@ -1,0 +1,28 @@
+A Serial Parallel Query – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 A Serial Parallel Query 
+		 
+						 Posted on  September 26, 2017  by  Joe Obbish 					 
+
+	 
+		 Sometimes parallel queries perform poorly due to bad luck. The parallel page supplier may distribute rows in a way that’s not optimal for performance. The hashing function used by SQL Server to split rows into threads may assign too many rows to a single thread. You may have seen some of these situations in production queries, but they can be hard to reproduce because they may depend on a lot of different factors including the complete data in some of the involved tables. This blog post demonstrates a technique to create demos that show how parallel thread imbalance can lead to poor performance. 
+ Mapping Hash Partition Destination Threads 
+ This work is inspired by a recent blog post at  sql.sasquatch  by my fr

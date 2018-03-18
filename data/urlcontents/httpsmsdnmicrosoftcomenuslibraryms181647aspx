@@ -1,0 +1,32 @@
+sp_recompile (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_recompile (Transact-SQL) 
+
+					 
+								 03/16/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Causes stored procedures, triggers, and user-defined functions to be recompiled the next time that they are run. It does this by dropping the existing plan from the procedure cache forcing a new plan to be created the next time that the procedure or trigger is run. In a  SQL Server Profiler collection, the event SP:CacheInsert is logged instead of the event SP:Recompile.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_recompile [ @objname = ] 'object'  
+ Arguments 
+  [ @objname= ] ' object '  The qualified or unqualified name of a stored procedure,

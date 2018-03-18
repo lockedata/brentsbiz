@@ -1,0 +1,61 @@
+Defining the Good Data Model | Thomas Kejser's Database Blog 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+	 
+		 
+
+	 
+		 Thomas Kejser's Database Blog 
+		 Fighting bad Data Modeling 
+	 
+
+	 
+ 
+ 
+
+ 
+ 
+	 
+	 Home About Me 
+ Courses 
+ DW and Big Data 
+ Grade of the Steel 
+ 
+		 
+			 
+				 
+		 
+	 
+ 
+ 
+ 
+
+ 
+ 
+
+	 
+	 
+
+
+	 
+		 Home 
+		 &gt;  Data Warehouse ,  Modeling 		 &gt; Defining the Good Data Model	 
+
+	 
+		 Defining the Good Data Model 
+		 
+			 April 18, 2011 
+													 Leave a comment 
+				 Go to comments 
+						 
+		 
+		 
+			 Designing data models is fun – at least if you are a geek like me. But as much as I like the academic thrill of building something that is complex – I am aware that it is often humans that eventually must see and maintain my beautiful (data) model. How can we design something that humans can understand? 
+ Humans are buggy! In general, they don’t deal well with complexity. You can blame modern education, you can scream and shout, or languish on the fact that the IT industry is riddled with inco

@@ -1,0 +1,44 @@
+Following a Select Statement Through Postgres Internals - Pat Shaughnessy 
+   
+     
+       
+       
+         
+           
+            Pat Shaughnessy
+           
+           
+            blogger, rubyist, aspiring author
+           
+         
+       
+     
+   
+   
+     
+       
+      
+         
+      
+         Following a Select Statement Through Postgres Internals 
+  
+     
+     October 13th 2014  —    Comments and   Reactions Tweet 
+  
+   
+   Captain Nemo takes Professor Aronnax on a tour of the engine room, a fascinating description of future technology from an 1870 perspective. 
+ 
+
+
+ 
+This is the third of a series of four posts based on a presentation I did at the
+ Barcelona Ruby Conference  called “20,000 Leagues Under
+ActiveRecord.” (posts:
+ one 
+ two 
+ four 
+and  video ). 
+
+ Preparing for this presentation over the Summer, I decided to read through
+parts of the PostgreSQL C source code. I executed a very simple select
+statement and watched what Postgres did with it using LLDB, a

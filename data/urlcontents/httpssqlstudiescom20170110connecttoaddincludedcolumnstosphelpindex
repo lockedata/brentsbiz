@@ -1,0 +1,54 @@
+Connect suggestion to add included columns to sp_helpindex | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Connect suggestion to add included columns to sp_helpindex 
+       				 Leave a comment 
+		         January 10, 2017  by Kenneth Fisher 
+
+		 
+			 I’m a big fan of the  sp_help system stored procedures , which is why I’ve been a bit disappointed that the  sp_helpindex  stored procedure is rather badly flawed.  It doesn’t have the included columns from the index.  This seems a bit strange to me since included columns first appeared in SQL 2005 (&gt;10 years ago) and are very important when doing index ana

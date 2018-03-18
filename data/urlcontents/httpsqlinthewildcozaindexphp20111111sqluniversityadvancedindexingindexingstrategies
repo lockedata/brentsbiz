@@ -1,0 +1,32 @@
+SQL University: Advanced Indexing – Indexing Strategies | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       SQL University: Advanced Indexing – Indexing Strategies 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  Indexes  &gt;  SQL University: Advanced Indexing – Indexing Strategies     
+     
+   
+     
+       Author:  Gail 
+       11 November 2011 
+       7 Comments 
+     
+     
+       Indexes ,  SQL Server ,  Syndication 
+       
+      
+   
+     
+ Right, I know it’s Friday and everyone’s tired and looking forward to the weekend, but I do need to finish off this indexing section and I’ll try to keep this short and interesting and hopefully keep everyone awake. 
+ There’s no shortage of information available on how to create indexes. Hell, I’ve written a copious amount myself. Most of these many articles however are written from the point of indexing single queries. What you chose for a

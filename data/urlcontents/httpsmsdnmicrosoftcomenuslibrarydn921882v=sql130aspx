@@ -1,0 +1,26 @@
+Format Query Results as JSON with FOR JSON (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Format Query Results as JSON with FOR JSON (SQL Server) 
+
+					 
+								 07/18/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Format query results as JSON, or export data from SQL Server as JSON, by adding the  FOR JSON  clause to a  SELECT  statement. Use the  FOR JSON  clause to simplify client applications by delegating the formatting of JSON output from the app to  SQL Server. 
+  When you use the  FOR JSON  clause, you can specify the structure of the JSON output explicitly, or let the structure of the SELECT statement determine the output.   
+ To maintain full control over the format of the JSON output, use  FOR JSON PATH . You can create wrapper objects and nest comp

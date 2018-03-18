@@ -1,0 +1,23 @@
+Click of death - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ Click of death 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 
+ 
+ 
+ 
+A standard ZIP100 disk 
+ 
+ 
+ Click of death  is a term that became common in the late 1990s referring to the clicking sound in  disk storage  systems that signals a disk drive has  failed , often catastrophically. [1] 
+ The clicking sound itself arises from the unexpected movement of the disk's  read-write actuator . At startup, and during use, the disk head must move correctly and be able to confirm it is correctly tracking data on the disk. If the head fails to move as expected or upon moving cannot track the disk surface correctly, the  disk controller  may attempt to recover from the error by returning the head to its home position and then retrying, at times causing an audible "click". In some devices, the process automatically retries, causing a repeated or rhythmic clicking sound. 
+ 
+ 
+ 

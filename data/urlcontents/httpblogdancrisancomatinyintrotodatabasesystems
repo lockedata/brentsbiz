@@ -1,0 +1,46 @@
+A Tiny Intro to Database Systems 
+   Svbtle 
+   Dan Crisan 
+   Menu 
+   
+      Dan Crisan is writing on the  Svbtle  network. 
+     
+     @dandancrisan 
+     medium.com/@dancrisan 
+     rss feed 
+     
+     about svbtle 
+     sign up 
+   
+
+ April 24, 2015 
+     A Tiny Intro to Database Systems 
+   
+	 Here is a short summary of DBMS : database management systems.  
+
+ Part of the motivation behind those little chapters is described in another blog post  here . 
+
+ Introduction 
+ The Entity-Relationship Model 
+ The Relational Model 
+ Relational Algebra 
+ Very Basic SQL 
+ More Basic SQL 
+ Integrity Constraints 
+ Triggers 
+ On Disk and Buffer Management 
+ Indexing 
+ B+ trees 
+ Concurrency Control - Scheduling problems 
+ Schema Refinement - Functional Dependencies 
+ If you would like to read those in a nicely formatted PDF or if you have any questions / suggestions / requests, feel free to send me a tweet  @dandancrisan . 
+
+   
+         
+     
+     1,210 
+     Kudos 
+   
+         
+     
+     

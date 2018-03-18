@@ -1,0 +1,58 @@
+Problem With Too Many version_ghost_records | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ August 2, 2017 
+ 
+	  Problem With Too Many version_ghost_records 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 We encountered a CPU issue which took over a month to understand and fix. Since then, it’s been another couple months and so I think it may be time for a debrief.  
+ The cause was identified as a growing number of ghost records that SQL Server would not clean up no matter what. Our fix was ultimately to restart SQL Server. 
+ 
+ Symptoms and Data Collection 
+ Here’s what we found. 
+ At time marked ‘A’ on the graph, we noticed that CPU increased dramatically. It was hard not to notice. 

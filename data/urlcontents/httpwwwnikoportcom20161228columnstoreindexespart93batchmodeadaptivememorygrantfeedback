@@ -1,0 +1,40 @@
+Columnstore Indexes – part 93 (“Batch Mode Adaptive Memory Grant Feedback”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Columnstore Indexes – part 93 (“Batch Mode Adaptive Memory Grant Feedback”)    			 
+  			 
+    			 Continuation from the previous 92 parts, the whole series can be found at  http://www.nikoport.com/columnstore/ . 
+ Given that currently the Batch Execution Mode is an exclusive feature of the Columnstore Indexes, and that the new developments in the query optimisation area are mainly targeting In-Memory &amp; Columnstore Features, in SQL Server vNext (post 2016) we shall have some incredible automatic Query Processing optimisations that w

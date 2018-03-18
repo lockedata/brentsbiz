@@ -1,0 +1,37 @@
+TRY...CATCH (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 TRY...CATCH (Transact-SQL) 
+
+					 
+								 03/16/2017 
+							 9 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Implements error handling for  Transact-SQL that is similar to the exception handling in the  Microsoft Visual C# and  Microsoft Visual C++ languages. A group of  Transact-SQL statements can be enclosed in a TRY block. If an error occurs in the TRY block, control is passed to another group of statements that is enclosed in a CATCH block.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ BEGIN TRY  
+     { sql_statement | statement_block }  
+END TRY  
+BEGIN CATCH  
+     [ { sql_statement | statement_block } ]  
+END CATCH  
+[ ; ]  
+ Arguments 
+   sql_state

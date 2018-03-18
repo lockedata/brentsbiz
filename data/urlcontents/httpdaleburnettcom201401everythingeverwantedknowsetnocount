@@ -1,0 +1,33 @@
+Everything You Ever Wanted to Know About SET NOCOUNT - Dale Burnett 
+	 
+		 
+				 Dale Burnett 
+				 A blog about SQL Server 
+			 
+
+			 
+				 Menu 
+					 Skip to content 
+					 About 
+ Contact 
+ 
+					 
+				 
+					 Search for: 
+					 
+				 				 
+		 
+
+	 
+		 
+
+						
+				
+ Everything You Ever Wanted to Know About SET NOCOUNT 
+		
+		 
+			 January 30, 2014 Internals ,  SET Statements ,  T-SQL nocount ,  set ,  tds Dale Burnett 					 
+	 
+		 SET NOCOUNT has to be one of the most used T-SQL statements. I can’t think of a single production script or procedure in which I didn’t use this SET statement. And I have to stretch to come up with a case when I would specifically not use it. The only time I don’t use NOCOUNT is when writing off-the-cuff test scripts. I decided to dig into it a bit and see what it really does behind the scenes. 
+ 
+ From BOL: “Stops the message that shows the count of the number of rows affected by a Transact-SQL statement or stored procedure from being returned as part of 

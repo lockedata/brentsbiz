@@ -1,0 +1,37 @@
+Killing databases in SQL Server on Linux | DBA From The Cold 
+ 
+		 
+			 
+				 DBA From The Cold 
+				 Ramblings on working as a SQL Server DBA 
+			 
+			 Menu 
+				 Skip to content 
+
+				 Home About 
+ Engagements 
+ Presentations 
+ 
+			 
+	 
+
+	 
+		 
+
+		
+		
+			 Killing databases in SQL Server on Linux 		 
+			 January 11, 2017    ~  dbafromthecold  		 
+	 
+		 Bit of fun this week with something that a colleague of mine noticed when playing around with SQL Server on linux. 
+ The first thing you do when playing with a new technology is see how you can break it right? Always good fun 🙂 
+ So I’m going to break a database in a SQL Server instance that’s running on linux. I’m not going to go through the install process as there’s a whole bunch of resources out there that detail how to do it. See  here 
+ Once you have your instance up and running, connect it to as normal in SSMS and create a database with one table:- 
+ 
+CREATE DATABASE [GoingToBreak];
+GO
+
+USE [GoingToBreak];
+GO
+
+CREATE TABLE

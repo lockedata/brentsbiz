@@ -1,0 +1,29 @@
+Trace Flag 610 and SQL Server 2016 – ORDER BY (SELECT NULL) 
+ 
+	 Skip to content 
+
+	 
+				 Menu 
+				 Home 
+ About 
+ 			 
+		 
+			 
+
+									 ORDER BY (SELECT NULL) 
+							 
+		 
+
+	 
+		 
+
+	 
+		 Trace Flag 610 and SQL Server 2016 
+		 
+						 Posted on  July 10, 2017 August 3, 2017  by  Joe Obbish 					 
+
+	 
+		 SQL Server recently surprised me with unexpected minimal logging. Normally this would be a cause for celebration but I was designing demos for a class. The point of that particular demo was to demonstrate a case in which minimal logging did not occur. The specific test case was inserting into a rowstore clustered index without a  TABLOCK  hint. Per the documentation, I should not have gotten minimal logging unless trace flag 610 was turned on. I was testing on SQL Server 2016 without trace flag 610. 
+ Trace Flag 610 
+ This trace flag is documented by Microsoft in  The Data Loading Performance Guide . Here’s a relevant quote: 
+ Not every row inserted in a cluster index with trace f

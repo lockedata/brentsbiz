@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.12//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:PDT
+TZOFFSETTO:-0700
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:PST
+TZOFFSETTO:-0800
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Los_Angeles:20161028T110000
+UID:1an3hqbo822ij6hek944ps5v7s@google.com
+DTSTAMP:20161012T152950Z
+LOCATION:TCC Tahoma Rooms 3-4 (Across the street from the main Conventio
+ n Center hall\, so plan ahead)
+DESCRIPTION:This is not yet another career session that tells you to be 
+ friendly and network. Forget that - this is about using your IT skills t
+ o reinvent the way you get paid. Brent will explain how he went from DBA
+  to MVP to MCM to business founder.\n\nBrent will show you simple techni
+ ques to 

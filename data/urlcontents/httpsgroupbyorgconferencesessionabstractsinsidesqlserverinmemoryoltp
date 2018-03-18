@@ -1,0 +1,54 @@
+Inside SQL Server In-Memory OLTP – GroupBy 
+
+ 
+
+	
+		
+		 Menu Watch Past Sessions 
+ Download the Podcasts 
+ Get the Android App 
+ Get the iOS App 
+ 
+ Submit a Session 
+ Speaker FAQs 
+ Speaker Login/Registration 
+ 
+ Submitted Sessions 
+ News 
+ About Us 
+ Contact Us 
+ 
+ 
+		 
+			 
+		 
+		 
+			 Twitter 
+		 
+	 
+		 
+			 
+		 
+		 
+			 YouTube 
+		 
+	 
+	 
+
+		 
+		 
+							 
+						 
+				 Inside SQL Server In-Memory OLTP 
+
+				 
+					 May 16, 2017 Bob Ward 2017-09 Sessions ,  With Videos No Comments 				 
+			 
+		 
+
+			 
+ 
+ Target Audience: 
+ This is intended for those who want to dive deep inside internals of In-Memory OLTP 
+ Abstract: 
+ Based on the successful 500 Level talk at PASS 2016, this session will provide an internals view of how In-Memory OLTP works for SQL Server 2016 and 2017. Because this session is Advanced, it is intended for those that understand the basic fundamentals of In-Memory OLTP but want to learn how the “Hekaton” engine works behind the sce

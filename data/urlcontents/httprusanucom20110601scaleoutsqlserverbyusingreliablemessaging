@@ -1,0 +1,26 @@
+Scale out SQL Server by using Reliable Messaging 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         Scale out SQL Server by using Reliable Messaging 
+         June 1st, 2011  
+         
+
+ 
+ How do large-scale sites and applications remain SQL-based?  is a recent article from Michael Rys ( Blog | Twitter ) that highlights the relational SQL Server based web-scale deployment at MySpace. I have talked before about how MySpace uses Service Broker as a reliable messaging backbone to power the communications between +1000 databases, allowing them to scale-out and partition the user information into individual shards. Here are some more details about this architecture: 
+ MySpace Uses SQL Server Service Broker to Protect Integrity of 1 Petabyte of Data 
+ Developing Large Scale Web Applications and Services (video) 
+ MySpace SQL Server Service Broker  (slides) 
+ 
+ This new article uses the MySpace deployment as a case study to counter balance the 

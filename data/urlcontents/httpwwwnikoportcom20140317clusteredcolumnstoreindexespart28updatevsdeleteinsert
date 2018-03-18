@@ -1,0 +1,41 @@
+Clustered Columnstore Indexes – part 28 (“Update vs Delete + Insert”) – Niko Neugebauer 
+	
+	 
+				 
+		 
+			 
+				 	 
+		 Search 
+		 
+				 Responsive Menu 
+			  
+								 
+									Niko Neugebauer								 
+							 
+														 SQL Server, Columnstore, Data Platform &amp; Community 
+																
+				 
+	 	
+		
+	 Home 
+ Columnstore 
+ Batch Mode 
+ NodeXL 
+ SQL Events 
+ Presentations 
+ Niko Neugebauer 
+ Contact me 
+ 
+ 
+					 
+
+ 
+	
+
+ 
+    	 
+    				Clustered Columnstore Indexes – part 28 (“Update vs Delete + Insert”)    			 
+  			 
+    			 Continuation from the previous 27 parts, starting from  http://www.nikoport.com/2013/07/05/clustered-columnstore-indexes-part-1-intro/ 
+ This blog post is all about the architectural specifics &amp; performance optimizations for the Clustered Columnstore Indexes. 
+It is known that Inserts are mostly faster than pure Update operations, since we could get less page splits (when inserting ordered data), but what about the latest &amp; the greatest Cluste

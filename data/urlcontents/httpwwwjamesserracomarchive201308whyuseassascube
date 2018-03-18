@@ -1,0 +1,50 @@
+Why use a SSAS cube? | James Serra's Blog 
+ 
+     
+    	 
+		 
+		 
+		 
+		     
+			 James Serra's Blog 
+		     
+		 
+		 Big Data and Data Warehousing 
+		 Skip to content 
+
+	     
+			 
+	    		 
+ Home Presentations 
+ Consulting 
+ About Me 
+ Contact Me 
+ 
+		 
+		
+	 
+     
+
+
+     
+ 
+
+        	     
+
+
+		 
+		     ←  Best Practices to Deliver BI Solutions Presentation 
+		     Presentations slides for Best Practices to Deliver BI Solutions  → 
+		 
+
+		 
+		     	 Why use a SSAS cube? 
+ 
+
+			         
+ Posted on   August 6, 2013   by   James Serra 
+         
+
+			 
+			     What are the advantages of using SSAS Cubes over a regular data warehouse for reporting?  Note I’m not asking why report on a data warehouse instead of a OLTP database. which is covered at  Why You Need a Data Warehouse .  Think of it as if I have a reporting tool and have the option to link to tables in a data warehouse or an SSAS cube, what would be the benefits if I linked to the SSAS cube: 
+ Speed: Aggregating (Summarizing) the 

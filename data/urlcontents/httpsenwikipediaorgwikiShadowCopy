@@ -1,0 +1,42 @@
+Shadow Copy - Wikipedia 		 
+		 
+		 
+			 
+			 
+ 
+ Shadow Copy 			 
+				 From Wikipedia, the free encyclopedia 				 
+								 
+					Jump to:					 navigation , 					 search 
+				 
+				 Shadow Copy 
+ A component of  Microsoft Windows 
+ 
+ Previous Versions  in Windows Vista, a part of  Windows Explorer  that allows persistent shadow copies to be created 
+ 
+ Details 
+ Other names 
+ 
+ 
+ Volume Snapshot Service [1] 
+ Previous Versions 
+ Shadow Copies for Shared Folders8 
+ VSS [2] 
+ 
+ 
+ Included with 
+ 
+ 
+ Windows XP  with Service Pack 2 and later 
+ Windows Server 2003  and later 
+ 
+ 
+ Also available for 
+ Windows 2000 ,  Windows XP  RTM or SP1 
+ Service name 
+ VSS [2] 
+ Description 
+ Volume Shadow Copy 
+ Related components 
+ Backup and Restore ,  File History 
+ Shadow Copy  (also known as  Volume Snapshot Service , [1] Volume Shadow Copy Service [2]  or  VSS [2] ) is a technology included in  Microsoft Windows  that allows taking manual or automatic backup copies or  snapshots  of  computer fi

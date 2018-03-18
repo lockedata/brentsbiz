@@ -1,0 +1,56 @@
+Improving SELECT * Query Performance – GroupBy 
+
+ 
+
+	
+		
+		 Menu Watch Past Sessions 
+ Download the Podcasts 
+ Get the Android App 
+ Get the iOS App 
+ 
+ Submit a Session 
+ Speaker FAQs 
+ Speaker Login/Registration 
+ 
+ Submitted Sessions 
+ News 
+ About Us 
+ Contact Us 
+ 
+ 
+		 
+			 
+		 
+		 
+			 Twitter 
+		 
+	 
+		 
+			 
+		 
+		 
+			 YouTube 
+		 
+	 
+	 
+
+		 
+		 
+							 
+						 
+				 Improving SELECT * Query Performance 
+
+				 
+					 June 28, 2017 Erik Darling 2017-12 Sessions ,  With Videos 6  Comments 				 
+			 
+		 
+
+			 
+ 
+ Target Audience: 
+ Anyone who’s frustrated with supporting and performance tuning queries with really long SELECT lists. 
+ Abstract: 
+ You’re a DBA or Developer, and you have a gut feeling that these simple queries with an egregious number of columns in the SELECT list are dragging your server down. 
+ You’re not quite sure why, or how to index for them. Worst of all, no one seems to be okay with you returning fewer columns. 
+ In this 

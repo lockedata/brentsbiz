@@ -1,0 +1,32 @@
+sys.dm_exec_text_query_plan (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_exec_text_query_plan (Transact-SQL) 
+
+					 
+								 10/20/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns the Showplan in text format for a  Transact-SQL batch or for a specific statement within the batch. The query plan specified by the plan handle can either be cached or currently executing. This table-valued function is similar to  sys.dm_exec_query_plan (Transact-SQL) , but has the following differences:   
+ The output of the query plan is returned in text format.   
+ 
+ The output of the query plan is not limited in size.   
+ 
+ Individual statements within the batch can be specified.   
+ 
+ Applies to :  SQL Server ( SQL Server 2008 

@@ -1,0 +1,62 @@
+  Rehashing SQL Server Hashing Algorithms for Large Text Fields | Thinknook 
+
+	 	
+				  
+			 
+						
+						 
+						
+							 
+							 
+							
+							 
+						
+							 Follow us on Twitter Join our Facebook Group Join me on Google Plus Add me on Linkedin 	 RSS   
+							
+							 
+						
+							
+						
+			
+
+			
+		 
+		 
+		
+			 
+				
+				 
+				
+				
+
+		 
+		
+			 
+			
+			
+			 
+					 Rehashing SQL Server Hashing Algorithms for Large Text Fields					 
+					 
+			 
+			
+			 
+	         
+	        	
+	        	 
+	        		
+	        		 
+	        		
+	        			 23 
+   						 Mar 
+   						
+	        		 
+	        		
+	        	 
+				
+			 	
+			
+
+			 	
+			
+			  March 23, 2013 	
+				 Hashing can be a very useful technique when dealing with the storage and look up of large text fields (say a table of  URLs  or  Search Keywords ), these fields will incur high resource utilization on any database engine if used directly in DML statements, in which they are either filtered by or agg

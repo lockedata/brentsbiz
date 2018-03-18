@@ -1,0 +1,63 @@
+Nati Shalom's Blog: Five Misconceptions on Cloud Portability  
+	
+	 
+		 
+			
+                 
+     
+
+
+ 
+   
+
+ 
+ 
+	 
+		
+		 Nati Shalom's Blog 
+		 
+			Thoughts on Cloud Computing, DevOps, Scalability, NoSQL, Big Data, PaaS 
+		 
+	 
+ 
+
+
+ 
+	 
+		 Home 
+			 Archives 
+			 Profile 
+			 Subscribe 
+		 
+ 
+
+
+
+
+			 
+
+
+				 
+                                         
+						 
+							 
+ 
+ 
+	 « Behind the Curtains of Cloudify, GigaSpaces' new product  |
+	 Main 
+	|  Public vs Private clouds (Again!)- it's not about the cost  » 
+ 
+ November 15, 2011 
+
+
+ 
+    
+			 Five Misconceptions on Cloud Portability  
+	
+
+
+
+	 
+		 
+			 Three years ago when we started working on the first generation of our PaaS offering, cloud portability seemed to be pretty much “mission impossible.” At the time, we made a conscious decision to focus only on Amazon for our first generation PaaS as practically it was the only cloud in town. 
+ Now, there are many different public and private cloud offerings: platforms like GoGrid, VMWare,

@@ -1,0 +1,30 @@
+Large Indexes: Rebuild Or Reorganize? - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Should You Rebuild or Reorganize Indexes on Large Tables? (Dear SQL DBA Episode 19) 
+
+				 
+					 October 13, 2016 Kendra Little Dear SQL DBA ,  High Availability ,  Indexes ,  Maintenance ,  sql 15  Comments 				 
+			 
+		 
+
+			 
+ The bigger your indexes are, the harder your index maintenance falls. Is it better to rebuild big indexes? Or should you reorganize? 
+ If you’re short on time, scroll down: an article with all the content is below the 23 minute video. 
+ 
+ Here’s this week’s question: 
+ Dear SQL DBA, 
+ Any advice for rebuilding indexes on very large tables? We’ve got a large table with over 2 billion rows. Index rebuilds consume over 300GB of transaction log space even though we’re backing up the log every 3 minutes. 
+ To solve this problem, should we reorganize instead of rebuild? 
+ Any issues with never rebuilding indexes – just reorganizing them? 
+ We are using SQL

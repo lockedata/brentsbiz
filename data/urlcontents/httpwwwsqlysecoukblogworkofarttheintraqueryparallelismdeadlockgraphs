@@ -1,0 +1,29 @@
+Work of art - the intra query parallelism deadlock graphs - SQLYSE SQLYSE Everything SQL About Me 
+ Blog 
+ Contact 
+ CONNECT 
+ E-mail Linkedin RSS Twitter Work of art – the intra query parallelism deadlock graphs 
+ 11th September 2015 Look at some of the graphs produced by the intra query parallelism deadlocks, below. 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Bart Duncan explains this “phenomenon” (bug, rather) in this  article . 
+ The two solutions to this problem are: 
+ Adding or tuning an index in order to reduce the cost of the query and hence, eliminate parallelism 
+ Using “OPTION (MAXDOP 1)” query hint to force-stop the query from parallelising 
+ In some instances, depending on the optimization level for the query (specifically, TIMEOUT), you may be able to influence the execution plan by changing the order of the joins. 
+ Would be interested to know if any of you have encountered this scenario and what you did to resolve the issue. 
+ 
+ Comments 
+	 
+				 Blake Bishop   says 			 
+
+			 14th

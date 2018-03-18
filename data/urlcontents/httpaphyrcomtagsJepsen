@@ -1,0 +1,43 @@
+Jepsen 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+     
+       
+     
+       Scala Days 2017 - Jepsen Keynote 
+     
+     
+       
+
+     
+   
+ 
+     
+       Jepsen: CockroachDB beta-20160829 
+     
+     
+       Last fall, I worked with CockroachDB to review and extend their Jepsen test suite. We found new bugs leading to serializability violations, improved documentation, and demonstrated documented behavior around nonlinearizable multi-key transactions. You can read the full analysis on  jepsen.io . 
+
+     
+   
+ 
+     
+       Jepsen: MongoDB 3.4.0-rc3 
+     
+     
+       This fall, I worked with MongoDB to design a new Jepsen test for MongoDB. We discovered design flaws in the v0 replication protocol, plus implementation bugs in the v1 protocol, both of which allowed for the loss of majority-committed updates. While the v0 protocol remains broken, patches for v1 are available in Mo

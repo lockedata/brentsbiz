@@ -1,0 +1,23 @@
+SQL Server: Curse Of Linked Server Security And The Fix – Pass-through Authentication – SQL Jana 
+ 
+	 Skip to content 
+
+	 
+			
+								 SQL Jana 
+									 Jana's ramblings on Oracle, SQL Server, PowerShell and technology 
+						 
+
+		
+			 
+	 
+		 SQL Server: Curse Of Linked Server Security And The Fix – Pass-through Authentication 
+		
+	 
+		 
+
+		 
+		 Linked Servers in a sentence or two: 
+ Linked servers in SQL Server are connection definitions from one data source to another (or same instance) so that queries can be written joining tables spanning the multiple data sources. Although Linked Servers can be made to other data sources besides SQL Server (as we saw on how to  setup a Linked Server to MS Access ), in this post we only look at links from SQL Server to another SQL Server. 
+ What is the concern? 
+ In the more and more connected world, Linked Servers are somewhat unavoidable. However, from an administrators perspective, Linked Servers are generally frowned upon due to the negative

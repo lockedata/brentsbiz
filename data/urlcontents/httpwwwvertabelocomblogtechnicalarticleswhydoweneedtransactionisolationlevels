@@ -1,0 +1,50 @@
+Why Do We Need Transaction Isolation Levels 
+ 
+   
+ 
+   
+     Vertabelo 
+   
+	 
+			 Log in 
+		 
+		 
+       Sign up 
+		 
+	 Features Pricing Support Learn SQL Blog 
+     
+     
+       
+       
+       Log in 
+       Sign up 
+       Features Pricing Support Learn SQL Blog 
+   
+   
+ 
+   
+   
+     
+     Go to articles list 
+   
+	 
+  	 RSS 
+	 
+     
+       
+	 
+       
+        
+         Why Do We Need Transaction Isolation Levels? 
+        
+         
+           by Jakub Barejka Junior J2EE Developer at  e-point 
+           Posted:  May 7, 2015 
+
+       
+		   
+       
+        
+         
+        
+         Imagine that you’re implementing a system for a large bookstore. Many operations have to take place at the same time, multiple customers may simultaneously want to purchase the same book, prices of some books may change, new products are still being delivered, etc. As you know, a single action done by a user is run as a transaction in a database. Let's see what can happen if you allow multiple 

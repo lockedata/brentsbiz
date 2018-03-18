@@ -1,0 +1,135 @@
+PostgreSQL: Documentation: 9.4: Set Returning Functions 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL 9.4 
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.3 
+		
+	
+
+	/
+	
+		
+		 9.4 
+		
+	
+
+	/
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ |  Unsupported versions:
+
+	
+	
+	 8.0 
+	
+
+	/
+	
+	 8.1 
+	
+
+	/
+	
+	 8.2 
+	
+
+	/
+	
+	 8.3 
+	
+
+	/
+	
+	 8.4 
+	
+
+	/
+	
+	 9.0 
+	
+
+	/
+	
+	 9.1 
+	
+
+	/
+	
+	 9.2 
+	
+
+
+ 
+ 
+
+ 
+ 
+   PostgreSQL 9.4.17 Documentation 
+     Prev 
+       Up 
+       Chapter 9.
+      Functions and Operators 
+       Next 
+     
+ 
+   9.24. Set Returning Functions 
+   This section describes functions that possibly return more
+  than one row. The most widely used functions in this class are
+  series generating functions, as detailed in  Table 9-54  and
+   Table
+  9-55 . Other, more specialized set-returning functions are
+  described elsewhere in this manual. See

@@ -1,0 +1,55 @@
+Cursor Statistics Are Missing in dm_exec_query_stats | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ January 20, 2016 
+ 
+	  Cursor Statistics Are Missing in dm_exec_query_stats 
+	 Filed under:  SQLServerPedia Syndication  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 The dmv  dm_exec_query_stats  doesn’t track stats for  OPEN CURSOR  statements. This is a problem because the  OPEN  statement is the one that “runs” your query and if you rely on these stats to monitor performance, then cursor performance is hidden from you. 
+ Cursors have a bad reputation, probably well-deserved. When I see a cursor, I see someone trying to use SQL as a programming language. It’s not what SQL is good at and there’s often a better way. 
+ The pragmatist in me doesn’t care too much. If a c

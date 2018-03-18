@@ -1,0 +1,40 @@
+SQL (PaaS) Database vs. SQL Server in the cloud on VMs (IaaS) | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Choose a cloud SQL Server option: Azure SQL (PaaS) Database or SQL Server on Azure VMs (IaaS) 
+
+					 
+								 02/12/2018 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 Azure has two options for hosting SQL Server workloads in Microsoft Azure: 
+ Azure SQL Database : A SQL database native to the cloud, also known as a platform as a service (PaaS) database or a database as a service (DBaaS) that is optimized for software-as-a-service (SaaS) app development. It offers compatibility with most SQL Server features. For more information on PaaS, see  What is PaaS . 
+ SQL Server on Azure Virtual Machines : SQL Server installed and hosted in the cl

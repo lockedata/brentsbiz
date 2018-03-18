@@ -1,0 +1,26 @@
+Designing for offloaded log backups in AlwaysOn Availability Groups - Part 1 - Centino Systems Blog 
+ 
+	 Centino Systems Blog 
+			 We make a system out of your systems. 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ Publications 
+ Talks 
+ Training 
+ About 
+ 
+		 
+			 
+	 
+		 
+
+			
+				
+	 Designing for offloaded log backups in AlwaysOn Availability Groups – Part 1 
+										 
+					 Leave a reply 				 
+					 
+			 AlwaysOn Availability Groups made their initial appearance in SQL 2012 and have generated a lot of buzz, HA and DR in one! Even with AGs, still integral to your DR strategy are backups and with AGs you’re given the option to offload backups to a secondary replica. In this blog we’re going to talk about offloaded log backups the potential impact to your databases’ recoverability under certain conditions, we’ll begin with some preliminaries on data movement in AGs. 
+ How data is moved in Availability Groups 
+ Roughly speaking data is synchronized between replicas in an Availabil

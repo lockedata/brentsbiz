@@ -1,0 +1,33 @@
+Create a Database Mail Profile | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Create a Database Mail Profile 
+
+					 
+								 08/01/2016 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Use either the  Database Mail Configuration Wizard  or  Transact-SQL to create Database Mail public and private profiles. For more information about mail profiles see  Database Mail Profile . 
+ Before you Begin:   Prerequisites , ,  Security    
+ 
+ To Create a Database Mail private profile using:    Database Mail Configuration Wizard ,  Transact-SQL    
+ 
+ To Create a Database Mail public profile using:    Database Mail Configuration Wizard ,  Transact-SQL    
+ 
+  Before You Begin 
+  Prerequisites 
+  Create one or more Database Mail accounts for the profile. For more information about creating Da

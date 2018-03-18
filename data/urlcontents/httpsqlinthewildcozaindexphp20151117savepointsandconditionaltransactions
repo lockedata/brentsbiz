@@ -1,0 +1,33 @@
+Savepoints and conditional transactions | SQL in the Wild 
+  
+ 
+ 
+  
+ 
+   
+       SQL in the Wild 
+       A discussion on SQL Server 
+     
+   
+     
+   
+     
+       Savepoints and conditional transactions 
+		 
+ SQL in the Wild  &gt;  SQL Server  &gt;  T-SQL  &gt;  Savepoints and conditional transactions     
+     
+   
+     
+       Author:  Gail 
+       17 November 2015 
+       3 Comments 
+     
+     
+       SQL Server ,  Syndication ,  T-SQL 
+       
+      
+   
+     
+ This is the second in a short series on transactions. In the  previous part  I discussed nested transactions and showed that they actually don’t exist. SQL has syntax which may suggest that nested transactions exist, but it’s just a syntactical lie. 
+ One thing I suggested in that post was that transactions should be started and committed (or rolled back) at one level only. 
+ That’s a nice idea, but it often doesn’t work when dealing with existing systems which may have been developed with l

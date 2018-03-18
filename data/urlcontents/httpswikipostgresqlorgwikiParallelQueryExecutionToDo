@@ -1,0 +1,28 @@
+Parallel Query Execution - PostgreSQL wiki 
+	 
+		 
+	 
+		 
+		 Want to edit, but don't see an edit button when logged in?  Click here. 
+ 		 Parallel Query Execution 
+		 
+			 From PostgreSQL wiki 
+			 
+									 Jump to:  navigation ,  search 			 
+			 This is currently under development. See the  ToDo list . 
+ Contents 
+ 1   Purpose 
+ 2   Benefits 
+ 3   Approaches 
+ 4   Challenges 
+ 5   Specific Opportunities 
+ 6   related work 
+   Purpose 
+ Postgres currently supports full parallelism in client-side code.  Applications can open multiple database connections and manage them asyncronously, or via threads.
+ On the server-side, there is already some parallelism:
+ 
+    effective_io_concurrency  allows table page prefetch requests to the kernel, for bitmap joins
+   Helper processes like  background writer  and  wal writer  offload  I/O requirements from the main query execution process
+   Server-side languages can potentially do parallel operations
+   Benefits 
+ There are three possible benefi

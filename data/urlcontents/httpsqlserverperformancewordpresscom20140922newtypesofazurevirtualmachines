@@ -1,0 +1,44 @@
+New Types of Azure Virtual Machines | Glenn Berry's SQL Server Performance 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Glenn Berry's SQL Server Performance 
+					 
+				 
+				 Semi-random musings about SQL Server performance 
+
+										 
+							 
+								 
+
+			 
+			  				 Skip to content 
+								 Home About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  SQL Server Diagnostic Information Queries for September 2014 
+					 Are Electric Cars Practical?  → 
+				 
+
+				 
+											 New Types of Azure Virtual Machines 					
+					 
+						 Posted on   September 22, 2014 						 by   Glenn Berry   					 
+
+					 
+						 Microsoft has announced a new set of VM sizes for Azure Virtual Machines , known as the D-series, that have faster vCPUs (compared to their older A-series Azure VMs) and local, temporary SSDs. 
+ These local SSDs are touted as being good locations to use the new Buffer Pool Extensions (BPE) feature that was added to SQL Server 2014, for both Standard Edition and Enterprise Edition. 

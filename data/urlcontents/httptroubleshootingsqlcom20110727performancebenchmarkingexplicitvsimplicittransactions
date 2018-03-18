@@ -1,0 +1,40 @@
+Performance benchmarking: Explicit vs Implicit Transactions | TroubleshootingSQL 
+ 
+	 
+		 TroubleshootingSQL 
+		 Explaining the bits and bytes of SQL Server and Azure 
+	 
+	 
+		 
+				 
+					 
+			 
+			
+			 Menu 
+				 Skip to content 
+
+				 Home 
+ WhoAmI 
+ Facebook 
+ LinkedIn 
+ Twitter 
+ Wikis 
+ Azure Virtual Machine 
+	 SQL Server Performance 
+	 AlwaysOn Availability Groups 
+ 
+ Events 
+ Videos 
+ 			 
+	 
+		 
+
+		
+			
+ Performance benchmarking: Explicit vs Implicit Transactions 
+
+		 
+			Posted on  July 27, 2011  by  Amit Banerjee 		 
+	 
+		 Benchmarking… The single most important word in Performance Tuning. Without an established benchmark, you really don’t know when to actually call it a day! 
+ If you have ever worked in testing on database projects, you would have probably done testing by trying to narrow down the data set involved which is nearly representative of the actual production data set or used a sub-set of the queries which are representative of the workload which is expected or i

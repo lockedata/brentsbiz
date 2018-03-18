@@ -1,0 +1,7 @@
+MSDN Vintage - Chrome Web Store MSDN Vintage offered by Peter Ritchie (5) 298 users Overview MSDN .NET Vintage watermark A simple extension for msdn.microsoft.com that adds a the word "Vintage" as a watermark to .NET documentation earlier than version 4.5.
+
+Version 0.16:
+ Added support for SQL Server pages.
+
+Version 0.15:
+ Fixed issue with displaying watermark on non-.NET Framework pages. Report Abuse Additional Information Version:   0.16.0 Updated:   May 27, 2013 Size:   2.78KiB Language:   English

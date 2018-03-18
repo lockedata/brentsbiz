@@ -1,0 +1,55 @@
+Michael J Swart - Database Whisperer 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ January 17, 2018 
+ 
+	  SHA1 Collisions in SQL Server 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles , Tongue In Cheek  —  Michael J. Swart @ 8:00 am  
+
+	 
+		 Takeaway:  It’s been frowned on for a while, but SHA1 is definitely broken for security purposes. 
+ In October of 2010, Michael Coles created a contest on his blog called “ Find a Hash Collision, Win $100 “. The contest was part of a discussion at the time about whether the SHA1 hash was useful for detecting changes. For what it’s worth, I still think SHA1 is valuable as a consistency check if not for security. 
+ At the time no SHA1 hash collisions were known, but in 2017, the news broke that  some rese

@@ -1,0 +1,43 @@
+Basic Data Structures: Hash Tables | Good Math Bad Math 
+ 
+	 
+		 
+			 
+		 Just another Scientopia site 
+	 
+	 
+	
+					   
+				
+					   
+			 
+		
+	 
+		 
+			 Home About 
+ About MarkCC 
+ Contact Info 
+ 
+		 
+	 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+	 
+	    	         
+            
+             Basic Data Structures: Hash Tables 
+             
+				 
+				Oct 20 2013									Published by  MarkCC  under  Data Structures 												 
+			 
+			 
+                I'm in the mood for a couple of basics posts. As long-time readers might know, I love writing about data structures.  
+  One of the most important and fundamental structures is a hashtable. In fact, in a lot of modern programming languages have left hashtables behind, for reasons I'll discuss later. But if you want to understand data structures and algorithmic complexity, hashtables are one of the essentials. 
+  A hashtable a structure for keeping a list of (key, value) pairs, where you can look up a value using the key that's a

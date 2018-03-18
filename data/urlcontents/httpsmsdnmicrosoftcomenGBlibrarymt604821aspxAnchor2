@@ -1,0 +1,32 @@
+Best Practice with the Query Store | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Best Practice with the Query Store 
+
+					 
+								 11/24/2016 
+							 14 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic outlines the best practices for using the Query Store with your workload.   
+  Use the latest  SQL Server Management Studio 
+   SQL Server Management Studio has set of user interfaces designed for configuring Query Store as well as for consuming collected data about your workload. Download the latest version of  Management Studio  here .   
+  For a quick description on how to use Query Store in troubleshooting scenarios refer to  Query Store @Azure Blogs .   
+  Use Query Performance Insight in Azure SQL Database 
+  If you run Query Sto

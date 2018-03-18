@@ -1,0 +1,75 @@
+Why is a value in DATETIME2 8 bytes, but in BINARY it is 9 bytes? - Born SQL 
+			
+
+
+
+		
+		 
+
+				 
+
+					 
+
+						 
+
+						 Menu 
+
+						 
+
+						 
+
+						 
+
+						 
+
+						
+						 
+
+							
+								 
+
+									 
+
+								
+						   
+
+					   
+
+							 Home 
+ About 
+ Services 
+ dbSnitch 
+	 Upgrade Wizard 
+	 Disaster Recovery 
+	 2-Day Tune-Up 
+	 DBA 
+	 Speaking 
+ 
+ Blog 
+ Resources 
+ SQL 2000: Duplicate Index Finder 
+	 Database Backup Sync and Restore 
+	 Max Server Memory Matrix 
+ 
+ Contact Us 
+ 
+
+			 
+						 
+	 
+ 
+	 
+		 						 
+				 Why is a value in DATETIME2 8 bytes, but in BINARY it is 9 bytes? 
+
+
+
+		 
+
+			 Posted on  11 October 2017 16 October 2017  by  randolph 
+		 
+
+	 
+
+		 In the  #sqlhelp  Slack channel on the  SQL Server Community  Slack workspace last month,  Jemma Hooper  asked: 
+ When trying to  CAST  or  CONVERT  a  datetime2  value to  binary(8) , I’m getting a “binary or text data would be truncated” error. This seems really weird in context with the fact that  SELECT DATA

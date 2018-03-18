@@ -1,0 +1,51 @@
+There's no konami code for operations - blog dot lusis 
+   blog dot lusis 
+  
+     development, operations and everything in between 
+  
+ RSS 
+  
+ 
+   
+ Blog 
+   Archives 
+   Projects 
+   Noah 
+ 
+     
+       
+ There's No Konami Code for Operations 
+    
+    
+       
+        
+
+
+
+
+
+  
+
+
+
+ Jun 13 th , 2014 
+        
+         |  Comments 
+        
+       
+    
+   up up down down left right left right b a select start 
+
+ 
+
+
+ I went on a bit of a rip today about all sorts of technology. I figured I should at least clarify some of it in long form. 
+
+ Vmotion/live migration technologies 
+
+ Vmotion is a scam. I have frequently said that only trivial workloads are safe for vmotion. Here’s the reasoning: 
+
+ live migration realistically requires the workload on the vm being migrated to be quiesced. 
+ any workload that can be quiesced with no impact is most likely a trivial workload 
+ trivial workloads don’t NEED the benefit of live migration 
+ to that end, you’re basically paying a lot of money t

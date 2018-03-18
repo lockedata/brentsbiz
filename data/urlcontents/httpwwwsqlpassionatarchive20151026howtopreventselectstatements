@@ -1,0 +1,58 @@
+ How to prevent SELECT * statements  |   
+		 
+	
+			 
+	
+				 
+	
+			 
+									
+			 HOME 
+					 OFFERINGS 
+					 ONLINE TRAININGS 
+					 ACADEMY 
+					 BLOG 
+					 QUICKIE 
+					 
+				 
+			
+			 
+			
+	 
+				
+		 
+	
+		 
+		
+	 
+	
+	 	
+	
+	
+	 
+
+
+	 
+	
+		 
+
+			
+				
+					 How to prevent SELECT * statements 
+						
+						 
+					October 26, 2015 · 
+					Klaus Aschenbrenner ·
+											 
+							 12 Comments 						 
+									
+				 
+
+						
+						 
+							
+		
+		 (Be sure to checkout the FREE  SQLpassion Performance Tuning Training Plan  - you get a weekly email packed with all the essential knowledge you need to know about performance tuning on SQL Server.)
+ 
+ Everyone of us knows that it is a bad idea, but we still do it sometimes: we execute SELECT * statements. There are so many different drawbacks to that approach: 
+ You return every column single from your table, even columns that are added at a later stage. Imagine what would happen in your

@@ -1,0 +1,41 @@
+SQL Server Application Patterns on VMs | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Application Patterns and Development Strategies for SQL Server in Azure Virtual Machines 
+
+					 
+								 05/31/2017 
+							 31 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 Note Azure has two different deployment models for creating and working with resources:   Resource Manager and classic . This article covers using both models, but Microsoft recommends that most new deployments use the Resource Manager model. 
+ 
+ Summary: 
+ Determining which application pattern or patterns to use for your SQL-Server-based applications in Azure environment is an important design decision and it requires a solid understanding of how SQL Server and each infrastructure component of Azure 

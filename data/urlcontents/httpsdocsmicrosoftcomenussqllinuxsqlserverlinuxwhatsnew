@@ -1,0 +1,32 @@
+What's New for SQL Server 2017 on Linux | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 What's new for SQL Server 2017 on Linux 
+
+					 
+								 02/20/2018 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Linux only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  This article describes the major features and services available for SQL Server 2017 running on Linux. 
+ Note In addition to these capabilities in this article, cumulative updates are released at regular intervals after the GA release. These cumulative updates provide many improvements and fixes. For information about the latest CU release, see  http://aka.ms/sql2017cu . For package downloads and known issues, see the  Release notes . 
+ 
+ SQL Server Database Engine 
+ Enabled the core SQL Server Database Engine 

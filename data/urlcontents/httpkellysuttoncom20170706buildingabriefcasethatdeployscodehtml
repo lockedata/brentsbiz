@@ -1,0 +1,47 @@
+Building a Briefcase that Deploys Code 
+
+     
+
+     Kelly Sutton 
+
+     
+         Home 
+        
+          
+           About 
+          
+        
+          
+        
+          
+        
+          
+        
+          
+           Reading List 
+          
+        
+          
+           Talks 
+          
+        
+          
+        
+          
+        
+       
+     
+
+ 
+       
+         
+
+   Building a Briefcase that Deploys Code 
+     Jul 6, 2017 
+   Deploy Football Mark I Over the course of the past few weeks, I’ve been building a briefcase that deploys code. 
+
+ This was inspired by the  “Nuclear football,”  the briefcase that follows the President of the United States around used to authorize a nuclear attack. Macabre, I know. 
+
+ A briefcase that deploys code is silly. For most healthy software teams, deploying new code is a daily routine and usually happens without much fanfare. But don’t you miss the days when deploying was a nail-biting affair? (I don’t.) 
+
+ Enter the Deploy Football

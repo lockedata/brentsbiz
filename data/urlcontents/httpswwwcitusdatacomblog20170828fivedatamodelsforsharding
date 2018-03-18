@@ -1,0 +1,102 @@
+Five sharding data models and which is right 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Try Citus Cloud 
+ 
+ 
+ Product 
+ Product 
+ 
+ Overview 
+ 
+ 
+ Citus Community 
+ 
+ 
+ Citus Cloud 
+ 
+ 
+ Citus Enterprise 
+ 
+ 
+ 
+ Customers 
+ 
+ 
+ Use Cases 
+ Use Cases 
+ 
+ Overview 
+ 
+ 
+ Multi-Tenant Applications 
+ 
+ 
+ Real-Time Analytics 
+ 
+ 
+ 
+ About 
+ About 
+ 
+ Contact Us 
+ 
+ 
+ Team 
+ 
+ 
+ Careers 
+ 
+ 
+ 
+ Blog 
+ 
+ 
+ Docs 
+ 
+ 
+ Download 
+ 
+ 
+ Try Citus Cloud 
+ 
+ 
+ 
+ 
+ 
+ 
+Five sharding data models and which is right
+ 
+ 
+ 
+ 
+ 
+ 
+ Share this post 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ When it comes to  scaling your database , there are challenges but the good news is that you have options. The easiest option of course is to scale up your hardware. And when you hit the ceiling on scaling up, you have a few more choices:  sharding , deleting swaths of data that you think you might not need in the future, or trying to shrink the problem with  microservices . 
+ Deleting portions of your data is simple, if you can afford to do it. Regar

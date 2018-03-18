@@ -1,0 +1,45 @@
+Azure SQL Database FAQ | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SQL Database FAQ 
+
+					 
+								 02/12/2018 
+							 9 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 What is the current version of SQL Database? 
+ The current version of SQL Database is V12. Version V11 has been retired. 
+ What is the SLA for SQL Database? 
+ We guarantee at least 99.99% of the time customers will have connectivity between their single or elastic Basic, Standard, or Premium Microsoft Azure SQL Database and our Internet gateway. For more information, see  SLA . 
+ How do I reset the password for the server admin? 
+ In the  Azure portal , click  SQL Servers , select the server from the list, and then click  Reset Password . 
+ How do I manage databases and logins? 
+ See  Man

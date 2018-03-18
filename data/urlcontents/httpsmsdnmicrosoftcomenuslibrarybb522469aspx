@@ -1,0 +1,39 @@
+ALTER DATABASE File and Filegroup Options (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 ALTER DATABASE (Transact-SQL) File and Filegroup Options 
+
+					 
+								 08/07/2017 
+							 18 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Modifies the files and filegroups associated with the database in  SQL Server. Adds or removes files and filegroups from a database, and changes the attributes of a database or its files and filegroups. For other ALTER DATABASE options, see  ALTER DATABASE (Transact-SQL) .   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ ALTER DATABASE database_name   
+{  
+    &lt;add_or_modify_files&gt;  
+  | &lt;add_or_modify_filegroups&gt;  
+}  
+[;]  
+
+&lt;add_or_modify_files&gt;::=  
+{  
+    AD

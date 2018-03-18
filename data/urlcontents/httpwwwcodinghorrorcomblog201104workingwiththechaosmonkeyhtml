@@ -1,0 +1,21 @@
+Working with the Chaos Monkey 
+ 
+ 
+ Coding Horror 
+ programming and human factors 
+ 
+ 
+ 
+ 
+ 
+ 25 Apr 2011 
+ Working with the Chaos Monkey 
+ 
+ 
+Late last year, the Netflix Tech Blog wrote about  five lessons they learned moving to Amazon Web Services . AWS is, of course, the preeminent provider of so-called "cloud computing", so this can essentially be read as  key advice for any website considering a move to the cloud . And it's great advice, too. Here's the one bit that struck me as most essential:
+ 
+ 
+ 
+We’ve sometimes referred to the Netflix software architecture in AWS as our Rambo Architecture. Each system has to be able to succeed, no matter what, even all on its own. We’re designing each distributed system to expect and tolerate failure from other systems on which it depends.
+ 
+If our recommendations system is down, we degrade the quality of our responses to our customers, but we still respond. We’ll show popular titles instead of personalized picks. If our search system is into

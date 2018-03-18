@@ -1,0 +1,486 @@
+---
+title: "Getting all up in Brent's biz - Feature engineering"
+output: 
+  html_notebook: 
+    code_folding: hide
+    toc: yes
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+library(DBI)
+con <- dbConnect(odbc::odbc(), .connection_string = "Driver={ODBC Driver 13 for SQL Server};server={brento.database.windows.net};
+database={brentodb};
+uid={datasci};
+pwd={nZY0*51lG^};")
+
+# cred creation
+
+#in master
+#CREATE LOGIN datasci WITH password='nZY0*51lG^';
+# in db
+#CREATE USER datasci FROM LOGIN datasci;
+#EXEC sp_addrolemember 'db_datareader', 'datasci';
+#alter user datasci with default_schema=anon
+```
+
+Based on [the exploratory data analysis](brentsbizEDA.html), we can now start putting together datasets aimed at answering the following question:
+
+> What impacted people's likelihood to buy training in 2017?
+
+```{r message=FALSE, results='hide'}
+library(tidyverse)
+library(dbplyr)
+```
+
+# Buying training
+
+Who bought training in 2017? We need to grab the data about who bought and also include the students email addresses to account for students being the requesters but not the purchasers. We will need to exclude the free training options.
+
+```{r}
+con %>% 
+  tbl("woocommerce_order_items") ->
+  items
+
+con %>% 
+  tbl("posts") ->
+  posts
+
+posts %>% 
+  inner_join(items, by=c("id"="order_id")) %>% 
+  filter(order_item_name!='Free Membership') %>% 
+  select(order_id=id, purchase_date=post_date_gmt, order_item_name, order_item_id) %>% 
+  collect() ->
+  orders
+
+library(readxl)
+"../data/Order Emails.xlsx" %>% 
+  read_excel() %>% 
+  select( order_id=post_id, starts_with("email"))->
+  orders_purchasers
+
+con %>% 
+  tbl("woocommerce_order_items_meta") %>% 
+  left_join(items) %>% 
+  select( order_id, starts_with("email")) %>% 
+  collect() ->
+  orders_students
+
+orders_purchasers %>% 
+  union(orders_students) %>% 
+  inner_join(orders)->
+  orders_emails
+
+orders_emails %>% 
+  group_by(email_user_id, email_domain_id) %>% 
+  summarise(orders=n(),
+            earliest=min(purchase_date),
+            latest=max(purchase_date),
+            products=list(order_item_name)) ->
+  customers
+```
+
+Let's take a quick look at the distribution of orders by email address.
+
+```{r}
+customers %>% 
+  arrange(desc(orders))
+```
+
+```{r}
+customers %>%  
+  ggplot(aes(x=orders)) +
+  geom_histogram(bins=20)
+```
+
+With this list of unique email addresses involved in sales we can see how these match up against the membership list. Let's first look at the full list to see how many people were on the list and when they joined.
+
+
+```{r}
+con %>% 
+  tbl("mailchimp_members") ->
+  mailchimp_members
+
+customers %>% 
+  select(-products) %>% 
+  full_join( mailchimp_members, copy=TRUE, 
+             by= c("email_user_id","email_domain_id")) ->
+  mailchimp_customers
+
+(mailchimp_customers %>% 
+  mutate(purchases=!is.na(orders),
+         mailchimp=!is.na(member_rating),
+         signed_after_order=confirm_time>earliest) %>% 
+  group_by(mailchimp,purchases,signed_after_order) %>% 
+  summarise(n=n()) ->
+  mailchimp_training_overlap)
+```
+
+```{r echo=FALSE}
+mailchimp_training_overlap %>% 
+  filter(mailchimp,purchases, !signed_after_order) %>% 
+  pull(n) %>% 
+  sum() -> 
+  mailchimp_and_purchased
+
+mailchimp_training_overlap %>% 
+  filter(!mailchimp,purchases) %>% 
+  pull(n) %>% 
+  sum() -> 
+  nomailchimp_and_purchased
+
+
+mailchimp_training_overlap %>% 
+  filter(signed_after_order) %>% 
+  pull(n) %>% 
+  sum() -> 
+  mailchimp_and_purchased_earlier
+```
+
+Looking at the records, `r scales::percent(nomailchimp_and_purchased/nrow(customers))` of customers do not have a mailchimp subscription (currently). `r scales::percent(mailchimp_and_purchased_earlier/nrow(customers))` appear to have become mailchimp members after purchasing. This leaves `r scales::percent(mailchimp_and_purchased/nrow(customers))` of customers being on the mailing list *before* making their first purchase. 
+
+```{r}
+mailchimp_customers %>% 
+  filter(!is.na(member_rating)) %>% 
+  mutate(any_purchase=!is.na(orders),
+         purchase=!is.na(orders)&confirm_time>earliest)  %>% 
+  mutate(want_to_gets=str_split(i_want_to_get,", ")) %>% 
+  unnest(want_to_gets) %>% 
+  mutate(want_to_gets=coalesce(want_to_gets,"Unknown recd"), n=TRUE) %>% 
+  spread(want_to_gets, n,fill = FALSE) %>% 
+  mutate(signup_sources=str_split(signup_source,", ")) %>% 
+  unnest(signup_sources) %>% 
+  mutate(signup_sources=coalesce(signup_sources,"Unknown source"), n=TRUE) %>% 
+  spread(signup_sources, n,fill = FALSE) ->
+  mailchimp_labelled
+```
+
+## A super basic model
+Without taking into behaviour in the run up of purchasing, let's do a very quick and dirty model to see whether some of the mailchimp member level features are useful as-is for predicting purchases. We'll use a decision tree based model for this.
+
+```{r fig.height=15}
+library(FFTrees)
+
+mailchimp_labelled %>% 
+  ungroup() %>% 
+  select(-(email_user_id:client_type),-(optin_time:longitude),
+         -time_zone,-(region:notes), -purchase) %>% 
+  FFTrees(any_purchase ~ ., data=.,
+                   do.comp = FALSE,
+                   train.p = 0.7, 
+                   sens.w = 0.75,
+                   decision.labels = c("Didn't purchase","Purchased"),
+          progress = FALSE) ->
+  initial_tree
+
+plot(initial_tree)
+```
+
+This is a simple model that correctly predicts a good proportion of the customers that purchased.  
+```{r}
+initial_tree
+```
+
+This model heavily emphasised correctly identifying the people who would purchase at the expense of including more people who wouldn't purchase. We get a get a high degree of sensitivity (correctly predicting those who purchased) from the mailchimp engagement figure, people ticking what types of emails they want to receive and them not wanting the Monday email.
+
+This model will be our baseline when we get into building more models.
+
+## Opens
+
+Now that we have for each person on the mailing list, whether they made a purchase or not, we should build some features around how often people have opened the newsletters in the past.
+
+```{r}
+library(padr)
+library(timeDate)
+
+mailchimp_labelled %>% 
+  thicken("week","start_week",by="confirm_time")  %>% 
+  mutate(earliest=coalesce(earliest, as.POSIXct("2017-12-31"))) %>%  
+  thicken("week","sale_week",by="earliest") %>%
+  select(email_user_id, start_week, sale_week) ->
+  chimp_lite
+
+
+opens <- dbGetQuery(con,
+    "select 
+    email_user_id, 
+    CONVERT(date, o.click_timestamp) as click_timestamp,
+    count(*) as n
+    
+    from anon.mailchimp_opens o
+    
+    group by email_user_id, 
+    CONVERT(date, o.click_timestamp)")
+
+as.Date("2011-01-01") %>% 
+  seq.Date(as.Date("2018-01-01"), 1) ->
+  dates_seq
+
+dates_seq %>% 
+  format() %>% 
+  timeDate() ->
+  dates_timeDate
+
+holiday<-isHoliday(dates_timeDate,holidayNYSE(2011:2018))
+weekday<-isWeekday(dates_timeDate)
+
+dates_lookup<-tibble(click_timestamp=dates_seq,
+                     holiday,
+                     weekday,
+                     weekend=!weekday)
+opens %>% 
+  left_join(dates_lookup)->
+  opens
+
+opens %>% 
+  thicken("week", "click") %>%
+  inner_join(chimp_lite, by="email_user_id") %>% 
+  mutate(start_week_diff=difftime(click, start_week, units="week"),
+         sale_week_diff=difftime(sale_week, click, units="week")) %>% 
+  mutate(start_month=(as.integer(start_week_diff) %/% 4) +1,
+         sale_month=(as.integer(sale_week_diff) %/% 4) +1 )  ->
+  opens
+
+opens %>% 
+  sample_n(200)
+```
+
+### Opens by usage
+```{r}
+(opens %>% 
+  group_by(email_user_id) %>% 
+  summarise(holiday_open_raw=sum(holiday*n),
+            holiday_open_prop=holiday_open_raw/sum(n),
+            weekday_open_raw=sum(weekday*n),
+            weekday_open_prop=weekday_open_raw/sum(n),
+            weekend_open_raw=sum(weekend*n),
+            weekend_open_prop=weekend_open_raw/sum(n)
+            )  ->
+  opens_typeofday)
+```
+
+### Opens over time
+
+```{r}
+opens %>% 
+  filter(start_month  > 0) %>% 
+  mutate(since_start_h=start_month %/% 6) %>% 
+  group_by(email_user_id,since_start_h) %>% 
+  summarise(opens=sum(n),active=TRUE) %>% 
+  group_by(email_user_id) %>% 
+  mutate(open_prop=opens/sum(opens),
+         since_start_h=paste0("h",since_start_h)) ->
+  opens_start_hl
+
+opens_start_hl %>% 
+  select(email_user_id:since_start_h, opens) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_opens")) %>% 
+  spread(since_start_h, opens, fill=0) ->
+  opens_start_opens
+
+opens_start_hl %>% 
+  select(email_user_id:since_start_h, active) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_opensactive")) %>% 
+  spread(since_start_h, active, fill=FALSE) ->
+  opens_start_active
+
+opens_start_hl %>% 
+  select(email_user_id:since_start_h, open_prop) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_opensprop")) %>% 
+  spread(since_start_h, open_prop, fill=0) ->
+  opens_start_prop
+
+(opens_start_opens %>% 
+  left_join(opens_start_active) %>% 
+  left_join(opens_start_prop) ->
+  opens_activity)
+
+```
+
+
+
+```{r collapse=TRUE}
+rm(list=c("opens","opens_start_hl",
+          "opens_start_opens","opens_start_active",
+          "opens_start_prop"))
+
+```
+
+## Clicks
+```{r}
+clicks <- dbGetQuery(con,
+    "select 
+    email_user_id, 
+    CONVERT(date, o.click_timestamp) as click_timestamp,
+    o.click_url,
+    count(*) as n
+    
+    from anon.mailchimp_clicks o
+    
+    group by email_user_id, 
+    CONVERT(date, o.click_timestamp),
+    o.click_url")
+
+
+clicks %>% 
+  left_join(dates_lookup)->
+  clicks
+
+clicks %>% 
+  thicken("week", "click") %>%
+  inner_join(chimp_lite, by="email_user_id") %>% 
+  mutate(start_week_diff=difftime(click, start_week, units="week"),
+         sale_week_diff=difftime(sale_week, click, units="week")) %>% 
+  mutate(start_month=(as.integer(start_week_diff) %/% 4) +1,
+         sale_month=(as.integer(sale_week_diff) %/% 4) +1 )  ->
+  clicks
+
+```
+
+
+### Clicks by usage
+```{r}
+(clicks %>% 
+  group_by(email_user_id) %>% 
+  summarise(holiday_clicks_raw=sum(holiday*n),
+            holiday_clicks_prop=holiday_clicks_raw/sum(n),
+            weekday_clicks_raw=sum(weekday*n),
+            weekday_clicks_prop=weekday_clicks_raw/sum(n),
+            weekend_clicks_raw=sum(weekend*n),
+            weekend_clicks_prop=weekend_clicks_raw/sum(n)
+            )  ->
+  clicks_typeofday)
+```
+
+### Clicks over time
+
+```{r}
+clicks %>% 
+  filter(start_month  > 0) %>% 
+  mutate(since_start_h=start_month %/% 6) %>% 
+  group_by(email_user_id,since_start_h) %>% 
+  summarise(clicks=sum(n),active=TRUE) %>% 
+  group_by(email_user_id) %>% 
+  mutate(click_prop=clicks/sum(clicks),
+         since_start_h=paste0("h",since_start_h)) ->
+  clicks_start_hl
+
+clicks_start_hl %>% 
+  select(email_user_id:since_start_h, clicks) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_clicks")) %>% 
+  spread(since_start_h, clicks, fill=0) ->
+  clicks_start_clicks
+
+clicks_start_hl %>% 
+  select(email_user_id:since_start_h, active) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_clickactive")) %>% 
+  spread(since_start_h, active, fill=FALSE) ->
+  clicks_start_active
+
+clicks_start_hl %>% 
+  select(email_user_id:since_start_h, click_prop) %>% 
+  mutate(since_start_h=paste0(since_start_h,"_clickprop")) %>% 
+  spread(since_start_h, click_prop, fill=0) ->
+  clicks_start_prop
+
+(clicks_start_clicks %>% 
+  left_join(clicks_start_active) %>% 
+  left_join(clicks_start_prop) ->
+  click_activity)
+
+```
+
+
+
+```{r collapse=TRUE}
+rm(list=c("clicks_start_hl",
+          "clicks_start_clicks","clicks_start_active",
+          "clicks_start_prop"))
+
+```
+
+### Clicks by topic
+
+For how we arrived at topics per url, check out [What topics did people click?](brentsbizinternet.nb.html)
+
+```{r}
+clicks %>% 
+  inner_join({
+    "../data/link_lookup.csv" %>% 
+    read_csv()
+  }, by="click_url") %>% 
+  left_join({
+    "../data/urltopics.csv"%>% 
+    read_csv()
+  }, by=c("clean_file"="url")) %>% 
+  mutate(brent=ifelse(str_detect(clean_url,"brentozar"),"B","nB")) %>% 
+  count( email_user_id, brent, topic) %>% 
+  unite(topic_brent,topic, brent) %>% 
+  mutate(topic_brent=paste0("topic_",topic_brent)) %>% 
+  group_by(email_user_id) %>% 
+  mutate(prop=nn/sum(nn)) ->
+  topic_clicks_l
+
+topic_clicks_l %>% 
+  select(-prop) %>% 
+  mutate(topic_brent=paste0(topic_brent,"_clicks")) %>% 
+  spread(topic_brent, nn, fill=0) ->
+  topic_clicks_clicks
+
+topic_clicks_l %>% 
+  select(-nn) %>% 
+  mutate(topic_brent=paste0(topic_brent,"_prop")) %>% 
+  spread(topic_brent, prop, fill=0) ->
+  topic_clicks_prop
+
+topic_clicks_l %>% 
+  mutate(topic_brent=paste0(topic_brent,"_active")) %>% 
+  group_by(topic_brent,email_user_id) %>% 
+  summarise(active=1) %>% 
+  spread(topic_brent, active, fill=0) ->
+  topic_clicks_active
+
+(topic_clicks_clicks %>% 
+  inner_join(topic_clicks_prop) %>% 
+  inner_join(topic_clicks_active)->
+  topic_clicks)
+```
+
+
+```{r collapse=TRUE}
+rm(list=c("topics_clicks_l",
+          "topic_clicks_clicks","topic_clicks_prop",
+          "topic_clicks_active",
+          "clicks"))
+
+```
+
+
+## Putting it all together
+
+```{r}
+mailchimp_labelled %>% 
+  left_join(opens_typeofday, by="email_user_id") %>% 
+  left_join(opens_activity, by="email_user_id") %>% 
+  left_join(clicks_typeofday, by="email_user_id") %>% 
+  left_join(click_activity, by="email_user_id") %>% 
+  left_join(topic_clicks, by="email_user_id") -> 
+  mailchimp_wide
+
+mailchimp_wide %>% 
+  select(-(email_domain_id:client_type),-(optin_time:time_zone),
+         -(region:notes)) %>% 
+  mutate(never_opened=is.na(holiday_open_raw),
+         never_clicked=is.na(holiday_clicks_raw)) -> 
+  mailchimp_wide
+
+mailchimp_wide<-mutate_if(mailchimp_wide, is.logical, ~coalesce(.,FALSE))
+mailchimp_wide<-mutate_if(mailchimp_wide, is_double, ~coalesce(.,0))
+mailchimp_wide<-mutate_if(mailchimp_wide, is_integer, ~coalesce(.,0L)) 
+
+write_csv(mailchimp_wide,"../outputs/finaldataset.csv")
+
+mailchimp_wide
+
+```

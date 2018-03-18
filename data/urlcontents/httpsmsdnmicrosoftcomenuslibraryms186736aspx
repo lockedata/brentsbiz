@@ -1,0 +1,34 @@
+SET DEADLOCK_PRIORITY (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 SET DEADLOCK_PRIORITY (Transact-SQL) 
+
+					 
+								 06/10/2016 
+							 3 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse
+    Specifies the relative importance that the current session continue processing if it is deadlocked with another session.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+SET DEADLOCK_PRIORITY { LOW | NORMAL | HIGH | &lt;numeric-priority&gt; | @deadlock_var | @deadlock_intvar }  
+
+&lt;numeric-priority&gt; ::= { -10 | -9 | -8 | … | 0 | … | 8 | 9 | 10 }  
+ Arguments 
+  LOW  Specifies that the current session will be the deadlock victim if it is involved in a deadlock and other sessions involved in the deadlock chain have deadlock priority set to eith

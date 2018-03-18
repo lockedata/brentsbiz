@@ -1,0 +1,56 @@
+Materialized Views in SQL Server | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ December 3, 2014 
+ 
+	  Materialized Views in SQL Server 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 9:28 am  
+
+	 
+		 Update: Materialized views in SQL Server are called Indexed Views. Search for  “indexed views sql server”  for syntax and an introduction. What follows is a look at some of the differences between Oracle’s Materialized Views and SQL Server’s Indexed Views 
+ What’s the difference between Oracle’s “materialized views” and SQL Server’s “indexed views”? They both persist the results of a query, but how are they different? Sometimes it’s difficult to tell. 
+ I’m on the left (or am I?) 
+ One difference is tha

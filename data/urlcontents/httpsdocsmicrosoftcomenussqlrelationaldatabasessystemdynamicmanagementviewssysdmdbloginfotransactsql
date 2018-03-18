@@ -1,0 +1,30 @@
+sys.dm_db_log_info (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_db_log_info (Transact-SQL) 
+
+					 
+								 08/16/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Returns  virtual log file (VLF)  information of the transaction log. Note all transaction log files are combined in the table output. Each row in the output represents a VLF in the transaction log and provides information relevant to that VLF in the log. 
+ Syntax 
+ sys.dm_db_log_info ( database_id )  
+ Arguments 
+   database_id  | NULL | DEFAULT  Is the ID of the database.  database_id  is  int . Valid inputs are the ID number of a database, NULL, or DEFAULT. The default is NULL. NULL and DEFAULT are equivalent values in the context of current database. 
+  Spe

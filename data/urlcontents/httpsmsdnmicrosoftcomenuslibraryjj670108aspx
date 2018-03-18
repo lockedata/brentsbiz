@@ -1,0 +1,32 @@
+Selective XML Indexes (SXI) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Selective XML Indexes (SXI) 
+
+					 
+								 03/14/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Selective XML indexes are another type of XML index that is available to you in addition to ordinary XML indexes. The goals of the selective XML index feature are the following:   
+ To improve the performance of queries over XML data stored in  SQL Server.   
+ 
+ To support faster indexing of large XML data workloads.   
+ 
+ To improve scalability by reducing the storage costs of XML indexes.   
+ The main limitation with ordinary XML indexes is that they index the entire XML document. This leads to several significant drawbacks, such as decreased query perfo

@@ -1,0 +1,27 @@
+Querying Information from the Plan Cache, Simplified - Grant Fritchey 
+ 
+	 
+			 
+										 Grant Fritchey 
+										 Intimidating Databases and Code 
+							 
+
+			 
+				 Home 
+ About 
+ Copyright 
+ Resources 
+ Book – “Execution Plans” code 
+	 Azure Data Platform Instructors 
+ 
+ 			 
+	 
+ 
+		 Querying Information from the Plan Cache, Simplified 		 Home  /  SQL Server 2005  /  Querying Information from the Plan Cache, Simplified 	 
+ 
+	 
+		 
+		 
+			 02 Jul 2012  by  Grant Fritchey  12 Comments 		 
+		 One of the great things about the Dynamic Management Objects (DMOs) that expose the information in plan cache is that, by their very nature, they can be queried. The plans exposed are in XML format, so you can run XQuery against them to pull out interesting information. 
+ For example, what if you wanted to see all the plans in cache that had a Timeout as the reason for early termination from the optimizer? It’d be great way to see which of your plans were less than reliable. You could so like

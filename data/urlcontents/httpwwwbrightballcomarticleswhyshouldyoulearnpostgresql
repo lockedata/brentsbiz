@@ -1,0 +1,29 @@
+Why should you learn PostgreSQL? | Brightball, Inc 
+ 
+     
+        
+
+       About 
+         What We Do 
+         Partners 
+         Contact 
+       
+ 
+ 
+      
+ 
+
+ 
+   
+  
+   Why should you learn PostgreSQL? 
+     
+       
+ PostgreSQL | PostGIS | 
+  - 
+       July 21, 2014      
+        // Barry 
+     
+  
+ Nearly a year ago I put together an hour long  presentation on PostgreSQL  to provide an overview of all of the benefits it provides you over other options in the database space. In hindsight, that wasn't nearly enough time because it has the capability to replace almost your entire application stack outside of the web server. In any case, here is an attempt to summarize all of the amazing functionality that you're cheating yourself out of by not choosing PostgreSQL.   	 
+   Multi-Index Queries   This is big. Huge really because it's the core piece of functionality that allows the rest of the functionality you're going to hear about. PostgreSQL does multi-index queries. That means t

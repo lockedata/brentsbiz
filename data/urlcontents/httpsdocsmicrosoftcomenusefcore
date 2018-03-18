@@ -1,0 +1,31 @@
+Quick Overview - EF Core | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Entity Framework Core Quick Overview 
+
+					 
+								 10/27/2016 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 Entity Framework (EF) Core is a lightweight, extensible, and cross-platform version of the popular Entity Framework data access technology. 
+ EF Core is an object-relational mapper (O/RM) that enables .NET developers to work with a database using .NET objects. It eliminates the need for most of the data-access code that developers usually need to write. EF Core supports many database engines, see  Database Providers  for details. 
+ If you like to learn by writing code, we'd recommend one of our  Getting Started  guides to get you started with EF Core. 
+ What is new in EF Core 
+ If you are familiar with EF Core and want to jump straight into the details of the l

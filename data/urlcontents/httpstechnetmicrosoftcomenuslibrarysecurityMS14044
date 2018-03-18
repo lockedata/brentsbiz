@@ -1,0 +1,28 @@
+Microsoft Security Bulletin MS14-044 - Important | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Microsoft Security Bulletin MS14-044 - Important 
+
+					 
+								 10/11/2017 
+							 23 minutes to read 
+							 
+								 Contributors 
+								 
+								 
+
+					 In this article 
+						 Vulnerabilities in SQL Server Could Allow Elevation of Privilege (2984340) 
+ Published: August 12, 2014 | Updated: August 13, 2014 
+ Version:  1.1 
+ General Information 
+ Executive Summary 
+ This security update resolves two privately reported vulnerabilities in Microsoft SQL Server (one in SQL Server Master Data Services and the other in the SQL Server relational database management system). The more severe of these vulnerabilities, affecting SQL Server Master Data Services, could allow elevation of privilege if a user visits a specially crafted website that injects a client-side script into the user's instance of Internet Explorer. In all cases, an attacker would have no way to

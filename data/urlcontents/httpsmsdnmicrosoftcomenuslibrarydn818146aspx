@@ -1,0 +1,41 @@
+sys.database_query_store_options (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.database_query_store_options (Transact-SQL) 
+
+					 
+								 10/25/2017 
+							 4 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2016) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns the Query Store options for this database.   
+ Applies to :  SQL Server ( SQL Server 2016 through  SQL Server 2017),  SQL Database. 
+ Column name 
+ Data type 
+ Description 
+ desired_state 
+ smallint 
+ Indicates the desired operation mode of Query Store, explicitly set by user.  0 = OFF   1 = READ_ONLY  2 = READ_WRITE 
+ desired_state_desc 
+ nvarchar(64) 
+ Textual description of the desired operation mode of Query Store: OFF READ_ONLY READ_WRITE 
+ actual_state 
+ smallint 
+ Indic

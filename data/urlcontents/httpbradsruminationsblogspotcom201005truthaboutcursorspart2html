@@ -1,0 +1,50 @@
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server(): The Truth About Cursors: Part 2 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server()
+ 
+ 
+ 
+ 
+ Thoughts, Musings, Ruminations, and Brainstorms on SQL and Perhaps Other Topics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Friday, May 21, 2010 
+
+           
+        
+ 
+ 
+ 
+ 
+The Truth About Cursors: Part 2
+ 
+ 
+ 
+ 
+ 
+In  Part 1 of this series , we looked under the hood at how various types of cursors worked and we found that their performance (if DECLAREd correctly) is not as horrible as many seem to believe. In this article, Part 2, we will look at some more performance statistics, discovering some interesting things along the way.  And we’ll end with a little mystery that will hopefully whet your appetite for Part 3. Processing in Clustered Index Key Order As you recall, in Part 1, we created a million-row test table with a clustered index primary key on the ID column

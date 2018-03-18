@@ -1,0 +1,46 @@
+What has 2 Thumbs and Deleted a LUN with the Log File of a Production DB on it? – SQLSoldier 
+
+	
+	 
+
+		 SQLSoldier News From the Front Lines toggle menu   News From the Front Lines 
+	 
+	 Menu SQL Server 
+ About Me 
+ Vembu Technologies 
+ Close 
+	 
+	 Search for: 
+	 Search 
+	 
+	 
+		 
+			 
+				 
+					 
+					 
+		 
+		 Frontpage 
+			  &gt;&gt;   SQL Server 
+			  &gt;&gt;   What has 2 Thumbs and Deleted a LUN with the Log File of a Production DB on it? 
+		 
+		 
+				 
+			 
+		
+		 
+ 
+	 
+
+		 
+ What has 2 Thumbs and Deleted a LUN with the Log File of a Production DB on it? 
+	 June 1, 2016 
+	 by  SQLSoldier 
+	 SQL Server 
+	 14 Comments 
+	 0 
+ 
+
+
+ This Guy  That’s right, I did it. I was deleting unused LUNs and the focus somehow jumped from the LUNs for the one database onto a LUN for another database. I blame an errant mouse-click. As soon as I deleted the LUN, I realized the name was wrong. The LUN held the log file for a production database.
+ Fortunately for me, the databa

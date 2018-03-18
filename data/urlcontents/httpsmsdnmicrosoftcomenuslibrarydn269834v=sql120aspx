@@ -1,0 +1,26 @@
+sys.dm_db_wait_stats (Azure SQL Database) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.dm_db_wait_stats (Azure SQL Database) 
+
+					 
+								 03/14/2017 
+							 36 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server  Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Returns information about all the waits encountered by threads that executed during operation. You can use this aggregated view to diagnose performance issues with  Azure SQL Database and also with specific queries and batches.   
+  Specific types of wait times during query execution can indicate bottlenecks or stall points within the query. Similarly, high wait times, or wait counts server wide can indicate bottlenecks or hot spots in interaction query interactions within the server instance. For example, lock waits indicate data contention by queries; page 

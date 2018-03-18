@@ -1,0 +1,35 @@
+sys.trusted_assemblies (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sys.trusted_assemblies (Transact-SQL) 
+
+					 
+								 06/14/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Contains a row for each trusted assembly for the server. 
+   Transact-SQL Syntax Conventions    
+ Column name 
+ Data type 
+ Description 
+ hash 
+ varbinary(8000) 
+ SHA2_512 hash of the assembly content. 
+ description 
+ nvarchar(4000) 
+ Optional user-defined description of the assembly. Microsoft recommends using the canonical name that encodes the simple name, version number, culture, public key, and architecture of the assembly to trust. This value uniquely identifies the assembly on the common language runtime (CLR) side and is the same as the clr_nam

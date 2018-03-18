@@ -1,0 +1,59 @@
+Automatically Fixing High VLF Count on SQL Sever 2012+ | Tracy Boggiano's SQL Server  Blog 
+
+ Skip to content 
+
+ 
+
+	    
+	 
+
+      
+              
+         
+                         
+     
+    
+        
+     
+       
+              	 SQL Server Administration and Performance Tuning 
+       
+                  
+     
+    
+        
+     
+    
+                 
+                   
+                     Toggle navigation 
+                     
+                     
+                     
+                   
+                               
+               
+                 Home 
+ About Me 
+ Events 
+ Presentations 
+ SQL on Linux 
+ 
+             
+ 
+         
+            
+
+		 
+			
+			            
+			
+								
+					 
+    
+     
+             Automatically Fixing High VLF Count on SQL Server 2012+ 
+            		 
+     
+ 		 The Problem 
+ Our databases autogrow because we have thousands of databases and before we know we have databases with high VLF c

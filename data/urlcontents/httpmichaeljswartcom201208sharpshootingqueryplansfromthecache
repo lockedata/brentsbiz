@@ -1,0 +1,57 @@
+Sharpshooting Query Plans From The Cache | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ August 28, 2012 
+ 
+	  Sharpshooting Query Plans From The Cache 
+	 Filed under:  SQL Scripts , SQLServerPedia Syndication , Technical Articles  — Tags:  FREEPROCCACHE  —  Michael J. Swart @ 12:00 pm  
+
+	 
+		 Takeaway:  I talk a bit about  DBCC FREEPROCCACHE , using the plan_handle parameter to remove exactly one query plan from cache. I also explain why and when you might want to. 
+ This is another post where I share a script of mine. It’s one of my favorite kinds of posts so I’ve created a new category for it:  SQL Scripts 
+ The Situation 
+ Crisis mode:  The database server is slow (all of a sudden) and the performance is unacceptable. 
+ You used your  troubleshooting check

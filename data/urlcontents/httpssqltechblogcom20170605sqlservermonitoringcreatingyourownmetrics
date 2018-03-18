@@ -1,0 +1,47 @@
+SQL Server Monitoring: Creating your own metrics – SQL TECH BLOG 
+ 
+	 Skip to content 
+
+	 
+		 
+			 Open Menu 
+				 Home 
+ About 
+ Contact 
+ Resources 
+ 			 
+					 Twitter 
+ LinkedIn 
+ 
+											 Search 
+									 
+					 
+	 
+
+			 
+			 
+				 
+				 
+					 Search for: 
+					 
+				 				 Close 
+			 
+		 
+	
+	 
+							 
+					 
+										 						 SQL TECH BLOG 
+			 
+		 
+	 
+
+	 
+		 
+			 Administration  /  DBA  /  Development  /  Performance  /  Tools 		 
+		 SQL Server Monitoring: Creating your own metrics 		 
+			 June 5, 2017   Daniel Janik 1 Comment 		 
+	 
+					 The one and only important factor in monitoring is data. How much of x and how little of y? If you don’t know these values then you’re shooting in the dark. Microsoft has done a great job adding critical data points over the years; but, what happens when the data you need doesn’t exist? 
+ 
+ You create your own! Or you simply realize that you never really needed the data that you thought you did; but, that’s a completely different topic. 

@@ -1,0 +1,25 @@
+Availability Modes (Always On Availability Groups) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Availability Modes (Always On Availability Groups) 
+
+					 
+								 10/16/2017 
+							 11 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    In  Always On availability groups, the  availability mode  is a replica property that determines whether a given availability replica can run in synchronous-commit mode. For each availability replica, the availability mode must be configured for either synchronous-commit mode, asynchronous-commit, or configuration only mode.  If the primary replica is configured for  asynchronous-commit mode , it does not wait for any secondary replica to write incoming transaction log records to disk (to  harden the log ). If a given secondary replica is con

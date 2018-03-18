@@ -1,0 +1,31 @@
+Transactional DDL in PostgreSQL: A Competitive Analysis - PostgreSQL wiki 
+	 
+		 
+	 
+		 
+		 Want to edit, but don't see an edit button when logged in?  Click here. 
+ 		 Transactional DDL in PostgreSQL: A Competitive Analysis 
+		 
+			 From PostgreSQL wiki 
+			 
+									 Jump to:  navigation ,  search 			 
+			 Contents 
+ 1   Transactional DDL 
+ 2   PostgreSQL 
+ 3   MySQL 
+ 4   Oracle 
+ 5   SQL Server 
+ 6   Sybase Adaptive Server 
+ 7   DB2 UDB 
+ 8   Informix 
+ 9   Firebird (Interbase) 
+    Transactional DDL  
+ Like several of its commercial competitors, one of the more advanced features of PostgreSQL is its ability to perform transactional DDL via its  Write-Ahead Log  
+design. This design supports backing out even large changes to
+ DDL , such as table
+creation. You can't recover from an add/drop on a database or tablespace, but
+all other catalog operations are reversible.
+ 
+    PostgreSQL  
+ Here is an example showing how robust the PostgreSQL design is in this area
+(thanks to  Nigel Mc

@@ -1,0 +1,46 @@
+select * from depesz;  » Blog Archive   » Pagination with fixed order 
+ 
+	 
+		 
+		 
+
+			 
+			
+			 
+				 
+					 Blog 
+					 Projects 
+ Contact 
+					 
+			 
+
+			 
+
+		 
+	 
+
+	 
+	 
+
+
+
+	 
+
+	
+		 
+			 
+				 
+					 
+						 Pagination with fixed order    
+					 
+
+					 May 20th, 2011 by depesz | Tags:  count ,  pagination ,  paging ,  postgresql ,  trigger  |   4 comments » 
+ Did it help? If yes - maybe you can  help me ? 
+				 
+				
+				 
+					 Some time ago I  wrote  about getting fast pagination. While fast, it had some problems which made it unusable for some. Specifically – you couldn't get page count, and easily jump to page number N. 
+ I did some thinking on the subject, and I think I found a way to make it all work. Quite fast. And with not big overhead. Let me show you. 
+ 
+ Before I will continue, let me put emphasis on one, very simple, but important thing: 
+ Following post is just example of implementation of an idea. There is no warranty nor eve

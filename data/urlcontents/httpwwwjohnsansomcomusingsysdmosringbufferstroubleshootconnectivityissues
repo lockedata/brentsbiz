@@ -1,0 +1,34 @@
+Using sys.dm_os_ring_buffers to Troubleshoot Connectivity Issues - John Sansom Home 
+ Contact 
+ John Sansom SQL Server DBA Blog 
+ 
+ About 
+ The Blog 
+	 John Sansom 
+	 Contact 
+ 
+ Archives 
+ Start Here 
+	 Popular Posts 
+	 All Posts 
+	 SFTW 
+ 
+ Becoming a DBA 
+ What it’s Really Like 
+	 Interview Tips 
+	 Certification 
+	 FAQ 
+ 
+ Books 
+ Free Ebook 
+ 
+ Resources 
+ Blog Tools and Technology 
+	 UK Events Schedule 
+	 References &amp; Resource Lists 
+ 
+ Subscribe 
+ Using sys.dm_os_ring_buffers to Troubleshoot Connectivity Issues  
+ February 19, 2014  by  John Sansom   16 Comments   
+ I encountered an interesting  question  over on the MSDN forums concerning a poster that was reporting experiencing an issue whereby the “sa” account kept being locked out. 
+ In scenarios such as this the SQL Server Error Log is your friend, as it can be configured to record failed login attempts for an instance. Of course pursuing that avenue of exploration would make for a rather dull blog post and so instead w

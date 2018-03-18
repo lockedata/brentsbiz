@@ -1,0 +1,51 @@
+How to Execute a SQL Query Only if Another SQL Query has no Results – Java, SQL and jOOQ. 
+
+ 
+	
+	 
+			 
+				 Menu 
+			 
+			 Java, SQL and jOOQ. 
+		 
+		 
+			 Skip to content 
+				 Home Java And Other Languages 
+ jOOQ and jOOλ 
+ jOOQ Tuesdays and Guest Posts 
+ SQL Tricks And Tuning 
+ Thoughts on Programming 
+ 
+			 
+
+		 
+			 Java, SQL and jOOQ. 
+					 
+
+		 Skip to content 
+			 Home Java And Other Languages 
+ jOOQ and jOOλ 
+ jOOQ Tuesdays and Guest Posts 
+ SQL Tricks And Tuning 
+ Thoughts on Programming 
+ 
+		 
+		
+		 
+				 
+					 
+						 
+							
+ May 31, 2017 May 31, 2017 										 sql 
+			
+		
+		
+					 10 Comments 
+		
+		
+			 Common Table Expression Oracle PostgreSQL sql SQL Performance SQL Server 
+			
+			 
+					 How to Execute a SQL Query Only if Another SQL Query has no Results 		
+		 
+			 I stumbled upon an  interesting question on Stack Overflow  recently. A user wanted to query a table for a given predicate. If that predicate returns no rows, they wanted to run another query using a di

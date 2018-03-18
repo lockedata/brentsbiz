@@ -1,0 +1,37 @@
+Improve columnstore index performance - Azure SQL Data Warehouse | Microsoft Docs 
+ 
+		 
+		 
+		 
+			 
+				 
+					 
+							 
+								 
+							 
+						 
+					 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Maximizing rowgroup quality for columnstore 
+
+					 
+								 10/23/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 Rowgroup quality is determined by the number of rows in a rowgroup. Reduce memory requirements or increase the available memory to maximize the number of rows a columnstore index compresses into each rowgroup.  Use these methods to improve compression rates and query performance for columnstore indexes. 
+ Why the rowgroup size matters 
+ Since a columnstore index scans a table by scanning column segments of individual rowgroups, maximizing the number of rows in each rowgroup enhances query performance. When rowgroups have a high number of rows, data compression impr

@@ -1,0 +1,35 @@
+Implicit Conversions And Avoiding Them With Computed Columns - John Sansom Home 
+ Contact 
+ John Sansom SQL Server DBA Blog 
+ 
+ About 
+ The Blog 
+	 John Sansom 
+	 Contact 
+ 
+ Archives 
+ Start Here 
+	 Popular Posts 
+	 All Posts 
+	 SFTW 
+ 
+ Becoming a DBA 
+ What it’s Really Like 
+	 Interview Tips 
+	 Certification 
+	 FAQ 
+ 
+ Books 
+ Free Ebook 
+ 
+ Resources 
+ Blog Tools and Technology 
+	 UK Events Schedule 
+	 References &amp; Resource Lists 
+ 
+ Subscribe 
+ Implicit Conversions and Avoiding Them With Computed Columns  
+ March 25, 2013  by  John Sansom   6 Comments   
+ I recently encountered an interesting performance issue (due to implicit conversions) that I was able to solve using a lesser known technique and I wanted to share it with you here. 
+ A customer environment was suddenly receiving high CPU alarms and I was called in to take a look. 
+ Having identified the query responsible for the high CPU consumption (courtesy of  sp_WhoIsActive ), I then inspected it’s execution plan (using

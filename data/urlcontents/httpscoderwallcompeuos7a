@@ -1,0 +1,89 @@
+SQL Queries Kill Website Scalability (Example) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Coderwall
+ 
+ 
+ 
+ 
+ 
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ 
+ 
+ 
+ 
+ 
+ More 
+Tips
+ 
+ 
+ Ruby 
+ Python 
+ JavaScript 
+ Front-End 
+ Tools 
+ iOS 
+ PHP 
+ Android 
+ .NET 
+ Java 
+ Jobs 
+ 
+ 
+ 
+ Jobs 
+ 
+ 
+ 
+ 
+ Sign In or Up 
+ 
+ 
+ 
+
+ 
+ 
+ February 25, 2016 18:51 
+ euos7a 
+ 
+ 
+ 
+ 
+ Last Updated: February 25, 2016 
+ 
+·
+ 
+ 
+7.95K
+ 
+ 
+·
+ blockjon 
+ 
+ 
+ 
+ 
+ SQL Queries Kill Website Scalability 
+ 
+ databases 
+ 
+ 
+ Have you ever designed a system that stays up even when the database goes down?  
+
+ I have. 
+
+ The number of people who are lining up to trash me for this post probably looks like the start of the Boston Marathon. But it’s true. Queries and joins are bad for your website performance. So is connecting to a database in the first place. 
+
+ We can probably all agree that the fastest websites you can write wouldn’t use databases at all. 
+
+ Nobody's ever said  "I think I'll add some database queries to this page to speed it

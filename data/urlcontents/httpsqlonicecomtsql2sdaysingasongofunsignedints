@@ -1,0 +1,27 @@
+#TSQL2SDAY: Sing a song of unsigned ints – SQL on ice 
+ 
+	 
+		 Skip to content 
+
+		 
+				 
+					
+											 SQL on ice 
+											 keep it fresh. keep it fun 
+									 
+
+							 
+
+											 
+					 
+						 
+				 
+					 
+
+ 
+	 #TSQL2SDAY: Sing a song of unsigned ints 	 
+		 
+ Occasionally we do as we are told. And when  Brent Ozar  tells us that we should celebrate the first T-SQL Tuesday of 2017 by writing about SQL Server bugs and enhancement requests, the only appropriate response is “What color, sir?” 
+ The king was in his counting-house 
+ Following Brent’s advice of Googling for “won’t fix” Connect items, an interesting enhancement request soon caught my eye. There are quite a few folks out there bemoaning the lack of unsigned int and bigint data types, for instance  here ,  here , and  here . Of course, the subject has also had some good airplay elsewhere, for instance in  this DBA StackExchange post . 
+ Let’s take a look at what is being asked here. Using the 32-bit integer as 

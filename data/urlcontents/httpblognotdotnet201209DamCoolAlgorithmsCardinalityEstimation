@@ -1,0 +1,34 @@
+Damn Cool Algorithms: Cardinality Estimation - Nick's Blog 
+	 						
+		 Nick's Blog 		
+		 because repeating myself sucks 
+		 
+			 Home 
+				 Archive 
+        
+			 		
+		  
+     
+       
+         Search: 
+         
+     
+     
+	 
+		 
+      
+   Damn Cool Algorithms: Cardinality Estimation 
+     
+      Posted by Nick Johnson
+      
+        | Filed under
+        
+           python ,
+        
+           cardinality-estimation ,
+        
+           damn-cool-algorithms 
+        
+      
+     
+   Suppose you have a very large dataset - far too large to hold in memory - with duplicate entries. You want to know how many duplicate entries, but your data isn't sorted, and it's big enough that sorting and counting is impractical. How do you estimate how many  unique  entries the dataset contains? It's easy to see how this could be useful in many applications, such as query planning in a database: the best query plan can depend greatly on not just how many values ther

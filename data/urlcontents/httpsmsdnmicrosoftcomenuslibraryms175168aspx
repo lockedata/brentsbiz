@@ -1,0 +1,31 @@
+Restore Pages (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Restore Pages (SQL Server) 
+
+					 
+								 03/15/2017 
+							 9 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    This topic describes how to restore pages in  SQL Server by using  SQL Server Management Studio or  Transact-SQL. The goal of a page restore is to restore one or more damaged pages without restoring the whole database. Typically, pages that are candidates for restore have been marked as "suspect" because of an error that is encountered when accessing the page. Suspect pages are identified in the  suspect_pages  table in the  msdb  database.   
+   In This Topic    
+ Before you begin:    
+   When is a Page Restore Useful?    
+   Limitations and Restrictions    
+   Recommendations    
+   Secur

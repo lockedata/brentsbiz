@@ -1,0 +1,38 @@
+Query Store Usage Scenarios | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Query Store Usage Scenarios 
+
+					 
+								 02/02/2018 
+							 10 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Query Store can be used in wide set of scenarios when tracking and ensuring predictable workload performance is critical. Here are some examples you can consider:   
+ Pinpoint and fix queries with plan choice regressions   
+ 
+ Identify and tune top resource consuming queries   
+ 
+ A/B testing   
+ 
+ Keep performance stability during the upgrade to newer  SQL Server   
+ 
+ Identify and improve ad hoc workloads   
+ 
+ Pinpoint and fix queries with plan choice regressions 
+  During its regular query execution, Query Optimizer may decide to choose a different plan because importan

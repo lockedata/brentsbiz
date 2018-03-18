@@ -1,0 +1,51 @@
+LLVM Project Blog: What Every C Programmer Should Know About Undefined Behavior #2/3 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LLVM Project Blog
+ 
+ 
+ 
+ 
+ LLVM Project News and Details from the Trenches 
+ 
+ 
+ 
+ 
+
+           
+        
+ Saturday, May 14, 2011 
+
+           
+        
+ 
+ 
+ 
+ 
+ What Every C Programmer Should Know About Undefined Behavior #2/3 
+ 
+ 
+ 
+In  Part 1  of our series, we discussed what undefined behavior is, and how it allows C and C++ compilers to produce higher performance applications than "safe" languages.  This post talks about how "unsafe" C really is, explaining some of the highly surprising effects that undefined behavior can cause.  In  Part #3 , we talk about what friendly compilers can do to mitigate some of the surprise, even if they aren't required to.  
+I like to call this " Why undefined behavior is often a scary and terrible thing for C programmers ". :-) 
+
+Translation available in:  Japanese 
+
+ 
+Interacting Compiler Op

@@ -1,0 +1,36 @@
+GCE vs AWS in 2016: Why you shouldn’t use Amazon – The HFT Guy 
+ 
+	 Skip to content 
+
+	 
+		 
+			 Open Menu 
+				 Home About Me 
+ Contact 
+ 
+			 
+					
+									 
+					 
+	 
+
+	
+	 
+							 
+					 
+									 The HFT Guy 
+			 A developer in London 
+		 
+	 
+
+	 
+		 
+			 cloud  /  tech 		 
+		 GCE vs AWS in 2016: Why you shouldn’t use Amazon 		 
+			 15 June 2016 27 December 2016   thehftguy 36 Comments 		 
+	 
+					 Foreword 
+ This story relates my experience at a typical web startup. We are running hundreds of instances on AWS, and we’ve been doing so for some time, growing at a sustained pace. 
+ Our full operation is in the cloud: webservers, databases, micro-services, git, wiki, BI tools, monitoring… That includes everything a typical tech company needs to operate. 
+ We have a few switches and a router left in the office to provide internet access and that’s all, no servers on-site. 
+ The following highlights many issues encountered day to day on AWS so that [hopefully] you don’t do the same m

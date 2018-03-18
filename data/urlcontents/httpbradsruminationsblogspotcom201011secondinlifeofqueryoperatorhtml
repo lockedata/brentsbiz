@@ -1,0 +1,50 @@
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server(): A Second in the Life of a Query Operator 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SELECT Blog FROM Brad.Schulz CROSS APPLY SQL.Server()
+ 
+ 
+ 
+ 
+ Thoughts, Musings, Ruminations, and Brainstorms on SQL and Perhaps Other Topics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Friday, November 19, 2010 
+
+           
+        
+ 
+ 
+ 
+ 
+A Second in the Life of a Query Operator
+ 
+ 
+ 
+ 
+ 
+ There are countless books and blogs out there that tell you that you should read a query plan from right to left. But unless you’re used to reading Hebrew, isn’t that backwards?  We read everything else from left to right… Why should we read query plans in the opposite direction? The answer is:  We really shouldn’t.  You’ve been misinformed. Yes, it’s true that the flow of information is from right to left… All those arrows that are pointing in that direction indicate that.  We can see the sources of the data on the right and the eve

@@ -1,0 +1,30 @@
+Shutdown | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Shutdown 
+
+					 
+								 09/11/2009 
+							 2 minutes to read 
+
+					 In this article 
+						 Allows you to shut down or restart a local or remote computer. Used without parameters,  shutdown  will logoff the current user. 
+ Syntax 
+ shutdown  [{ -l | -s | -r | -a }] [ -f ] [ -m  [ \\ ComputerName ]] [ -t   xx ] [ -c   " message " ] [ -d [ u ][ p ] : xx : yy ] 
+ Parameters 
+ -l :  Logs off the current user, this is also the defualt. -m  ComputerName  takes precedence. 
+ -s   :  Shuts down the local computer. 
+ -r :  Reboots after shutdown. 
+ -a :  Aborts shutdown. Ignores other parameters, except  -l  and  ComputerName . You can only use  -a  during the time-out period. 
+ -f :  Forces running applications to close. 
+ -m   [\\ ComputerName ]   :  Specifies the computer that you want to shut down. 
+ -t  xx  :  Sets the timer for system shutdown in  xx  seconds. The default is 20 seconds. 
+ -c " message " :  

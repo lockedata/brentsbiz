@@ -1,0 +1,48 @@
+Encrypting SQL Server connections with Let’s Encrypt certificates | sqlsunday.com 
+ 
+
+	 
+			 
+				 
+					 sqlsunday.com 
+					 T-SQL programming, useful tips and tutorials for the MS SQL Server developer. 
+				 
+			 
+		 
+	 Menu 
+		 Skip to content 
+
+		 About sqlsunday.com 
+ Structured Concepts 
+ Development 
+	 Performance 
+	 Training 
+	 Master data tool 
+	 File parser API 
+	 Datawarehouse-as-a-service 🇸🇪 
+ 
+ Slack app 
+ Presentations 
+ Downloads 
+ Checklists 
+ Installing SQL Server 2014 
+	 Installing SQL Server 2016 
+	 Installing SQL Server 2017 
+	 Links and utilities 
+ 
+ 		 
+			 Search 
+		 
+		 
+			 
+				 
+					 Search for: 
+					 
+				 		 
+	 
+
+	 
+		 Encrypting SQL Server connections with Let’s Encrypt certificates 				 
+			 2017-11-22  /  Daniel Hutmacher 					 
+	 
+		 Encrypting your SQL Server’s TDS connections should be high on your list of things to do if you’re concerned with the privacy of your data. This often boils down to one big problem: can you get a valid certificate withou

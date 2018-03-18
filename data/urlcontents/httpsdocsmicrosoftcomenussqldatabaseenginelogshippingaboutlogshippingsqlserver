@@ -1,0 +1,31 @@
+About Log Shipping (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 About Log Shipping (SQL Server) 
+
+					 
+								 05/17/2016 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     SQL Server Log shipping allows you to automatically send transaction log backups from a  primary database  on a  primary server  instance to one or more  secondary databases  on separate  secondary server  instances. The transaction log backups are applied to each of the secondary databases individually. An optional third server instance, known as the  monitor server , records the history and status of backup and restore operations and, optionally, raises alerts if these operations fail to occur as scheduled.   
+   In this Topic:    
+ Benefits    
+ 
+ Terms and Definitions    
+ 
+ 

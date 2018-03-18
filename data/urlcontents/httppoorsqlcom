@@ -1,0 +1,54 @@
+Poor SQL - Instant Free and Open-Source T-SQL Formatting 
+ 
+
+ 
+	 Poor SQL :  Take pity on your SQL with instant, 
+	free and open-source, online or offline formatting using the 
+	 Poor Man's T-SQL Formatter  
+	library. If you like it, download the 
+	 SSMS / Visual Studio plugin , 
+	the  command-line bulk formatter , 
+	and/or the  WinMerge plugin  
+	to integrate it into your workflow - equally free. (Or if you're feeling cruel, obfuscate your SQL instead!)  
+    NEW: Now use poorsql.com regardless of whether you're connected to the internet - it now automatically works offline!
+	  
+ 
+
+ 
+	 
+		 v1.6.10, Nov 2017  -  Download 
+	 
+	 
+		 About 
+	 
+	 
+		 Tips 
+	 
+	 
+		 Demos 
+	 
+     
+         Update available:  
+		 Reload 
+     
+ 
+
+ 
+	 
+		 
+			 Language:  
+			 English French Spanish 
+		 
+			 Colorize Only 
+		 
+		 
+			 Full Formatting 
+			 
+				 
+					 Indent String:  
+					 
+				 
+					 Spaces per Tab:  
+					 
+				 
+					 Max Width (chars)

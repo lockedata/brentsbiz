@@ -1,0 +1,50 @@
+Physically Placing the Maps in the architecture - Fighting Bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Physically Placing the Maps in the architecture 
+ 
+   2011-08-19 
+   Data Modeling   	
+   2 Comments   Architecture ,  Data Warehouse ,  ETL ,  Keys ,  Maps ,  Master Data ,  Staging 
+ Before we leave the maps behind, I need to live up to my promise of describing the storage characteristics of tables visited during the journey through the warehouse architecture. This must include the physical location of maps. Since believe form must follow function in a DW, let us just recall their function: 
+ From a functional perspective, I have show

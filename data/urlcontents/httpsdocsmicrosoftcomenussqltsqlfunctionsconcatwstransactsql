@@ -1,0 +1,34 @@
+CONCAT_WS (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 CONCAT_WS (Transact-SQL) 
+
+					 
+								 07/24/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Concatenates a variable number of arguments with a delimiter specified in the 1st argument. ( CONCAT_WS  indicates  concatenate with separator .) 
+ Syntax 
+ CONCAT_WS ( separator, argument1, argument1 [, argumentN]… ) 
+ Arguments 
+ separator Is an expression of any character type ( nvarchar ,  varchar ,  nchar , or  char ). 
+ argument1, argument2, argument N Is an expression of any type. 
+ Return types 
+ String. The length and type depend on the input. 
+ Remarks 
+ CONCAT_WS  takes a variable number of arguments and concatenates them into a single string using the first argume

@@ -1,0 +1,28 @@
+Transact-SQL Constructs Not Supported by In-Memory OLTP | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Transact-SQL Constructs Not Supported by In-Memory OLTP 
+
+					 
+								 11/21/2017 
+							 16 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Memory-optimized tables, natively compiled stored procedures, and user-defined functions do not support the full  Transact-SQL surface area that is supported by disk-based tables, interpreted  Transact-SQL stored procedures, and user-defined functions. When attempting to use one of the unsupported features, the server returns an error.   
+  The error message text mentions the type of  Transact-SQL statement (feature, operation, option, for example) and well as the name of the feature or  Transact-SQL keyw

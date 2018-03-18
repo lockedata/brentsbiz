@@ -1,0 +1,45 @@
+Essential Complexity: Perspective is Everything: Why even the most intelligent software architects don't understand the Relational Model 
+ 
+ 
+ 
+ 
+ 
+ skip to main   |
+       skip to sidebar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Essential Complexity
+ 
+ 
+ 
+ 
+ A blog dedicated to exploring The Information Age through Enterprise Architecture and Data Management 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+           
+        
+ Wednesday, December 28, 2011 
+
+           
+        
+ 
+ 
+ 
+ 
+ Perspective is Everything: Why even the most intelligent software architects don't understand the Relational Model 
+ 
+ 
+ 
+ A few weeks ago I stumbled on this article " A co-Relational Model of Data for Large Shared Data Banks "  ("coRel" hereon) in the on-line version of ACM Queue (this is the Association of Computing Machinery's magazine).  The article was authored by two employees (Erik Meijer and Gavin Bierman) of Microsoft. The authors summarize their thesis as thus: "Contrary to popular belief, SQL and noSQL are really just two sides of the same coin."

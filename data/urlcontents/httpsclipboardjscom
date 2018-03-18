@@ -1,0 +1,21 @@
+clipboard.js — Copy to clipboard without Flash 
+ clipboard.js 
+ A modern approach to copy text to clipboard 
+ No Flash. No frameworks. Just 3kb gzipped 
+ 
+ 
+ 
+ 
+ Why 
+ Copying text to the clipboard shouldn't be hard. It shouldn't require dozens of steps to configure or hundreds of KBs to load. But most of all, it shouldn't depend on Flash or any bloated framework. 
+ That's why clipboard.js exists. 
+ Install 
+ You can get it on npm. 
+ npm install clipboard --save 
+ Or if you're not into package management, just  download a ZIP  file. 
+ Setup 
+ First, include the script located on the  dist  folder or load it from  a third-party CDN provider . 
+ &lt;script src="dist/clipboard.min.js"&gt;&lt;/script&gt; 
+ Now, you need to instantiate it by  passing a DOM selector ,  HTML element , or  list of HTML elements . 
+ new ClipboardJS('.btn'); 
+ Internally, we need to fetch all elements that matches with your selector and attach event listeners for each one. But guess what? If you have hundreds of

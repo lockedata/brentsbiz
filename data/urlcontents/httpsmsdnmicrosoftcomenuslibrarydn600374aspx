@@ -1,0 +1,26 @@
+Cardinality Estimation (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Cardinality Estimation (SQL Server) 
+
+					 
+								 09/06/2017 
+							 7 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  This article illustrates how you can assess and choose the best cardinality estimation (CE) configuration for your SQL system. Most systems benefit from the latest CE because it is the most accurate. The CE predicts how many rows your query will likely return. The cardinality prediction is used by the Query Optimizer to generate the optimal query plan. With more accurate estimations, the Query Optimizer can usually do a better job of producing a more optimal query plan.   
+ Your application system could possibly have an important query whose plan is changed to a slower plan 

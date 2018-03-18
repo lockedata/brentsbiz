@@ -1,0 +1,31 @@
+Data Type Precedence (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Data type precedence (Transact-SQL) 
+
+					 
+								 7/23/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2012) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  When an operator combines two expressions of different data types, the rules for data type precedence specify that the data type with the lower precedence is converted to the data type with the higher precedence. If the conversion is not a supported implicit conversion, an error is returned. When both operand expressions have the same data type, the result of the operation has that data type. 
+  SQL Server uses the following precedence order for data types: 
+ user-defined data types (highest)   
+ sql_variant    
+ xml    
+ datetimeoffset    
+ datetime2    

@@ -1,0 +1,31 @@
+Install SQL Server with SMB fileshare storage | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Install SQL Server with SMB fileshare storage 
+
+					 
+								 09/05/2017 
+							 6 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Windows only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse  Starting with  SQL Server 2012, system databases (Master, Model, MSDB, and TempDB), and  Database Engine user databases can be installed with Server Message Block (SMB) file server as a storage option. This applies to both  SQL Server stand-alone and  SQL Server failover cluster installations (FCI).   
+ Note  Filestream is currently not supported on an SMB file share.   
+ 
+ Installation considerations 
+ SMB fileshare formats: 
+  While specifying the SMB file share, the following are supported Universal Naming Convention (UNC) P

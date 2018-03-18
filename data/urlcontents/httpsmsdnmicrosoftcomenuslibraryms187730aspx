@@ -1,0 +1,39 @@
+DBCC INPUTBUFFER (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DBCC INPUTBUFFER (Transact-SQL) 
+
+					 
+								 11/14/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Displays the last statement sent from a client to an instance of  Microsoft  SQL Server. 
+ Transact-SQL Syntax Conventions 
+ Syntax 
+ DBCC INPUTBUFFER ( session_id [ , request_id ])  
+[WITH NO_INFOMSGS ]  
+ Arguments 
+ session_id Is the session ID associated with each active primary connection.   
+ request_id Is the exact request (batch) to search for within the current session.   
+ The following query returns  request_id :   
+ SELECT request_id   
+FROM sys.dm_exec_requests   
+WHERE session_id = @@spid;  
+ WITH Enables options to be specified.   
+ NO

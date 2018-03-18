@@ -1,0 +1,29 @@
+Synonyms (Database Engine) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Synonyms (Database Engine) 
+
+					 
+								 03/03/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    A synonym is a database object that serves the following purposes:   
+ Provides an alternative name for another database object, referred to as the base object, that can exist on a local or remote server.   
+ 
+ Provides a layer of abstraction that protects a client application from changes made to the name or location of the base object.   
+ For example, consider the  Employee  table of  Adventure Works, located on a server named  Server1 . To reference this table from another server,  Server2 , a client application would have to use the four-part name  Server1.AdventureWorks.Person.Employe

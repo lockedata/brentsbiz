@@ -1,0 +1,26 @@
+Centino Systems Blog - We make a system out of your systems. 
+ 
+	 Centino Systems Blog 
+			 We make a system out of your systems. 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ Publications 
+ Talks 
+ Training 
+ About 
+ 
+		 
+			 
+	 
+		 
+		
+										
+	 
+				 Distributing SSH User Keys via PowerShell 
+			 
+										 
+					 Leave a reply 				 
+					 
+			 Folks in the Linux world are used to moving SSH keys to and from systems enabling password-less authentication. Let’s take a minute to look at what it takes to use PowerShell to distribute SSH user keys to remote systems. 
+ In the OpenSSH package there’s a command  ssh-copy-id  which is a bash script that copies a user’s public key to a remote system. There’s a little intelligence in the script to set things up properly on the remote system for password-less key based authentication. If the appropriate directory and key file aren’t set up,  ssh-copy-id  will create the directory and key file with the correct permissions on remote syst

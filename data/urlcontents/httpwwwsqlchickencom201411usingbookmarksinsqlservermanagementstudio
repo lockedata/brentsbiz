@@ -1,0 +1,38 @@
+Using Bookmarks in SQL Server Management Studio – SQLChicken.com 
+ 
+	 Skip to content 
+
+	 
+
+	 
+			 
+
+	 
+	 
+
+		
+		 
+							 SQLChicken.com 
+			
+								 SQL Server Tips &amp; Tricks 
+						 
+
+		
+	 
+ 
+
+ 
+
+		
+	 
+		 
+
+ 
+	 
+		 Posted on   2014/11/06 2014/11/10  by  admin Using Bookmarks in SQL Server Management Studio 	 
+		 
+ 
+ 
+ In SQL Server one way we optimize code is by adding indexes. Indexes help queries by essentially letting the engine know “hey, here’s the fast way to get directly to the data you want”. The alternative is doing full table scans to read all the data, which sucks. 
+ When reviewing code in SQL Server Management Studio (SSMS) we have a similar built-in tool to help save you time: Bookmarks! Bookmarks aren’t quite like indexes but they do help you mark locations in code that you can quickly jump to. This is especially helpful when reviewing code in large scripts. 
+ For this example I’m going to use the amazingly useful  Diagnostic Information Queries script  (which you 

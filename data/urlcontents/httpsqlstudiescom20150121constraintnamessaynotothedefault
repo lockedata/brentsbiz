@@ -1,0 +1,56 @@
+Constraint names, Say NO to the default | SQL Studies 
+
+ 
+
+	
+	 
+
+		
+		
+		
+					 
+		
+	 
+
+	 Skip to navigation 
+		 Skip to main content 
+		 Skip to secondary content 
+		 Skip to footer 
+	 
+		 
+							 
+						 
+				 
+					 SQL Studies 
+					  Live, Learn, Share 
+				 
+			 
+		   
+		 
+		 
+			 Home 
+ Study and Reference Materials 
+ Free Scripts 
+ sp_SrvPermissions 
+	 sp_DBPermissions 
+ 
+ Blogging ideas 
+ About 
+ Contact Me 
+ 
+ SQL Homework 
+ Fun! 
+ 		 
+	 
+
+	 
+     
+
+      	 Constraint names, Say NO to the default 
+       				 12 
+		         January 21, 2015  by Kenneth Fisher 
+
+		 
+			 Have you ever seen a constraint with a name like  PK__TableNam__EA185FBF8FF1529D ?  It’s kind of funny looking right? I mean it makes no difference in terms of how things run but it does make it a bit of a pain when you need to code with it.  Say dropping the PRIMARY KEY constraint before adding a column to it .  So what causes names like this to show up in your object list? 
+ CREATE TABLE TableName (
+	TableN

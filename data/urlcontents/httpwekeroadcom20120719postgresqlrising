@@ -1,0 +1,52 @@
+PostgreSQL Rising – Rob Conery 
+ 
+
+ 
+		 
+		
+	
+	 
+		 
+	 
+
+ 			 
+		
+			 
+	  
+ 
+	
+	
+
+ Blog 
+ About 
+ Publications 
+ Podcasts 
+ 
+	 
+ 
+ 
+	 
+ 
+	 
+ 
+		 
+										 PostgreSQL Rising 6 years ago by  Rob Conery 5 min read 
+					 
+		 
+			 
+		 
+	 
+
+
+ 
+
+
+	 
+		 
+
+	 
+
+		 Postgres.app 
+ Some buzz going around the web today about  Postgres.app . Most people don’t understand why it’s interesting – so here’s a quick explanation. 
+ Postgres can be configured with a lot of interesting options – the ability to run Geospatial indexing (PostGIS), creating functions with Ruby and Javascript, and extending the query engine to go up against remote sources like GMail. These features need to be compiled with the core code – something that can be a bit of a pain even when using Homebrew on your Mac. 
+ Homebrew simply grabs the source and compiles it based on common usage patterns replicated in the “recipe”. Postgres.app is precompiled and runs as a little daemon that you

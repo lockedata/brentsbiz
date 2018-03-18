@@ -1,0 +1,37 @@
+Global Ping Statistics - WonderNetwork 
+		 
+			 
+				 WonderNetwork 
+				 A Note 
+					 About 
+					 News 
+				 
+						 Apps 
+						 WonderProxy 
+							 Where’s It Up? 
+							 ShotSherpa 
+							 WonderVPN 
+							 Global Ping Statistics 
+							 Where’s It Fast? 
+						 
+							 
+		 
+
+		 
+			 
+   
+     
+       
+        Global Ping Statistics
+       
+       Ping times between WonderNetwork servers 
+       WonderNetwork operates a global network of servers and leverages them to provide network testing solutions.   Add or remove  cities from the table below to view  city to city  ping times. 
+     
+   
+
+   
+     
+   
+   
+     About 
+     The WonderNetwork Global Statistics data is generated with unix command line tool ping, executing 30 pings from source (lefthand column) to destination (table header), displaying the  average . Cells showing the average deviation of those pings are highlighted in green if they are within 10% of the  lowest average ping , yellow if they are within 20% a

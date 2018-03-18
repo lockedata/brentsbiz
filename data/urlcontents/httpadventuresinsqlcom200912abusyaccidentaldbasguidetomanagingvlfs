@@ -1,0 +1,47 @@
+A Busy/Accidental DBA's Guide to Managing VLFs | Adventures In SQL 
+ 
+	 
+		 
+			 
+								 
+					 
+						 Adventures In SQL 
+					 
+				 
+				 Random thoughts, rants, discoveries and things I wish I had done better 
+
+										 
+
+			 
+			  				 Skip to content 
+								 Home Presentations 
+ Getting Out from Behind the Curtain – The New DBA 
+	 What To Do When It All Goes So Wrong 
+ 
+ About 
+ 
+			 
+		 
+	 
+
+	 
+
+		 
+			 
+
+			
+
+				 
+					 ←  How to Shrink TempDB in SQL 2005 
+					 Script Individual User Rights in a Database with PowerShell  → 
+				 
+
+				 
+					 A Busy/Accidental DBA’s Guide to Managing VLFs 
+
+					 
+						 Posted on   December 21, 2009   by   David Levy 					 
+
+					 
+						 Introduction 
+ Properly managing VLFs can make or break the performance of your databases. There is a ton of information out there on the proper management of VLFs, but nothing I have found that tries to boil it down to the most important parts. So here it is, my attempt at A Busy/Accidental DBA’s Gui

@@ -1,0 +1,56 @@
+Build Your Own Tools | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ September 23, 2016 
+ 
+	  Build Your Own Tools 
+	 Filed under:  Miscelleaneous SQL , SQL Scripts , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 8:37 am  
+
+	 
+		 There are so many ways to look inside SQL Server. New extended events and dynamic management views are introduced every version. But if you want to collect something that’s unavailable, with a little bit of creativity, you can create your own tools. 
+ Inspired by  Richie Rump’s latest project,  I’m going to describe a tool I wrote and the process I took to get there. 
+ The Problem To Tackle 
+ I had a deadlock graph I wanted to tackle, but I was having trouble reproducing it. I needed to know more about the quer

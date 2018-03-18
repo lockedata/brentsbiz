@@ -1,0 +1,50 @@
+TPC-H Schema and Indexes - Fighting bad Data Modeling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ About Me 
+ Musing 	 Game Guides 
+ Subject Areas 
+ Data Modeling 	 Databases 	 Programming 
+ Resources 
+ Database Conventions 	 Source Code 	 Free Data 	 Utilities 	 Slides 
+ SQL Server Archive 
+ Courses 
+ Performance Tuning Course 		 Data Warehousing Course 
+ 	 Grade of the Steel 
+ 					 
+ 
+ 
+ Search for: 
+ 
+ 					 			   
+ 
+ 
+ 
+ 	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TPC-H: Schema and Indexes TPC-H: Schema and Indexes TPC-H: Schema and Indexes TPC-H: Schema and Indexes TPC-H: Schema and Indexes 
+ 
+   2014-06-30 
+   Data Modeling   	
+   No Comments   Performance ,  SQL ,  TPC-H 
+ 
+ The TPC-H benchmark is often used a method for customers to evaluate data warehouse products to make purchasing decisions. Because it is such a crucial benchmark, it is important to understand the challenges it presents for database vendors. Unfortunately, the public information about tuning for TPC-H is rather sparse and it is generally hard to

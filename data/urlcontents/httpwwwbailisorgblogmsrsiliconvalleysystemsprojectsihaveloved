@@ -1,0 +1,16 @@
+MSR Silicon Valley Systems Projects I Have Loved | Peter Bailis 
+   
+     Peter Bailis  ::  Highly Available, Seldom Consistent 
+ Data management, distributed systems, and beyond 
+   
+   
+     
+
+ MSR Silicon Valley Systems Projects I Have Loved 
+
+ 19 Sep 2014 
+
+ Microsoft  confirmed yesterday  that it’s shuttering its  Silicon Valley lab , home to 75 brilliant Computer Science researchers including 2013 Turing Award winner  Leslie Lamport . Others have  more  and   wiser  things to say about this decision. However, I want to highlight some of the fantastic work that’s come out of MSR Silicon Valley in the recent past in my research area of databases and distributed systems: 
+
+ 
+     Dryad  and  DryadLINQ  were hugely influential systems that challenged the then-popular notions that high-performance distributed dataflow had to be  i.)  simple map and reduce tasks only and  ii.)  hard to program. Ideas such as Dryad’s general-purpose DAG execution model, flexible and lightweight data tra

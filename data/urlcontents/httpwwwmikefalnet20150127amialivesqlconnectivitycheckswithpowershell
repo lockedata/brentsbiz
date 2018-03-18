@@ -1,0 +1,36 @@
+Am I Alive? SQL Connectivity Checks with #Powershell | Art of the DBA 
+ 
+
+	 
+		 
+				
+			 Art of the DBA 
+						 Blending the right and left sides of SQL Server Database Administration 
+		 
+		
+		 Skip to Content ↓ 
+		
+		 About 
+ Presentations 
+ 
+	 
+ 
+	 
+		 	
+	 
+		
+				
+				
+				
+		 
+			
+			 Am I Alive? SQL Connectivity Checks with #Powershell 
+			
+			 
+				 Jan 27th, 2015 
+				 by  Mike Fal .  
+							 
+			
+			 
+				 Inevitably, there will be the call from a developer or admin saying “I can’t connect to the MORDOR SQL Server!  Everything is terrible!  All is darkness and shadows!  HELP!”.  After explaining that one does not simply connect to MORDOR, I fire up SQL Server Management Studio and attempt to log in.  It’s not particularly onerous, but it takes time and can’t be particularly automated for more proactive connectivity checks. 
+ The connectivity check, at the heart of it, isn’t really that complex.  Usually it’s just a case of connecting and runnin

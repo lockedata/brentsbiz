@@ -1,0 +1,33 @@
+Resolve Out Of Memory Issues | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Resolve Out Of Memory issues 
+
+					 
+								 12/21/2017 
+							 8 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+										 all 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse     SQL Server In-Memory OLTP uses more memory and in different ways than does  SQL Server. It is possible that the amount of memory you installed and allocated for  In-Memory OLTP becomes inadequate for your growing needs. If so, you could run out of memory. This topic covers how to recover from an OOM situation. See  Monitor and Troubleshoot Memory Usage  for guidance that can help you avoid many OOM situations.   
+ Covered in this topic 
+ Topic 
+ Overview 
+ Resolve database restore failures due to OOM 
+ What to do if you get the error message

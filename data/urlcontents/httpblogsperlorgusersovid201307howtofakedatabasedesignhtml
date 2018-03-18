@@ -1,0 +1,51 @@
+How to fake a database design | Ovid [blogs.perl.org] 
+ 
+     
+         
+         
+             
+                 
+                     Search 
+                     
+             
+
+             blogs.perl.org 
+                 perl.org 
+                 perlnews.org 
+                 pm.org 
+		 
+ 
+ 
+ 
+         
+        
+
+
+        
+         
+         
+             Ovid 
+             A blog about the Perl programming language 
+         
+         
+        
+         
+         
+             
+            
+
+
+ 
+                         How to fake a database design 
+                        
+                         
+                             By  Ovid 
+							 on  July 24, 2013  8:21 AM 
+							
+						 
+                        
+                         
+                             Many database students rejoiced when  a paper was published showing a shortcut to fifth normal form  (pdf).  From the abstract: 
+
+ 
+   A key is simple if it consists of a single attribute. It is shown that if a re

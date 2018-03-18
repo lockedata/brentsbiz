@@ -1,0 +1,33 @@
+Hierarchical Data (SQL Server) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Hierarchical Data (SQL Server) 
+
+					 
+								 09/01/2017 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    The built-in  hierarchyid  data type makes it easier to store and query hierarchical data.  hierarchyid  is optimized for representing trees, which are the most common type of hierarchical data.   
+  Hierarchical data is defined as a set of data items that are related to each other by hierarchical relationships. Hierarchical relationships exist where one item of data is the parent of another item. Examples of the hierarchical data that is commonly stored in databases include the following:   
+ An organizational structure   
+ 
+ A file system   
+ 
+ A set of tasks in a project   
+ 
+ A

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.12//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:CDT
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:CST
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20161026T140000
+UID:g6bjsqt1p5l1364d0c4a1l2hr0@google.com
+DTSTAMP:20161012T153121Z
+LOCATION:Room 6E
+DESCRIPTION:When you pass in a query\, how does SQL Server build the res
+ ults? Time to role play: Brent will be an end user sending in queries\, 
+ and you will play the part of the SQL Server engine. Using simple spread
+ sheets as your tables\, you will learn how SQL Server builds execution p
+ lans\, uses indexes\, performs joins\, and considers statistics. This se
+ ssion is for DBAs and develope

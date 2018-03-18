@@ -1,0 +1,22 @@
+SQL Server table columns under the hood 
+ 
+ 
+ rusanu.com 
+ About 
+ Links 
+ Articles 
+ Blog 
+ 
+
+
+ 
+ 
+             
+         
+         SQL Server table columns under the hood 
+         October 20th, 2011  
+         
+
+ 
+ You probably can easily answer a question like ‘What columns does this table have?’. Whether you use the SSMS object explorer, or  sp_help , or you query  sys.column , the answer is fairly easy to find. But what is I ask ‘What are the  physical  columns of this table?’. Huh? Is there any difference? Lets see. 
+ At the logical layer tables have exactly the structure you declare it in your CREATE TABLE statement, and perhaps modifications from ALTER TABLE statements. This is the layer at which you can look into  sys.columns  and see the table structure, or look at the table in SSMS object explorer and so on and so forth. But there is also a lower layer, the physical layer of the storage engine where the table might have surprisingly different structure from what you e

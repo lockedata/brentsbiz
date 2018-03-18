@@ -1,0 +1,24 @@
+SQL Server, In-Memory OLTP, Columnstore | Ned Otter Blog 
+ 
+	 Ned Otter Blog 
+			 SQL Server DBA and Musician 
+		 Menu 
+			 Skip to content 
+			 Home Contact 
+ 
+		 
+	 
+		 
+
+			
+				
+	 Clustered columnstore: on-disk vs. in-mem 
+										 
+					 3 Replies 				 
+					 
+			 This post will highlight the fairly wide gap in functionality between clustered columnstore indexes for on-disk tables compared to memory-optimized tables, for SQL 2016.   
+ The first thing to note – which is not specific to columnstore for either type of table – is that Microsoft chose a really poor name for this type of index.   
+ Why do I say that?   
+ For the following reasons:   
+ 1. Traditional/regular clustered indexes physically sort data, but data within a columnstore index is unordered (that’s true for clustered and nonclustered columnstore indexes).   
+ 2. For a traditional/regular clustered index, the key columns are added to all nonclustered indexes. Columnstore indexes don’t have a “key” so nothing about 

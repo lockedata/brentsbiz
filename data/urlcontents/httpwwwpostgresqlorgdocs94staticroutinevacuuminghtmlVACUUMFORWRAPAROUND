@@ -1,0 +1,136 @@
+PostgreSQL: Documentation: 9.4: Routine Vacuuming 
+ 
+	 
+		 
+	 
+ 
+
+ 
+ 
+ 
+ 
+	 
+	 
+	 Search Documentation:  
+	 
+ 
+ 
+ Home  →  Documentation  →  Manuals  →  PostgreSQL 9.4 
+ 
+ 
+This page in other versions:
+
+
+	
+	
+		
+		 9.3 
+		
+	
+
+	/
+	
+		
+		 9.4 
+		
+	
+
+	/
+	
+		
+		 9.5 
+		
+	
+
+	/
+	
+		
+		 9.6 
+		
+	
+
+	/
+	
+		
+		 current 
+		( 10 )
+		
+	
+
+
+
+
+ |  Development versions:
+
+	
+	
+	 devel 
+	
+
+
+
+
+ |  Unsupported versions:
+
+	
+	
+	 7.2 
+	
+
+	/
+	
+	 7.3 
+	
+
+	/
+	
+	 8.2 
+	
+
+	/
+	
+	 8.3 
+	
+
+	/
+	
+	 8.4 
+	
+
+	/
+	
+	 9.0 
+	
+
+	/
+	
+	 9.1 
+	
+
+	/
+	
+	 9.2 
+	
+
+
+ 
+ 
+
+ 
+ 
+   PostgreSQL 9.4.17 Documentation 
+     Prev 
+       Up 
+       Chapter 23.
+      Routine Database Maintenance Tasks 
+       Next 
+     
+ 
+   23.1. Routine Vacuuming 
+   PostgreSQL  databases require
+  periodic maintenance known as  vacuuming .
+  For many installations, it is sufficient to let vacuuming be
+  performed by the  autovacuum daemon ,
+  which is described in  Section 23.1.6 . You might
+  need to adjust the autovacuuming parameters described there to
+  o

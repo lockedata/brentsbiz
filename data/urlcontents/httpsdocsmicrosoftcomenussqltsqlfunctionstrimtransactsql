@@ -1,0 +1,33 @@
+TRIM (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 TRIM (Transact-SQL) 
+
+					 
+								 01/20/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (starting with 2017) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Removes the space character  char(32)  or other specified characters from the start or end of a string.   
+ Syntax 
+ TRIM ( [ characters FROM ] string ) 
+ Arguments 
+ characters Is a literal, variable, or function call of any non-LOB character type ( nvarchar ,  varchar ,  nchar , or  char ) containing characters that should be removed.  nvarchar(max)  and  varchar(max)  types are not allowed. 
+ string Is an expression of any character type ( nvarchar ,  varchar ,  nchar , or  char ) where characters should be removed. 
+ Return Types 
+ Returns a character expression with 

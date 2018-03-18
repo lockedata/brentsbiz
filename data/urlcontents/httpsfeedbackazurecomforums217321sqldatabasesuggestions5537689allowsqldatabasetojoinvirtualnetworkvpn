@@ -1,0 +1,40 @@
+Allow SQL Database to join Virtual Network (VPN) – Customer Feedback for Microsoft Azure 
+   
+   
+
+       
+     
+         
+             
+                 
+         
+         Home 
+             Management Portal 
+             Feedback Forums 
+         
+ 
+
+    
+
+
+
+
+ 
+   
+     
+
+       
+         How can we improve Azure SQL Database? 
+           
+             ← SQL Database 
+           
+
+          
+         
+             Allow SQL Database to join Virtual Network (VPN) 
+               
+                 I have Cloud Service with web/worker roles connected to SQL Database (web edition).   
+
+ I also have Virtual Network with point-to-site client (P2S) connection, but I cannot connect to my SQL Database (web edition) via VPN (eg using SSDM). Instead I have to use internet connection. 
+
+ IP address assigned by my ISP has short lifetime and is reset daily. This means that almost every time I want to perform Admin tasks, I have to log onto Windows Azure portal to change my IP address i

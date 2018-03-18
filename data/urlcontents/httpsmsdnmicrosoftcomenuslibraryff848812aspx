@@ -1,0 +1,32 @@
+sp_prepexec (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 sp_prepexec (Transact-SQL) 
+
+					 
+								 03/14/2017 
+							 2 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse    Prepares and executes a parameterized  Transact-SQL statement. sp_prepexec combines the functions of sp_prepare and sp_execute. This is invoked by ID =13 in a tabular data stream (TDS) packet.   
+   Transact-SQL Syntax Conventions    
+ Syntax 
+ 
+sp_prepexec handle OUTPUT, params , stmt  
+    [ , bound param ] [ ,...n]]  
+ Arguments 
+   handle  Is the  SQL Server-generated  handle  identifier.  handle  is a required parameter with an  int  return value.   
+   params  Identifies parameterized statements. The  params  definition of variables is substituted for parameter markers in the sta

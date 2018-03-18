@@ -1,0 +1,30 @@
+Setup and configuration for Python Machine Learning Services | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 Set up Python Machine Learning Services (In-Database) 
+
+					 
+								 12/20/2017 
+							 13 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO:   SQL Server (Windows only) Azure SQL Database Azure SQL Data Warehouse Parallel Data Warehouse    This article describes how to install the components required for Python by running the  SQL Server setup wizard, and following the interactive prompts. 
+ Machine learning options in SQL Server setup 
+ Choose the  Machine Learning Services  feature, and select  Python  as the language. 
+ The  Shared Features  section contains a separate installation option,  Machine Learning Server (Standalone) . This option supports operationalization of Python code on a server that does not have SQL Ser

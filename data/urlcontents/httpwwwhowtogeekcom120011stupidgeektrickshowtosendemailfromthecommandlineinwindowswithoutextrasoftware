@@ -1,0 +1,43 @@
+How to Send Email From the Command Line in Windows (Without Extra Software)  
+ 
+ 
+ 	 
+ 
+ 
+ Skip to content 
+ 
+ 
+ 
+ Windows 
+ Mac 
+ iPhone 
+ Android 
+ Smarthome 
+ More… 
+ Linux 
+ Hardware 
+ Gaming 
+ Security 
+ Office 
+ Photography 
+ 
+ Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ How to Send Email From the Command Line in Windows (Without Extra Software) 	 by  Taylor Gibb  on  November 3rd, 2016 
+ 
+ 
+ In Windows there is no way to natively send mail from the Command Prompt, but because PowerShell allows you to use the underlying .Net Framework, you can easily create and send an  e-mail from the command line. 
+ Note: I have uploaded a  sample over here , due to many requests. 
+ 
+ 
+ 	 
+ Sending Email From PowerShell 
+ Note: We decided to use the GMail SMTP Servers for this article, that means you will need a GMail account to send mail using the provided code. However, you could easily hack my script to work with any SMTP Server should you want to. 
+ The first thing you need to do is fire up PowerShell. 
+ 
+ It’s p

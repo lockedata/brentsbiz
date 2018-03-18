@@ -1,0 +1,29 @@
+Why an Upgrade can Cause Performance Regressions (Dear SQL DBA Episode 9) - by Kendra Little 
+
+ 
+
+	
+		
+		 Menu contact 
+ 
+	 
+
+		 
+		 
+						 
+				 Why an Upgrade can Cause Performance Regressions (Dear SQL DBA Episode 9) 
+
+				 
+					 July 21, 2016 Kendra Little Dear SQL DBA ,  sql 10  Comments 				 
+			 
+		 
+
+			 
+ You finally got approval to move to new hardware and a fresher version of SQL Server. After months of work,  you do the migration and then… performance gets worse. What can cause this, and what do you look for? 
+ This is a “listen-able” 27 minute video . Prefer a podcast instead? Find it at  littlekendra.com/dearsqldba .  
+ Show notes with clickable links are below the video.  A free poster of the concepts is here . 
+ 
+ Here’s this week’s question: 
+ Dear SQL DBA, 
+ I recently went through a process of migrating databases on a SQL Server 2008 R2 stand alone instance to a SQL Server 2012 SP2 cluster. 
+ The cluster’s servers and SQL Server configurations were built to be as c

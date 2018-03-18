@@ -1,0 +1,56 @@
+When Parameter Sniffing Caused Deadlocks | Michael J. Swart 
+ 
+ Michael J. Swart 
+
+ 
+
+ 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				RSS Feed
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				Email Me
+			 
+		 
+	 
+	 
+		 
+			 
+				 
+		 
+		 
+			 
+				About Me
+			 
+		 
+	 
+ 
+
+ 
+ 
+
+
+ February 26, 2015 
+ 
+	  When Parameter Sniffing Caused Deadlocks 
+	 Filed under:  Miscelleaneous SQL , SQLServerPedia Syndication , Technical Articles  —  Michael J. Swart @ 10:06 am  
+
+	 
+		 Last week I was asked to troubleshoot some deadlocks in production. I was surprised to find out that parameter sniffing was one of the causes. I describe the investigation below. 
+ Parameter Sniffing 
+ SQL Server does this neat trick when you give it a query with parameters. The query optimizer will take the parameter values into account when making cardinality estimates. It finds the best query plan it can for these values. This is called parameter sniffing. 
+ But parameter sniffing c

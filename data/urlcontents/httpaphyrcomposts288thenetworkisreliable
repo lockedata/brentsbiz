@@ -1,0 +1,41 @@
+The network is reliable 
+   
+     
+       Login 
+       Password 
+       
+   
+ 
+
+
+   Aphyr 
+       Blog 
+         Photography 
+         Code 
+         About 
+       
+    
+
+    
+ 
+     
+       The network is reliable 
+
+       
+         2013/06/02 Network Jepsen 
+     
+
+     
+       I’ve been discussing  Jepsen  and partition tolerance
+with  Peter Bailis  over the past few
+weeks, and I’m honored to present this post as a collaboration between the two
+of us.  We’d also like to extend our sincere appreciation to everyone who
+contributed their research and experience to this piece. 
+
+ Network partitions are a contentious subject. Some claim that modern
+networks are reliable and that we are too concerned with designing for
+ theoretical  failure modes. They often accept that single-node failures are
+common but argue that we can  reliably
+detect and handle them . Conversely, others  subscribe  to Peter
+Deutsch’s  Fallacies of
+Distributed Computing  and disagree. They attest that partitions do 

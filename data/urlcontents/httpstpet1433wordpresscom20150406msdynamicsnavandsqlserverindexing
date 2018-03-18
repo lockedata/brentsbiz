@@ -1,0 +1,34 @@
+Maintenance on a few…hundred thousand…indexes – Tim Peters 
+	 Skip to content 
+
+	 
+		 
+			 Primary Menu 
+				 Home About me 
+ 
+			 
+				 Search 
+				 
+					 
+						 
+				 
+					 Search for: 
+					 
+				 					 
+				 
+			 
+    	 
+	 
+
+	 
+								 Tim Peters 
+				 DBA by day 
+			 
+	 
+	 
+		 Maintenance on a few…hundred thousand…indexes 
+					 
+				 April 6, 2015 April 7, 2015 timothydpeters 			 
+		
+	 
+			 Some run big data demos on laptops. Some technologists say big data is data sets that are so large or complex that traditional methods and practices are no longer adequate. My databases fall very short of big, but when I start looking at the number of objects I venture into well above average and maybe even bigish. I don’t have published metrics to back this up, but in my decade plus time with SQL Server I haven’t seen anything like what I deal with these days. I support a MS Dynamics Nav database with a mind boggling number of objects. Maybe my mind boggles a bit easier than others, but w

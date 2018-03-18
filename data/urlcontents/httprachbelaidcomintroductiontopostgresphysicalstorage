@@ -1,0 +1,23 @@
+Introduction to PostgreSQL physical storage 
+
+     ←  Home  
+    
+
+    
+        
+             About  
+        
+    
+         Twitter 
+ Introduction to PostgreSQL physical storage 
+         November 9, 2015 
+     I initially wrote this post for myself, I wanted to understand enough about the
+underlying physical storage to be able to grasp other concepts which can affect
+your database. This post is probably more aimed to people with similar interests,
+I will try to keep it accurate but the aim is to make it simpler to understand so I may overlook some details. 
+
+ Should you know about how Postgres handle the physical storage? Maybe not,
+but knowing how it works can be useful if you need to investigate some problems. 
+
+ PostgreSQL has a  chapter  on the subject but personally I had to dive
+in extra resources to get my head around it. I found difficult to navigate through multiple parts of the documentation and external resources, so this is my attempt to gather the essential in a single p

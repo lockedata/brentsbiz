@@ -1,0 +1,22 @@
+SQL vs NoSQL: you do want to have a relational storage by default - Enterprise Craftsmanship 
+ 
+	 Enterprise Craftsmanship 
+			 Software development principles and best practices 
+		 Menu 
+			 Skip to content 
+			 Home 
+ About 
+ Request a Code Review 
+ 		 
+	 
+		 
+
+			
+				
+	 SQL vs NoSQL: you do want to have a relational storage by default 
+			 Follow @vkhorikov 
+					 
+			 The concept of NoSQL databases has been around for a while, but there still are quite a few misunderstandings regarding the topic of relational SQL vs NoSQL databases. In this post, I’d like to clarify the most common misconceptions and discuss the primary use cases for each of them. 
+ 
+ Are NoSQL databases really schemaless? 
+ A quick note before we start: the notion of NoSQL refers to 4 different types of databases: Document-Oriented, Column-Oriented, Key-Value stores, and Graph DBs. In this post, I talk about Document-Oriented databases primarily. I refer to them as NoSQL for the sake of brevity but keep in m

@@ -1,0 +1,41 @@
+  Everyday Postgres: How I write queries using psql: Common Table Expressions 
+ 
+	 
+			 Selena Deckelmann's blog about open source and working at Mozilla. 
+		 Menu 
+			 Skip to content 
+
+			 Popular 
+ Speaking 
+ Conferences 
+ DevOps 
+ About me 
+ 		 
+
+		 
+			 
+
+			
+				 
+	 
+						
+			 
+				 November 12, 2013 			 
+			
+						 
+				 postgresql 			 
+			
+						 
+				 ctes ,  everyday postgres 			 
+			
+						 8 Comments 
+			
+					 
+		
+		 Everyday Postgres: How I write queries using psql: Common Table Expressions 					 
+			 This this series of posts about using Postgres every day. The last post was about  \  commands in psql . 
+ I’m now going to share in a series of posts my workflow for writing queries, and some of the things about working with Postgres that I take for granted in writing queries. 
+ Shortcuts I can’t live without 
+ Three important shortcuts you should learn are: 
+ \e : Pulls the last query you executed into a buffer in your favorite editor  
+ \df+ [function] : This displays  [

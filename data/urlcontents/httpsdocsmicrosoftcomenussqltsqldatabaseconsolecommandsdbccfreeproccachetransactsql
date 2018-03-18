@@ -1,0 +1,27 @@
+DBCC FREEPROCCACHE (Transact-SQL) | Microsoft Docs 
+ 
+		 
+			 
+		 
+	 
+ 
+
+	 
+		 
+
+			 DBCC FREEPROCCACHE (Transact-SQL) 
+
+					 
+								 10/13/2017 
+							 5 minutes to read 
+							 
+								 Contributors 
+								 
+											 
+											 
+											 
+								 
+
+					 In this article 
+						 THIS TOPIC APPLIES TO: SQL Server (starting with 2008) Azure SQL Database Azure SQL Data Warehouse  Parallel Data Warehouse  Removes all elements from the plan cache, removes a specific plan from the plan cache by specifying a plan handle or SQL handle, or removes all cache entries associated with a specified resource pool. 
+ Note DBCC FREEPROCCACHE does not clear the execution statistics for natively compiled stored procedures. The procedure cache does not contain information about natively compiled stored procedures. Any execution statistics collected from procedure executions will appear in the execution statistics DMVs:  sys.dm_exec_procedure_stats (Transact-SQL)  
