@@ -156,7 +156,7 @@ mailchimp_customers %>%
   mailchimp_labelled
 ```
 
-## A super basic model
+# A basic model
 Without taking into behaviour in the run up of purchasing, let's do a very quick and dirty model to see whether some of the mailchimp member level features are useful as-is for predicting purchases. We'll use a decision tree based model for this.
 
 ```{r fig.height=15}
@@ -186,7 +186,7 @@ This model heavily emphasised correctly identifying the people who would purchas
 
 This model will be our baseline when we get into building more models.
 
-## Opens
+# Opens
 
 Now that we have for each person on the mailing list, whether they made a purchase or not, we should build some features around how often people have opened the newsletters in the past.
 
@@ -246,7 +246,7 @@ opens %>%
   sample_n(200)
 ```
 
-### Opens by usage
+## Opens by usage
 ```{r}
 (opens %>% 
   group_by(email_user_id) %>% 
@@ -260,7 +260,7 @@ opens %>%
   opens_typeofday)
 ```
 
-### Opens over time
+## Opens over time
 
 ```{r}
 opens %>% 
@@ -307,7 +307,7 @@ rm(list=c("opens","opens_start_hl",
 
 ```
 
-## Clicks
+# Clicks
 ```{r}
 clicks <- dbGetQuery(con,
     "select 
@@ -339,7 +339,7 @@ clicks %>%
 ```
 
 
-### Clicks by usage
+## Clicks by usage
 ```{r}
 (clicks %>% 
   group_by(email_user_id) %>% 
@@ -353,7 +353,7 @@ clicks %>%
   clicks_typeofday)
 ```
 
-### Clicks over time
+## Clicks over time
 
 ```{r}
 clicks %>% 
@@ -400,9 +400,9 @@ rm(list=c("clicks_start_hl",
 
 ```
 
-### Clicks by topic
+## Clicks by topic
 
-For how we arrived at topics per url, check out [What topics did people click?](brentsbizinternet.nb.html)
+For how we arrived at topics per url, check out [What topics did people click?](brentsbizInternet.nb.html)
 
 ```{r}
 clicks %>% 
@@ -457,7 +457,7 @@ rm(list=c("topics_clicks_l",
 ```
 
 
-## Putting it all together
+# Putting it all together
 
 ```{r}
 mailchimp_labelled %>% 
