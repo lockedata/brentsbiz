@@ -1,0 +1,305 @@
+---
+title: "Getting all up in Brent's biz - Candidate Models"
+output: 
+  html_notebook: 
+    code_folding: hide
+    toc: yes
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+library(tidyverse)
+library(dtplyr)
+brent_dt<-data.table::fread("../outputs/finaldataset.csv")
+brent_dt[, purchase:=NULL]
+brent_dt %>% 
+  as_tibble() %>% 
+  set_tidy_names(syntactic = TRUE) %>% 
+  mutate_if(is_logical, factor, levels=c("FALSE","TRUE")) %>% 
+  mutate_if(is_character, as_factor) %>% 
+  mutate_if(~is.factor(.)&n_distinct(.)!=2, fct_infreq) ->
+  brent_dt
+```
+
+# Samples
+```{r}
+library(modelr)
+library(recipes)
+```
+
+## Basic samples
+
+Perform a basic 70:30 split
+
+```{r}
+set.seed(20180409)
+brent_dt %>% 
+  modelr::resample_partition(c(train=0.7,test=0.3)) ->
+  splits
+
+splits %>% 
+  pluck("train") %>% 
+  as_tibble()->
+  train_raw
+
+splits %>% 
+  pluck("test") %>% 
+  as_tibble()->
+  test_raw
+```
+
+Start our recipe for processing our data
+
+```{r}
+train_raw %>% 
+  recipe( .)  %>%
+  add_role(any_purchase, new_role = "outcome") %>% 
+  add_role(email_user_id, new_role = "id") %>% 
+  add_role(everything(),-any_purchase, -email_user_id, new_role = "predictor")->
+  starter_recipe
+
+starter_recipe
+```
+
+Perform some steps to remove columns and fill in missing country
+```{r}
+starter_recipe %>% 
+  step_rm(has_role("id")) %>% 
+  step_corr(all_numeric())  %>% 
+  step_bagimpute(country_code, seed_val = 42) %>% 
+  step_other(country_code) %>%  
+  step_zv(all_predictors())  %>% 
+  prep(train_raw) ->
+  filter_recipe
+
+filter_recipe
+```
+
+```{r}
+train_b <- bake(filter_recipe, newdata = train_raw) 
+test_b  <- bake(filter_recipe, newdata = test_raw) 
+
+train_b
+```
+
+
+
+Perform numeric standardisation steps.
+
+```{r}
+train_b %>% 
+  recipe(any_purchase~.) %>% 
+  step_center(all_numeric()) %>% 
+  step_scale(all_numeric()) %>% 
+  prep(train_b) ->
+  standardise_recipe
+
+standardise_recipe
+```
+
+
+```{r}
+train_std <- bake(standardise_recipe, train_b) 
+test_std  <- bake(standardise_recipe, test_b) 
+
+train_std
+```
+
+## Oversample training purchases 
+```{r}
+set.seed(20180101)
+filter_recipe %>% 
+  step_upsample(all_outcomes(), ratio= .25) %>% 
+  prep(retain=TRUE) %>% 
+  juice() %>% 
+  # hack because juice isn't reducing the column set
+  bake(filter_recipe, .) ->
+  train_up
+
+print(paste("New rows:", nrow(train_up)- nrow(train_b)))
+```
+
+Now standardise it
+```{r}
+train_ups <- bake(standardise_recipe, train_up) 
+```
+
+## Synthesised training purchases 
+```{r}
+library(synthpop)
+brent_dt %>% 
+  filter(any_purchase=="TRUE") %>% 
+  bake(filter_recipe,.) %>% 
+  syn(k=30000)  ->
+  synth_purchases
+
+synth_purchases %>% 
+  pluck("syn") %>% 
+  union(train_b) %>% 
+  sample_n(nrow(.)) ->
+  train_syn
+```
+
+```{r}
+train_syn_std<- bake(standardise_recipe,train_syn) 
+```
+
+## Preparing
+We'll want to build models against our training sets so let's save some code by making a big list we can map models to.
+
+```{r}
+train_sets<-list(
+  "Basic"=train_b,
+  "Standardised"=train_std,
+  "Upsampled"=train_up,
+  "Upsampled & Standardised"=train_ups,
+  "Synthesised"=train_syn,
+  "Synthesised & Standardised" =train_syn_std
+)
+```
+
+Let's remove a high RAM object.
+
+```{r}
+rm("filter_recipe")
+```
+
+# Models - Basic glms
+```{r fig.width=10}
+library(broom)
+library(ggplot2)
+train_sets %>% 
+  map(~glm(any_purchase~  member_rating+ First.Responder.Kit+ Unknown.recd+ Monday.Links...our.favorite.SQL...tech.news.from.the.week+ weekday_open_prop + weekday_clicks_prop, 
+           data=.,
+           family="binomial",
+           y=FALSE,x=FALSE,model=FALSE))  ->
+  basic_glm
+
+basic_glm %>% 
+  map_df(tidy, .id = "set") %>% 
+  filter(term!="(Intercept)") %>% 
+  ggplot(aes(x=term, y=estimate, colour=set)) +
+  geom_point(alpha=.5, size=3)  +
+  coord_flip() +
+  ggthemes::theme_fivethirtyeight()+
+  geom_hline(aes(yintercept=0), colour="darkgrey", linetype="dashed")
+```
+
+Attributes with values consistently above 0 (dashed line) increase likelihood to buy training, and those below reduce the likelihood. The further away from the 0, the greater the impact. 
+
+```{r}
+library(optiRum)
+vals_to_conv<-seq(-1.5,1,by=0.5)
+data_frame(Coefficient=vals_to_conv,
+           `Odds Ratio (p/p-1)`= round(logit.odd(vals_to_conv),2),
+           `Probability` = round(logit.prob(vals_to_conv),2))
+```
+
+# Models - Basic tree models
+
+## Basic optimisation
+```{r}
+library(FFTrees)
+train_sets %>% 
+  map(~dplyr::select(mutate(., any_purchase=as.logical(any_purchase)),
+              member_rating:weekend_open_prop, 
+              holiday_clicks_prop:weekend_clicks_prop)) %>% 
+  map(~FFTrees(any_purchase~., .,
+               goal="bacc",do.comp = FALSE,progress = FALSE)) ->
+  vanilla_trees
+
+vanilla_trees %>% 
+  map_df(~cbind(.$tree.definitions,.$tree.stats$train),.id = "set") ->
+  vanilla_tree_results
+
+vanilla_tree_results
+```
+
+The chart shows different trees built using the different data sets and the balanced accuracy measure. Balanced accuracy is average of the proportion of purchases correctly classified and the proportion of non-purchases correctly classified.
+```{r fig.width=10}
+vanilla_tree_results %>% 
+  ggplot(aes(x=cues, y=bacc, colour=set)) +
+  geom_point(alpha=.5, size=3)  +
+  coord_flip() +
+  ggthemes::theme_fivethirtyeight()
+```
+
+We can look at the difference between the correctly classified purchases (red) and the correctly classified non-purchases (grey) for the trees with the highest balanced accuracy. There's two visible cases:
+
+1. high accuracy for purchases and low accuracy for non-purchases 
+2. OK accuracy for purchases and good accuracy for non-purchases
+
+Selection one of these would depend on the cost of the low accuracy for non-purchases.
+
+```{r fig.width=10}
+vanilla_tree_results %>% 
+  top_n(10, bacc) %>% 
+  mutate(cues=stringr::str_wrap(stringr::str_replace_all(cues,";", " "),1)) %>% 
+  dplyr::select(cues, sens, spec, set) %>% 
+  ggplot(aes(x=set, y=spec, ymax=sens, ymin=spec)) +
+  geom_pointrange(alpha=0.3, size=2)+
+  geom_point(aes(y=sens), colour="red", size=6)+
+  facet_wrap(~cues, ncol=4)+
+  ggthemes::theme_fivethirtyeight()
+```
+
+## Assuming a cost to getting things wrong
+
+Assuming the result of this investigation is to target emails better or set up workflows, the cost of not-identifying people who would purchase is not receiving income, a provisional figure of 100. The cost of sending emails unnecessarily is perhaps 1. We can use these to drive our model to optimise differently than thinking all errors are of equal cost.
+
+this gives us the concept of a weighted accuracy where getting our purchasers correctly identified is worth 100x as much as getting a non-purchaser wrong.
+
+```{r}
+train_sets %>% 
+  map(~dplyr::select(mutate(., any_purchase=as.logical(any_purchase)),
+              member_rating:weekend_open_prop, 
+              holiday_clicks_prop:weekend_clicks_prop)) %>% 
+  map(~FFTrees(any_purchase~., ., 
+                cost.outcomes = c(0, 10, 100, 0),
+                goal = "wacc",
+               goal.chase = "wacc",
+               do.comp = FALSE,progress = FALSE)) ->
+  weighted_trees
+
+weighted_trees %>% 
+  map_df(~cbind(.$tree.definitions,.$tree.stats$train),.id = "set") ->
+  weighted_tree_results
+
+weighted_tree_results
+```
+
+The chart shows different trees built using the different data sets and the weighted accuracy measure. Balanced accuracy is average of the proportion of purchases correctly classified and the proportion of non-purchases correctly classified.
+```{r fig.width=10}
+weighted_tree_results %>% 
+  ggplot(aes(x=cues, y=wacc, colour=set)) +
+  geom_point(alpha=.5, size=3)  +
+  coord_flip() +
+  ggthemes::theme_fivethirtyeight()
+```
+
+We can look at the difference between the correctly classified purchases (red) and the correctly classified non-purchases (grey) for the trees with the highest balanced accuracy. There's two visible cases:
+
+1. high accuracy for purchases and low accuracy for non-purchases 
+2. OK accuracy for purchases and good accuracy for non-purchases
+
+Selection one of these would depend on the cost of the low accuracy for non-purchases.
+
+```{r fig.width=10}
+weighted_tree_results %>% 
+  top_n(10, wacc) %>% 
+  mutate(cues=stringr::str_wrap(stringr::str_replace_all(cues,";", " "),1)) %>% 
+  dplyr::select(cues, sens, spec, set) %>% 
+  ggplot(aes(x=set, y=spec, ymax=sens, ymin=spec)) +
+  geom_pointrange(alpha=0.3, size=2)+
+  geom_point(aes(y=sens), colour="red", size=6)+
+  facet_wrap(~cues, ncol=4)+
+  ggthemes::theme_fivethirtyeight()
+```
+
+# Models - glmnets
+# Models - SVMs
+# Models - Neural Nets
+# Models - Complicated tree models
+
+# Evaluation
