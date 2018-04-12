@@ -329,13 +329,13 @@ panes %>%
 
 # Models - Complex models via h2o
 
-```{r eval=do_automl}
+```{r eval=do_automl, message=FALSE, results='hide'}
 library(h2o)
 options("h2o.use.data.table"=TRUE)
 h2o.init(max_mem_size = "8G")
 train_sets %>% 
   map(as.h2o) %>% 
-  map(~h2o.automl(y = "any_purchase", training_frame = ., seed = 1313)) ->
+  map(~h2o.automl(y = "any_purchase", training_frame = ., seed = 1313, max_runtime_secs = 3600)) ->
   basic_automl
 
 saveRDS(basic_automl, "../outputs/automl.rds")
@@ -349,6 +349,8 @@ basic_automl<-read_rds("../outputs/automl.rds")
 basic_automl %>% 
   map_df(~as.data.frame(.@leaderboard), .id="set")  ->
   automl_highlevel_results
+
+automl_highlevel_results
 ```
 
 # Evaluation
